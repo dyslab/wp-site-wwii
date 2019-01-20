@@ -1,0 +1,42 @@
+/* eslint-disable */
+const path = require('path');
+const express = require('express');
+// const webpack = require('webpack');
+// const webpackDevMiddleware =  require('webpack-dev-middleware');
+// const webpackConfig = require('./webpack.config');
+const config = require('./config');
+
+const DIST_DIR = path.join(__dirname, 'dist');
+const CLIENT_DIR = path.join(__dirname, 'src');
+const app = express();
+
+// app.use(webpackDevMiddleware(webpack(webpackConfig)));
+// app.use(express.static(DIST_DIR));
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'src', 'views'));
+
+app.get('/', (req, res) => {
+    res.render('index', { title:'INDEX' });
+});
+
+app.get('/about', (req, res) => {
+    res.render('about', { title: 'ABOUT' });
+});
+
+// catch 404 and forward to error handler
+app.use(function (req, res, next) {
+  next(createError(404));
+})
+
+// error handler
+app.use(function (err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {}
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error', { title: 'ERROR' });
+})
+
+app.listen(config.port);
