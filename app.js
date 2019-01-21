@@ -1,5 +1,6 @@
 /* eslint-disable */
 const path = require('path');
+const createError = require('http-errors');
 const express = require('express');
 // const webpack = require('webpack');
 // const webpackDevMiddleware =  require('webpack-dev-middleware');
@@ -14,6 +15,7 @@ const app = express();
 // app.use(express.static(DIST_DIR));
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'src', 'views'));
+app.use('/dist', express.static(path.join(__dirname, 'dist')))
 
 app.get('/', (req, res) => {
     res.render('index', { title:'INDEX' });

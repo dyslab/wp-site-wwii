@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1 hello, #{title}
-  h2 this is index.pug
+  h1 hello, this is index.pug
+  p
+    a(href="about.html") About
+  p
+    div#users
+
+block footer-scripts
+  script(src="js/index.bundle.js")
