@@ -81,19 +81,36 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/views/about.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./views/about.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/views/about.js":
-/*!****************************!*\
-  !*** ./src/views/about.js ***!
-  \****************************/
+/***/ "./css/wp-style.css":
+/*!**************************!*\
+  !*** ./css/wp-style.css ***!
+  \**************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("document.write('JS TEST: about.js<br><div></div>');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvdmlld3MvYWJvdXQuanM/ZWIxNSJdLCJuYW1lcyI6WyJkb2N1bWVudCIsIndyaXRlIl0sIm1hcHBpbmdzIjoiQUFBQUEsUUFBUSxDQUFDQyxLQUFULENBQWUsa0NBQWYiLCJmaWxlIjoiLi9zcmMvdmlld3MvYWJvdXQuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJkb2N1bWVudC53cml0ZSgnSlMgVEVTVDogYWJvdXQuanM8YnI+PGRpdj48L2Rpdj4nKTtcblxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/views/about.js\n");
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./views/about.js":
+/*!************************!*\
+  !*** ./views/about.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _css_wp_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/wp-style.css */ "./css/wp-style.css");
+/* harmony import */ var _css_wp_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_wp_style_css__WEBPACK_IMPORTED_MODULE_0__);
+
+document.write('JS TEST: about.js<br><div></div>');
+document.write('<a href="#" style="text-decoration: none;">##########</a>');
 
 /***/ })
 
