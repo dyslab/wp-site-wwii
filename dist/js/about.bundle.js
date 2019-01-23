@@ -380,6 +380,8 @@ function pug_rethrow(err, filename, lineno, str){
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+/* eslint-disable no-undef */
+
 /* eslint-disable no-unused-vars */
 var baseCSS = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
 

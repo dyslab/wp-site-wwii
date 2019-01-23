@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 var baseCSS = require('../css/base.css');
 var aboutCSS = require('../css/about.css');

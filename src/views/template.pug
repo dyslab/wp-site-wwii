@@ -15,4 +15,10 @@ html
 
     meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
   body.p-0
-    //- tag <body> content was defined in 'body.pug'
+    input#customid(type="hidden", value=htmlWebpackPlugin.options.customid)
+    div.p-5
+      div.container.card.bg-light.p-5
+        p index页面中包含一个隐藏元素，用于接受Webpack HtmlWebpackPlugin插件传递过来的参数值"customid: '20190124'"。
+        p There's a hidden element in index page, It's set to receive the customize parameter "customid: '20190124'" which was sent from the plugin 'Webpack/htmlWebpackPlugin'.
+
+    //- following content was mainly defined in 'body.pug'

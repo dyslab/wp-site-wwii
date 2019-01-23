@@ -27,7 +27,8 @@ const pins = [
     chunks: ['index'],
     minify: false,
     inject: 'body',
-    favicon: './images/favicon.ico'
+    favicon: './images/favicon.ico',
+    customid: '20190124'
   }),
   new HtmlWebpackPlugin({
     title: '关于',
@@ -79,7 +80,7 @@ const imageloader = {
     {
       loader: 'file-loader',
       options: {
-        outputPath: 'images',
+        outputPath: 'imgs',
         name: '[name].[ext]'
       },
     },
