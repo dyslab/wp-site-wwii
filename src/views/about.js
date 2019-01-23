@@ -1,4 +1,8 @@
-import stylesheet from '../css/wp-style.css';
+/* eslint-disable no-unused-vars */
+var baseCSS = require('../css/base.css');
+var aboutCSS = require('../css/about.css');
+var aboutJSON = require('./about.json');
 
-document.write('JS TEST: about.js<br><div></div>');
-document.write('<a href="#" style="text-decoration: none;">##########</a>');
+var template = require('./about.pug');
+
+document.write(template(aboutJSON));

@@ -15,26 +15,28 @@ const ep = {
     about: './views/about.js'
 };
 const op = {
-  filename: '[name].bundle.js',
+  filename: './js/[name].bundle.js',
   publicPath: '',
-  path: path.resolve(__dirname, 'dist/js')
+  path: path.resolve(__dirname, 'dist')
 };
 const pins = [
   new HtmlWebpackPlugin({
-    filename: '../index.html',
-    template: './views/index.pug',
-    chunks: 'index',
+    title: '首页',
+    filename: './index.html',
+    template: './views/template.pug',
+    chunks: ['index'],
     minify: false,
-    inject: false,
-    favicon: ''
+    inject: 'body',
+    favicon: './images/favicon.ico'
   }),
   new HtmlWebpackPlugin({
-    filename: '../about.html',
-    template: './views/about.pug',
-    chunks: 'about',
+    title: '关于',
+    filename: './about.html',
+    template: './views/template.pug',
+    chunks: ['about'],
     minify: false,
-    inject: false,
-    favicon: ''
+    inject: 'body',
+    favicon: './images/favicon.ico'
   }),
   new CopyWebpackPlugin([{
     from: './common/**/*',
@@ -42,7 +44,7 @@ const pins = [
     toType: 'dir'
   }], { context: work_base_dir }),
   new MiniCssExtractPlugin({
-    filename: '../css/[name].bundle.css'
+    filename: './css/[name].bundle.css'
   })
 ];
 
@@ -101,7 +103,7 @@ const config = {
   mode: 'development',
   devtool: '', // 'eval-source-map',
   devServer: dserver,
-  target: 'node', 
+  target: 'web', 
   module: { rules: [ es2015, pugloader, cssloader, imageloader, fontloader ] },
   plugins: pins
 };

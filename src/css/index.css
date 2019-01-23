@@ -1,0 +1,9 @@
+.custom-index-link {
+  font-size: 1.2em;
+  color: rgb(201, 61, 61)
+}
+.custom-index-link:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(218, 164, 16)
+}

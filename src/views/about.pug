@@ -1,12 +1,12 @@
-extends layout
-
-block header-scripts
-  link(rel='stylesheet', href='css/wp-style.css')
+extends body
 
 block content
-  h1 hello, this is about.pug
+  h1 你好, 这里是about.pug
   p
-    a(href="index.html") Index
+    span
+      a.custom-about-link(href="index.html")
+        i.fab.fa-weixin.fa-lg
+        | Go to Index
+  p.custom-text-shadow-1px= part1title
 
 block footer-scripts
-  script(src="js/about.bundle.js")

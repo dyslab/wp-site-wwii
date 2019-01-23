@@ -1,7 +1,10 @@
-var template = require('./index_part_users.pug');
+/* eslint-disable no-unused-vars */
+var baseCSS = require('../css/base.css');
+var indexCSS = require('../css/index.css');
+var template = require('./index.pug');
 
 var userObj = {
-  title: 'INDEX PAGE TITLE',
+  title: 'INDEX TITLE: ',
   users: [
     'Vincent To',
     'Huang',
@@ -10,5 +13,4 @@ var userObj = {
   ]
 };
 
-document.write('JS TEST: index.js<br><div></div>');
-document.querySelector('div#users').innerHTML = template(userObj);
+document.write(template(userObj));
