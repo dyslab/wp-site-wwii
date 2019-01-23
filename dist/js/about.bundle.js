@@ -388,7 +388,19 @@ var aboutCSS = __webpack_require__(/*! ../css/about.css */ "./css/about.css");
 var aboutJSON = __webpack_require__(/*! ./about.json */ "./views/about.json");
 
 var template = __webpack_require__(/*! ./about.pug */ "./views/about.pug");
+/**
+ * Adds two numbers together.
+ * @param {int} num The first number.
+ * @returns {int} The sum of the two numbers.
+ */
 
+
+var DoubleFunc = function (num) {
+  return num + num;
+}; // Upgrade function scope.
+
+
+window.DoubleFuncProc = DoubleFunc;
 document.write(template(aboutJSON));
 
 /***/ }),
@@ -413,7 +425,7 @@ module.exports = {"part1title":"你好，我是part1呀. 来自about.json文件"
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (part1title) {pug_html = pug_html + "\u003Ch1\u003E你好, 这里是about.pug\u003C\u002Fh1\u003E\u003Cp\u003E\u003Cspan\u003E\u003Ca class=\"custom-about-link\" href=\"index.html\"\u003E\u003Ci class=\"fab fa-weixin fa-lg\"\u003E\u003C\u002Fi\u003EGo to Index\u003C\u002Fa\u003E\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\u003Cp class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = part1title) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";}.call(this,"part1title" in locals_for_with?locals_for_with.part1title:typeof part1title!=="undefined"?part1title:undefined));;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (part1title) {pug_html = pug_html + "\u003Cdiv class=\"container\"\u003E\u003Ch1\u003E你好, 这里是about.pug\u003C\u002Fh1\u003E\u003Cp class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = part1title) ? "" : pug_interp)) + "\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-3\"\u003E\u003Ca href=\"?id=myid999\"\u003ESet a query 'id'.\u003C\u002Fa\u003E\u003Cbr\u003E\u003Cbutton class=\"btn btn-primary\" id=\"testBS\"\u003E点击测试Bootstrap\u002FJQuery及函数GetQueryString\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-3\"\u003E\u003Cbutton class=\"btn btn-info\" id=\"testFunc\"\u003E点击测试函数DoubleFunc\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Ch3\u003E\u003Ca class=\"custom-about-link\" href=\"index.html\"\u003E\u003Ci class=\"fab fa-weixin fa-lg\"\u003E\u003C\u002Fi\u003EGo to Index\u003C\u002Fa\u003E\u003C\u002Fh3\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n\n\n  $(\"#testBS\").click(function() {\n    var id = GetQueryString('id');\n    alert(\"hello, Bootstrap\u002FJQuery. GET query ID:\" + id);\n  });\n  $(\"#testFunc\").click(function() {\n    var inp = parseInt(Math.random()*100);\n    var ret = DoubleFuncProc(inp);\n    alert(\"Input = \" + inp + \",Result = \" + ret);\n  });\n});\n\n\u002F\u002F- Function: GetQueryString from GET method.\nfunction GetQueryString(name) {\n  let regstr = '(^|&)' + name + '=([^&]*)(&|$)';\n  let reg = new RegExp(regstr);\n  let r = window.location.search.substr(1).match(reg);\n  if (r != null) { return  unescape(r[2]); } \n  return null;\n}\u003C\u002Fscript\u003E";}.call(this,"part1title" in locals_for_with?locals_for_with.part1title:typeof part1title!=="undefined"?part1title:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

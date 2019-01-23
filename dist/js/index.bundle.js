@@ -404,7 +404,7 @@ document.write(template(userObj));
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (title, users) {pug_html = pug_html + "\u003Ch1\u003Ehello, this is index.pug\u003C\u002Fh1\u003E\u003Ch5 class=\"custom-text-shadow-2px\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003Cp\u003E\u003Cb class=\"custom-text-shadow-1px\"\u003EFollowing data was passed by index.js! \u003C\u002Fb\u003E\u003Cul\u003E";
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (title, users) {pug_html = pug_html + "\u003Cdiv class=\"container\"\u003E\u003Ch1\u003Ehello, this is index.pug\u003C\u002Fh1\u003E\u003Ch5 class=\"custom-text-shadow-2px\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003Cp\u003E\u003Cb class=\"custom-text-shadow-1px\"\u003EFollowing data was passed by index.js! \u003C\u002Fb\u003E\u003Cul\u003E";
 // iterate users
 ;(function(){
   var $$obj = users;
@@ -423,7 +423,7 @@ pug_html = pug_html + "\u003Cli\u003E" + (pug.escape(null == (pug_interp = uitem
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Ca class=\"custom-index-link\" href=\"about.html\"\u003EGo to About!\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";}.call(this,"title" in locals_for_with?locals_for_with.title:typeof title!=="undefined"?title:undefined,"users" in locals_for_with?locals_for_with.users:typeof users!=="undefined"?users:undefined));;return pug_html;};
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Ca class=\"custom-index-link\" href=\"about.html\"\u003E \u003Ch5 class=\"custom-text-shadow-2px\"\u003EGo to About!\u003C\u002Fh5\u003E\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";}.call(this,"title" in locals_for_with?locals_for_with.title:typeof title!=="undefined"?title:undefined,"users" in locals_for_with?locals_for_with.users:typeof users!=="undefined"?users:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

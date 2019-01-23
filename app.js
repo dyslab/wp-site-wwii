@@ -14,15 +14,11 @@ const app = express();
 // app.use(webpackDevMiddleware(webpack(webpackConfig)));
 // app.use(express.static(DIST_DIR));
 app.set('view engine', 'pug');
-app.set('views', path.join(__dirname, 'src', 'views'));
+app.set('views', path.join(__dirname, 'server', 'views'));
 app.use('/dist', express.static(path.join(__dirname, 'dist')))
 
 app.get('/', (req, res) => {
-    res.render('index', { title:'INDEX' });
-});
-
-app.get('/about', (req, res) => {
-    res.render('about', { title: 'ABOUT' });
+  res.render('index', { title:'INDEX' });
 });
 
 // catch 404 and forward to error handler

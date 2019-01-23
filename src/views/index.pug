@@ -1,14 +1,16 @@
 extends body
 
 block content
-  h1 hello, this is index.pug
-  h5.custom-text-shadow-2px #{title}
-  p
-    b.custom-text-shadow-1px Following data was passed by index.js! 
-    ul
-      each uitem in users
-        li= uitem
-  p
-    a.custom-index-link(href="about.html") Go to About!
+  div.container
+    h1 hello, this is index.pug
+    h5.custom-text-shadow-2px #{title}
+    p
+      b.custom-text-shadow-1px Following data was passed by index.js! 
+      ul
+        each uitem in users
+          li= uitem
+    p
+      a.custom-index-link(href="about.html") 
+        h5.custom-text-shadow-2px Go to About!
 
 block footer-scripts
