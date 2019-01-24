@@ -1,6 +1,65 @@
 /******/ (function(modules) { // webpackBootstrap
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	function webpackJsonpCallback(data) {
+/******/ 		var chunkIds = data[0];
+/******/ 		var moreModules = data[1];
+/******/ 		var executeModules = data[2];
+/******/
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0, resolves = [];
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(installedChunks[chunkId]) {
+/******/ 				resolves.push(installedChunks[chunkId][0]);
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 		for(moduleId in moreModules) {
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 		}
+/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
+/******/
+/******/ 		while(resolves.length) {
+/******/ 			resolves.shift()();
+/******/ 		}
+/******/
+/******/ 		// add entry modules from loaded chunk to deferred list
+/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
+/******/
+/******/ 		// run deferred modules when all chunks ready
+/******/ 		return checkDeferredModules();
+/******/ 	};
+/******/ 	function checkDeferredModules() {
+/******/ 		var result;
+/******/ 		for(var i = 0; i < deferredModules.length; i++) {
+/******/ 			var deferredModule = deferredModules[i];
+/******/ 			var fulfilled = true;
+/******/ 			for(var j = 1; j < deferredModule.length; j++) {
+/******/ 				var depId = deferredModule[j];
+/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
+/******/ 			}
+/******/ 			if(fulfilled) {
+/******/ 				deferredModules.splice(i--, 1);
+/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+/******/ 			}
+/******/ 		}
+/******/ 		return result;
+/******/ 	}
+/******/
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
+/******/
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// Promise = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		"about": 0
+/******/ 	};
+/******/
+/******/ 	var deferredModules = [];
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -79,9 +138,18 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
+/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
+/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
+/******/ 	jsonpArray.push = webpackJsonpCallback;
+/******/ 	jsonpArray = jsonpArray.slice();
+/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
+/******/ 	var parentJsonpFunction = oldJsonpFunction;
 /******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./views/about.js");
+/******/
+/******/ 	// add entry module to deferred list
+/******/ 	deferredModules.push(["./views/about.js","custom.styles"]);
+/******/ 	// run deferred modules when ready
+/******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -351,28 +419,6 @@ function pug_rethrow(err, filename, lineno, str){
 
 /***/ }),
 
-/***/ "./css/about.css":
-/*!***********************!*\
-  !*** ./css/about.css ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ "./css/base.css":
-/*!**********************!*\
-  !*** ./css/base.css ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "./views/about.js":
 /*!************************!*\
   !*** ./views/about.js ***!
@@ -427,7 +473,7 @@ module.exports = {"part1title":"你好，我是part1呀. 来自about.json文件"
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (part1title) {pug_html = pug_html + "\u003Cdiv class=\"container\"\u003E\u003Ch1\u003E你好, 这里是about.pug\u003C\u002Fh1\u003E\u003Cp class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = part1title) ? "" : pug_interp)) + "\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-3\"\u003E\u003Ca href=\"?id=myid999\"\u003ESet a query 'id'.\u003C\u002Fa\u003E\u003Cbr\u003E\u003Cbutton class=\"btn btn-primary\" id=\"testBS\"\u003E点击测试Bootstrap\u002FJQuery及函数GetQueryString\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-3\"\u003E\u003Cbutton class=\"btn btn-info\" id=\"testFunc\"\u003E点击测试函数DoubleFunc\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Ch3\u003E\u003Ca class=\"custom-about-link\" href=\"index.html\"\u003E\u003Ci class=\"fab fa-weixin fa-lg\"\u003E\u003C\u002Fi\u003EGo to Index\u003C\u002Fa\u003E\u003C\u002Fh3\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n\n\n  $(\"#testBS\").click(function() {\n    var id = GetQueryString('id');\n    alert(\"hello, Bootstrap\u002FJQuery. GET query ID:\" + id);\n  });\n  $(\"#testFunc\").click(function() {\n    var inp = parseInt(Math.random()*100);\n    var ret = DoubleFuncProc(inp);\n    alert(\"Input = \" + inp + \",Result = \" + ret);\n  });\n});\n\n\u002F\u002F- Function: GetQueryString from GET method.\nfunction GetQueryString(name) {\n  let regstr = '(^|&)' + name + '=([^&]*)(&|$)';\n  let reg = new RegExp(regstr);\n  let r = window.location.search.substr(1).match(reg);\n  if (r != null) { return  unescape(r[2]); } \n  return null;\n}\u003C\u002Fscript\u003E";}.call(this,"part1title" in locals_for_with?locals_for_with.part1title:typeof part1title!=="undefined"?part1title:undefined));;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (part1title) {pug_html = pug_html + "\u003Cdiv class=\"container\"\u003E\u003Ch1\u003E你好, 这里是about.pug\u003C\u002Fh1\u003E\u003Cp class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = part1title) ? "" : pug_interp)) + "\u003Cdiv class=\"row justify-content-between\"\u003E\u003Cdiv class=\"col-3\"\u003E\u003Cp\u003E\u003Ca href=\"?id=myid999\"\u003EClick me to set query 'id' string.\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Cbutton class=\"btn btn-primary\" id=\"testBS\"\u003E点击测试Bootstrap\u002FJQuery及函数GetQueryString\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-3\"\u003E\u003Cbutton class=\"btn btn-info\" id=\"testFunc\"\u003E点击测试函数DoubleFunc\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Ch3\u003E\u003Ca class=\"custom-about-link\" href=\"index.html\"\u003E\u003Ci class=\"fab fa-weixin fa-lg\"\u003E\u003C\u002Fi\u003EGo to Index\u003C\u002Fa\u003E\u003C\u002Fh3\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n\n\n  $(\"#testBS\").click(function() {\n    var id = GetQueryString('id');\n    alert(\"hello, Bootstrap\u002FJQuery. GET query ID:\" + id);\n  });\n  $(\"#testFunc\").click(function() {\n    var inp = parseInt(Math.random()*100);\n    var ret = DoubleFuncProc(inp);\n    alert(\"Input = \" + inp + \",Result = \" + ret);\n  });\n});\n\n\u002F\u002F- Function: GetQueryString from GET method.\nfunction GetQueryString(name) {\n  let regstr = '(^|&)' + name + '=([^&]*)(&|$)';\n  let reg = new RegExp(regstr);\n  let r = window.location.search.substr(1).match(reg);\n  if (r != null) { return  unescape(r[2]); } \n  return null;\n}\u003C\u002Fscript\u003E";}.call(this,"part1title" in locals_for_with?locals_for_with.part1title:typeof part1title!=="undefined"?part1title:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

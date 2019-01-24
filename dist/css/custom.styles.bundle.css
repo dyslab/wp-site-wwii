@@ -121,3 +121,12 @@
   color: rgb(218, 164, 16)
 }
 
+.custom-about-link {
+  text-decoration: none;
+  color: rgb(46, 119, 32)
+}
+.custom-about-link:hover {
+  text-decoration: none;
+  color: rgb(218, 164, 16)
+}
+

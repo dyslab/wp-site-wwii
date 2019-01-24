@@ -6,16 +6,13 @@ const express = require('express');
 // const webpackDevMiddleware =  require('webpack-dev-middleware');
 // const webpackConfig = require('./webpack.config');
 const config = require('./config');
-
-const DIST_DIR = path.join(__dirname, 'dist');
-const CLIENT_DIR = path.join(__dirname, 'src');
 const app = express();
 
 // app.use(webpackDevMiddleware(webpack(webpackConfig)));
 // app.use(express.static(DIST_DIR));
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'server', 'views'));
-app.use('/dist', express.static(path.join(__dirname, 'dist')))
+app.use('/dist', express.static(config.contentBase));
 
 app.get('/', (req, res) => {
   res.render('index', { title:'INDEX' });
