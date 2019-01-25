@@ -25,8 +25,7 @@ const pins = [
     chunks: ['index', 'custom.styles'],
     minify: false,
     inject: 'body',
-    favicon: './images/favicon.ico',
-    customid: '20190124'  // this is a custom key/value. for parameter transferring test.
+    favicon: './favicon.ico',
   }),
   new HtmlWebpackPlugin({
     title: '关于',
@@ -35,10 +34,14 @@ const pins = [
     chunks: ['about', 'custom.styles'],
     minify: false,
     inject: 'body',
-    favicon: './images/favicon.ico'
+    favicon: './favicon.ico'
   }),
   new CopyWebpackPlugin([{
     from: './common/**/*',
+    to: DevServerConfig.contentBase,
+    toType: 'dir'
+  }, {
+    from: './imgs/**/*',
     to: DevServerConfig.contentBase,
     toType: 'dir'
   }], { context: DevServerConfig.sourceBase }),

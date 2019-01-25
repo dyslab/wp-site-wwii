@@ -111,6 +111,19 @@
 }
 
 
+.custom-index-wh {
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.custom-index-div-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 11;
+}
+
 .custom-index-link {
   font-size: 1.2em;
   color: rgb(201, 61, 61)
