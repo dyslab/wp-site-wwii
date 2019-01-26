@@ -433,11 +433,20 @@ var indexCSS = __webpack_require__(/*! ../css/index.css */ "./css/index.css");
 
 var template = __webpack_require__(/*! ./index.pug */ "./views/index.pug");
 
-var userObj = {
-  title: 'INDEX TITLE: ',
-  users: ['Vincent To', 'Huang', 'Lin', 'Zhao']
-};
-document.write(template(userObj));
+var indexdata = __webpack_require__(/*! ./index.json */ "./views/index.json");
+
+document.write(template(indexdata));
+
+/***/ }),
+
+/***/ "./views/index.json":
+/*!**************************!*\
+  !*** ./views/index.json ***!
+  \**************************/
+/*! exports provided: background, title, linktext, link, default */
+/***/ (function(module) {
+
+module.exports = {"background":"imgs/index-bg.jpg","title":"欢迎来到战争天地","linktext":"二战德军武器系列","link":"about.html"};
 
 /***/ }),
 
@@ -450,7 +459,7 @@ document.write(template(userObj));
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003Cdiv class=\"container-fluid p-0\"\u003E\u003Cimg class=\"custom-index-wh\" src=\"imgs\u002Findex-bg.jpg\" alt=\"index background\"\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"container-fluid custom-index-wh custom-index-div-overlay d-flex justify-content-center align-items-center\"\u003E\u003Cdiv class=\"text-center\"\u003E\u003Ch1 class=\"text-light custom-text-shadow-2px\"\u003EWelcome to the Wonderland\u003C\u002Fh1\u003E\u003Ca class=\"custom-index-link\" href=\"about.html\"\u003E \u003Ch5 class=\"custom-text-shadow-1px\"\u003EBack to WWII\u003C\u002Fh5\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (background, link, linktext, title) {pug_html = pug_html + "\u003Cdiv class=\"container-fluid p-0\"\u003E\u003Cimg" + (" class=\"custom-index-wh\""+pug.attr("src", background, true, true)+" alt=\"index background\"") + "\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"container-fluid custom-index-wh custom-index-div-overlay d-flex justify-content-center align-items-center\"\u003E\u003Cdiv class=\"text-center\"\u003E\u003Ch1 class=\"text-light custom-text-shadow-2px\"\u003E" + (null == (pug_interp = title) ? "" : pug_interp) + "\u003C\u002Fh1\u003E\u003Ca" + (" class=\"custom-index-link\""+pug.attr("href", link, true, true)) + "\u003E \u003Ch5 class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = linktext) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";}.call(this,"background" in locals_for_with?locals_for_with.background:typeof background!=="undefined"?background:undefined,"link" in locals_for_with?locals_for_with.link:typeof link!=="undefined"?link:undefined,"linktext" in locals_for_with?locals_for_with.linktext:typeof linktext!=="undefined"?linktext:undefined,"title" in locals_for_with?locals_for_with.title:typeof title!=="undefined"?title:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

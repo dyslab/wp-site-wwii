@@ -2,11 +2,11 @@ extends body
 
 block content
   div.container-fluid.p-0
-    img.custom-index-wh(src="imgs/index-bg.jpg", alt="index background")
+    img.custom-index-wh(src=background, alt="index background")
   div.container-fluid.custom-index-wh.custom-index-div-overlay.d-flex.justify-content-center.align-items-center
     div.text-center
-      h1.text-light.custom-text-shadow-2px Welcome to the Wonderland
-      a.custom-index-link(href="about.html") 
-        h5.custom-text-shadow-1px Back to WWII
+      h1.text-light.custom-text-shadow-2px!= title
+      a.custom-index-link(href=link) 
+        h5.custom-text-shadow-1px= linktext
 
 block footer-scripts

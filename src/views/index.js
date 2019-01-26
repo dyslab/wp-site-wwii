@@ -2,15 +2,6 @@
 var baseCSS = require('../css/base.css');
 var indexCSS = require('../css/index.css');
 var template = require('./index.pug');
+var indexdata = require('./index.json');
 
-var userObj = {
-  title: 'INDEX TITLE: ',
-  users: [
-    'Vincent To',
-    'Huang',
-    'Lin',
-    'Zhao'
-  ]
-};
-
-document.write(template(userObj));
+document.write(template(indexdata));
