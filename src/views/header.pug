@@ -1,0 +1,23 @@
+//- setNavItems Declaration Begin
+mixin setNavItems
+  each menuitem, index in menu
+    if menuitem.active
+      li.nav-item.active
+        a.nav-link(href=menuitem.link + '.html') #{menuitem.title}
+          span.sr-only (current)
+    else
+      li.nav-item
+        a.nav-link(href=menuitem.link + '.html') #{menuitem.title}
+//- setNavItems Declaration End
+
+<!-- Sticky Nav Bar Begin -->
+header.p-0
+  div.container-fluid.custom-header-bgcolor.p-0
+    nav.navbar.navbar-expand-lg.navbar-light.custom-transparency-95.p-2
+      div.container-fluid.d-flex.justify-content-end
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#bs-navbarNav", aria-controls="bs-navbarNav", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div.flex-row.collapse.justify-content-center.navbar-collapse(id="bs-navbarNav")
+          ul.navbar-nav
+            +setNavItems
+<!-- Sticky Nav Bar End -->

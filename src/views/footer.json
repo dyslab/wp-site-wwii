@@ -1,0 +1,30 @@
+{
+  "footersitelogo": "imgs/favicon.png",
+  "footersitename": "测试网站",
+  "copyright": "© #year# 版权所有. 网站基于node.js/JQuery/Bootstrap/Webpack设计.",
+  "getintouchinfo": {
+    "headline": "联系我们",
+    "data": [
+      {
+        "faicon": "fab fa-facebook-f",
+        "href": "#",
+        "ref": "Facebook"
+      },
+      {
+        "faicon": "fab fa-qq",
+        "href": "#",
+        "ref": "QQ"
+      },
+      {
+        "faicon": "fab fa-weixin",
+        "href": "about.html",
+        "ref": "微信"
+      },
+      {
+        "faicon": "fas fa-envelope",
+        "href": "mailto:email@unknown.company",
+        "ref": "电子邮件"
+      }
+    ]
+  }
+}

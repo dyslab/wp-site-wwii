@@ -1,0 +1,18 @@
+[{
+  "title": "首页", 
+  "link": "index",
+  "active": false
+}, {
+  "title": "德军武器", 
+  "link": "deweapon",
+  "active": false
+}, {
+  "title": "快捷列表", 
+  "link": "glossary",
+  "active": false
+}, {
+  "title": "关于我们", 
+  "link": "about",
+  "active": false
+}]
+

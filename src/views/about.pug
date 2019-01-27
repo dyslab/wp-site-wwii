@@ -1,43 +1,10 @@
 extends body
 
 block content
-  div.container
-    h1 你好, 这里是about.pug
-    p.custom-text-shadow-1px= part1title
-        div.row.justify-content-between
-          div.col-3
-            p
-              a(href="?id=myid999") Click me to set query 'id' string.
-            button#testBS.btn.btn-primary 点击测试Bootstrap/JQuery及函数GetQueryString
-          div.col-3
-            button#testFunc.btn.btn-info 点击测试函数DoubleFunc
-    p
-      h3
-        a.custom-about-link(href="index.html")
-          i.fab.fa-weixin.fa-lg
-          | Go to Index
+  div.container(style="height: 80vh;")
+    p.custom-text-shadow-1px= about.part1title
 
 block footer-scripts
   script.
     $(document).ready(function() {
-
-
-      $("#testBS").click(function() {
-        var id = GetQueryString('id');
-        alert("hello, Bootstrap/JQuery. GET query ID:" + id);
-      });
-      $("#testFunc").click(function() {
-        var inp = parseInt(Math.random()*100);
-        var ret = DoubleFuncProc(inp);
-        alert("Input = " + inp + ",Result = " + ret);
-      });
-    });
-
-    //- Function: GetQueryString from GET method.
-    function GetQueryString(name) {
-      let regstr = '(^|&)' + name + '=([^&]*)(&|$)';
-      let reg = new RegExp(regstr);
-      let r = window.location.search.substr(1).match(reg);
-      if (r != null) { return  unescape(r[2]); } 
-      return null;
     }

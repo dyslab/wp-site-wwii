@@ -433,9 +433,9 @@ var indexCSS = __webpack_require__(/*! ../css/index.css */ "./css/index.css");
 
 var template = __webpack_require__(/*! ./index.pug */ "./views/index.pug");
 
-var indexdata = __webpack_require__(/*! ./index.json */ "./views/index.json");
+var indexJSON = __webpack_require__(/*! ./index.json */ "./views/index.json");
 
-document.write(template(indexdata));
+document.write(template(indexJSON));
 
 /***/ }),
 

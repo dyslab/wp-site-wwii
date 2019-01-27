@@ -1,0 +1,23 @@
+<!-- Page Footer Begin -->
+footer.p-0
+  div.container-fluid.custom-footer-bgcolor.p-0.p-md-3
+    div.container.pt-5.pb-5
+      div.d-flex.justify-content-between.row
+        div.col-lg-4.col-12.order-md-12
+          div.d-flex.justify-content-start.justify-content-md-end
+            span.list-social-links.custom-footer-color.custom-text-shadow-1px= footer.getintouchinfo.headline
+          div
+            ul.list-social-links.justify-content-start.justify-content-md-end
+              each gitem in footer.getintouchinfo.data
+                li.text-white
+                  a(href=gitem.href, target="_blank", rel=gitem.ref)
+                    i(class=gitem.faicon)
+        div.col-md-8.col-12.custom-footer-color.order-md-1
+          span
+            a.custom-footer-brand(href="/", alt=footer.footersitename)
+              img.d-inline-block.align-top(src=footer.footersitelogo, height="20", alt=footer.footersitename)
+              |  
+              span.custom-text-shadow-1px #{footer.footersitename}
+            |  
+          span #{footer.copyright}
+<!-- Page Footer End -->

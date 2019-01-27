@@ -433,23 +433,42 @@ var baseCSS = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
 
 var aboutCSS = __webpack_require__(/*! ../css/about.css */ "./css/about.css");
 
+var template = __webpack_require__(/*! ./about.pug */ "./views/about.pug");
+
+var menuJSON = __webpack_require__(/*! ./menu.json */ "./views/menu.json");
+
+var footerJSON = __webpack_require__(/*! ./footer.json */ "./views/footer.json");
+
 var aboutJSON = __webpack_require__(/*! ./about.json */ "./views/about.json");
 
-var template = __webpack_require__(/*! ./about.pug */ "./views/about.pug");
-/**
- * Adds two numbers together.
- * @param {int} num The first number.
- * @returns {int} The sum of the two numbers.
- */
+const step = 1; // Set active menu item.
+
+for (let no = 0; no < menuJSON.length; no += step) {
+  // This generated page name is 'about.html'
+  if (menuJSON[no].link === 'about') {
+    menuJSON[no].active = true;
+  }
+} // Set copyright duration year.
 
 
-var DoubleFunc = function (num) {
-  return num + num;
-}; // Upgrade function scope.
+const dateObj = new Date();
+const thisYear = dateObj.getFullYear();
+const startYear = 2018;
+let yearString = '';
 
+if (thisYear > startYear) {
+  yearString = `2018-${thisYear}`;
+} else {
+  yearString = thisYear;
+}
 
-window.DoubleFuncProc = DoubleFunc;
-document.write(template(aboutJSON));
+footerJSON.copyright = footerJSON.copyright.replace(/#year#/iu, yearString); // Render pug file and output.
+
+document.write(template({
+  about: aboutJSON,
+  footer: footerJSON,
+  menu: menuJSON
+}));
 
 /***/ }),
 
@@ -473,8 +492,96 @@ module.exports = {"part1title":"你好，我是part1呀. 来自about.json文件"
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (part1title) {pug_html = pug_html + "\u003Cdiv class=\"container\"\u003E\u003Ch1\u003E你好, 这里是about.pug\u003C\u002Fh1\u003E\u003Cp class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = part1title) ? "" : pug_interp)) + "\u003Cdiv class=\"row justify-content-between\"\u003E\u003Cdiv class=\"col-3\"\u003E\u003Cp\u003E\u003Ca href=\"?id=myid999\"\u003EClick me to set query 'id' string.\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Cbutton class=\"btn btn-primary\" id=\"testBS\"\u003E点击测试Bootstrap\u002FJQuery及函数GetQueryString\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-3\"\u003E\u003Cbutton class=\"btn btn-info\" id=\"testFunc\"\u003E点击测试函数DoubleFunc\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Ch3\u003E\u003Ca class=\"custom-about-link\" href=\"index.html\"\u003E\u003Ci class=\"fab fa-weixin fa-lg\"\u003E\u003C\u002Fi\u003EGo to Index\u003C\u002Fa\u003E\u003C\u002Fh3\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n\n\n  $(\"#testBS\").click(function() {\n    var id = GetQueryString('id');\n    alert(\"hello, Bootstrap\u002FJQuery. GET query ID:\" + id);\n  });\n  $(\"#testFunc\").click(function() {\n    var inp = parseInt(Math.random()*100);\n    var ret = DoubleFuncProc(inp);\n    alert(\"Input = \" + inp + \",Result = \" + ret);\n  });\n});\n\n\u002F\u002F- Function: GetQueryString from GET method.\nfunction GetQueryString(name) {\n  let regstr = '(^|&)' + name + '=([^&]*)(&|$)';\n  let reg = new RegExp(regstr);\n  let r = window.location.search.substr(1).match(reg);\n  if (r != null) { return  unescape(r[2]); } \n  return null;\n}\u003C\u002Fscript\u003E";}.call(this,"part1title" in locals_for_with?locals_for_with.part1title:typeof part1title!=="undefined"?part1title:undefined));;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (about, menu) {pug_mixins["setNavItems"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate menu
+;(function(){
+  var $$obj = menu;
+  if ('number' == typeof $$obj.length) {
+      for (var index = 0, $$l = $$obj.length; index < $$l; index++) {
+        var menuitem = $$obj[index];
+if (menuitem.active) {
+pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var index in $$obj) {
+      $$l++;
+      var menuitem = $$obj[index];
+if (menuitem.active) {
+pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
+pug_mixins["setNavItems"]();
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Cdiv class=\"container\" style=\"height: 80vh;\"\u003E\u003Cp class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = about.part1title) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"about" in locals_for_with?locals_for_with.about:typeof about!=="undefined"?about:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
+
+/***/ }),
+
+/***/ "./views/footer.json":
+/*!***************************!*\
+  !*** ./views/footer.json ***!
+  \***************************/
+/*! exports provided: footersitelogo, footersitename, copyright, getintouchinfo, default */
+/***/ (function(module) {
+
+module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"测试网站","copyright":"© #year# 版权所有. 网站基于node.js/JQuery/Bootstrap/Webpack设计.","getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:email@unknown.company","ref":"电子邮件"}]}};
+
+/***/ }),
+
+/***/ "./views/footer.pug":
+/*!**************************!*\
+  !*** ./views/footer.pug ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (footer) {pug_html = pug_html + "\u003C!-- Page Footer Begin --\u003E\u003Cfooter class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-footer-bgcolor p-0 p-md-3\"\u003E\u003Cdiv class=\"container pt-5 pb-5\"\u003E\u003Cdiv class=\"d-flex justify-content-between row\"\u003E\u003Cdiv class=\"col-lg-4 col-12 order-md-12\"\u003E\u003Cdiv class=\"d-flex justify-content-start justify-content-md-end\"\u003E\u003Cspan class=\"list-social-links custom-footer-color custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.getintouchinfo.headline) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003Cdiv\u003E\u003Cul class=\"list-social-links justify-content-start justify-content-md-end\"\u003E";
+// iterate footer.getintouchinfo.data
+;(function(){
+  var $$obj = footer.getintouchinfo.data;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index0 = 0, $$l = $$obj.length; pug_index0 < $$l; pug_index0++) {
+        var gitem = $$obj[pug_index0];
+pug_html = pug_html + "\u003Cli class=\"text-white\"\u003E\u003Ca" + (pug.attr("href", gitem.href, true, true)+" target=\"_blank\""+pug.attr("rel", gitem.ref, true, true)) + "\u003E\u003Ci" + (pug.attr("class", pug.classes([gitem.faicon], [true]), false, true)) + "\u003E\u003C\u002Fi\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index0 in $$obj) {
+      $$l++;
+      var gitem = $$obj[pug_index0];
+pug_html = pug_html + "\u003Cli class=\"text-white\"\u003E\u003Ca" + (pug.attr("href", gitem.href, true, true)+" target=\"_blank\""+pug.attr("rel", gitem.ref, true, true)) + "\u003E\u003Ci" + (pug.attr("class", pug.classes([gitem.faicon], [true]), false, true)) + "\u003E\u003C\u002Fi\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-md-8 col-12 custom-footer-color order-md-1\"\u003E\u003Cspan\u003E\u003Ca" + (" class=\"custom-footer-brand\""+" href=\"\u002F\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E\u003Cimg" + (" class=\"d-inline-block align-top\""+pug.attr("src", footer.footersitelogo, true, true)+" height=\"20\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E \u003Cspan class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.footersitename) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E \u003C\u002Fspan\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = footer.copyright) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Ffooter\u003E\u003C!-- Page Footer End --\u003E";}.call(this,"footer" in locals_for_with?locals_for_with.footer:typeof footer!=="undefined"?footer:undefined));;return pug_html;};
+module.exports = template;
+
+/***/ }),
+
+/***/ "./views/menu.json":
+/*!*************************!*\
+  !*** ./views/menu.json ***!
+  \*************************/
+/*! exports provided: 0, 1, 2, 3, default */
+/***/ (function(module) {
+
+module.exports = [{"title":"首页","link":"index","active":false},{"title":"德军武器","link":"deweapon","active":false},{"title":"快捷列表","link":"glossary","active":false},{"title":"关于我们","link":"about","active":false}];
 
 /***/ }),
 

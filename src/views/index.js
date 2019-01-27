@@ -2,6 +2,6 @@
 var baseCSS = require('../css/base.css');
 var indexCSS = require('../css/index.css');
 var template = require('./index.pug');
-var indexdata = require('./index.json');
+var indexJSON = require('./index.json');
 
-document.write(template(indexdata));
+document.write(template(indexJSON));
