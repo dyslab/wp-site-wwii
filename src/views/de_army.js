@@ -4,7 +4,7 @@ import baseCSS from '../css/base.css';
 import footerJSON from './footer.json';
 import menuJSON from './menu.json';
 
-const pageID = 'about';
+const pageID = 'de_army';
 var bodyCSS = require(`../css/${pageID}.css`);
 var template = require(`./${pageID}.pug`);
 var bodyJSON = require(`./${pageID}.json`);

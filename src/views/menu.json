@@ -3,16 +3,23 @@
   "link": "index",
   "active": false
 }, {
-  "title": "德军武器", 
-  "link": "deweapon",
+  "title": "陆战篇", 
+  "link": "de_army",
   "active": false
 }, {
-  "title": "快捷列表", 
-  "link": "glossary",
+  "title": "空战篇", 
+  "link": "de_airforce",
+  "active": false
+}, {
+  "title": "海战篇", 
+  "link": "de_nary",
+  "active": false
+}, {
+  "title": "快捷目录", 
+  "link": "de_catalog",
   "active": false
 }, {
   "title": "关于我们", 
   "link": "about",
   "active": false
 }]
-

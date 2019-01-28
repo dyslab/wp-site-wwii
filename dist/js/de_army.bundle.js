@@ -56,7 +56,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"about": 0
+/******/ 		"de_army": 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./views/about.js","custom.styles"]);
+/******/ 	deferredModules.push(["./views/de_army.js","custom.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -569,47 +569,6 @@ webpackContext.id = "./views sync recursive ^\\.\\/.*\\.pug$";
 
 /***/ }),
 
-/***/ "./views/about.js":
-/*!************************!*\
-  !*** ./views/about.js ***!
-  \************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./views/base.js");
-/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
-/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.json */ "./views/footer.json");
-var _footer_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./views/footer.json", 1);
-/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.json */ "./views/menu.json");
-var _menu_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./views/menu.json", 1);
-/* eslint-disable no-unused-vars */
-
-
-
-
-const pageID = 'about';
-
-var bodyCSS = __webpack_require__("./css sync recursive ^\\.\\/.*\\.css$")(`./${pageID}.css`);
-
-var template = __webpack_require__("./views sync recursive ^\\.\\/.*\\.pug$")(`./${pageID}.pug`);
-
-var bodyJSON = __webpack_require__("./views sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`);
-
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_2__);
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_3__, pageID); // Render pug file and output.
-
-document.write(template({
-  body: bodyJSON,
-  footer: _footer_json__WEBPACK_IMPORTED_MODULE_2__,
-  menu: _menu_json__WEBPACK_IMPORTED_MODULE_3__
-}));
-
-/***/ }),
-
 /***/ "./views/about.json":
 /*!**************************!*\
   !*** ./views/about.json ***!
@@ -754,6 +713,47 @@ pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class
 pug_mixins["setNavItems"]();
 pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E";}.call(this,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
+
+/***/ }),
+
+/***/ "./views/de_army.js":
+/*!**************************!*\
+  !*** ./views/de_army.js ***!
+  \**************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./views/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.json */ "./views/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./views/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.json */ "./views/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./views/menu.json", 1);
+/* eslint-disable no-unused-vars */
+
+
+
+
+const pageID = 'de_army';
+
+var bodyCSS = __webpack_require__("./css sync recursive ^\\.\\/.*\\.css$")(`./${pageID}.css`);
+
+var template = __webpack_require__("./views sync recursive ^\\.\\/.*\\.pug$")(`./${pageID}.pug`);
+
+var bodyJSON = __webpack_require__("./views sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`);
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_2__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_3__, pageID); // Render pug file and output.
+
+document.write(template({
+  body: bodyJSON,
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_2__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_3__
+}));
 
 /***/ }),
 

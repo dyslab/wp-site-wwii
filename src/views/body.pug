@@ -9,5 +9,13 @@ script(src='./common/js/jquery-3.3.1.min.js')
 script(src='./common/js/bootstrap.bundle.min.js')
 //- FontAwesome Script
 script(src="./common/js/all.min.js")
+//- Go To Top Script
+script(src="./common/js/hs.core.js")
+script(src="./common/js/hs.go-to.js")
+script.
+  $(document).ready(function() {
+    //- Go To Top Script
+    $.HSCore.components.HSGoTo.init('.js-go-to')
+  })
 
 block footer-scripts

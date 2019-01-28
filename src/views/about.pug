@@ -1,8 +1,26 @@
 extends body
 
 block content
-  div.container(style="height: 80vh;")
-    p.custom-text-shadow-1px= about.part1title
+  section#about.custom-about-style.pt-5.pb-5
+    div.container
+      div.row.pt-3.pb-3
+        div.col.text-dark
+          h5.font-weight-bold.custom-text-shadow-1px #{body.part1title}
+      div.row.pt-3.pb-3
+        div.col
+          span!= body.part1content
+      div.row.pt-3.pb-3
+        div.col.text-dark.pt-5
+          h5.font-weight-bold.custom-text-shadow-1px #{body.part2title}
+      div.row.pt-3.pb-3
+        div.col
+          span!= body.part2content
+      div.row.pt-3.pb-3
+        div.col.text-dark.pt-5
+          h5.font-weight-bold.custom-text-shadow-1px #{body.part3title}
+      div.row.pt-3.pb-3
+        div.col
+          span!= body.part3content
 
 block footer-scripts
   script.

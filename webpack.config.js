@@ -1,120 +1,144 @@
-/* eslint-disable */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const DevServerConfig = require('./config.js')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const devServer = require('./config.js');
+const fileIDs = require('./build-all.js');
 
-// ----------------------------------------------------------------------------
-// entry point, output and plugins definition
-const ep = {
-    // 'test_js': './test/test_document_write.js'
-    // 'test_html': './test/test_html_output.html'
-    index: './views/index.js',
-    about: './views/about.js'
-};
-const op = {
-  filename: './js/[name].bundle.js',
-  publicPath: '',
-  path: DevServerConfig.contentBase
-};
-const pins = [
-  new HtmlWebpackPlugin({
-    title: '首页',
-    filename: './index.html',
-    template: './views/template.pug',
-    chunks: ['index', 'custom.styles'],
-    minify: false,
-    inject: 'body',
-    favicon: './favicon.ico',
-  }),
-  new HtmlWebpackPlugin({
-    title: '关于',
-    filename: './about.html',
-    template: './views/template.pug',
-    chunks: ['about', 'custom.styles'],
-    minify: false,
-    inject: 'body',
-    favicon: './favicon.ico'
-  }),
-  new CopyWebpackPlugin([{
-    from: './common/**/*',
-    to: DevServerConfig.contentBase,
-    toType: 'dir'
-  }, {
-    from: './imgs/**/*',
-    to: DevServerConfig.contentBase,
-    toType: 'dir'
-  }], { context: DevServerConfig.sourceBase }),
+/*
+ * ***************************************************************************
+ * Construct entrypoints and plugins
+ */
+let epString = '';
+const step = 1;
+const plugins = [
+  new CopyWebpackPlugin([
+    {
+      from: './common/**/*',
+      to: devServer.contentBase,
+      toType: 'dir'
+    },
+    {
+      from: './imgs/**/*',
+      to: devServer.contentBase,
+      toType: 'dir'
+    }
+  ], { context: devServer.sourceBase }),
   new MiniCssExtractPlugin({
     filename: './css/[name].bundle.css'
   })
 ];
+const tempObj = [];
 
-// ----------------------------------------------------------------------------
-// loader definition
-const es2015 = {
-  test: /\.js$/,
-  exclude: /node_modules/,
-  loader: 'babel-loader'
+for (let no = 0; no < fileIDs.length; no += step) {
+  epString += `"${fileIDs[no].id}":"./views/${fileIDs[no].id}.js"`;
+  if (no < fileIDs.length - step) {
+    epString += ',';
+  }
+
+  tempObj[no] = new HtmlWebpackPlugin({
+    chunks: [
+      `${fileIDs[no].id}`,
+      'custom.styles'
+    ],
+    favicon: './favicon.ico',
+    filename: `./${fileIDs[no].id}.html`,
+    inject: 'body',
+    minify: false,
+    template: './views/template.pug',
+    title: `${fileIDs[no].title}`
+  });
+
+  plugins.push(tempObj[no]);
 }
+
+const entry = JSON.parse(`{${epString}}`);
+
+/*
+ * ***************************************************************************
+ * Output definition
+ */
+
+const output = {
+  filename: './js/[name].bundle.js',
+  path: devServer.contentBase,
+  publicPath: ''
+};
+
+/*
+ * ***************************************************************************
+ * Loader definition
+ */
+const es2015 = {
+  exclude: /node_modules/u,
+  loader: 'babel-loader',
+  test: /\.js$/u
+};
 const pugloader = {
-  test: /\.pug$/,
-  // use: [ 'html-loader', 'pug-html-loader' ]
-  use: [ 'pug-loader' ]
+  test: /\.pug$/u,
+  use: ['pug-loader']
 };
 const cssloader = {
-  test: /\.css$/,
-  // use: [ 'style-loader', 'css-loader' ]
+  test: /\.css$/u,
   use: [
     MiniCssExtractPlugin.loader,
     'css-loader'
   ]
 };
 const imageloader = {
-  test: /\.(png|svg|jpg|gif)$/,
+  test: /\.(png|svg|jpg|gif)$/u,
   use: [
     {
       loader: 'file-loader',
       options: {
-        outputPath: 'imgs',
-        name: '[name].[ext]'
-      },
-    },
-  ],
+        name: '[name].[ext]',
+        outputPath: 'imgs'
+      }
+    }
+  ]
 };
 const fontloader = {
-  test: /\.(woff|woff2|eot|ttf|otf)$/,
+  test: /\.(woff|woff2|eot|ttf|otf)$/u,
   use: ['file-loader']
 };
 
-// ----------------------------------------------------------------------------
-// optimizer definition
-const OptimizationConfig = {
+/*
+ * ***************************************************************************
+ * Optimizer definition
+ */
+const optimization = {
   splitChunks: {
     cacheGroups: {
       styles: {
-        name: 'custom.styles',
-        test: /\.css$/,
         chunks: 'all',
-        enforce: true
+        enforce: true,
+        name: 'custom.styles',
+        test: /\.css$/u
       }
     }
   }
 };
 
-// ----------------------------------------------------------------------------
-// module export configured data definition
+/*
+ * ***************************************************************************
+ * Module export configured data definition
+ */
 const config = {
-  context: DevServerConfig.sourceBase,  
-  entry: ep,
-  output: op,
+  context: devServer.sourceBase,
+  devServer,
+  devtool: '',
+  entry,
   mode: 'development',
-  devtool: '', // 'eval-source-map',
-  devServer: DevServerConfig,
-  target: 'web', 
-  module: { rules: [ es2015, pugloader, cssloader, imageloader, fontloader ] },
-  optimization: OptimizationConfig,
-  plugins: pins
+  module: { rules: [
+    es2015,
+    pugloader,
+    cssloader,
+    imageloader,
+    fontloader
+  ] },
+  optimization,
+  output,
+  plugins,
+  target: 'web'
 };
 
 module.exports = config;
