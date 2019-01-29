@@ -22,10 +22,10 @@
 
 /***/ }),
 
-/***/ "./css/de_army.css":
-/*!*************************!*\
-  !*** ./css/de_army.css ***!
-  \*************************/
+/***/ "./css/category.css":
+/*!**************************!*\
+  !*** ./css/category.css ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37,6 +37,17 @@
 /*!***********************!*\
   !*** ./css/index.css ***!
   \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./css/shortcut.css":
+/*!**************************!*\
+  !*** ./css/shortcut.css ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

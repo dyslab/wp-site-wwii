@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./views/de_army.js","custom.styles"]);
+/******/ 	deferredModules.push(["./js/de_army.js","custom.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -452,18 +452,22 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./css sync recursive ^\\.\\/.*\\.css$":
+/***/ "./js sync recursive ^\\.\\/.*\\.json$":
 /*!********************************!*\
-  !*** ./css sync ^\.\/.*\.css$ ***!
+  !*** ./js sync ^\.\/.*\.json$ ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./about.css": "./css/about.css",
-	"./base.css": "./css/base.css",
-	"./de_army.css": "./css/de_army.css",
-	"./index.css": "./css/index.css"
+	"./about.json": "./js/about.json",
+	"./de_airforce.json": "./js/de_airforce.json",
+	"./de_army.json": "./js/de_army.json",
+	"./de_navy.json": "./js/de_navy.json",
+	"./de_shortcut.json": "./js/de_shortcut.json",
+	"./footer.json": "./js/footer.json",
+	"./index.json": "./js/index.json",
+	"./menu.json": "./js/menu.json"
 };
 
 
@@ -485,152 +489,25 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "./css sync recursive ^\\.\\/.*\\.css$";
+webpackContext.id = "./js sync recursive ^\\.\\/.*\\.json$";
 
 /***/ }),
 
-/***/ "./views sync recursive ^\\.\\/.*\\.json$":
-/*!***********************************!*\
-  !*** ./views sync ^\.\/.*\.json$ ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./about.json": "./views/about.json",
-	"./de_army.json": "./views/de_army.json",
-	"./de_catalog.json": "./views/de_catalog.json",
-	"./footer.json": "./views/footer.json",
-	"./index.json": "./views/index.json",
-	"./menu.json": "./views/menu.json"
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return id;
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./views sync recursive ^\\.\\/.*\\.json$";
-
-/***/ }),
-
-/***/ "./views sync recursive ^\\.\\/.*\\.pug$":
-/*!**********************************!*\
-  !*** ./views sync ^\.\/.*\.pug$ ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./about.pug": "./views/about.pug",
-	"./body.pug": "./views/body.pug",
-	"./de_army.pug": "./views/de_army.pug",
-	"./footer.pug": "./views/footer.pug",
-	"./header.pug": "./views/header.pug",
-	"./index.pug": "./views/index.pug",
-	"./index_body.pug": "./views/index_body.pug",
-	"./template.pug": "./views/template.pug"
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return id;
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./views sync recursive ^\\.\\/.*\\.pug$";
-
-/***/ }),
-
-/***/ "./views/about.json":
-/*!**************************!*\
-  !*** ./views/about.json ***!
-  \**************************/
+/***/ "./js/about.json":
+/*!***********************!*\
+  !*** ./js/about.json ***!
+  \***********************/
 /*! exports provided: part1title, part1content, part2title, part2content, part3title, part3content, default */
 /***/ (function(module) {
 
-module.exports = {"part1title":"内容及版权声明","part1content":"<p>本网站（<I>www.xxxxx.com</I>）包含有战争内容和战争、暴力等相关影像图片，部分读者可能会因此对此感到不适，敬请注意。同时，本网站致力于记录历史和教育用途，而非提倡暴力、战争及种族/性别歧视。网站所有资料内容由XXX先生历时五年进行搜集与整理，鉴于个人学识和理解所限，部分内容可能会存在偏颇差错，请各位读者予以谅解。同时，欢迎各位读者就其中错误予以指导和纠正，具体可通过本页下方所列之联系方式与我们联系。</p><p>此外，本网站上传及引用的资料内容归原作者及相关利益人所有，为了阅读效果同时保护版权人利益，本网站所有图片资料最大边长限制在1000像素以内。任何个人、单位或组织在任何网络、媒体上转载传播时，敬请注明出处。如需商业使用，请自行与版权人联系使用事宜。</p><span class=\"h5\">感谢您的理解与支持！</span>","part2title":"The Claim of Content and Copyrights","part2content":"<p>This website (<I>www.xxxxx.com</I>) covers war and armed conflicts. Partial pictures and contents contained war and graphic images. Please should be aware that it's not suitable for everyone. Leave now please if it's not that kind of website you are looking for. </p><p>All contents within this website are dedicated to the educational use, historical documentary and news report. It's not propagated about war, violence and race/gender discrimination. Any negative philosophy are not advocated by this website.</p><p>All pictures and materials within this website are collected and sorted by Mr.XXX. The content mainly came from Internet, published books and other public documents. The copyright of photo pictures or other materials is belong to the original author or its legal beneficiaries. Mention the source (<I>www.xxxxx.com</I>) please if you want to share. Please contact the copyright owner if you intent to use for commericial usage. At the mean while, In order to be proper for reading, all pictures in this website were limited to an appropriate size(The width or height of each picture is no larger than 1000 pixels). Additionally, in terms of the knoweldge and experience of author, some mistake and misunderstanding would happen sometimes.  Anyone who found any mistake or misunderstanding within this website, or if there's a copyright issue existed, feel free to send us a message via the mailbox listed below please.</p><span class=\"h5\">Thank you for your understanding and support.</span>","part3title":"网站维护人员","part3content":"<p>内容资料：XXX <a href=\"mailto:xxx@yyy.com\">xxx@yyy.com</a></p><p>技术维护：YYY <a href=\"mailto:yyy@yyy.com\">yyy@yyy.com</a></p>"};
+module.exports = {"part1title":"内容及版权声明","part1content":"<p>本网站（<I>www.xxxxx.com</I>）包含有战争内容和战争、暴力等相关影像图片，部分读者可能会因此对此感到不适，敬请注意。同时，本网站致力于记录历史和教育用途，而非提倡暴力、战争及种族/性别歧视。网站所有资料内容由XXX先生历时五年进行搜集与整理，鉴于个人学识和理解所限，部分内容可能会存在偏颇差错，请各位读者予以谅解。同时，欢迎各位读者就其中错误予以指导和纠正，具体可通过本页下方所列之联系方式与我们联系。</p><p>此外，本网站上传及引用的资料内容归原作者及相关利益人所有，为了阅读效果同时保护版权人利益，本网站所有图片资料最大边长限制在1000像素以内。任何个人、单位或组织在任何网络、媒体上转载传播时，敬请注明出处。如需商业使用，请自行与版权人联系使用事宜。</p><span class=\"h5\">感谢您的理解与支持！</span>","part2title":"The Claim of Content and Copyrights","part2content":"<p>This website (<I>www.xxxxx.com</I>) covers war and armed conflicts. Partial pictures and contents contained war and graphic images. Please should be aware that it's not suitable for everyone. Leave now please if it's not that kind of website you are looking for. </p><p>All contents within this website are dedicated to the educational use, historical documentary and news report. It's not propagated about war, violence and race/gender discrimination. Any negative philosophy are not advocated by this website.</p><p>All pictures and materials within this website are collected and sorted by Mr.XXX. The content mainly came from Internet, published books and other public documents. The copyright of photo pictures or other materials is belong to the original author or its legal beneficiaries. Mention the source (<I>www.xxxxx.com</I>) please if you want to share. Please contact the copyright owner if you intent to use for commericial usage. At the mean while, In order to be proper for reading, all pictures in this website were limited to an appropriate size(The width or height of each picture is no larger than 1000 pixels). Additionally, in terms of the limitation of knowledge and experiences, some mistake and misunderstanding were unavoidable. Anyone who found any mistake or misunderstanding within this website, or if there's a copyright issue existed, feel free to send us a message via the mailbox listed below please.</p><span class=\"h5\">Thank you for your understanding and support.</span>","part3title":"网站维护人员","part3content":"<p>内容资料：XXX <a href=\"mailto:xxx@yyy.com\">xxx@yyy.com</a></p><p>技术维护：YYY <a href=\"mailto:yyy@yyy.com\">yyy@yyy.com</a></p>"};
 
 /***/ }),
 
-/***/ "./views/about.pug":
-/*!*************************!*\
-  !*** ./views/about.pug ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (body, menu) {pug_mixins["setNavItems"] = pug_interp = function(){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate menu
-;(function(){
-  var $$obj = menu;
-  if ('number' == typeof $$obj.length) {
-      for (var index = 0, $$l = $$obj.length; index < $$l; index++) {
-        var menuitem = $$obj[index];
-if (menuitem.active) {
-pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var index in $$obj) {
-      $$l++;
-      var menuitem = $$obj[index];
-if (menuitem.active) {
-pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-    }
-  }
-}).call(this);
-
-};
-pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
-pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-about-style pt-5 pb-5\" id=\"about\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col text-dark\"\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = body.part1title) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan\u003E" + (null == (pug_interp = body.part1content) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col text-dark pt-5\"\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = body.part2title) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan\u003E" + (null == (pug_interp = body.part2content) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col text-dark pt-5\"\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = body.part3title) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan\u003E" + (null == (pug_interp = body.part3content) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./views/base.js":
-/*!***********************!*\
-  !*** ./views/base.js ***!
-  \***********************/
+/***/ "./js/base.js":
+/*!********************!*\
+  !*** ./js/base.js ***!
+  \********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -669,98 +546,65 @@ module.exposts = exports;
 
 /***/ }),
 
-/***/ "./views/body.pug":
-/*!************************!*\
-  !*** ./views/body.pug ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./js/de_airforce.json":
+/*!*****************************!*\
+  !*** ./js/de_airforce.json ***!
+  \*****************************/
+/*! exports provided: 0, 1, default */
+/***/ (function(module) {
 
-var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (menu) {pug_mixins["setNavItems"] = pug_interp = function(){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate menu
-;(function(){
-  var $$obj = menu;
-  if ('number' == typeof $$obj.length) {
-      for (var index = 0, $$l = $$obj.length; index < $$l; index++) {
-        var menuitem = $$obj[index];
-if (menuitem.active) {
-pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var index in $$obj) {
-      $$l++;
-      var menuitem = $$obj[index];
-if (menuitem.active) {
-pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-    }
-  }
-}).call(this);
-
-};
-pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
-pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E";}.call(this,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
-module.exports = template;
+module.exports = [{"model":"Me262","link":"de_army_me262","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_army_me222","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"}];
 
 /***/ }),
 
-/***/ "./views/de_army.js":
-/*!**************************!*\
-  !*** ./views/de_army.js ***!
-  \**************************/
+/***/ "./js/de_army.js":
+/*!***********************!*\
+  !*** ./js/de_army.js ***!
+  \***********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./views/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
 /* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.json */ "./views/footer.json");
-var _footer_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./views/footer.json", 1);
-/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.json */ "./views/menu.json");
-var _menu_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./views/menu.json", 1);
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/category.css */ "./css/category.css");
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_category_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
 /* eslint-disable no-unused-vars */
+
+
 
 
 
 
 const pageID = 'de_army';
 
-var bodyCSS = __webpack_require__("./css sync recursive ^\\.\\/.*\\.css$")(`./${pageID}.css`);
+var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set header and footer
 
-var template = __webpack_require__("./views sync recursive ^\\.\\/.*\\.pug$")(`./${pageID}.pug`);
 
-var bodyJSON = __webpack_require__("./views sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
 
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_2__);
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_3__, pageID); // Render pug file and output.
-
-document.write(template({
+document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_5___default()({
   body: bodyJSON,
-  footer: _footer_json__WEBPACK_IMPORTED_MODULE_2__,
-  menu: _menu_json__WEBPACK_IMPORTED_MODULE_3__
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
 }));
 
 /***/ }),
 
-/***/ "./views/de_army.json":
-/*!****************************!*\
-  !*** ./views/de_army.json ***!
-  \****************************/
+/***/ "./js/de_army.json":
+/*!*************************!*\
+  !*** ./js/de_army.json ***!
+  \*************************/
 /*! exports provided: 0, 1, 2, default */
 /***/ (function(module) {
 
@@ -768,10 +612,65 @@ module.exports = [{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp
 
 /***/ }),
 
-/***/ "./views/de_army.pug":
-/*!***************************!*\
-  !*** ./views/de_army.pug ***!
-  \***************************/
+/***/ "./js/de_navy.json":
+/*!*************************!*\
+  !*** ./js/de_navy.json ***!
+  \*************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = [{"model":"U-48","link":"de_navy_u48","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"}];
+
+/***/ }),
+
+/***/ "./js/de_shortcut.json":
+/*!*****************************!*\
+  !*** ./js/de_shortcut.json ***!
+  \*****************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = [{"title":"陆战武器","link":"de_army"},{"title":"空战武器","link":"de_airforce"},{"title":"海战武器","link":"de_navy"}];
+
+/***/ }),
+
+/***/ "./js/footer.json":
+/*!************************!*\
+  !*** ./js/footer.json ***!
+  \************************/
+/*! exports provided: footersitelogo, footersitename, copyright, getintouchinfo, default */
+/***/ (function(module) {
+
+module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有，转载分享请注明出处。","getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
+
+/***/ }),
+
+/***/ "./js/index.json":
+/*!***********************!*\
+  !*** ./js/index.json ***!
+  \***********************/
+/*! exports provided: background, title, linktext, link, default */
+/***/ (function(module) {
+
+module.exports = {"background":"imgs/index-bg.jpg","title":"欢迎来到战争天地","linktext":"二战德军武器系列","link":"about.html"};
+
+/***/ }),
+
+/***/ "./js/menu.json":
+/*!**********************!*\
+  !*** ./js/menu.json ***!
+  \**********************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/***/ (function(module) {
+
+module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战篇","link":"de_army","active":false},{"title":"空战篇","link":"de_airforce","active":false},{"title":"海战篇","link":"de_navy","active":false},{"title":"快捷目录","link":"de_shortcut","active":false},{"title":"关于我们","link":"about","active":false}];
+
+/***/ }),
+
+/***/ "./views/category.pug":
+/*!****************************!*\
+  !*** ./views/category.pug ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -810,7 +709,7 @@ pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"na
 };
 pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
 pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-army-style pt-5 pb-5\" id=\"about\"\u003E\u003Cdiv class=\"container\"\u003E";
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-army-style pt-3 pb-3\" id=\"about\"\u003E\u003Cdiv class=\"container\"\u003E";
 // iterate body
 ;(function(){
   var $$obj = body;
@@ -831,28 +730,6 @@ pug_html = pug_html + "\u003Ca" + (pug.attr("href", item.link + '.html', true, t
 
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
-
-/***/ }),
-
-/***/ "./views/de_catalog.json":
-/*!*******************************!*\
-  !*** ./views/de_catalog.json ***!
-  \*******************************/
-/*! exports provided: 0, 1, 2, default */
-/***/ (function(module) {
-
-module.exports = [{"title":"陆军武器","link":"de-army"},{"title":"空军武器","link":"de-airforce"},{"title":"海军武器","link":"de-nary"}];
-
-/***/ }),
-
-/***/ "./views/footer.json":
-/*!***************************!*\
-  !*** ./views/footer.json ***!
-  \***************************/
-/*! exports provided: footersitelogo, footersitename, copyright, getintouchinfo, default */
-/***/ (function(module) {
-
-module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"© #year# 版权所有，转载分享请注明出处。","getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
 
 /***/ }),
 
@@ -885,117 +762,6 @@ pug_html = pug_html + "\u003Cli class=\"text-white\"\u003E\u003Ca" + (pug.attr("
 }).call(this);
 
 pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-md-8 col-12 custom-footer-color order-md-1\"\u003E\u003Cspan\u003E\u003Ca" + (" class=\"custom-footer-brand\""+" href=\"\u002F\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E\u003Cimg" + (" class=\"d-inline-block align-top\""+pug.attr("src", footer.footersitelogo, true, true)+" height=\"20\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E \u003Cspan class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.footersitename) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E \u003C\u002Fspan\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = footer.copyright) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Ffooter\u003E\u003C!-- Page Footer End --\u003E\n\u003C!-- Go to Top --\u003E\u003Ca class=\"js-go-to u-go-to\" href=\"javascript:;\" data-position=\"{&quot;bottom&quot;: 15, &quot;right&quot;: 15 }\" data-type=\"fixed\" data-offset-top=\"300\" data-compensation=\"#header\" data-show-effect=\"slideInUp\" data-hide-effect=\"slideOutDown\"\u003E\u003Cspan class=\"fa fa-arrow-up u-go-to__inner\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C!-- Note: Need to add script part below the body --\u003E\n\u003C!-- End Go to Top --\u003E";}.call(this,"footer" in locals_for_with?locals_for_with.footer:typeof footer!=="undefined"?footer:undefined));;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./views/header.pug":
-/*!**************************!*\
-  !*** ./views/header.pug ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (menu) {pug_mixins["setNavItems"] = pug_interp = function(){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate menu
-;(function(){
-  var $$obj = menu;
-  if ('number' == typeof $$obj.length) {
-      for (var index = 0, $$l = $$obj.length; index < $$l; index++) {
-        var menuitem = $$obj[index];
-if (menuitem.active) {
-pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var index in $$obj) {
-      $$l++;
-      var menuitem = $$obj[index];
-if (menuitem.active) {
-pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
-}
-    }
-  }
-}).call(this);
-
-};
-pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
-pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E";}.call(this,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./views/index.json":
-/*!**************************!*\
-  !*** ./views/index.json ***!
-  \**************************/
-/*! exports provided: background, title, linktext, link, default */
-/***/ (function(module) {
-
-module.exports = {"background":"imgs/index-bg.jpg","title":"欢迎来到战争天地","linktext":"二战德军武器系列","link":"about.html"};
-
-/***/ }),
-
-/***/ "./views/index.pug":
-/*!*************************!*\
-  !*** ./views/index.pug ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (background, link, linktext, title) {pug_html = pug_html + "\u003Cdiv class=\"container-fluid p-0\"\u003E\u003Cimg" + (" class=\"custom-index-wh\""+pug.attr("src", background, true, true)+" alt=\"index background\"") + "\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"container-fluid custom-index-wh custom-index-div-overlay d-flex justify-content-center align-items-center\"\u003E\u003Cdiv class=\"text-center\"\u003E\u003Ch1 class=\"text-light custom-text-shadow-2px\"\u003E" + (null == (pug_interp = title) ? "" : pug_interp) + "\u003C\u002Fh1\u003E\u003Ca" + (" class=\"custom-index-link\""+pug.attr("href", link, true, true)) + "\u003E \u003Ch5 class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = linktext) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";}.call(this,"background" in locals_for_with?locals_for_with.background:typeof background!=="undefined"?background:undefined,"link" in locals_for_with?locals_for_with.link:typeof link!=="undefined"?link:undefined,"linktext" in locals_for_with?locals_for_with.linktext:typeof linktext!=="undefined"?linktext:undefined,"title" in locals_for_with?locals_for_with.title:typeof title!=="undefined"?title:undefined));;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./views/index_body.pug":
-/*!******************************!*\
-  !*** ./views/index_body.pug ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./views/menu.json":
-/*!*************************!*\
-  !*** ./views/menu.json ***!
-  \*************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
-/***/ (function(module) {
-
-module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战篇","link":"de_army","active":false},{"title":"空战篇","link":"de_airforce","active":false},{"title":"海战篇","link":"de_nary","active":false},{"title":"快捷目录","link":"de_catalog","active":false},{"title":"关于我们","link":"about","active":false}];
-
-/***/ }),
-
-/***/ "./views/template.pug":
-/*!****************************!*\
-  !*** ./views/template.pug ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (htmlWebpackPlugin) {pug_html = pug_html + "\u003C!DOCTYPE html\u003E\u003Chtml\u003E\u003Chead\u003E\u003Ctitle\u003E" + (pug.escape(null == (pug_interp = htmlWebpackPlugin.options.title) ? "" : pug_interp)) + "\u003C\u002Ftitle\u003E\u003Clink rel=\"stylesheet\" href=\".\u002Fcommon\u002Fcss\u002Fbootstrap.min.css\"\u003E\u003Clink rel=\"stylesheet\" href=\".\u002Fcommon\u002Fcss\u002Fall.min.css\"\u003E\u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"\u003E\u003C\u002Fhead\u003E\u003Cbody class=\"p-0\"\u003E\u003C\u002Fbody\u003E\u003C\u002Fhtml\u003E";}.call(this,"htmlWebpackPlugin" in locals_for_with?locals_for_with.htmlWebpackPlugin:typeof htmlWebpackPlugin!=="undefined"?htmlWebpackPlugin:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

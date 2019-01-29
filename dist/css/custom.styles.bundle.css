@@ -215,3 +215,17 @@ span.list-social-links {
   color: rgb(218, 164, 16)
 }
 
+.custom-shortcut-style {
+  background-color: rgb(221, 236, 217);
+  line-height: 2rem;
+  word-break: normal;
+}
+.custom-shortcut-style a {
+  text-decoration: none;
+  color: rgb(3, 104, 54)
+}
+.custom-shortcut-style a:hover {
+  text-decoration: none;
+  color: rgb(241, 149, 28)
+}
+

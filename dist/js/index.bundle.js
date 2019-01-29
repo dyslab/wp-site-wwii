@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./views/index.js","custom.styles"]);
+/******/ 	deferredModules.push(["./js/index.js","custom.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -419,10 +419,10 @@ function pug_rethrow(err, filename, lineno, str){
 
 /***/ }),
 
-/***/ "./views/index.js":
-/*!************************!*\
-  !*** ./views/index.js ***!
-  \************************/
+/***/ "./js/index.js":
+/*!*********************!*\
+  !*** ./js/index.js ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -431,18 +431,18 @@ var baseCSS = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
 
 var indexCSS = __webpack_require__(/*! ../css/index.css */ "./css/index.css");
 
-var template = __webpack_require__(/*! ./index.pug */ "./views/index.pug");
+var template = __webpack_require__(/*! ../views/index.pug */ "./views/index.pug");
 
-var indexJSON = __webpack_require__(/*! ./index.json */ "./views/index.json");
+var indexJSON = __webpack_require__(/*! ./index.json */ "./js/index.json");
 
 document.write(template(indexJSON));
 
 /***/ }),
 
-/***/ "./views/index.json":
-/*!**************************!*\
-  !*** ./views/index.json ***!
-  \**************************/
+/***/ "./js/index.json":
+/*!***********************!*\
+  !*** ./js/index.json ***!
+  \***********************/
 /*! exports provided: background, title, linktext, link, default */
 /***/ (function(module) {
 

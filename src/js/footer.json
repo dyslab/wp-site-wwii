@@ -1,7 +1,7 @@
 {
   "footersitelogo": "imgs/favicon.png",
   "footersitename": "军事测试网站",
-  "copyright": "© #year# 版权所有，转载分享请注明出处。",
+  "copyright": "Copyright © #year# 版权所有，转载分享请注明出处。",
   "getintouchinfo": {
     "headline": "联系我们",
     "data": [

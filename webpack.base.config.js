@@ -1,8 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const devServer = require('./config.js');
-const fileIDs = require('./build-all.js');
+const devServer = require('./wp.base.config.js');
+const fileIDs = require('./wp.base.build.js');
 
 /*
  * ***************************************************************************
@@ -30,7 +30,7 @@ const plugins = [
 const tempObj = [];
 
 for (let no = 0; no < fileIDs.length; no += step) {
-  epString += `"${fileIDs[no].id}":"./views/${fileIDs[no].id}.js"`;
+  epString += `"${fileIDs[no].id}":"./js/${fileIDs[no].id}.js"`;
   if (no < fileIDs.length - step) {
     epString += ',';
   }
