@@ -1,0 +1,27 @@
+extends body
+
+block content
+  section#about.custom-document-style.pt-3.pb-3
+    div.container
+      nav(aria-label="breadcrumb")
+        ol.breadcrumb.custom-document-style
+          li.breadcrumb-item
+            a(href=body.category_link + ".html")= body.category_name
+          li.breadcrumb-item.active(aria-current="page")=body.model
+      div.row
+        div.col.text-center
+          span.h3.font-weight-bold.custom-text-shadow-2px= body.model
+      div.row
+        div.col
+          span.font-weight-bold!= body.description
+      div.row
+        div.col
+          each item in body.content
+            figure.figure
+              img.figure-img.img-fluid.rounded(src=item.image)
+              figcaption.figure-caption.text-center= item.caption
+
+block footer-scripts
+  script.
+    $(document).ready(function() {
+    }

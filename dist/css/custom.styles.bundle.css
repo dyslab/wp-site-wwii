@@ -164,55 +164,32 @@ span.list-social-links {
   line-height: 2rem;
 }
 
-.custom-about-style {
+.custom-document-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
   word-break: normal;
 }
-.custom-about-style a {
+.custom-document-style a {
   text-decoration: none;
-  color: rgb(22, 66, 13)
+  color: rgb(13, 47, 66)
 }
-.custom-about-style a:hover {
+.custom-document-style a:hover {
   text-decoration: none;
-  color: rgb(218, 56, 16)
+  color: rgb(29, 16, 218)
 }
 
-.custom-army-style {
+.custom-category-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
   word-break: normal;
 }
-.custom-army-style a {
+.custom-category-style a {
   text-decoration: none;
   color: rgb(22, 66, 13)
 }
-.custom-army-style a:hover {
+.custom-category-style a:hover {
   text-decoration: none;
   color: rgb(218, 56, 16)
-}
-
-.custom-index-wh {
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.custom-index-div-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 11;
-}
-
-.custom-index-link {
-  font-size: 1.2em;
-  color: rgb(236, 191, 191)
-}
-.custom-index-link:hover {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: rgb(218, 164, 16)
 }
 
 .custom-shortcut-style {

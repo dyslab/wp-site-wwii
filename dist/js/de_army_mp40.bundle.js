@@ -56,7 +56,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"de_navy": 0
+/******/ 		"de_army_mp40": 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/de_navy.js","custom.styles"]);
+/******/ 	deferredModules.push(["./js/de_army_mp40.js","custom.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -569,21 +569,10 @@ module.exports = [{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp
 
 /***/ }),
 
-/***/ "./js/de_army_mp40.json":
-/*!******************************!*\
-  !*** ./js/de_army_mp40.json ***!
-  \******************************/
-/*! exports provided: model, category_name, category_link, description, content, default */
-/***/ (function(module) {
-
-module.exports = {"model":"MP40","category_name":"陆战武器","category_link":"de_army","description":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。","content":[{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"}]};
-
-/***/ }),
-
-/***/ "./js/de_navy.js":
-/*!***********************!*\
-  !*** ./js/de_navy.js ***!
-  \***********************/
+/***/ "./js/de_army_mp40.js":
+/*!****************************!*\
+  !*** ./js/de_army_mp40.js ***!
+  \****************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -593,14 +582,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
 /* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/category.css */ "./css/category.css");
-/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_category_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _css_document_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/document.css */ "./css/document.css");
+/* harmony import */ var _css_document_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_document_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
 var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
 /* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
 var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
-/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
-/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/document.pug */ "./views/document.pug");
+/* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_document_pug__WEBPACK_IMPORTED_MODULE_5__);
 /* eslint-disable no-unused-vars */
 
 
@@ -608,7 +597,7 @@ var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_r
 
 
 
-const pageID = 'de_navy';
+const pageID = 'de_army_mp40';
 
 var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set header and footer
 
@@ -616,11 +605,22 @@ var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./$
 _base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
 _base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
 
-document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+document.write(_views_document_pug__WEBPACK_IMPORTED_MODULE_5___default()({
   body: bodyJSON,
   footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
   menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
 }));
+
+/***/ }),
+
+/***/ "./js/de_army_mp40.json":
+/*!******************************!*\
+  !*** ./js/de_army_mp40.json ***!
+  \******************************/
+/*! exports provided: model, category_name, category_link, description, content, default */
+/***/ (function(module) {
+
+module.exports = {"model":"MP40","category_name":"陆战武器","category_link":"de_army","description":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。","content":[{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"}]};
 
 /***/ }),
 
@@ -679,9 +679,9 @@ module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆
 
 /***/ }),
 
-/***/ "./views/category.pug":
+/***/ "./views/document.pug":
 /*!****************************!*\
-  !*** ./views/category.pug ***!
+  !*** ./views/document.pug ***!
   \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -721,26 +721,26 @@ pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"na
 };
 pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
 pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-category-style pt-3 pb-3\" id=\"about\"\u003E\u003Cdiv class=\"container\"\u003E";
-// iterate body
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-document-style pt-3 pb-3\" id=\"about\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cnav aria-label=\"breadcrumb\"\u003E\u003Col class=\"breadcrumb custom-document-style\"\u003E\u003Cli class=\"breadcrumb-item\"\u003E\u003Ca" + (pug.attr("href", body.category_link + ".html", true, true)) + "\u003E" + (pug.escape(null == (pug_interp = body.category_name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E\u003Cli class=\"breadcrumb-item active\" aria-current=\"page\"\u003E" + (pug.escape(null == (pug_interp = body.model) ? "" : pug_interp)) + "\u003C\u002Fli\u003E\u003C\u002Fol\u003E\u003C\u002Fnav\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col text-center\"\u003E\u003Cspan class=\"h3 font-weight-bold custom-text-shadow-2px\"\u003E" + (pug.escape(null == (pug_interp = body.model) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (null == (pug_interp = body.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E";
+// iterate body.content
 ;(function(){
-  var $$obj = body;
+  var $$obj = body.content;
   if ('number' == typeof $$obj.length) {
       for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
         var item = $$obj[pug_index1];
-pug_html = pug_html + "\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col-12 col-md-4 col-lg-5 pt-3\"\u003E\u003Cimg" + (" class=\"img-fluid rounded\""+pug.attr("src", item.image, true, true)+pug.attr("alt", item.model, true, true)) + "\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-12 col-md-8 col-lg-7 pt-3\"\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = item.model) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption text-center\"\u003E" + (pug.escape(null == (pug_interp = item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E";
       }
   } else {
     var $$l = 0;
     for (var pug_index1 in $$obj) {
       $$l++;
       var item = $$obj[pug_index1];
-pug_html = pug_html + "\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E\u003Cdiv class=\"col-12 col-md-4 col-lg-5 pt-3\"\u003E\u003Cimg" + (" class=\"img-fluid rounded\""+pug.attr("src", item.image, true, true)+pug.attr("alt", item.model, true, true)) + "\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-12 col-md-8 col-lg-7 pt-3\"\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = item.model) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption text-center\"\u003E" + (pug.escape(null == (pug_interp = item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E";
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),
