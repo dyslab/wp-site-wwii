@@ -38,7 +38,7 @@ for (let no = 0; no < fileIDs.length; no += step) {
   tempObj[no] = new HtmlWebpackPlugin({
     chunks: [
       `${fileIDs[no].id}`,
-      'custom.styles'
+      'doc.styles'
     ],
     favicon: './favicon.ico',
     filename: `./${fileIDs[no].id}.html`,
@@ -111,7 +111,7 @@ const optimization = {
       styles: {
         chunks: 'all',
         enforce: true,
-        name: 'custom.styles',
+        name: 'doc.styles',
         test: /\.css$/u
       }
     }

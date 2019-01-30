@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/de_shortcut.js","custom.styles"]);
+/******/ 	deferredModules.push(["./js/de_shortcut.js","doc.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })

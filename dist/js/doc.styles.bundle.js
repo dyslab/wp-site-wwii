@@ -1,15 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["custom.styles"],{
-
-/***/ "./css/about.css":
-/*!***********************!*\
-  !*** ./css/about.css ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["doc.styles"],{
 
 /***/ "./css/base.css":
 /*!**********************!*\
@@ -37,17 +26,6 @@
 /*!**************************!*\
   !*** ./css/document.css ***!
   \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ "./css/index.css":
-/*!***********************!*\
-  !*** ./css/index.css ***!
-  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
