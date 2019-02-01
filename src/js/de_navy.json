@@ -1,4 +1,9 @@
 [{
+  "model": "潜艇", 
+  "link": "de_navy_submarine",
+  "image": "",
+  "intro": "###"
+}, {
   "model": "U-48", 
   "link": "de_navy_u48",
   "image": "imgs/de_army_mp44_01.jpg",
@@ -13,4 +18,14 @@
   "link": "de_army_u49",
   "image": "imgs/de_army_vi_01.jpg",
   "intro": "虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"
+}, {
+  "model": "航空母舰", 
+  "link": "de_navy_carrier",
+  "image": "",
+  "intro": "###"
+}, {
+  "model": "水面舰艇", 
+  "link": "de_navy_warship",
+  "image": "",
+  "intro": "###"
 }]

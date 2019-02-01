@@ -1,32 +1,41 @@
 extends body
 
 block content
-  section#about.custom-shortcut-style.pt-3.pb-3
+  section#shortcut.custom-shortcut-style.pt-3.pb-3
     div.container
       div.row
         div.col-12.col-lg-10.pt-3.pb-3
           table.table.table-responsive
             each item in body
-              if item.intro == '###'
+              if item.intro == '***'
                 tr
                   th.thead-light.text-info(scope="col", colspan="2")
                     i.fas.fa-th-list.fa-lg
                     |  
                     span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
               else
-                tr
-                  td
-                    a(href=item.link + '.html')
-                      span.font-weight-bold #{item.title}
-                  td
-                    span!= item.intro
+                if item.intro == '###'
+                  tr
+                    th.thead-light.text-dark(scope="col", colspan="2")
+                      i.fas.fa-ellipsis-h.fa-lg
+                      |  
+                      span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                else
+                  tr
+                    td
+                      a(href=item.link + '.html')
+                        span.font-weight-bold #{item.title}
+                    td
+                      span!= item.intro
         div.d-none.d-lg-block.col-lg-2
           div.sticky-top.pt-3.pb-3
-            div.card.bg-light
-              div.list-group.list-group-flush
-                each item in body
+            div.list-group
+              each item in body
+                if item.intro == '***'
+                  a.list-group-item.list-group-item-action.list-group-item-info.pl-2.pt-1.pb-1.pr-1(href="#" + item.link)!= item.title
+                else
                   if item.intro == '###'
-                    a.list-group-item.list-group-item-action(href="#" + item.link)!= item.title
+                    a.list-group-item.list-group-item-action.pl-3.pt-0.pb-0.pr-2(href="#" + item.link)!= item.title
 
 block footer-scripts
   script.

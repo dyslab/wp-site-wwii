@@ -1,4 +1,9 @@
 [{
+  "model": "单兵装备", 
+  "link": "de_army_personnelequipment",
+  "image": "",
+  "intro": "###"
+}, {
   "model": "MP40", 
   "link": "de_army_mp40",
   "image": "imgs/de_army_mp40_01.jpg",
@@ -9,8 +14,23 @@
   "image": "imgs/de_army_mp44_01.jpg",
   "intro": "MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"
 }, {
+  "model": "火炮", 
+  "link": "de_army_artillery",
+  "image": "",
+  "intro": "###"
+}, {
+  "model": "坦克", 
+  "link": "de_army_tank",
+  "image": "",
+  "intro": "###"
+}, {
   "model": "Tiger", 
   "link": "de_army_vi",
   "image": "imgs/de_army_vi_01.jpg",
   "intro": "虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"
+}, {
+  "model": "装甲车辆", 
+  "link": "de_army_armedvehicle",
+  "image": "",
+  "intro": "###"
 }]

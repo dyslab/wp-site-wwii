@@ -1,16 +1,21 @@
 extends body
 
 block content
-  section#about.custom-category-style.pt-3.pb-3
+  section#cat.custom-category-style.pt-3.pb-3
     div.container
       each item in body
-        a(href=item.link + '.html')
+        if item.intro == '###'
           div.row.pt-3.pb-3
-            div.col-12.col-md-4.col-lg-5.pt-3
-              img.img-fluid.rounded(src=item.image, alt=item.model)
-            div.col-12.col-md-8.col-lg-7.pt-3
+            div.col-12.pt-3(id='#' + item.link)
               h5.font-weight-bold.custom-text-shadow-1px #{item.model}
-              span!= item.intro
+        else
+          a(href=item.link + '.html')
+            div.row.pt-3.pb-3
+              div.col-12.col-md-4.col-lg-5.pt-3
+                img.img-fluid.rounded(src=item.image, alt=item.model)
+              div.col-12.col-md-8.col-lg-7.pt-3
+                h5.font-weight-bold.custom-text-shadow-1px #{item.model}
+                span!= item.intro
 
 block footer-scripts
   script.

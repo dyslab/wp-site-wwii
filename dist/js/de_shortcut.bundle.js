@@ -551,10 +551,10 @@ module.exposts = exports;
 /*!*****************************!*\
   !*** ./js/de_airforce.json ***!
   \*****************************/
-/*! exports provided: 0, 1, default */
+/*! exports provided: 0, 1, 2, 3, 4, default */
 /***/ (function(module) {
 
-module.exports = [{"model":"Me262","link":"de_army_me262","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_army_me222","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"}];
+module.exports = [{"model":"战斗机","link":"de_airforce_fighter","image":"","intro":"###"},{"model":"Me262","link":"de_airforce_me262","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_airforce_me222","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"轰炸机","link":"de_airforce_bomber","image":"","intro":"###"},{"model":"其他机种","link":"de_airforce_others","image":"","intro":"###"}];
 
 /***/ }),
 
@@ -562,10 +562,10 @@ module.exports = [{"model":"Me262","link":"de_army_me262","image":"imgs/de_army_
 /*!*************************!*\
   !*** ./js/de_army.json ***!
   \*************************/
-/*! exports provided: 0, 1, 2, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, default */
 /***/ (function(module) {
 
-module.exports = [{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"MP44","link":"de_army_mp44","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"Tiger","link":"de_army_vi","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"}];
+module.exports = [{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"MP44","link":"de_army_mp44","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Tiger","link":"de_army_vi","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}];
 
 /***/ }),
 
@@ -573,10 +573,10 @@ module.exports = [{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp
 /*!******************************!*\
   !*** ./js/de_army_mp40.json ***!
   \******************************/
-/*! exports provided: model, category_name, category_link, description, content, default */
+/*! exports provided: model, category_name, category_link, category2_name, category2_link, description, content, default */
 /***/ (function(module) {
 
-module.exports = {"model":"MP40","category_name":"陆战武器","category_link":"de_army","description":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。","content":[{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"}]};
+module.exports = {"model":"MP40","category_name":"陆战武器","category_link":"de_army","category2_name":"单兵装备","category2_link":"de_army_personnelequipment","description":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。","content":[{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"}]};
 
 /***/ }),
 
@@ -584,10 +584,10 @@ module.exports = {"model":"MP40","category_name":"陆战武器","category_link":
 /*!*************************!*\
   !*** ./js/de_navy.json ***!
   \*************************/
-/*! exports provided: 0, 1, 2, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = [{"model":"U-48","link":"de_navy_u48","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"}];
+module.exports = [{"model":"潜艇","link":"de_navy_submarine","image":"","intro":"###"},{"model":"U-48","link":"de_navy_u48","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"航空母舰","link":"de_navy_carrier","image":"","intro":"###"},{"model":"水面舰艇","link":"de_navy_warship","image":"","intro":"###"}];
 
 /***/ }),
 
@@ -630,7 +630,7 @@ var fdata = null;
 
 for (let no = 0; no < listJSON.length; no += step) {
   bodyJSON.push({
-    intro: '###',
+    intro: '***',
     link: listJSON[no].link,
     title: listJSON[no].title
   }); // eslint-disable-next-line global-require
@@ -779,18 +779,23 @@ pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"na
 };
 pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
 pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-shortcut-style pt-3 pb-3\" id=\"about\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-12 col-lg-10 pt-3 pb-3\"\u003E\u003Ctable class=\"table table-responsive\"\u003E";
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-shortcut-style pt-3 pb-3\" id=\"shortcut\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-12 col-lg-10 pt-3 pb-3\"\u003E\u003Ctable class=\"table table-responsive\"\u003E";
 // iterate body
 ;(function(){
   var $$obj = body;
   if ('number' == typeof $$obj.length) {
       for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
         var item = $$obj[pug_index1];
-if (item.intro == '###') {
+if (item.intro == '***') {
 pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-info\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
 }
 else {
+if (item.intro == '###') {
+pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-dark\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+}
+else {
 pug_html = pug_html + "\u003Ctr\u003E\u003Ctd\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E";
+}
 }
       }
   } else {
@@ -798,25 +803,35 @@ pug_html = pug_html + "\u003Ctr\u003E\u003Ctd\u003E\u003Ca" + (pug.attr("href", 
     for (var pug_index1 in $$obj) {
       $$l++;
       var item = $$obj[pug_index1];
-if (item.intro == '###') {
+if (item.intro == '***') {
 pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-info\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
 }
 else {
+if (item.intro == '###') {
+pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-dark\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+}
+else {
 pug_html = pug_html + "\u003Ctr\u003E\u003Ctd\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E";
+}
 }
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"d-none d-lg-block col-lg-2\"\u003E\u003Cdiv class=\"sticky-top pt-3 pb-3\"\u003E\u003Cdiv class=\"card bg-light\"\u003E\u003Cdiv class=\"list-group list-group-flush\"\u003E";
+pug_html = pug_html + "\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"d-none d-lg-block col-lg-2\"\u003E\u003Cdiv class=\"sticky-top pt-3 pb-3\"\u003E\u003Cdiv class=\"list-group\"\u003E";
 // iterate body
 ;(function(){
   var $$obj = body;
   if ('number' == typeof $$obj.length) {
       for (var pug_index2 = 0, $$l = $$obj.length; pug_index2 < $$l; pug_index2++) {
         var item = $$obj[pug_index2];
+if (item.intro == '***') {
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action list-group-item-info pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
+else {
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
 }
       }
   } else {
@@ -824,14 +839,19 @@ pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-act
     for (var pug_index2 in $$obj) {
       $$l++;
       var item = $$obj[pug_index2];
+if (item.intro == '***') {
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action list-group-item-info pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
+else {
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
 }
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to')\n})\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n}\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

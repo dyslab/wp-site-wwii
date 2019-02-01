@@ -16,7 +16,7 @@ var fdata = null;
 
 for (let no = 0; no < listJSON.length; no += step) {
   bodyJSON.push({
-    intro: '###',
+    intro: '***',
     link: listJSON[no].link,
     title: listJSON[no].title
   });

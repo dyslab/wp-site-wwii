@@ -1,12 +1,14 @@
 extends body
 
 block content
-  section#about.custom-document-style.pt-3.pb-3
+  section#doc.custom-document-style.pt-3.pb-3
     div.container
       nav(aria-label="breadcrumb")
         ol.breadcrumb.custom-document-style
           li.breadcrumb-item
             a(href=body.category_link + ".html")= body.category_name
+          li.breadcrumb-item
+            a(href=body.category_link + ".html#" + body.category2_link)= body.category2_name
           li.breadcrumb-item.active(aria-current="page")=body.model
       div.row
         div.col.text-center
