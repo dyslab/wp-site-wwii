@@ -9,14 +9,14 @@ block content
             each item in body
               if item.intro == '***'
                 tr
-                  th.thead-light.text-info(scope="col", colspan="2")
+                  th.thead-light.custom-shortcut-category-color-1(scope="col", colspan="2")
                     i.fas.fa-th-list.fa-lg
                     |  
                     span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
               else
                 if item.intro == '###'
                   tr
-                    th.thead-light.text-dark(scope="col", colspan="2")
+                    th.thead-light.custom-shortcut-category-color-2(scope="col", colspan="2")
                       i.fas.fa-ellipsis-h.fa-lg
                       |  
                       span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
@@ -32,10 +32,10 @@ block content
             div.list-group
               each item in body
                 if item.intro == '***'
-                  a.list-group-item.list-group-item-action.list-group-item-info.pl-2.pt-1.pb-1.pr-1(href="#" + item.link)!= item.title
+                  a.list-group-item.list-group-item-action.custom-shortcut-menu-color-1.pl-2.pt-1.pb-1.pr-1(href="#" + item.link)!= item.title
                 else
                   if item.intro == '###'
-                    a.list-group-item.list-group-item-action.pl-3.pt-0.pb-0.pr-2(href="#" + item.link)!= item.title
+                    a.list-group-item.list-group-item-action.custom-shortcut-menu-color-2.pl-3.pt-0.pb-0.pr-2(href="#" + item.link)!= item.title
 
 block footer-scripts
   script.

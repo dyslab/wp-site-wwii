@@ -243,3 +243,33 @@ span.list-social-links {
   color: rgb(241, 149, 28)
 }
 
+.custom-shortcut-category-color-1 {
+  color: rgb(34, 92, 64)
+}
+
+.custom-shortcut-category-color-2 {
+  color: rgb(39, 112, 77)
+}
+
+a.custom-shortcut-menu-color-1 {
+  color: rgb(14, 80, 53);
+  background-color: rgb(155, 212, 185);
+  border-width: 0;
+}
+a:hover.custom-shortcut-menu-color-1 {
+  color: rgb(252, 242, 239);
+  background-color: rgb(108, 172, 140);
+  border-width: 0;
+}
+
+a.custom-shortcut-menu-color-2 {
+  color: rgb(14, 80, 53);
+  background-color: rgb(175, 228, 203);
+  border-width: 0;
+}
+a:hover.custom-shortcut-menu-color-2 {
+  color: rgb(252, 242, 239);
+  background-color: rgb(135, 189, 162);
+  border-width: 0;
+}
+

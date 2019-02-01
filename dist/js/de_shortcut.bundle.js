@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/de_shortcut.js","doc.styles"]);
+/******/ 	deferredModules.push(["./js/de_shortcut.js","custom.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -519,8 +519,7 @@ exports.setMenuActiveItem = (menuJSON, currentName) => {
   const step = 1; // Set active menu item.
 
   for (let no = 0; no < menuJSON.length; no += step) {
-    // This generated page name is 'about.html'
-    if (menuJSON[no].link === currentName) {
+    if (currentName.search(menuJSON[no].link) >= 0) {
       menuJSON[no].active = true;
     }
   }
@@ -787,11 +786,11 @@ pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\
       for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
         var item = $$obj[pug_index1];
 if (item.intro == '***') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-info\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-1\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
 }
 else {
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-dark\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-2\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
 }
 else {
 pug_html = pug_html + "\u003Ctr\u003E\u003Ctd\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E";
@@ -804,11 +803,11 @@ pug_html = pug_html + "\u003Ctr\u003E\u003Ctd\u003E\u003Ca" + (pug.attr("href", 
       $$l++;
       var item = $$obj[pug_index1];
 if (item.intro == '***') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-info\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-1\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
 }
 else {
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light text-dark\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-2\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
 }
 else {
 pug_html = pug_html + "\u003Ctr\u003E\u003Ctd\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E";
@@ -826,11 +825,11 @@ pug_html = pug_html + "\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cdiv cla
       for (var pug_index2 = 0, $$l = $$obj.length; pug_index2 < $$l; pug_index2++) {
         var item = $$obj[pug_index2];
 if (item.intro == '***') {
-pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action list-group-item-info pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-1 pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
 }
 else {
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-2 pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
 }
 }
       }
@@ -840,11 +839,11 @@ pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-act
       $$l++;
       var item = $$obj[pug_index2];
 if (item.intro == '***') {
-pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action list-group-item-info pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-1 pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
 }
 else {
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-2 pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
 }
 }
     }

@@ -6,8 +6,7 @@ exports.setMenuActiveItem = (menuJSON, currentName) => {
 
   // Set active menu item.
   for (let no = 0; no < menuJSON.length; no += step) {
-    // This generated page name is 'about.html'
-    if (menuJSON[no].link === currentName) {
+    if (currentName.search(menuJSON[no].link) >= 0) {
       menuJSON[no].active = true;
     }
   }

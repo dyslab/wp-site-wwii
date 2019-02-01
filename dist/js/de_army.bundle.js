@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/de_army.js","doc.styles"]);
+/******/ 	deferredModules.push(["./js/de_army.js","custom.styles"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -519,8 +519,7 @@ exports.setMenuActiveItem = (menuJSON, currentName) => {
   const step = 1; // Set active menu item.
 
   for (let no = 0; no < menuJSON.length; no += step) {
-    // This generated page name is 'about.html'
-    if (menuJSON[no].link === currentName) {
+    if (currentName.search(menuJSON[no].link) >= 0) {
       menuJSON[no].active = true;
     }
   }
