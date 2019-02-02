@@ -1,7 +1,29 @@
 {
   "footersitelogo": "imgs/favicon.png",
   "footersitename": "军事测试网站",
-  "copyright": "Copyright © #year# 版权所有，转载分享请注明出处。",
+  "copyright": "Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-brand\">内容及版权申明</a>，转载分享请注明出处。",
+  "links": [
+    {
+      "title": "资源链接",
+      "href": ""
+    },
+    {
+      "title": "武器篇",
+      "href": "wwii_weapon.html"
+    },
+    {
+      "title": "战场篇",
+      "href": "wwii_warfield.html"
+    },
+    {
+      "title": "人事篇",
+      "href": "wwii_people.html"
+    },
+    {
+      "title": "物事篇",
+      "href": "wwii_misc.html"
+    }
+  ],
   "getintouchinfo": {
     "headline": "联系我们",
     "data": [

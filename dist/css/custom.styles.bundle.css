@@ -127,7 +127,11 @@
 }
 .custom-footer-brand:hover {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 248, 154);
+}
+
+.custom-footer-link-size {
+  font-size: 1.25rem;
 }
 
 .list-social-links {
@@ -221,12 +225,12 @@ span.list-social-links {
 
 .custom-index-link {
   font-size: 1.2em;
-  color: rgb(236, 191, 191)
+  color: rgb(200, 243, 196)
 }
 .custom-index-link:hover {
   text-decoration: none;
   font-size: 1.2em;
-  color: rgb(218, 164, 16)
+  color: rgb(248, 187, 19)
 }
 
 .custom-shortcut-style {
@@ -271,5 +275,61 @@ a:hover.custom-shortcut-menu-color-2 {
   color: rgb(252, 242, 239);
   background-color: rgb(135, 189, 162);
   border-width: 0;
+}
+
+.custom-wwii-style {
+  background-color: rgb(221, 236, 217);
+  line-height: 2rem;
+  word-break: normal;
+}
+.custom-wwii-style a {
+  text-decoration: none;
+  color: rgb(22, 66, 13)
+}
+.custom-wwii-style a:hover {
+  text-decoration: none;
+  color: rgb(218, 56, 16)
+}
+
+.custom-wwii-style {
+  background-color: rgb(221, 236, 217);
+  line-height: 2rem;
+  word-break: normal;
+}
+.custom-wwii-style a {
+  text-decoration: none;
+  color: rgb(22, 66, 13)
+}
+.custom-wwii-style a:hover {
+  text-decoration: none;
+  color: rgb(218, 56, 16)
+}
+
+.custom-wwii-style {
+  background-color: rgb(221, 236, 217);
+  line-height: 2rem;
+  word-break: normal;
+}
+.custom-wwii-style a {
+  text-decoration: none;
+  color: rgb(22, 66, 13)
+}
+.custom-wwii-style a:hover {
+  text-decoration: none;
+  color: rgb(218, 56, 16)
+}
+
+.custom-wwii-style {
+  background-color: rgb(221, 236, 217);
+  line-height: 2rem;
+  word-break: normal;
+}
+.custom-wwii-style a {
+  text-decoration: none;
+  color: rgb(22, 66, 13)
+}
+.custom-wwii-style a:hover {
+  text-decoration: none;
+  color: rgb(218, 56, 16)
 }
 

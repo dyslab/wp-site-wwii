@@ -127,7 +127,11 @@
 }
 .custom-footer-brand:hover {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 248, 154);
+}
+
+.custom-footer-link-size {
+  font-size: 1.25rem;
 }
 
 .list-social-links {

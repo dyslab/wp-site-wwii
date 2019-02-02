@@ -1,65 +1,6 @@
 /******/ (function(modules) { // webpackBootstrap
-/******/ 	// install a JSONP callback for chunk loading
-/******/ 	function webpackJsonpCallback(data) {
-/******/ 		var chunkIds = data[0];
-/******/ 		var moreModules = data[1];
-/******/ 		var executeModules = data[2];
-/******/
-/******/ 		// add "moreModules" to the modules object,
-/******/ 		// then flag all "chunkIds" as loaded and fire callback
-/******/ 		var moduleId, chunkId, i = 0, resolves = [];
-/******/ 		for(;i < chunkIds.length; i++) {
-/******/ 			chunkId = chunkIds[i];
-/******/ 			if(installedChunks[chunkId]) {
-/******/ 				resolves.push(installedChunks[chunkId][0]);
-/******/ 			}
-/******/ 			installedChunks[chunkId] = 0;
-/******/ 		}
-/******/ 		for(moduleId in moreModules) {
-/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
-/******/ 				modules[moduleId] = moreModules[moduleId];
-/******/ 			}
-/******/ 		}
-/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
-/******/
-/******/ 		while(resolves.length) {
-/******/ 			resolves.shift()();
-/******/ 		}
-/******/
-/******/ 		// add entry modules from loaded chunk to deferred list
-/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
-/******/
-/******/ 		// run deferred modules when all chunks ready
-/******/ 		return checkDeferredModules();
-/******/ 	};
-/******/ 	function checkDeferredModules() {
-/******/ 		var result;
-/******/ 		for(var i = 0; i < deferredModules.length; i++) {
-/******/ 			var deferredModule = deferredModules[i];
-/******/ 			var fulfilled = true;
-/******/ 			for(var j = 1; j < deferredModule.length; j++) {
-/******/ 				var depId = deferredModule[j];
-/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
-/******/ 			}
-/******/ 			if(fulfilled) {
-/******/ 				deferredModules.splice(i--, 1);
-/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
-/******/ 			}
-/******/ 		}
-/******/ 		return result;
-/******/ 	}
-/******/
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
-/******/
-/******/ 	// object to store loaded and loading chunks
-/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 	// Promise = chunk loading, 0 = chunk loaded
-/******/ 	var installedChunks = {
-/******/ 		"index": 0
-/******/ 	};
-/******/
-/******/ 	var deferredModules = [];
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -138,18 +79,9 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
-/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
-/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
-/******/ 	jsonpArray.push = webpackJsonpCallback;
-/******/ 	jsonpArray = jsonpArray.slice();
-/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
-/******/ 	var parentJsonpFunction = oldJsonpFunction;
 /******/
-/******/
-/******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/index.js","custom.styles"]);
-/******/ 	// run deferred modules when ready
-/******/ 	return checkDeferredModules();
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./js/wwii_weapon.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -419,76 +351,33 @@ function pug_rethrow(err, filename, lineno, str){
 
 /***/ }),
 
-/***/ "./js/index.js":
-/*!*********************!*\
-  !*** ./js/index.js ***!
-  \*********************/
+/***/ "./js/wwii_weapon.js":
+/*!***************************!*\
+  !*** ./js/wwii_weapon.js ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* eslint-disable no-unused-vars */
-var baseCSS = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+const pageID = 'wwii_weapon';
 
-var indexCSS = __webpack_require__(/*! ../css/index.css */ "./css/index.css");
+var template = __webpack_require__(/*! ../views/jumpto.pug */ "./views/jumpto.pug"); // Render pug file and output.
 
-var template = __webpack_require__(/*! ../views/index.pug */ "./views/index.pug");
 
-var indexJSON = __webpack_require__(/*! ./index.json */ "./js/index.json");
-
-document.write(template(indexJSON));
+document.write(template());
 
 /***/ }),
 
-/***/ "./js/index.json":
-/*!***********************!*\
-  !*** ./js/index.json ***!
-  \***********************/
-/*! exports provided: background, title, subtitle, links, default */
-/***/ (function(module) {
-
-module.exports = {"background":"imgs/index-bg.jpg","title":"第二次世界大战 WWII","subtitle":"图史与纪实","links":[{"title":"武器篇","href":"wwii_weapon"},{"title":"战场篇","href":"wwii_warfield"},{"title":"人事篇","href":"wwii_people"},{"title":"物事篇","href":"wwii_misc"}]};
-
-/***/ }),
-
-/***/ "./views/index.pug":
-/*!*************************!*\
-  !*** ./views/index.pug ***!
-  \*************************/
+/***/ "./views/jumpto.pug":
+/*!**************************!*\
+  !*** ./views/jumpto.pug ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (background, links, subtitle, title) {pug_html = pug_html + "\u003Cdiv class=\"container-fluid p-0\"\u003E\u003Cimg" + (" class=\"custom-index-wh\""+pug.attr("src", background, true, true)+" alt=\"index background\"") + "\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"container-fluid custom-index-wh custom-index-div-overlay d-flex justify-content-center align-items-center\"\u003E\u003Cdiv class=\"text-center\"\u003E\u003Ch1 class=\"text-light custom-text-shadow-2px\"\u003E" + (null == (pug_interp = title) ? "" : pug_interp) + "\u003C\u002Fh1\u003E\u003Ch2 class=\"text-light custom-text-shadow-1px\"\u003E" + (null == (pug_interp = subtitle) ? "" : pug_interp) + "\u003C\u002Fh2\u003E\u003Cdiv class=\"text-center p-5\"\u003E\u003Cnav class=\"nav\"\u003E";
-// iterate links
-;(function(){
-  var $$obj = links;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index0 = 0, $$l = $$obj.length; pug_index0 < $$l; pug_index0++) {
-        var linkitem = $$obj[pug_index0];
-if (linkitem.href == '' || linkitem.href == '###') {
-pug_html = pug_html + "\u003Ca class=\"nav-link disable\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
-}
-else {
-pug_html = pug_html + "\u003Ca" + (" class=\"nav-link custom-index-link custom-text-shadow-1px\""+pug.attr("href", linkitem.href + ".html", true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index0 in $$obj) {
-      $$l++;
-      var linkitem = $$obj[pug_index0];
-if (linkitem.href == '' || linkitem.href == '###') {
-pug_html = pug_html + "\u003Ca class=\"nav-link disable\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
-}
-else {
-pug_html = pug_html + "\u003Ca" + (" class=\"nav-link custom-index-link custom-text-shadow-1px\""+pug.attr("href", linkitem.href + ".html", true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
-}
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E";}.call(this,"background" in locals_for_with?locals_for_with.background:typeof background!=="undefined"?background:undefined,"links" in locals_for_with?locals_for_with.links:typeof links!=="undefined"?links:undefined,"subtitle" in locals_for_with?locals_for_with.subtitle:typeof subtitle!=="undefined"?subtitle:undefined,"title" in locals_for_with?locals_for_with.title:typeof title!=="undefined"?title:undefined));;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003Cscript\u003Ewindow.location.href = \"about.html\";\u003C\u002Fscript\u003E";;return pug_html;};
 module.exports = template;
 
 /***/ }),

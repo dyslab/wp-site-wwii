@@ -4,9 +4,17 @@ block content
   section#shortcut.custom-shortcut-style.pt-3.pb-3
     div.container
       div.row
+        div.col-12.pt-3.pb-3
+          nav.nav
+            each linkitem in body.countries
+              if linkitem.href == '' || linkitem.href == '###'
+                a.nav-link.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.name
+              else
+                a.nav-link(href=linkitem.href)= linkitem.name
+      div.row
         div.col-12.col-lg-10.pt-3.pb-3
           table.table.table-responsive
-            each item in body
+            each item in body.weapons
               if item.intro == '***'
                 tr
                   th.thead-light.custom-shortcut-category-color-1(scope="col", colspan="2")
@@ -30,7 +38,7 @@ block content
         div.d-none.d-lg-block.col-lg-2
           div.sticky-top.pt-3.pb-3
             div.list-group
-              each item in body
+              each item in body.weapons
                 if item.intro == '***'
                   a.list-group-item.list-group-item-action.custom-shortcut-menu-color-1.pl-2.pt-1.pb-1.pr-1(href="#" + item.link)!= item.title
                 else

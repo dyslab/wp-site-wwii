@@ -1,10 +1,25 @@
-[{
-  "title": "陆战武器", 
-  "link": "de_army"
-}, {
-  "title": "空战武器", 
-  "link": "de_airforce"
-}, {
-  "title": "海战武器", 
-  "link": "de_navy"
-}]
+{
+  "countries": [{
+    "name": "美国",
+    "code": "us"
+  }, {
+    "name": "英国",
+    "code": "uk"
+  }, {
+    "name": "苏联",
+    "code": "ru"
+  }, {
+    "name": "日本",
+    "code": "jp"
+  }],
+  "files":[{
+    "title": "陆战武器", 
+    "link": "de_army"
+  }, {
+    "title": "空战武器", 
+    "link": "de_airforce"
+  }, {
+    "title": "海战武器", 
+    "link": "de_navy"
+  }]
+}

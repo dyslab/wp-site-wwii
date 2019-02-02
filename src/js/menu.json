@@ -3,23 +3,19 @@
   "link": "index",
   "active": false
 }, {
-  "title": "陆战篇", 
+  "title": "陆战武器", 
   "link": "de_army",
   "active": false
 }, {
-  "title": "空战篇", 
+  "title": "空战武器", 
   "link": "de_airforce",
   "active": false
 }, {
-  "title": "海战篇", 
+  "title": "海战武器", 
   "link": "de_navy",
   "active": false
 }, {
   "title": "快捷目录", 
   "link": "de_shortcut",
-  "active": false
-}, {
-  "title": "关于我们", 
-  "link": "about",
   "active": false
 }]

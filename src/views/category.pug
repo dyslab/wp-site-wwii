@@ -3,7 +3,15 @@ extends body
 block content
   section#cat.custom-category-style.pt-3.pb-3
     div.container
-      each item in body
+      div.row
+        div.col-12.pt-3.pb-3
+          nav.nav
+            each linkitem in body.countries
+              if linkitem.href == '' || linkitem.href == '###'
+                a.nav-link.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.name
+              else
+                a.nav-link(href=linkitem.href)= linkitem.name
+      each item in body.weapons
         if item.intro == '###'
           div.row.pt-3.pb-3
             div.col-12.pt-3(id='#' + item.link)

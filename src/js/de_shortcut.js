@@ -14,24 +14,34 @@ const step = 1;
 const bodyJSON = [];
 var fdata = null;
 
-for (let no = 0; no < listJSON.length; no += step) {
+for (let no = 0; no < listJSON.files.length; no += step) {
   bodyJSON.push({
     intro: '***',
-    link: listJSON[no].link,
-    title: listJSON[no].title
+    link: listJSON.files[no].link,
+    title: listJSON.files[no].title
   });
 
   // eslint-disable-next-line global-require
-  fdata = require(`./${listJSON[no].link}.json`);
+  fdata = require(`./${listJSON.files[no].link}.json`);
 
   if (fdata && fdata !== null) {
-    for (let jno = 0; jno < fdata.length; jno += step) {
+    for (let jno = 0; jno < fdata.weapons.length; jno += step) {
       bodyJSON.push({
-        intro: fdata[jno].intro,
-        link: fdata[jno].link,
-        title: fdata[jno].model
+        intro: fdata.weapons[jno].intro,
+        link: fdata.weapons[jno].link,
+        title: fdata.weapons[jno].model
       });
     }
+  }
+}
+
+// Set countries link.
+var currect_countryid = pageID.slice(0,2)
+for(let no = 0; no < listJSON.countries.length; no++) {
+  if (listJSON.countries[no].code === currect_countryid) {
+    listJSON.countries[no].href = '###'
+  } else {
+    listJSON.countries[no].href = listJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html'
   }
 }
 
@@ -41,7 +51,7 @@ BaseIO.setMenuActiveItem(menuJSON, pageID);
 
 // Render pug file and output.
 document.write(template({
-  body: bodyJSON,
+  body: { countries: listJSON.countries, weapons: bodyJSON },
   footer: footerJSON,
   menu: menuJSON
 }));

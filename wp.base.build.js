@@ -8,6 +8,22 @@ const fileIDs = [
     title: '关于'
   },
   {
+    id: 'wwii_weapon',
+    title: '武器篇'
+  },
+  {
+    id: 'wwii_warfield',
+    title: '战场篇'
+  },
+  {
+    id: 'wwii_people',
+    title: '人事篇'
+  },
+  {
+    id: 'wwii_misc',
+    title: '物事篇'
+  },
+  {
     id: 'de_army',
     title: '陆战武器'
   },

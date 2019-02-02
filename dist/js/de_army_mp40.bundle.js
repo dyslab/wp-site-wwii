@@ -550,10 +550,10 @@ module.exposts = exports;
 /*!*****************************!*\
   !*** ./js/de_airforce.json ***!
   \*****************************/
-/*! exports provided: 0, 1, 2, 3, 4, default */
+/*! exports provided: countries, weapons, default */
 /***/ (function(module) {
 
-module.exports = [{"model":"战斗机","link":"de_airforce_fighter","image":"","intro":"###"},{"model":"Me262","link":"de_airforce_me262","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_airforce_me222","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"轰炸机","link":"de_airforce_bomber","image":"","intro":"###"},{"model":"其他机种","link":"de_airforce_others","image":"","intro":"###"}];
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"战斗机","link":"de_airforce_fighter","image":"","intro":"###"},{"model":"Me262","link":"de_airforce_me262","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_airforce_me222","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"轰炸机","link":"de_airforce_bomber","image":"","intro":"###"},{"model":"其他机种","link":"de_airforce_others","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -561,10 +561,10 @@ module.exports = [{"model":"战斗机","link":"de_airforce_fighter","image":"","
 /*!*************************!*\
   !*** ./js/de_army.json ***!
   \*************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, default */
+/*! exports provided: countries, weapons, default */
 /***/ (function(module) {
 
-module.exports = [{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"MP44","link":"de_army_mp44","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Tiger","link":"de_army_vi","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}];
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"MP40","link":"de_army_mp40","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"MP44","link":"de_army_mp44","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Tiger","link":"de_army_vi","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -627,10 +627,10 @@ module.exports = {"model":"MP40","category_name":"陆战武器","category_link":
 /*!*************************!*\
   !*** ./js/de_navy.json ***!
   \*************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/*! exports provided: countries, weapons, default */
 /***/ (function(module) {
 
-module.exports = [{"model":"潜艇","link":"de_navy_submarine","image":"","intro":"###"},{"model":"U-48","link":"de_navy_u48","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"航空母舰","link":"de_navy_carrier","image":"","intro":"###"},{"model":"水面舰艇","link":"de_navy_warship","image":"","intro":"###"}];
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"潜艇","link":"de_navy_submarine","image":"","intro":"###"},{"model":"U-48","link":"de_navy_u48","image":"imgs/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"航空母舰","link":"de_navy_carrier","image":"","intro":"###"},{"model":"水面舰艇","link":"de_navy_warship","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -638,10 +638,10 @@ module.exports = [{"model":"潜艇","link":"de_navy_submarine","image":"","intro
 /*!*****************************!*\
   !*** ./js/de_shortcut.json ***!
   \*****************************/
-/*! exports provided: 0, 1, 2, default */
+/*! exports provided: countries, files, default */
 /***/ (function(module) {
 
-module.exports = [{"title":"陆战武器","link":"de_army"},{"title":"空战武器","link":"de_airforce"},{"title":"海战武器","link":"de_navy"}];
+module.exports = {"countries":[{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"files":[{"title":"陆战武器","link":"de_army"},{"title":"空战武器","link":"de_airforce"},{"title":"海战武器","link":"de_navy"}]};
 
 /***/ }),
 
@@ -649,10 +649,10 @@ module.exports = [{"title":"陆战武器","link":"de_army"},{"title":"空战武�
 /*!************************!*\
   !*** ./js/footer.json ***!
   \************************/
-/*! exports provided: footersitelogo, footersitename, copyright, getintouchinfo, default */
+/*! exports provided: footersitelogo, footersitename, copyright, links, getintouchinfo, default */
 /***/ (function(module) {
 
-module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有，转载分享请注明出处。","getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
+module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-brand\">内容及版权申明</a>，转载分享请注明出处。","links":[{"title":"资源链接","href":""},{"title":"武器篇","href":"wwii_weapon.html"},{"title":"战场篇","href":"wwii_warfield.html"},{"title":"人事篇","href":"wwii_people.html"},{"title":"物事篇","href":"wwii_misc.html"}],"getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
 
 /***/ }),
 
@@ -660,10 +660,10 @@ module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事�
 /*!***********************!*\
   !*** ./js/index.json ***!
   \***********************/
-/*! exports provided: background, title, linktext, link, default */
+/*! exports provided: background, title, subtitle, links, default */
 /***/ (function(module) {
 
-module.exports = {"background":"imgs/index-bg.jpg","title":"欢迎来到战争天地","linktext":"二战德军武器系列","link":"about.html"};
+module.exports = {"background":"imgs/index-bg.jpg","title":"第二次世界大战 WWII","subtitle":"图史与纪实","links":[{"title":"武器篇","href":"wwii_weapon"},{"title":"战场篇","href":"wwii_warfield"},{"title":"人事篇","href":"wwii_people"},{"title":"物事篇","href":"wwii_misc"}]};
 
 /***/ }),
 
@@ -671,10 +671,10 @@ module.exports = {"background":"imgs/index-bg.jpg","title":"欢迎来到战争�
 /*!**********************!*\
   !*** ./js/menu.json ***!
   \**********************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/*! exports provided: 0, 1, 2, 3, 4, default */
 /***/ (function(module) {
 
-module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战篇","link":"de_army","active":false},{"title":"空战篇","link":"de_airforce","active":false},{"title":"海战篇","link":"de_navy","active":false},{"title":"快捷目录","link":"de_shortcut","active":false},{"title":"关于我们","link":"about","active":false}];
+module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战武器","link":"de_army","active":false},{"title":"空战武器","link":"de_airforce","active":false},{"title":"海战武器","link":"de_navy","active":false},{"title":"快捷目录","link":"de_shortcut","active":false}];
 
 /***/ }),
 
@@ -753,7 +753,7 @@ module.exports = template;
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (footer) {pug_html = pug_html + "\u003C!-- Page Footer Begin --\u003E\u003Cfooter class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-footer-bgcolor p-0 p-md-3\"\u003E\u003Cdiv class=\"container pt-5 pb-5\"\u003E\u003Cdiv class=\"d-flex justify-content-between row\"\u003E\u003Cdiv class=\"col-lg-4 col-12 order-md-12\"\u003E\u003Cdiv class=\"d-flex justify-content-start justify-content-md-end\"\u003E\u003Cspan class=\"list-social-links custom-footer-color custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.getintouchinfo.headline) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003Cdiv\u003E\u003Cul class=\"list-social-links justify-content-start justify-content-md-end\"\u003E";
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (footer) {pug_html = pug_html + "\u003C!-- Page Footer Begin --\u003E\u003Cfooter class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-footer-bgcolor p-0 p-md-3\"\u003E\u003Cdiv class=\"container pt-5 pb-5\"\u003E\u003Cdiv class=\"d-flex justify-content-between row\"\u003E\u003Cdiv class=\"col-lg-4 col-12 order-12\"\u003E\u003Cdiv class=\"d-flex justify-content-end pr-3\"\u003E\u003Cspan class=\"list-social-links custom-footer-color custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.getintouchinfo.headline) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003Cdiv\u003E\u003Cul class=\"list-social-links justify-content-end pr-3\"\u003E";
 // iterate footer.getintouchinfo.data
 ;(function(){
   var $$obj = footer.getintouchinfo.data;
@@ -772,7 +772,36 @@ pug_html = pug_html + "\u003Cli class=\"text-white\"\u003E\u003Ca" + (pug.attr("
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-md-8 col-12 custom-footer-color order-md-1\"\u003E\u003Cspan\u003E\u003Ca" + (" class=\"custom-footer-brand\""+" href=\"\u002F\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E\u003Cimg" + (" class=\"d-inline-block align-top\""+pug.attr("src", footer.footersitelogo, true, true)+" height=\"20\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E \u003Cspan class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.footersitename) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E \u003C\u002Fspan\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = footer.copyright) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Ffooter\u003E\u003C!-- Page Footer End --\u003E\n\u003C!-- Go to Top --\u003E\u003Ca class=\"js-go-to u-go-to\" href=\"javascript:;\" data-position=\"{&quot;bottom&quot;: 15, &quot;right&quot;: 15 }\" data-type=\"fixed\" data-offset-top=\"300\" data-compensation=\"#header\" data-show-effect=\"slideInUp\" data-hide-effect=\"slideOutDown\"\u003E\u003Cspan class=\"fa fa-arrow-up u-go-to__inner\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C!-- Note: Need to add script part below the body --\u003E\n\u003C!-- End Go to Top --\u003E";}.call(this,"footer" in locals_for_with?locals_for_with.footer:typeof footer!=="undefined"?footer:undefined));;return pug_html;};
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-md-8 col-12 custom-footer-color order-1\"\u003E\u003Cnav class=\"nav\"\u003E";
+// iterate footer.links
+;(function(){
+  var $$obj = footer.links;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
+        var linkitem = $$obj[pug_index1];
+if (linkitem.href == '' || linkitem.href == '###') {
+pug_html = pug_html + "\u003Ca class=\"nav-link custom-footer-link-size disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+else {
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link custom-footer-link-size\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index1 in $$obj) {
+      $$l++;
+      var linkitem = $$obj[pug_index1];
+if (linkitem.href == '' || linkitem.href == '###') {
+pug_html = pug_html + "\u003Ca class=\"nav-link custom-footer-link-size disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+else {
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link custom-footer-link-size\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"d-flex justify-content-center pt-3\"\u003E\u003Chr class=\"text-light\"\u003E\u003Cdiv class=\"col-12 text-center custom-footer-color\"\u003E\u003Cspan\u003E\u003Ca" + (" class=\"custom-footer-brand\""+" href=\"\u002F\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E\u003Cimg" + (" class=\"d-inline-block align-top\""+pug.attr("src", footer.footersitelogo, true, true)+" height=\"20\""+pug.attr("alt", footer.footersitename, true, true)) + "\u003E \u003Cspan class=\"custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = footer.footersitename) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E \u003C\u002Fspan\u003E\u003Cspan\u003E" + (null == (pug_interp = footer.copyright) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Ffooter\u003E\u003C!-- Page Footer End --\u003E\n\u003C!-- Go to Top --\u003E\u003Ca class=\"js-go-to u-go-to\" href=\"javascript:;\" data-position=\"{&quot;bottom&quot;: 15, &quot;right&quot;: 15 }\" data-type=\"fixed\" data-offset-top=\"300\" data-compensation=\"#header\" data-show-effect=\"slideInUp\" data-hide-effect=\"slideOutDown\"\u003E\u003Cspan class=\"fa fa-arrow-up u-go-to__inner\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C!-- Note: Need to add script part below the body --\u003E\n\u003C!-- End Go to Top --\u003E";}.call(this,"footer" in locals_for_with?locals_for_with.footer:typeof footer!=="undefined"?footer:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

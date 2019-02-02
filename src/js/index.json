@@ -1,6 +1,23 @@
 {
   "background": "imgs/index-bg.jpg",
-  "title": "欢迎来到战争天地",
-  "linktext": "二战德军武器系列",
-  "link": "about.html"
+  "title": "第二次世界大战 WWII",
+  "subtitle": "图史与纪实",
+  "links":  [
+    {
+      "title": "武器篇",
+      "href": "wwii_weapon"
+    },
+    {
+      "title": "战场篇",
+      "href": "wwii_warfield"
+    },
+    {
+      "title": "人事篇",
+      "href": "wwii_people"
+    },
+    {
+      "title": "物事篇",
+      "href": "wwii_misc"
+    }
+  ]
 }

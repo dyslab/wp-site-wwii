@@ -6,7 +6,13 @@ block content
   div.container-fluid.custom-index-wh.custom-index-div-overlay.d-flex.justify-content-center.align-items-center
     div.text-center
       h1.text-light.custom-text-shadow-2px!= title
-      a.custom-index-link(href=link) 
-        h5.custom-text-shadow-1px= linktext
+      h2.text-light.custom-text-shadow-1px!= subtitle
+      div.text-center.p-5
+        nav.nav
+          each linkitem in links
+            if linkitem.href == '' || linkitem.href == '###'
+              a.nav-link.disable(href="#", tabindex="-1", aria-disabled="true")= linkitem.title
+            else
+              a.nav-link.custom-index-link.custom-text-shadow-1px(href=linkitem.href + ".html")= linkitem.title
 
 block footer-scripts
