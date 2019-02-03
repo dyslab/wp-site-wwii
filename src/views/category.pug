@@ -5,25 +5,25 @@ block content
     div.container
       div.row
         div.col-12.pt-3.pb-3
-          nav.nav
+          nav.nav.justify-content-center
             each linkitem in body.countries
               if linkitem.href == '' || linkitem.href == '###'
                 a.nav-link.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.name
               else
                 a.nav-link(href=linkitem.href)= linkitem.name
-      each item in body.weapons
-        if item.intro == '###'
           div.row.pt-3.pb-3
-            div.col-12.pt-3(id='#' + item.link)
-              h5.font-weight-bold.custom-text-shadow-1px #{item.model}
-        else
-          a(href=item.link + '.html')
-            div.row.pt-3.pb-3
-              div.col-12.col-md-4.col-lg-5.pt-3
-                img.img-fluid.rounded(src=item.image, alt=item.model)
-              div.col-12.col-md-8.col-lg-7.pt-3
-                h5.font-weight-bold.custom-text-shadow-1px #{item.model}
-                span!= item.intro
+            each item in body.weapons
+              if item.intro == '###'
+                div.col-12.p-3.pl-md-5(id='#' + item.link)
+                  h5.font-weight-bold.custom-text-shadow-1px #{item.model}
+              else
+                div.col-12.col-lg-6.p-3.pl-md-5
+                  a(href=item.link + '.html')
+                    div.card
+                      img.card-img-top(src=item.image, alt=item.model)
+                      div.card-body
+                        h5.card-title.font-weight-bold.custom-text-shadow-1px #{item.model}
+                        p.card-text!= item.intro
 
 block footer-scripts
   script.

@@ -5,7 +5,7 @@ block content
     div.container
       div.row
         div.col-12.pt-3.pb-3
-          nav.nav
+          nav.nav.justify-content-center
             each linkitem in body.countries
               if linkitem.href == '' || linkitem.href == '###'
                 a.nav-link.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.name

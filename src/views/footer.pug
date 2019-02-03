@@ -16,12 +16,12 @@ footer.p-0
           nav.nav
             each linkitem in footer.links
               if linkitem.href == '' || linkitem.href == '###'
-                a.nav-link.custom-footer-link-size.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.title
+                a.nav-link.custom-footer-link-style.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.title
               else
-                a.nav-link.custom-footer-link-size(href=linkitem.href)= linkitem.title
+                a.nav-link.custom-footer-link-style(href=linkitem.href)= linkitem.title
       div.d-flex.justify-content-center.pt-3
-        hr.text-light
         div.col-12.text-center.custom-footer-color
+          hr.bg-secondary
           span
             a.custom-footer-brand(href="/", alt=footer.footersitename)
               img.d-inline-block.align-top(src=footer.footersitelogo, height="20", alt=footer.footersitename)

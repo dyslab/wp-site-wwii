@@ -23,17 +23,17 @@
   }, {
     "model": "U-48", 
     "link": "de_navy_u48",
-    "image": "imgs/de_army_mp44_01.jpg",
+    "image": "imgs/de/de_army_mp44_01.jpg",
     "intro": "MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"
   }, {
     "model": "U-47", 
     "link": "de_navy_u47",
-    "image": "imgs/de_army_mp40_01.jpg",
+    "image": "imgs/de/de_army_mp40_01.jpg",
     "intro": "MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"
   }, {
     "model": "U-49", 
     "link": "de_army_u49",
-    "image": "imgs/de_army_vi_01.jpg",
+    "image": "imgs/de/de_army_vi_01.jpg",
     "intro": "虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"
   }, {
     "model": "航空母舰", 

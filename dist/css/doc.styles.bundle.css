@@ -130,8 +130,15 @@
   color: rgb(255, 248, 154);
 }
 
-.custom-footer-link-size {
+.custom-footer-link-style {
   font-size: 1.25rem;
+  text-decoration: none;
+  color: rgb(82, 179, 62);
+}
+.custom-footer-link-style:hover {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: rgb(101, 216, 78);
 }
 
 .list-social-links {
