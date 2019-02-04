@@ -1,5 +1,9 @@
 const fileIDs = [
   {
+    id: 'include_all_css',
+    title: 'CSS文件集合'
+  },
+  {
     id: 'de_army_mp40',
     title: 'MP40'
   },

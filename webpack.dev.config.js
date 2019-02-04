@@ -1,8 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const devServer = require('./wp.base.config.js');
-const fileIDs = require('./wp.base.build.js');
+const devServer = require('./wp.config.js');
+const fileIDs = require('./wp.build.de.js');
 
 /*
  * ***************************************************************************
@@ -35,20 +35,23 @@ for (let no = 0; no < fileIDs.length; no += step) {
     epString += ',';
   }
 
-  tempObj[no] = new HtmlWebpackPlugin({
-    chunks: [
-      `${fileIDs[no].id}`,
-      'custom.styles'
-    ],
-    favicon: './favicon.ico',
-    filename: `./${fileIDs[no].id}.html`,
-    inject: 'body',
-    minify: false,
-    template: './views/template.pug',
-    title: `${fileIDs[no].title}`
-  });
-
-  plugins.push(tempObj[no]);
+  // Output js/html files excluding 'include_all_css'.
+  if (fileIDs[no].id !== 'include_all_css') {
+    tempObj[no] = new HtmlWebpackPlugin({
+      chunks: [
+        `${fileIDs[no].id}`,
+        'all.css'
+      ],
+      favicon: './favicon.ico',
+      filename: `./${fileIDs[no].id}.html`,
+      inject: 'body',
+      minify: false,
+      template: './views/template.pug',
+      title: `${fileIDs[no].title}`
+    });
+  
+    plugins.push(tempObj[no]);
+  }
 }
 
 const entry = JSON.parse(`{${epString}}`);
@@ -111,7 +114,7 @@ const optimization = {
       styles: {
         chunks: 'all',
         enforce: true,
-        name: 'custom.styles',
+        name: 'all.css',
         test: /\.css$/u
       }
     }

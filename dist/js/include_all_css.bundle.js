@@ -56,7 +56,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"about": 0
+/******/ 		"include_all_css": 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/about.js","all.css"]);
+/******/ 	deferredModules.push(["./js/include_all_css.js","all.css"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -492,6 +492,78 @@ webpackContext.id = "./css sync recursive ^\\.\\/.*\\.css$";
 
 /***/ }),
 
+/***/ "./js sync recursive ^.*.*$":
+/*!************************!*\
+  !*** ./js sync ^.*.*$ ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	".": "./js/index.js",
+	"./": "./js/index.js",
+	"./about": "./js/about.js",
+	"./about.js": "./js/about.js",
+	"./about.json": "./js/about.json",
+	"./base": "./js/base.js",
+	"./base.js": "./js/base.js",
+	"./de_airforce": "./js/de_airforce.js",
+	"./de_airforce.js": "./js/de_airforce.js",
+	"./de_airforce.json": "./js/de_airforce.json",
+	"./de_army": "./js/de_army.js",
+	"./de_army.js": "./js/de_army.js",
+	"./de_army.json": "./js/de_army.json",
+	"./de_army_mp40": "./js/de_army_mp40.js",
+	"./de_army_mp40.js": "./js/de_army_mp40.js",
+	"./de_army_mp40.json": "./js/de_army_mp40.json",
+	"./de_navy": "./js/de_navy.js",
+	"./de_navy.js": "./js/de_navy.js",
+	"./de_navy.json": "./js/de_navy.json",
+	"./de_shortcut": "./js/de_shortcut.js",
+	"./de_shortcut.js": "./js/de_shortcut.js",
+	"./de_shortcut.json": "./js/de_shortcut.json",
+	"./footer": "./js/footer.json",
+	"./footer.json": "./js/footer.json",
+	"./include_all_css": "./js/include_all_css.js",
+	"./include_all_css.js": "./js/include_all_css.js",
+	"./index": "./js/index.js",
+	"./index.js": "./js/index.js",
+	"./index.json": "./js/index.json",
+	"./menu": "./js/menu.json",
+	"./menu.json": "./js/menu.json",
+	"./wwii_misc": "./js/wwii_misc.js",
+	"./wwii_misc.js": "./js/wwii_misc.js",
+	"./wwii_people": "./js/wwii_people.js",
+	"./wwii_people.js": "./js/wwii_people.js",
+	"./wwii_warfield": "./js/wwii_warfield.js",
+	"./wwii_warfield.js": "./js/wwii_warfield.js",
+	"./wwii_weapon": "./js/wwii_weapon.js",
+	"./wwii_weapon.js": "./js/wwii_weapon.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./js sync recursive ^.*.*$";
+
+/***/ }),
+
 /***/ "./js sync recursive ^\\.\\/.*\\.json$":
 /*!********************************!*\
   !*** ./js sync ^\.\/.*\.json$ ***!
@@ -628,6 +700,61 @@ module.exposts = exports;
 
 /***/ }),
 
+/***/ "./js/de_airforce.js":
+/*!***************************!*\
+  !*** ./js/de_airforce.js ***!
+  \***************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/category.css */ "./css/category.css");
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_category_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-unused-vars */
+
+
+
+
+
+
+const pageID = 'de_airforce';
+
+var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set countries link.
+
+
+var currect_countryid = pageID.slice(0, 2);
+
+for (let no = 0; no < bodyJSON.countries.length; no++) {
+  if (bodyJSON.countries[no].code === currect_countryid) {
+    bodyJSON.countries[no].href = '###';
+  } else {
+    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+  }
+} // Set header and footer
+
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
+
+document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+  body: bodyJSON,
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
+}));
+
+/***/ }),
+
 /***/ "./js/de_airforce.json":
 /*!*****************************!*\
   !*** ./js/de_airforce.json ***!
@@ -636,6 +763,61 @@ module.exposts = exports;
 /***/ (function(module) {
 
 module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"战斗机","link":"de_airforce_fighter","image":"","intro":"###"},{"model":"Me262","link":"de_airforce_me262","image":"imgs/de/de_army_mp44_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_airforce_me222","image":"imgs/de/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"轰炸机","link":"de_airforce_bomber","image":"","intro":"###"},{"model":"其他机种","link":"de_airforce_others","image":"","intro":"###"}]};
+
+/***/ }),
+
+/***/ "./js/de_army.js":
+/*!***********************!*\
+  !*** ./js/de_army.js ***!
+  \***********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/category.css */ "./css/category.css");
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_category_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-unused-vars */
+
+
+
+
+
+
+const pageID = 'de_army';
+
+var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set countries link.
+
+
+var currect_countryid = pageID.slice(0, 2);
+
+for (let no = 0; no < bodyJSON.countries.length; no++) {
+  if (bodyJSON.countries[no].code === currect_countryid) {
+    bodyJSON.countries[no].href = '###';
+  } else {
+    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+  }
+} // Set header and footer
+
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
+
+document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+  body: bodyJSON,
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
+}));
 
 /***/ }),
 
@@ -650,6 +832,50 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 
 /***/ }),
 
+/***/ "./js/de_army_mp40.js":
+/*!****************************!*\
+  !*** ./js/de_army_mp40.js ***!
+  \****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_document_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/document.css */ "./css/document.css");
+/* harmony import */ var _css_document_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_document_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/document.pug */ "./views/document.pug");
+/* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_document_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-unused-vars */
+
+
+
+
+
+
+const pageID = 'de_army_mp40';
+
+var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set header and footer
+
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
+
+document.write(_views_document_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+  body: bodyJSON,
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
+}));
+
+/***/ }),
+
 /***/ "./js/de_army_mp40.json":
 /*!******************************!*\
   !*** ./js/de_army_mp40.json ***!
@@ -661,6 +887,61 @@ module.exports = {"model":"MP40","category_name":"陆战武器","category_link":
 
 /***/ }),
 
+/***/ "./js/de_navy.js":
+/*!***********************!*\
+  !*** ./js/de_navy.js ***!
+  \***********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/category.css */ "./css/category.css");
+/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_category_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-unused-vars */
+
+
+
+
+
+
+const pageID = 'de_navy';
+
+var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set countries link.
+
+
+var currect_countryid = pageID.slice(0, 2);
+
+for (let no = 0; no < bodyJSON.countries.length; no++) {
+  if (bodyJSON.countries[no].code === currect_countryid) {
+    bodyJSON.countries[no].href = '###';
+  } else {
+    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+  }
+} // Set header and footer
+
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
+
+document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+  body: bodyJSON,
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
+}));
+
+/***/ }),
+
 /***/ "./js/de_navy.json":
 /*!*************************!*\
   !*** ./js/de_navy.json ***!
@@ -669,6 +950,89 @@ module.exports = {"model":"MP40","category_name":"陆战武器","category_link":
 /***/ (function(module) {
 
 module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"潜艇","link":"de_navy_submarine","image":"","intro":"###"},{"model":"U-48","link":"de_navy_u48","image":"imgs/de/de_army_mp44_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de/de_army_mp40_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de/de_army_vi_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"航空母舰","link":"de_navy_carrier","image":"","intro":"###"},{"model":"水面舰艇","link":"de_navy_warship","image":"","intro":"###"}]};
+
+/***/ }),
+
+/***/ "./js/de_shortcut.js":
+/*!***************************!*\
+  !*** ./js/de_shortcut.js ***!
+  \***************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_shortcut_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/shortcut.css */ "./css/shortcut.css");
+/* harmony import */ var _css_shortcut_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_shortcut_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_shortcut_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/shortcut.pug */ "./views/shortcut.pug");
+/* harmony import */ var _views_shortcut_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_shortcut_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-unused-vars */
+
+
+
+
+
+
+const pageID = 'de_shortcut';
+
+const listJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Read list
+
+
+const step = 1;
+const bodyJSON = [];
+var fdata = null;
+
+for (let no = 0; no < listJSON.files.length; no += step) {
+  bodyJSON.push({
+    intro: '***',
+    link: listJSON.files[no].link,
+    title: listJSON.files[no].title
+  }); // eslint-disable-next-line global-require
+
+  fdata = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${listJSON.files[no].link}.json`);
+
+  if (fdata && fdata !== null) {
+    for (let jno = 0; jno < fdata.weapons.length; jno += step) {
+      bodyJSON.push({
+        intro: fdata.weapons[jno].intro,
+        link: fdata.weapons[jno].link,
+        title: fdata.weapons[jno].model
+      });
+    }
+  }
+} // Set countries link.
+
+
+var currect_countryid = pageID.slice(0, 2);
+
+for (let no = 0; no < listJSON.countries.length; no++) {
+  if (listJSON.countries[no].code === currect_countryid) {
+    listJSON.countries[no].href = '###';
+  } else {
+    listJSON.countries[no].href = listJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+  }
+} // Set header and footer
+
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
+
+document.write(_views_shortcut_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+  body: {
+    countries: listJSON.countries,
+    weapons: bodyJSON
+  },
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
+}));
 
 /***/ }),
 
@@ -694,6 +1058,44 @@ module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事�
 
 /***/ }),
 
+/***/ "./js/include_all_css.js":
+/*!*******************************!*\
+  !*** ./js/include_all_css.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// All CSS files listed below.
+const csspath = '../css/';
+const cssfiles = ['about.css', 'base.css', 'category.css', 'document.css', 'index.css', 'shortcut.css', 'wwii.css'];
+let cssObjs = [];
+
+for (let no = 0; no < cssfiles.length; no++) {
+  cssObjs[no] = __webpack_require__("./js sync recursive ^.*.*$")(`${csspath}${cssfiles[no]}`);
+}
+
+/***/ }),
+
+/***/ "./js/index.js":
+/*!*********************!*\
+  !*** ./js/index.js ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-unused-vars */
+var baseCSS = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+
+var indexCSS = __webpack_require__(/*! ../css/index.css */ "./css/index.css");
+
+var template = __webpack_require__(/*! ../views/index.pug */ "./views/index.pug");
+
+var indexJSON = __webpack_require__(/*! ./index.json */ "./js/index.json");
+
+document.write(template(indexJSON));
+
+/***/ }),
+
 /***/ "./js/index.json":
 /*!***********************!*\
   !*** ./js/index.json ***!
@@ -713,6 +1115,74 @@ module.exports = {"background":"imgs/index-bg.jpg","title":"第二次世界大�
 /***/ (function(module) {
 
 module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战武器","link":"de_army","active":false},{"title":"空战武器","link":"de_airforce","active":false},{"title":"海战武器","link":"de_navy","active":false},{"title":"快捷目录","link":"de_shortcut","active":false}];
+
+/***/ }),
+
+/***/ "./js/wwii_misc.js":
+/*!*************************!*\
+  !*** ./js/wwii_misc.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-unused-vars */
+const pageID = 'wwii_misc';
+
+var template = __webpack_require__(/*! ../views/jumpto.pug */ "./views/jumpto.pug"); // Render pug file and output.
+
+
+document.write(template());
+
+/***/ }),
+
+/***/ "./js/wwii_people.js":
+/*!***************************!*\
+  !*** ./js/wwii_people.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-unused-vars */
+const pageID = 'wwii_people';
+
+var template = __webpack_require__(/*! ../views/jumpto.pug */ "./views/jumpto.pug"); // Render pug file and output.
+
+
+document.write(template());
+
+/***/ }),
+
+/***/ "./js/wwii_warfield.js":
+/*!*****************************!*\
+  !*** ./js/wwii_warfield.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-unused-vars */
+const pageID = 'wwii_warfield';
+
+var template = __webpack_require__(/*! ../views/jumpto.pug */ "./views/jumpto.pug"); // Render pug file and output.
+
+
+document.write(template());
+
+/***/ }),
+
+/***/ "./js/wwii_weapon.js":
+/*!***************************!*\
+  !*** ./js/wwii_weapon.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-unused-vars */
+const pageID = 'wwii_weapon';
+
+var template = __webpack_require__(/*! ../views/jumpto.pug */ "./views/jumpto.pug"); // Render pug file and output.
+
+
+document.write(template());
 
 /***/ }),
 

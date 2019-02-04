@@ -5,7 +5,7 @@ const express = require('express');
 // const webpack = require('webpack');
 // const webpackDevMiddleware =  require('webpack-dev-middleware');
 // const webpackConfig = require('./webpack.config');
-const config = require('./wp.base.config.js');
+const config = require('./wp.config.js');
 const app = express();
 
 // app.use(webpackDevMiddleware(webpack(webpackConfig)));
