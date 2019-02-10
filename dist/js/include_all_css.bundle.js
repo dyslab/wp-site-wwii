@@ -721,6 +721,14 @@ var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack
 var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
 /* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
 /* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable max-len */
+
+/* eslint-disable no-plusplus */
+
+/* eslint-disable no-magic-numbers */
+
+/* eslint-disable camelcase */
+
 /* eslint-disable no-unused-vars */
 
 
@@ -739,7 +747,7 @@ for (let no = 0; no < bodyJSON.countries.length; no++) {
   if (bodyJSON.countries[no].code === currect_countryid) {
     bodyJSON.countries[no].href = '###';
   } else {
-    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+    bodyJSON.countries[no].href = `${bodyJSON.countries[no].code + pageID.replace(currect_countryid, '')}.html`;
   }
 } // Set header and footer
 
@@ -787,6 +795,14 @@ var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack
 var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
 /* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
 /* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable max-len */
+
+/* eslint-disable no-plusplus */
+
+/* eslint-disable no-magic-numbers */
+
+/* eslint-disable camelcase */
+
 /* eslint-disable no-unused-vars */
 
 
@@ -805,7 +821,7 @@ for (let no = 0; no < bodyJSON.countries.length; no++) {
   if (bodyJSON.countries[no].code === currect_countryid) {
     bodyJSON.countries[no].href = '###';
   } else {
-    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+    bodyJSON.countries[no].href = `${bodyJSON.countries[no].code + pageID.replace(currect_countryid, '')}.html`;
   }
 } // Set header and footer
 
@@ -908,6 +924,14 @@ var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack
 var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
 /* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
 /* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-plusplus */
+
+/* eslint-disable no-magic-numbers */
+
+/* eslint-disable camelcase */
+
+/* eslint-disable max-len */
+
 /* eslint-disable no-unused-vars */
 
 
@@ -926,7 +950,7 @@ for (let no = 0; no < bodyJSON.countries.length; no++) {
   if (bodyJSON.countries[no].code === currect_countryid) {
     bodyJSON.countries[no].href = '###';
   } else {
-    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+    bodyJSON.countries[no].href = `${bodyJSON.countries[no].code + pageID.replace(currect_countryid, '')}.html`;
   }
 } // Set header and footer
 

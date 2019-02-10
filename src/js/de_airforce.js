@@ -1,3 +1,7 @@
+/* eslint-disable max-len */
+/* eslint-disable no-plusplus */
+/* eslint-disable no-magic-numbers */
+/* eslint-disable camelcase */
 /* eslint-disable no-unused-vars */
 import BaseIO from './base.js';
 import baseCSS from '../css/base.css';
@@ -10,12 +14,13 @@ const pageID = 'de_airforce';
 var bodyJSON = require(`./${pageID}.json`);
 
 // Set countries link.
-var currect_countryid = pageID.slice(0,2)
-for(let no = 0; no < bodyJSON.countries.length; no++) {
+var currect_countryid = pageID.slice(0, 2);
+
+for (let no = 0; no < bodyJSON.countries.length; no++) {
   if (bodyJSON.countries[no].code === currect_countryid) {
-    bodyJSON.countries[no].href = '###'
+    bodyJSON.countries[no].href = '###';
   } else {
-    bodyJSON.countries[no].href = bodyJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html'
+    bodyJSON.countries[no].href = `${bodyJSON.countries[no].code + pageID.replace(currect_countryid, '')}.html`;
   }
 }
 
