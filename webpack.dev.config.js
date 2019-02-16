@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const devServer = require('./wp.config.js');
-const fileIDs = require('./wp.build.de.js');
+const fileIDs = require('./wp.build.weapon.de.js');
 
 /*
  * ***************************************************************************
@@ -49,7 +49,7 @@ for (let no = 0; no < fileIDs.length; no += step) {
       template: './views/template.pug',
       title: `${fileIDs[no].title}`
     });
-  
+
     plugins.push(tempObj[no]);
   }
 }
