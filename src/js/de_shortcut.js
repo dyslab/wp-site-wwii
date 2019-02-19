@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import BaseIO from './base.js';
 import baseCSS from '../css/base.css';
 import bodyCSS from '../css/shortcut.css';
@@ -13,6 +14,7 @@ const listJSON = require(`./${pageID}.json`);
 const step = 1;
 const bodyJSON = [];
 var fdata = null;
+var currectcountryid = '';
 
 for (let no = 0; no < listJSON.files.length; no += step) {
   bodyJSON.push({
@@ -36,12 +38,15 @@ for (let no = 0; no < listJSON.files.length; no += step) {
 }
 
 // Set countries link.
-var currect_countryid = pageID.slice(0,2)
-for(let no = 0; no < listJSON.countries.length; no++) {
-  if (listJSON.countries[no].code === currect_countryid) {
-    listJSON.countries[no].href = '###'
+// eslint-disable-next-line no-magic-numbers
+currectcountryid = pageID.slice(0, 2);
+
+for (let no = 0; no < listJSON.countries.length; no++) {
+  if (listJSON.countries[no].code === currectcountryid) {
+    listJSON.countries[no].href = '###';
   } else {
-    listJSON.countries[no].href = listJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html'
+    listJSON.countries[no].href = `${listJSON.countries[no].code +
+      pageID.replace(currectcountryid, '')}.html`;
   }
 }
 
@@ -51,7 +56,8 @@ BaseIO.setMenuActiveItem(menuJSON, pageID);
 
 // Render pug file and output.
 document.write(template({
-  body: { countries: listJSON.countries, weapons: bodyJSON },
+  body: { countries: listJSON.countries,
+weapons: bodyJSON },
   footer: footerJSON,
   menu: menuJSON
 }));

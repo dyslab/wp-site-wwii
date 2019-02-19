@@ -475,13 +475,12 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
+	if(!__webpack_require__.o(map, req)) {
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return id;
+	return map[req];
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
@@ -547,13 +546,12 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
+	if(!__webpack_require__.o(map, req)) {
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return id;
+	return map[req];
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
@@ -589,13 +587,12 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
+	if(!__webpack_require__.o(map, req)) {
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return id;
+	return map[req];
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
@@ -1000,6 +997,8 @@ var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_r
 /* harmony import */ var _views_shortcut_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_shortcut_pug__WEBPACK_IMPORTED_MODULE_5__);
 /* eslint-disable no-unused-vars */
 
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
+
 
 
 
@@ -1013,6 +1012,7 @@ const listJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`.
 const step = 1;
 const bodyJSON = [];
 var fdata = null;
+var currectcountryid = '';
 
 for (let no = 0; no < listJSON.files.length; no += step) {
   bodyJSON.push({
@@ -1033,15 +1033,16 @@ for (let no = 0; no < listJSON.files.length; no += step) {
     }
   }
 } // Set countries link.
+// eslint-disable-next-line no-magic-numbers
 
 
-var currect_countryid = pageID.slice(0, 2);
+currectcountryid = pageID.slice(0, 2);
 
 for (let no = 0; no < listJSON.countries.length; no++) {
-  if (listJSON.countries[no].code === currect_countryid) {
+  if (listJSON.countries[no].code === currectcountryid) {
     listJSON.countries[no].href = '###';
   } else {
-    listJSON.countries[no].href = listJSON.countries[no].code + pageID.replace(currect_countryid, '') + '.html';
+    listJSON.countries[no].href = `${listJSON.countries[no].code + pageID.replace(currectcountryid, '')}.html`;
   }
 } // Set header and footer
 
@@ -1237,13 +1238,12 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
+	if(!__webpack_require__.o(map, req)) {
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return id;
+	return map[req];
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);

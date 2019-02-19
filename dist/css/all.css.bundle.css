@@ -240,6 +240,10 @@ span.list-social-links {
   color: rgb(29, 16, 218)
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .custom-shortcut-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
