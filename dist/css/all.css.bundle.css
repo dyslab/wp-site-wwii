@@ -175,29 +175,6 @@ span.list-social-links {
   line-height: 2rem;
 }
 
-.custom-index-wh {
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.custom-index-div-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 11;
-}
-
-.custom-index-link {
-  font-size: 1.2em;
-  color: rgb(200, 243, 196)
-}
-.custom-index-link:hover {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: rgb(248, 187, 19)
-}
-
 .custom-about-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
@@ -226,6 +203,29 @@ span.list-social-links {
   color: rgb(218, 56, 16)
 }
 
+.custom-index-wh {
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.custom-index-div-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 11;
+}
+
+.custom-index-link {
+  font-size: 1.2em;
+  color: rgb(200, 243, 196)
+}
+.custom-index-link:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(248, 187, 19)
+}
+
 .custom-document-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
@@ -240,8 +240,21 @@ span.list-social-links {
   color: rgb(29, 16, 218)
 }
 
+.custom-document-content p,
+p.custom-document-paragraph-start-space {
+  text-indent: 2em;
+}
+.custom-document-content h6 {
+  line-height: 2rem;
+  font-weight: bold;
+}
+
 body {
   scroll-behavior: smooth;
+}
+
+td.custom-nowrap {
+  white-space: nowrap;
 }
 
 .custom-shortcut-style {

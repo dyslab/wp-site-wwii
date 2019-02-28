@@ -1,7 +1,7 @@
 extends body
 
 block content
-  section#doc.custom-document-style.pt-3.pb-3
+  section#doc.custom-document-style.pt-5.pb-5
     div.container
       nav(aria-label="breadcrumb")
         ol.breadcrumb.custom-document-style
@@ -15,15 +15,54 @@ block content
           span.h3.font-weight-bold.custom-text-shadow-2px= body.model
       div.row
         div.col
-          span.font-weight-bold!= body.description
+          div.p-3
+          span.custom-document-content!= body.description
+          div.p-3
       div.row
         div.col
-          each item in body.content
+          span.h3.custom-text-shadow-1px!= body.part1title
+          div.p-3
+      if body.part1description != ''
+        div.row
+          div.col
+            span.custom-document-content!= body.part1description
+            div.p-3
+      each p1item in body.part1content
+        div.row.pb-3
+          div.col-lg-7.order-1.order-lg-0
             figure.figure
-              img.figure-img.img-fluid.rounded(src=item.image)
-              figcaption.figure-caption.text-center= item.caption
+              img.figure-img.img-fluid.rounded(src=p1item.image)
+              figcaption.figure-caption= p1item.caption
+          div.col-lg-5.order-0.order-lg-1
+            span.custom-document-content!= p1item.description
+      div.row
+        div.col
+          div.p-3
+          span.h3.custom-text-shadow-1px!= body.part2title
+          div.p-3
+      if body.part2description != ''
+        div.row
+          div.col
+            span.custom-document-content!= body.part2description
+            div.p-3
+      div.row
+        each p2item in body.part2content
+          div.col-md-6.pt-3
+            div.card
+              div.card-body
+                div.card-img
+                  a.mfp-image-link(href=p2item.image, title=p2item.description)
+                    figure.figure
+                      img.figure-img.img-fluid.rounded(src=p2item.image)
+                      figcaption.figure-caption= p2item.caption
+                span.card-text.custom-document-content!= p2item.description
 
 block footer-scripts
+  script(src="./common/js/jquery.magnific-popup.min.js")
   script.
     $(document).ready(function() {
-    }
+      $(".mfp-image-link").magnificPopup({
+        type: "image",
+        closeOnContentClick: true
+      });
+    });

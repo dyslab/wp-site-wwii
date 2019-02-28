@@ -9,7 +9,7 @@ const fileIDs = [
   },
   {
     id: 'about',
-    title: '关于'
+    title: '关于本站'
   },
   {
     id: 'wwii_weapon',

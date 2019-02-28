@@ -2,6 +2,10 @@ body {
   scroll-behavior: smooth;
 }
 
+td.custom-nowrap {
+  white-space: nowrap;
+}
+
 .custom-shortcut-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;

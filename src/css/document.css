@@ -11,3 +11,12 @@
   text-decoration: none;
   color: rgb(29, 16, 218)
 }
+
+.custom-document-content p,
+p.custom-document-paragraph-start-space {
+  text-indent: 2em;
+}
+.custom-document-content h6 {
+  line-height: 2rem;
+  font-weight: bold;
+}
