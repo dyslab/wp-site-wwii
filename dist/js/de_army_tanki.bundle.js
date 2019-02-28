@@ -573,10 +573,10 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 /*!******************************!*\
   !*** ./js/de_army_mp40.json ***!
   \******************************/
-/*! exports provided: model, category_name, category_link, category2_name, category2_link, description, content, default */
+/*! exports provided: model, category_name, category_link, category2_name, category2_link, description, part1content, default */
 /***/ (function(module) {
 
-module.exports = {"model":"MP40","category_name":"陆战武器","category_link":"de_army","category2_name":"单兵装备","category2_link":"de_army_personnelequipment","description":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。","content":[{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"}]};
+module.exports = {"model":"MP40","category_name":"陆战武器","category_link":"de_army","category2_name":"单兵装备","category2_link":"de_army_personnelequipment","description":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。","part1content":[{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"image":"imgs/de/de_army_mp40_01.jpg","caption":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"}]};
 
 /***/ }),
 
@@ -675,7 +675,7 @@ module.exports = {"countries":[{"name":"美国","code":"us"},{"name":"英国","c
 /*! exports provided: footersitelogo, footersitename, copyright, links, getintouchinfo, default */
 /***/ (function(module) {
 
-module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-brand\">内容及版权申明</a>，转载分享请注明出处。","links":[{"title":"资源链接","href":""},{"title":"武器篇","href":"wwii_weapon.html"},{"title":"战场篇","href":"wwii_warfield.html"},{"title":"人事篇","href":"wwii_people.html"},{"title":"物事篇","href":"wwii_misc.html"}],"getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
+module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-brand\">内容及版权申明</a>，转载分享请注明出处。Deployed by <a href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.","links":[{"title":"资源链接","href":""},{"title":"武器篇","href":"wwii_weapon.html"},{"title":"战场篇","href":"wwii_warfield.html"},{"title":"人事篇","href":"wwii_people.html"},{"title":"物事篇","href":"wwii_misc.html"}],"getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
 
 /***/ }),
 

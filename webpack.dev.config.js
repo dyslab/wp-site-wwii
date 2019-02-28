@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const devServer = require('./wp.config.js');
+// eslint-disable-next-line capitalized-comments
+// const fileIDs = require('./wp.build.base.js');
+// eslint-disable-next-line capitalized-comments
 const fileIDs = require('./wp.build.weapon.de.js');
 
 /*
