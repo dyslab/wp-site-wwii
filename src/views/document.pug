@@ -5,10 +5,12 @@ block content
     div.container
       nav(aria-label="breadcrumb")
         ol.breadcrumb.custom-document-style
-          li.breadcrumb-item
-            a(href=body.category_link + ".html")= body.category_name
-          li.breadcrumb-item
-            a(href=body.category_link + ".html#" + body.category2_link)= body.category2_name
+          each catitem in body.category
+            li.breadcrumb-item
+              if catitem.link.search(/#/iu) >= 0
+                a(href=catitem.link.replace(/#/iu, '.html#'))= catitem.name
+              else
+                a(href=catitem.link + '.html')= catitem.name
           li.breadcrumb-item.active(aria-current="page")=body.model
       div.row
         div.col.text-center

@@ -1,5 +1,8 @@
 {
   "countries": [{
+    "name": "德国",
+    "code": "de"
+  }, {
     "name": "美国",
     "code": "us"
   }, {

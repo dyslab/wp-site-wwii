@@ -1,9 +1,15 @@
 {
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "坦克",
+    "link": "de_army#de_army_tank"  
+  }],
   "model": "Ⅱ号坦克", 
-  "category_name": "陆战武器",
-  "category_link": "de_army",
-  "category2_name": "坦克",
-  "category2_link": "de_army_tank",
   "description": "<h6>综述：</h6><p>Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型（VK.1301）。</p><p>Ⅱ号坦克有三名乘员，驾驶员在车体，车长和装填手在炮塔，他们和驾驶员用通信管沟通；坦克内装有FUG型无线电。</p>",
   "part1title": "系列型号",
   "part1description": "",
@@ -76,7 +82,7 @@
     "caption": ""
   }, {
     "image": "imgs/de/de_army_tankii_35.jpg",
-    "description": "一辆行进在村庄路上的Ⅱ号C型坦克编队。",
+    "description": "一列行进在村庄路上的Ⅱ号C型坦克编队。",
     "caption": ""
   }, {
     "image": "imgs/de/de_army_tankii_36.jpg",
