@@ -56,7 +56,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"de_airforce": 0
+/******/ 		"de_army_tankiii": 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -147,7 +147,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/de_airforce.js","all.css"]);
+/******/ 	deferredModules.push(["./js/de_army_tankiii.js","all.css"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -548,69 +548,6 @@ module.exposts = exports;
 
 /***/ }),
 
-/***/ "./js/de_airforce.js":
-/*!***************************!*\
-  !*** ./js/de_airforce.js ***!
-  \***************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
-/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
-/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/category.css */ "./css/category.css");
-/* harmony import */ var _css_category_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_category_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
-var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
-/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
-var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
-/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
-/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_5__);
-/* eslint-disable max-len */
-
-/* eslint-disable no-plusplus */
-
-/* eslint-disable no-magic-numbers */
-
-/* eslint-disable camelcase */
-
-/* eslint-disable no-unused-vars */
-
-
-
-
-
-
-const pageID = 'de_airforce';
-
-var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set countries link.
-
-
-var currect_countryid = pageID.slice(0, 2);
-
-for (let no = 0; no < bodyJSON.countries.length; no++) {
-  if (bodyJSON.countries[no].code === currect_countryid) {
-    bodyJSON.countries[no].href = '###';
-  } else {
-    bodyJSON.countries[no].href = `${bodyJSON.countries[no].code + pageID.replace(currect_countryid, '')}.html`;
-  }
-} // Set header and footer
-
-
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
-
-document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_5___default()({
-  body: bodyJSON,
-  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
-  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
-}));
-
-/***/ }),
-
 /***/ "./js/de_airforce.json":
 /*!*****************************!*\
   !*** ./js/de_airforce.json ***!
@@ -663,6 +600,50 @@ module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"�
 /***/ (function(module) {
 
 module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅱ号坦克","description":"<h6>综述：</h6><p>Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型（VK.1301）。</p><p>Ⅱ号坦克有三名乘员，驾驶员在车体，车长和装填手在炮塔，他们和驾驶员用通信管沟通；坦克内装有FUG型无线电。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/de_army_tankii_11.jpg","description":"<h6>Ⅱ号b型坦克（Sd.Kfz.121 Pz.Kpfw Ⅱ Ausf.B)</h6><p>Ⅱ号B型坦克属轻型坦克</p><p>车重8.9t，长4.8m，宽2.21m，高1.98m，装甲厚度为5-14.5mm，发动机为135马力，车速40km/h，行程200km；武器装备为1门20mm口径的Kwk30坦克炮，1挺MG34机枪。</p><p>Ⅱ号B型坦克从1937年12月开始生产，一共生产了约100辆。</p>","caption":"外形特点：悬挂系统内6个小负重轮轮用一条钢梁组合。另外，炮塔后部车体上有一凹位。"},{"image":"imgs/de/de_army_tankii_12.jpg","description":"<h6>Ⅱ号C型坦克（Sd.Kfz.121 Pz.Kpfw Ⅱ Ausf.C)</h6><p>Ⅱ号C型坦克属轻型坦克</p><p>该型坦克车重增至9.5t，悬挂系统改为由5个中型独立的负重轮组成，其它结构、参数与Ⅱ号B型坦克基本相同。Ⅱ号C型坦克从1938年6月开始大规模生产，至1940年4月一共生产了约1000辆。</p><p>这是德军在二战初期投入战斗最多的坦克。</p>","caption":"外形特点：悬挂系统内由5个中型独立的负重轮组成。另炮塔后部车体上也有一凹位。"},{"image":"imgs/de/de_army_tankii_13.jpg","description":"<h6>Ⅱ号D/E型坦克（Sd.Kfz.121 Pz.Kpfw Ⅱ Ausf.D/E)</h6><p>Ⅱ号D/E型坦克属快速轻型攻击坦克</p><p>车重10t，长4.6m，宽2.22m，高2m，装甲厚度为5-30mm，发动机为140马力，车速56m/h，行程200km；武器装备为1门20mm口径的Kwk L/35坦克炮，1挺MG34机枪。</p><p>它的悬挂系统内是4个双轮缘的大直径负重轮。原本用来装备轻装甲部队，但最后只生产了不到50辆。</p><p>Ⅱ号D/E型坦克主要装备于德军第2轻装师第66装甲营和第4轻装师第33装甲营。1940年3月起全部改装为喷火坦克。</p>","caption":"外形特点：悬挂系统内有4个大口径、独立的负重轮。"},{"image":"imgs/de/de_army_tankii_14.jpg","description":"<h6>Ⅱ号F型坦克（Sd.Kfz.121 Pz.Kpfw Ⅱ Aust.F）</h6><p>Ⅱ号F型坦克属轻型坦克</p><p>车重9.5t，长4.8m，宽2.21m，高2.18m，装甲厚度提高为15-35mm，发动机为135马力，车速40m/h，行程200km；武器装备为1门20mm口径的Kwk L/35坦克炮和1挺MG34机枪。</p><p>Ⅱ号F型坦克重新设计了指挥塔，从1941年3月开始生产，至1942年12月共生产了524辆，尽管此坦克在东线战场上面对苏军坦克已显落后，但由于当时德军美甲师正地快速扩张，所以也只得继续生产这种坦克以满足装备的需求。</p>","caption":"外形特点：1. 悬挂系统内有5个负重轮。2. 炮塔后部车体上有一凹位。"},{"image":"imgs/de/de_army_tankii_15.jpg","description":"<h6>Ⅱ号J型坦克（Sd.Kfz.121 Pz.Kpfw Ⅱ Aust.J）(VK.1601)</h6><p>J型坦克属重装甲步兵坦克</p><p>该车是在不改变轻型坦克的基本特征下所作的最大更新，其前装甲厚度增至80mm，两侧和尾部装甲增至50mm，顶部也增至25mm，由此车全重剧增为近18t，尽管改动机马力增至150马力，得车速也只有32km左右。</p><p>由于该车车速过慢，完全满足不了实战的需要，因此在1941年至1942年间只生产了20多辆即停产。</p><p>该型坦克曾参加了德军第116装甲师在法国境内的军事行动。</p>","caption":"外形特点：1. 悬挂系统内采用大型交迭式的负重轮。2. 炮塔侧面有一个供乘员进出的紧急舱口。"},{"image":"imgs/de/de_army_tankii_16.jpg","description":"<h6>Ⅱ号L型坦克（Sd.Kfz.123 Pz.Kpfw Ⅱ Aust.L）(VK.1301)</h6><p>L型坦克车重11.8t，长4.63m，宽2.48m，高2.21m，正面装甲厚度30mm，侧面装甲厚20mm，发动机180马力，最大车速60m/h；武器装备为1门20mm口径的Kwk38机关炮和1挺MG34机枪，后期提升为只配备一门50mm口径火炮；该坦克可搭载乘员4人。</p><p>L型坦克主要用作执行侦察任务用，该坦克从1943年9月至1944年1月共产生了100辆（原计划要生产800辆）。</p>","caption":"外形特点：1. 悬挂系统内采用交错式的负重轮（注意轮子的结构与J型不同）。2. 炮塔上方有二个供乘员进出的舱口。3.炮塔前只有1门火炮（后期型）。"},{"image":"imgs/de/de_army_tankii_17.jpg","description":"<h6>Ⅱ号喷火坦克</h6><p>该车是在D/E型坦克的底盘上加装一个六边形的小炮塔，炮塔只安装一挺MG34机枪，而喷火器安装在车体前方挡泥板两侧的可转动的小型喷火塔内，喷火塔后方是储有300多升专用燃料，可供喷射80次（每次2-3秒），车体后部装有烟雾弹发射器。</p><p>车重11t，最大装甲厚度为30mm。</p><p>Ⅱ号喷火坦克从1940年5月至10月共生产了约90辆，参加了“巴巴罗萨”行动，但战斗表现交不理想。</p>","caption":""},{"image":"imgs/de/de_army_tankii_18.jpg","description":"<h6>Ⅱ号架桥坦克</h6><p>该车是1939年2月在Ⅱ号A型坦克底盘上改装生产，并进行各种测试，但此车未见德军在战争中使用。</p>","caption":""},{"image":"imgs/de/de_army_tankii_19.jpg","description":"<h6>Ⅱ号工兵坦克</h6><p>该车是在Ⅱ号C型坦克底盘上改装而成，它拆除了炮塔（拆除后的炮塔被用在防御工事作炮台用），改用了一个大的木制货柜箱替代，上面复盖一层防水油布，该车可用来运载装备和士兵。</p>","caption":""},{"image":"imgs/de/de_army_tankii_20.jpg","description":"<h6>Ⅱ号两栖坦克</h6><p>该车是用Ⅱ号C型坦克改装而成，它在坦克车体两侧加装了浮架。图中两种不同浮架的两栖坦克分别由二个公司生产，上面一辆无安装外置螺旋浆，过水时需外力拖动；下面一辆安装了外置螺旋浆（由坦克改动机提供动力），过水时速有10km/h。</p><p>德军共改装了52辆两栖坦克，编入了为准备入侵英国而组建的两个特殊装甲营，后来由于入侵英国的“海狮计划”没有执行，1941年这二个营被编入第18装甲师第18装甲团参加了东线的战斗。</p>","caption":""},{"image":"imgs/de/de_army_tankii_21.jpg","description":"<h6>Ⅱ号爆破坦克</h6><p>该车是在Ⅱ号C型坦克的车体后部加装了一个伸展出来的特殊装置，装置后部挂着一个用来放置炸药的装甲箱子，作战时，该坦克会驶近目标，将炸药放出后驶离，然后用无线电或电线引爆炸药。</p><p>1940年5月，有二辆Ⅱ号爆炸坦克（隶属第58摩托化工兵营）加入了隆美尔的第7装甲师参加战斗。</p>","caption":""},{"image":"imgs/de/de_army_tankii_22.jpg","description":"<h6>Ⅱ号炮兵观察坦克</h6><p>炮兵部队由于缺乏战场目标观察与通讯车辆，在车体后部的发动机机舱上加装了一个FuG8型电台（外罩长方形金属容器），将其改装为炮兵观察坦克。</p>","caption":""}],"part2title":"战场上的Ⅱ号坦克","part2description":"<p>二战初期，Ⅱ号坦克是德军实施闪电战的主力，波兰战役爆发时，德军一线部队7个装甲师和2个轻装师共有1000多辆各型Ⅱ号坦克，在闪击波兰中，凭德军的战略战术的优势，Ⅱ号坦克取得不少战绩，但由于该坦克装甲薄弱，在波军的火炮和反坦克枪反击下，竟然损失了80多辆。</p><p>西线战役开始时，行军装甲部队仍有Ⅱ号坦克近1000辆，在进攻丹麦和挪威中Ⅱ号坦克的20mm火炮在支援步兵作战中发挥了很大作用，登陆后的战斗中只损失了2辆。在向西欧挺进中，尽管面对有装甲与火力优势的英、法坦克，但凭着灵活的战术和强有力的空中支持，取得了压倒性的胜利，不过面对对方厚装甲的重型坦克，Ⅱ号坦克是毫无办法，且由于装甲薄弱，Ⅱ号坦克损失了近200辆（1940年5月底统计）。</p><p>在巴尔干战役中，德军6个装甲师共有约260辆Ⅱ号坦克参加了战斗，一共只损失了13辆，但却有37辆在1941年5月运回德国的途中，因为撘载的船只被英军布置的水雷炸沉而沉没。1941年2月，近百辆Ⅱ号坦克跟随德军非洲兵团来到北非沙漠，但面对英军装甲部队，德军的Ⅱ号坦克质量与数量都显劣势，战斗中共损失了近60辆。</p><p>在东线战场上，面对苏军的T26和BT类轻型坦克，Ⅱ号坦克都占有优势，但对T34和KV系列就无能为力了，在侵苏战争初期（1941年6月至9月），德军共损失了152辆Ⅱ号坦克；Ⅱ号坦克后又继续参加了哈尔科夫和斯太林格勒战役，1942年5月在哈尔科夫战斗中，德军Ⅱ号坦克（属第23装甲师201装甲团第1营）有摧毁了1辆T34坦克的战例，直到库尔斯克战役，仍有近100辆Ⅱ号坦克在战场上，但基本上已退出第一线的战斗。</p>","part2content":[{"image":"imgs/de/de_army_tankii_31.jpg","description":"1939年9月在进攻波兰战斗中，掩护步兵前进的的Ⅱ号A型坦克。","caption":""},{"image":"imgs/de/de_army_tankii_32.jpg","description":"一辆Ⅱ号B型坦克，在战斗中带领士兵前进。","caption":""},{"image":"imgs/de/de_army_tankii_33.jpg","description":"由于大桥被炸断，这辆Ⅱ号C型坦克只能在河面择路行进。","caption":""},{"image":"imgs/de/de_army_tankii_34.jpg","description":"东线战场上，隶属德军第7装甲师第25装甲团的一辆Ⅱ号C型坦克正在大草原行进。","caption":""},{"image":"imgs/de/de_army_tankii_35.jpg","description":"一列行进在村庄路上的Ⅱ号C型坦克编队。","caption":""},{"image":"imgs/de/de_army_tankii_36.jpg","description":"一辆隶属德军第2装甲师的Ⅱ号C型坦克在阿登地区穿过河谷。","caption":""},{"image":"imgs/de/de_army_tankii_38.jpg","description":"1944年春天，第13宪兵装甲连的Ⅱ号J型坦克，该型坦克参与了在巴尔干地区的德军反游击作战。","caption":""},{"image":"imgs/de/de_army_tankii_39.jpg","description":"1941年到达班加西的Ⅱ号F型坦克，隶属于德军第15装甲师第8装甲团第8连，是支援隆美尔非洲军团的装甲部队。","caption":""},{"image":"imgs/de/de_army_tankii_37.jpg","description":"一群德军士兵在训练空隙和一辆Ⅱ号J型坦克的合照。","caption":""}]};
+
+/***/ }),
+
+/***/ "./js/de_army_tankiii.js":
+/*!*******************************!*\
+  !*** ./js/de_army_tankiii.js ***!
+  \*******************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/base.css */ "./css/base.css");
+/* harmony import */ var _css_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_base_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_document_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/document.css */ "./css/document.css");
+/* harmony import */ var _css_document_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_document_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
+var _menu_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/document.pug */ "./views/document.pug");
+/* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_views_document_pug__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-unused-vars */
+
+
+
+
+
+
+const pageID = 'de_army_tankiii';
+
+var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set header and footer
+
+
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_3__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_4__, pageID); // Render pug file and output.
+
+document.write(_views_document_pug__WEBPACK_IMPORTED_MODULE_5___default()({
+  body: bodyJSON,
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_3__,
+  menu: _menu_json__WEBPACK_IMPORTED_MODULE_4__
+}));
 
 /***/ }),
 
@@ -732,9 +713,9 @@ module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆
 
 /***/ }),
 
-/***/ "./views/category.pug":
+/***/ "./views/document.pug":
 /*!****************************!*\
-  !*** ./views/category.pug ***!
+  !*** ./views/document.pug ***!
   \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -774,65 +755,85 @@ pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"na
 };
 pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
 pug_mixins["setNavItems"]();
-pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-category-style pt-3 pb-3\" id=\"cat\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-12 pt-3 pb-3\"\u003E\u003Cnav class=\"nav justify-content-center\"\u003E";
-// iterate body.countries
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-document-style pt-5 pb-5\" id=\"doc\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cnav aria-label=\"breadcrumb\"\u003E\u003Col class=\"breadcrumb custom-document-style\"\u003E";
+// iterate body.category
 ;(function(){
-  var $$obj = body.countries;
+  var $$obj = body.category;
   if ('number' == typeof $$obj.length) {
       for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
-        var linkitem = $$obj[pug_index1];
-if (linkitem.href == '' || linkitem.href == '###') {
-pug_html = pug_html + "\u003Ca class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+        var catitem = $$obj[pug_index1];
+pug_html = pug_html + "\u003Cli class=\"breadcrumb-item\"\u003E";
+if (catitem.link.search(/#/iu) >= 0) {
+pug_html = pug_html + "\u003Ca" + (pug.attr("href", catitem.link.replace(/#/iu, '.html#'), true, true)) + "\u003E" + (pug.escape(null == (pug_interp = catitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
 }
 else {
-pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (pug.attr("href", catitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = catitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
 }
+pug_html = pug_html + "\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
     for (var pug_index1 in $$obj) {
       $$l++;
-      var linkitem = $$obj[pug_index1];
-if (linkitem.href == '' || linkitem.href == '###') {
-pug_html = pug_html + "\u003Ca class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+      var catitem = $$obj[pug_index1];
+pug_html = pug_html + "\u003Cli class=\"breadcrumb-item\"\u003E";
+if (catitem.link.search(/#/iu) >= 0) {
+pug_html = pug_html + "\u003Ca" + (pug.attr("href", catitem.link.replace(/#/iu, '.html#'), true, true)) + "\u003E" + (pug.escape(null == (pug_interp = catitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
 }
 else {
-pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (pug.attr("href", catitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = catitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
 }
+pug_html = pug_html + "\u003C\u002Fli\u003E";
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Fnav\u003E\u003Cdiv class=\"row pt-3 pb-3\"\u003E";
-// iterate body.weapons
+pug_html = pug_html + "\u003Cli class=\"breadcrumb-item active\" aria-current=\"page\"\u003E" + (pug.escape(null == (pug_interp = body.model) ? "" : pug_interp)) + "\u003C\u002Fli\u003E\u003C\u002Fol\u003E\u003C\u002Fnav\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col text-center\"\u003E\u003Cspan class=\"h3 font-weight-bold custom-text-shadow-2px\"\u003E" + (pug.escape(null == (pug_interp = body.model) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = body.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan class=\"h3 custom-text-shadow-1px\"\u003E" + (null == (pug_interp = body.part1title) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+if (body.part1description != '') {
+pug_html = pug_html + "\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = body.part1description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+}
+// iterate body.part1content
 ;(function(){
-  var $$obj = body.weapons;
+  var $$obj = body.part1content;
   if ('number' == typeof $$obj.length) {
       for (var pug_index2 = 0, $$l = $$obj.length; pug_index2 < $$l; pug_index2++) {
-        var item = $$obj[pug_index2];
-if (item.intro == '###') {
-pug_html = pug_html + "\u003Cdiv" + (" class=\"col-12 p-3 pl-md-5\""+pug.attr("id", '#' + item.link, true, true)) + "\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = item.model) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cdiv class=\"col-12 col-lg-6 p-3 pl-md-5\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cdiv class=\"card\"\u003E\u003Cimg" + (" class=\"card-img-top\""+pug.attr("src", item.image, true, true)+pug.attr("alt", item.model, true, true)) + "\u003E\u003Cdiv class=\"card-body\"\u003E\u003Ch5 class=\"card-title font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = item.model) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003Cp class=\"card-text\"\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E";
-}
+        var p1item = $$obj[pug_index2];
+pug_html = pug_html + "\u003Cdiv class=\"row pb-3\"\u003E\u003Cdiv class=\"col-lg-7 order-1 order-lg-0\"\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p1item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-lg-5 order-0 order-lg-1\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
     for (var pug_index2 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index2];
-if (item.intro == '###') {
-pug_html = pug_html + "\u003Cdiv" + (" class=\"col-12 p-3 pl-md-5\""+pug.attr("id", '#' + item.link, true, true)) + "\u003E\u003Ch5 class=\"font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = item.model) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\u003Cdiv class=\"col-12 col-lg-6 p-3 pl-md-5\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cdiv class=\"card\"\u003E\u003Cimg" + (" class=\"card-img-top\""+pug.attr("src", item.image, true, true)+pug.attr("alt", item.model, true, true)) + "\u003E\u003Cdiv class=\"card-body\"\u003E\u003Ch5 class=\"card-title font-weight-bold custom-text-shadow-1px\"\u003E" + (pug.escape(null == (pug_interp = item.model) ? "" : pug_interp)) + "\u003C\u002Fh5\u003E\u003Cp class=\"card-text\"\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E";
-}
+      var p1item = $$obj[pug_index2];
+pug_html = pug_html + "\u003Cdiv class=\"row pb-3\"\u003E\u003Cdiv class=\"col-lg-7 order-1 order-lg-0\"\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p1item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-lg-5 order-0 order-lg-1\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to');\n});\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n});\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
+pug_html = pug_html + "\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003Cspan class=\"h3 custom-text-shadow-1px\"\u003E" + (null == (pug_interp = body.part2title) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+if (body.part2description != '') {
+pug_html = pug_html + "\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = body.part2description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003Cdiv class=\"p-3\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+}
+pug_html = pug_html + "\u003Cdiv class=\"row\"\u003E";
+// iterate body.part2content
+;(function(){
+  var $$obj = body.part2content;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index3 = 0, $$l = $$obj.length; pug_index3 < $$l; pug_index3++) {
+        var p2item = $$obj[pug_index3];
+pug_html = pug_html + "\u003Cdiv class=\"col-md-6 pt-3\"\u003E\u003Cdiv class=\"card\"\u003E\u003Cdiv class=\"card-body\"\u003E\u003Cdiv class=\"card-img\"\u003E\u003Ca" + (" class=\"mfp-image-link\""+pug.attr("href", p2item.image, true, true)+pug.attr("title", p2item.description, true, true)) + "\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p2item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p2item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cspan class=\"card-text custom-document-content\"\u003E" + (null == (pug_interp = p2item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index3 in $$obj) {
+      $$l++;
+      var p2item = $$obj[pug_index3];
+pug_html = pug_html + "\u003Cdiv class=\"col-md-6 pt-3\"\u003E\u003Cdiv class=\"card\"\u003E\u003Cdiv class=\"card-body\"\u003E\u003Cdiv class=\"card-img\"\u003E\u003Ca" + (" class=\"mfp-image-link\""+pug.attr("href", p2item.image, true, true)+pug.attr("title", p2item.description, true, true)) + "\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p2item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p2item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cspan class=\"card-text custom-document-content\"\u003E" + (null == (pug_interp = p2item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to');\n});\n\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery.magnific-popup.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  $(\".mfp-image-link\").magnificPopup({\n    type: \"image\",\n    closeOnContentClick: true\n  });\n});\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),
