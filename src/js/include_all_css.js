@@ -10,8 +10,10 @@ const cssfiles = [
   'wwii.css'
 ];
 
-let cssObjs = [];
+const cssObjs = [];
+const step = 1;
 
-for (let no = 0; no < cssfiles.length; no++ ) {
+for (let no = 0; no < cssfiles.length; no += step) {
+  // eslint-disable-next-line global-require
   cssObjs[no] = require(`${csspath}${cssfiles[no]}`);
 }
