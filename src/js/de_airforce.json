@@ -23,12 +23,12 @@
   }, {
     "model": "Me262", 
     "link": "de_airforce_me262",
-    "image": "imgs/de/de_army_mp44_01.jpg",
+    "image": "imgs/de/de_army_tankiv_01.jpg",
     "intro": "MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"
   }, {
     "model": "Me222", 
     "link": "de_airforce_me222",
-    "image": "imgs/de/de_army_mp44_01.jpg",
+    "image": "imgs/de/de_army_tankiv_01.jpg",
     "intro": "MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"
   }, {
     "model": "轰炸机", 

@@ -6,7 +6,7 @@ import footerJSON from './footer.json';
 import menuJSON from './menu.json';
 import template from '../views/document.pug';
 
-const pageID = 'de_army_mp40';
+const pageID = 'de_army_tankiv';
 var bodyJSON = require(`./${pageID}.json`);
 
 // Set header and footer

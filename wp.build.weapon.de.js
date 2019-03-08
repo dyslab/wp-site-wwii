@@ -16,6 +16,10 @@ const fileIDs = [
     title: 'Ⅲ号坦克'
   },
   {
+    id: 'de_army_tankiv',
+    title: 'Ⅳ号坦克'
+  },
+  {
     id: 'de_airforce',
     title: '空战武器'
   },
