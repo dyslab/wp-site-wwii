@@ -1,3 +1,17 @@
+.custom-about-style {
+  background-color: rgb(221, 236, 217);
+  line-height: 2rem;
+  word-break: normal;
+}
+.custom-about-style a {
+  text-decoration: none;
+  color: rgb(22, 66, 13)
+}
+.custom-about-style a:hover {
+  text-decoration: none;
+  color: rgb(218, 56, 16)
+}
+
 /*-----------------------------------------------------------------------------------------
   Custom common part.
 -----------------------------------------------------------------------------------------*/
@@ -175,20 +189,6 @@ span.list-social-links {
   line-height: 2rem;
 }
 
-.custom-about-style {
-  background-color: rgb(221, 236, 217);
-  line-height: 2rem;
-  word-break: normal;
-}
-.custom-about-style a {
-  text-decoration: none;
-  color: rgb(22, 66, 13)
-}
-.custom-about-style a:hover {
-  text-decoration: none;
-  color: rgb(218, 56, 16)
-}
-
 .custom-category-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
@@ -201,29 +201,6 @@ span.list-social-links {
 .custom-category-style a:hover {
   text-decoration: none;
   color: rgb(218, 56, 16)
-}
-
-.custom-index-wh {
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.custom-index-div-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 11;
-}
-
-.custom-index-link {
-  font-size: 1.2em;
-  color: rgb(200, 243, 196)
-}
-.custom-index-link:hover {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: rgb(248, 187, 19)
 }
 
 .custom-document-style {
@@ -247,6 +224,29 @@ p.custom-document-paragraph-start-space {
 .custom-document-content h6 {
   line-height: 2rem;
   font-weight: bold;
+}
+
+.custom-index-wh {
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.custom-index-div-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 11;
+}
+
+.custom-index-link {
+  font-size: 1.2em;
+  color: rgb(200, 243, 196)
+}
+.custom-index-link:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(248, 187, 19)
 }
 
 body {

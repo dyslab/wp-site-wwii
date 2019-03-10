@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import BaseIO from './base.js';
-import baseCSS from '../css/base.css';
-import bodyCSS from '../css/shortcut.css';
 import footerJSON from './footer.json';
 import menuJSON from './menu.json';
 import template from '../views/shortcut.pug';

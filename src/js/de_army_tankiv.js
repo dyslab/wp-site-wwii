@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
 import BaseIO from './base.js';
-import baseCSS from '../css/base.css';
-import bodyCSS from '../css/document.css';
 import footerJSON from './footer.json';
 import menuJSON from './menu.json';
 import template from '../views/document.pug';
