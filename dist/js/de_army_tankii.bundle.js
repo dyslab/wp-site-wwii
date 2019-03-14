@@ -400,6 +400,8 @@ var map = {
 	"./de_army_tankiii.json": "./js/de_army_tankiii.json",
 	"./de_army_tankiv.json": "./js/de_army_tankiv.json",
 	"./de_army_tankv.json": "./js/de_army_tankv.json",
+	"./de_army_tankvi.json": "./js/de_army_tankvi.json",
+	"./de_army_tankvi_ii.json": "./js/de_army_tankvi_ii.json",
 	"./de_navy.json": "./js/de_navy.json",
 	"./de_shortcut.json": "./js/de_shortcut.json",
 	"./footer.json": "./js/footer.json",
@@ -499,7 +501,7 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 /*! exports provided: countries, weapons, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Ⅰ号坦克","link":"de_army_tanki","image":"imgs/de/army/de_army_tanki_01.jpg","intro":"Ⅰ号坦克是德国在1934-1937期间生产的轻型坦克，战前作训练坦克用，二战爆发后改作作战坦克，第一次实战是1937年的西班牙内战，有约100辆A型坦克提供给弗朗哥的军队用，在战争中暴露了不少问题，装甲弱，整车防护能力低，发动机动力不足，机动能力差，驾驶舒适度差，由于舱盖合上后视野很差，所以作战时车长要探出炮塔观察导致伤亡。二战爆发后，尽管问题存在，但Ⅰ号坦克（包括Ⅱ号坦克)在闪击波兰和法国战役、入侵挪威和丹麦的战争、入侵苏联战争和北非战争中，不断成功地突破对方防线并进行快速的深纵迂回，显示了坦克作战的价值，发挥了很大作用。"},{"model":"Ⅱ号坦克","link":"de_army_tankii","image":"imgs/de/army/de_army_tankii_01.jpg","intro":"Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型。"},{"model":"Ⅲ号坦克","link":"de_army_tankiii","image":"imgs/de/army/de_army_tankiii_01.jpg","intro":"Ⅲ号坦克从1936年开始定型量产，1939年已进入大产量期，由于最终量产的Ⅲ号坦克的悬挂系统改用了扭杆弹簧悬挂，使坦克的行进质量变得更好，在大大提高坦克行进机构的寿命同时，也大大提高了坦克炮射击的稳定性和准确性；在后期坦克换装50mm和75mm坦克炮后，火力更是大大增强，使该坦克成为了支援步兵作战的主力；Ⅲ号坦克乘员5人，炮塔3人，车身2人。Ⅲ号坦克一共生产了5600多辆，直到豹式坦克的投产才停止生产。由于Ⅲ号坦克的底盘的扭杆弹簧悬挂系统（世界第一次使用）的优越，其后在此底盘上产生了很多变形车（如在战场上战绩突出的Ⅲ号突击炮车）。"},{"model":"Ⅳ号坦克","link":"de_army_tankiv","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"Ⅳ号坦克是二战中、后期德军装甲部队的一种中型主战坦克，从1938年年初Ⅳ号A型坦克交付开始（Ⅳ号坦克的研制始于1934年），该型坦克的武器、装甲和动力系统不断改进，从A、B、C、D、E、F、G、H到J型，到1945年，德国一共生产了Ⅳ号系列坦克8500多辆，是二战期间德国生产数量最多的一种坦克。足足占德国二战时间坦克总产量的三分之一有多。Ⅳ号坦克一直在战斗中保持极高的战斗力，与苏军的T-34坦克对抗也不落下风。"},{"model":"Ⅴ号坦克","link":"de_army_tankv","image":"imgs/de/army/de_army_tankv_01.jpg","intro":"Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Ⅰ号坦克","link":"de_army_tanki","image":"imgs/de/army/de_army_tanki_01.jpg","intro":"Ⅰ号坦克是德国在1934-1937期间生产的轻型坦克，战前作训练坦克用，二战爆发后改作作战坦克，第一次实战是1937年的西班牙内战，有约100辆A型坦克提供给弗朗哥的军队用，在战争中暴露了不少问题，装甲弱，整车防护能力低，发动机动力不足，机动能力差，驾驶舒适度差，由于舱盖合上后视野很差，所以作战时车长要探出炮塔观察导致伤亡。二战爆发后，尽管问题存在，但Ⅰ号坦克（包括Ⅱ号坦克)在闪击波兰和法国战役、入侵挪威和丹麦的战争、入侵苏联战争和北非战争中，不断成功地突破对方防线并进行快速的深纵迂回，显示了坦克作战的价值，发挥了很大作用。"},{"model":"Ⅱ号坦克","link":"de_army_tankii","image":"imgs/de/army/de_army_tankii_01.jpg","intro":"Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型。"},{"model":"Ⅲ号坦克","link":"de_army_tankiii","image":"imgs/de/army/de_army_tankiii_01.jpg","intro":"Ⅲ号坦克从1936年开始定型量产，1939年已进入大产量期，由于最终量产的Ⅲ号坦克的悬挂系统改用了扭杆弹簧悬挂，使坦克的行进质量变得更好，在大大提高坦克行进机构的寿命同时，也大大提高了坦克炮射击的稳定性和准确性；在后期坦克换装50mm和75mm坦克炮后，火力更是大大增强，使该坦克成为了支援步兵作战的主力；Ⅲ号坦克乘员5人，炮塔3人，车身2人。Ⅲ号坦克一共生产了5600多辆，直到豹式坦克的投产才停止生产。由于Ⅲ号坦克的底盘的扭杆弹簧悬挂系统（世界第一次使用）的优越，其后在此底盘上产生了很多变形车（如在战场上战绩突出的Ⅲ号突击炮车）。"},{"model":"Ⅳ号坦克","link":"de_army_tankiv","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"Ⅳ号坦克是二战中、后期德军装甲部队的一种中型主战坦克，从1938年年初Ⅳ号A型坦克交付开始（Ⅳ号坦克的研制始于1934年），该型坦克的武器、装甲和动力系统不断改进，从A、B、C、D、E、F、G、H到J型，到1945年，德国一共生产了Ⅳ号系列坦克8500多辆，是二战期间德国生产数量最多的一种坦克。足足占德国二战时间坦克总产量的三分之一有多。Ⅳ号坦克一直在战斗中保持极高的战斗力，与苏军的T-34坦克对抗也不落下风。"},{"model":"Ⅴ号黑豹坦克","link":"de_army_tankv","image":"imgs/de/army/de_army_tankv_01.jpg","intro":"Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。"},{"model":"Ⅵ号虎式（虎Ⅰ）坦克","link":"de_army_tankvi","image":"imgs/de/army/de_army_tankvi_01.jpg","intro":"虎式坦克于1942年7月开始定型生产（此前已经过多年的研发），至1944年8月共生产了1300多辆，定名为Pz.Kpfw Ⅵ号”虎”式（虎Ⅰ）坦克。虎Ⅰ坦克有2种正式型号，分别为“E”型和“H”型。虎Ⅰ坦克是一种重型坦克，车身和车体上部采用一体式焊接；虎Ⅰ坦克的装甲防护十分强大，其车体正面装甲为100，炮塔正面装甲110mm，侧面和背面装甲也有80mm厚，敌方火炮几乎无法将其击穿。虎Ⅰ坦克装备了88mm Kwk36 L/56火炮和二挺MG34机枪，其88mm火炮(原是一种防空高射炮,在北非战役中转作反坦克炮用，战绩十分突出，受到希特勒的极度欣赏。其威力强大，敌方坦克基本上难以抵挡其一击。"},{"model":"Ⅵ号虎王（虎Ⅱ）坦克","link":"de_army_tankvi_ii","image":"imgs/de/army/de_army_tankvi_ii_01.jpg","intro":"德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -592,7 +594,29 @@ module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"�
 /*! exports provided: category, model, description, part1title, part1description, part1content, part2title, part2description, part2content, default */
 /***/ (function(module) {
 
-module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅴ号坦克","description":"<h6>综述：</h6><p>Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/army/de_army_tankv_11.jpg","description":"<h6>Ⅴ号（黑豹）D型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf.D Panther）</h6><p>该型车在1942年11月开始生产，至1943年9月 一共生产了860多辆。</p><p>D型车身长8.86m, 车宽3.4m, 车高2.95m, 车重43t；装甲厚度16-100mm；发动机230马力，最大车速46km/h, 最大行程200km; 主要武器为一门75mm KW.K L/70坦克炮，2挺7.92mm MG34机枪，乘员5人。</p><p>初期生产的D型车由于履带、悬挂系统和动力系统都存在一定问题，因此在初期战争中，抛锚率十分高。</p>","caption":"外形特点：1.悬挂系统内使用重迭式负重轮。2.车体两侧安装了整块的装甲钢板。3.烟雾发生器安装在炮塔顶部两侧。"},{"image":"imgs/de/army/de_army_tankv_12.jpg","description":"<h6>Ⅴ号（黑豹）A型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf.A Panther）</h6><p>该型车于1943年8月开始生产，总生产量接近1800辆。</p><p>A型车除车重（44.8t)和正面装甲厚度（110mm)略有增加外，其余都与D型车基本相同。开始的A型坦克都涂有防磁的水泥涂层，以防磁性地雷或磁性手雷的攻击（不过在1944年后期取消了），它针对D型车在战斗中发现的弱点对动力系统进行了改进，提高了它的可靠性；它还加强了武器装备，增加了一挺高射机枪，当受到空中威胁时，可操纵对空机枪实施空中防卫。中后期生产的坦克还将机枪孔改装为新式的球形机枪座。</p>","caption":"外形特点：1.取消了炮塔顶部两侧的烟雾发生器，改在炮塔顶部安装一个短管的榴弹发射器，可发射榴弹和烟雾弹。2.车体正面还保留观察窗，但有些坦克的机枪孔已换成球形机枪座。"},{"image":"imgs/de/army/de_army_tankv_13.jpg","description":"<h6>Ⅴ号（黑豹）G型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf.G Panther）</h6><p>该型车生产于1944年3月至1945年4月，一共生产了3740辆。是二战末期产量最大的坦克。</p><p>G型坦克主要在装甲上进行了加强，它的正面装甲的倾斜度更大，车体两侧的装甲钢板厚度从40mm增加至50mm。炮弹的数量也从79发增加至82发。该型坦克已全部安装了球形机枪座和更先进的瞄准器。</p>","caption":"外形特点：1. 车体前部的观察孔已取消，用驾驶舱顶部的可旋转潜望镜替代。2. 车体前部的机枪座为球形机枪座。"},{"image":"imgs/de/army/de_army_tankv_14.jpg","description":"<h6>Ⅴ号（黑豹）F型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf. F Panther）</h6><p>这是黑豹系列坦克的最终型号，特点是炮塔更窄，装甲更厚，1945年1月该车正式定型，但在准备量产时，德国已战败投降。</p>","caption":""},{"image":"imgs/de/army/de_army_tankv_15.jpg","description":"<h6>Ⅴ号（黑豹）Ⅱ型坦克（ Pz.Kpfw. Panther Ⅱ）</h6><p>设计思想是要将黑豹坦克升级，在豹Ⅰ动力系统基础上，让部分配件与虎Ⅱ部件通用，并加强装甲与武器火力，但到1945年德国战败时，只完成了2辆原型车，二战结束后此车被运到美国的坦克博物馆里（见图：刚抵达时，此车还可开动，但由于专用的窄型炮塔已损坏，只能用黑豹G型坦克的炮塔替代）。</p>","caption":""},{"image":"imgs/de/army/de_army_tankv_16.jpg","description":"<h6>Ⅴ号豹式指挥坦克（Sd.Kfz.267和268 Bef.Pzwg.Panther）</h6><p>这是在D、A或G型坦克上安装上无线收发器和天线后，作为指挥车使用的坦克。267和268只是所安装的无线收发器有型号不同。</p>","caption":""},{"image":"imgs/de/army/de_army_tankv_17.jpg","description":"<h6>Ⅴ号豹式维修坦克（Sd.Kfz.179  Bergepanzer.Panther）</h6><p>这是为了解决战损的重型坦克的维修和回收问题所生产，它拆除了豹式坦克的炮塔，在车体上安装 了40t的绞盘和1.5t的起重机，并在车后加装了一个大铲；车上有支撑架安放一挺机枪。此型维修坦克从1943年6月开始生产，至1945年3月共生产了350多辆，其中在D型基础上改装12辆，A型基础上改装了232辆，G型基础上改装了107辆。这种维修车在战损坦克的维修和回收中发挥了极大作用，在每个黑豹坦克营中都会配备2辆（但也难以满足战场要求）。</p>","caption":""}],"part2title":"战场上的Ⅴ号（黑豹）坦克","part2description":"<p>1943年7月，在苏联的库尔斯克Ⅴ号（黑豹）坦克首次参加了战斗，但由于初期生产的D型坦克的机械问题，参加战斗测试的200辆黑豹坦克（隶属第10装甲旅）第一天就有100多辆因抛锚退出了战场，9天后只剩下40多辆仍能参加战斗；但后来随着坦克的不断改进，黑豹坦克在东线、意大利、西欧和北欧的战斗中，因其前装甲的坚固和火炮的强大威力，战绩突出，受到德军的赞扬，一直到二战结束，它与虎式坦克一起，成为德军对抗对方重型坦克的主力装备。</p><p>在诺曼第战役中，参战的黑豹A型坦克在反击中对盟军造成很大威胁，美军甚至认为：要有效对抗一辆黑豹坦克，美军必须要投入5辆M坦克进行攻击。在与Ⅳ号坦克协同作战时，黑豹坦克会作装甲编队的侧翼保护用；到了1945年，在意大利防线和柏林战役中，德军还利用黑豹坦克的炮塔修建防御炮台（混凝土工事），用威力强大的坦克炮抗击对方装甲部队的进攻。</p>","part2content":[{"image":"imgs/de/army/de_army_tankv_31.jpg","description":"1943年，在苏联库尔斯克战役中首次亮相的Ⅴ号（黑豹）D型坦克，一位指挥官正在指挥坦克前进。","caption":""},{"image":"imgs/de/army/de_army_tankv_32.jpg","description":"1944年，一辆在东线执行战斗任务的Ⅴ号（黑豹）D型坦克，炮塔侧面装上了履带板附加装甲防护，车体上涂上了防磁层，由于长期在野外执行任务，车身上沾满了泥土，但整车基本保持完好状态。","caption":""},{"image":"imgs/de/army/de_army_tankv_33.jpg","description":"1944年，隶属德国党卫军第五“维京”装甲师第五装甲团第11 营的一辆Ⅴ号（黑豹）A型坦克与步兵一起行进。","caption":""},{"image":"imgs/de/army/de_army_tankv_34.jpg","description":"1944年5月，隶属德国党卫军第一“阿道夫·希特勒警卫旗队”装甲师的一辆Ⅴ号（黑豹）A型坦克，正在比利时城镇街道上行进。","caption":""},{"image":"imgs/de/army/de_army_tankv_35.jpg","description":"1943年在意大利战场上被盟军缴获的一辆Ⅴ号（黑豹）A型坦克，从图上看车体并无大的损伤。","caption":""},{"image":"imgs/de/army/de_army_tankv_36.jpg","description":"德军第4装甲师Ⅴ号（黑豹）G型坦克正在集结。坦克车体很新净，应该是不久前才接收的装备。","caption":""},{"image":"imgs/de/army/de_army_tankv_37.jpg","description":"正在开赴前线的德军“骷髅”师装甲团所属的Ⅴ号（黑豹）G型坦克。旁边还有一辆Sd.Kfz233型装甲车同行。","caption":""},{"image":"imgs/de/army/de_army_tankv_38.jpg","description":"1945年春，在西线战场上一队被盟军击毁的德军Ⅴ号（黑豹）G型坦克，图中右后方还停着一辆美军的坦克，看图上的情况，应该此战场发生过激烈的坦克交战。","caption":""},{"image":"imgs/de/army/de_army_tankv_39.jpg","description":"在意大利防线的一个小山坡上，德军将Ⅴ号（黑豹）A型坦克的炮塔造成一个火炮防御工事，以期发挥其火炮威力强大的优势，抗击盟军的进攻。","caption":""}]};
+module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅴ号黑豹坦克","description":"<h6>综述：</h6><p>Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/army/de_army_tankv_11.jpg","description":"<h6>Ⅴ号（黑豹）D型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf.D Panther）</h6><p>该型车在1942年11月开始生产，至1943年9月 一共生产了860多辆。</p><p>D型车身长8.86m, 车宽3.4m, 车高2.95m, 车重43t；装甲厚度16-100mm；发动机230马力，最大车速46km/h, 最大行程200km; 主要武器为一门75mm KW.K L/70坦克炮，2挺7.92mm MG34机枪，乘员5人。</p><p>初期生产的D型车由于履带、悬挂系统和动力系统都存在一定问题，因此在初期战争中，抛锚率十分高。</p>","caption":"外形特点：1.悬挂系统内使用重迭式负重轮。2.车体两侧安装了整块的装甲钢板。3.烟雾发生器安装在炮塔顶部两侧。"},{"image":"imgs/de/army/de_army_tankv_12.jpg","description":"<h6>Ⅴ号（黑豹）A型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf.A Panther）</h6><p>该型车于1943年8月开始生产，总生产量接近1800辆。</p><p>A型车除车重（44.8t)和正面装甲厚度（110mm)略有增加外，其余都与D型车基本相同。开始的A型坦克都涂有防磁的水泥涂层，以防磁性地雷或磁性手雷的攻击（不过在1944年后期取消了），它针对D型车在战斗中发现的弱点对动力系统进行了改进，提高了它的可靠性；它还加强了武器装备，增加了一挺高射机枪，当受到空中威胁时，可操纵对空机枪实施空中防卫。中后期生产的坦克还将机枪孔改装为新式的球形机枪座。</p>","caption":"外形特点：1.取消了炮塔顶部两侧的烟雾发生器，改在炮塔顶部安装一个短管的榴弹发射器，可发射榴弹和烟雾弹。2.车体正面还保留观察窗，但有些坦克的机枪孔已换成球形机枪座。"},{"image":"imgs/de/army/de_army_tankv_13.jpg","description":"<h6>Ⅴ号（黑豹）G型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf.G Panther）</h6><p>该型车生产于1944年3月至1945年4月，一共生产了3740辆。是二战末期产量最大的坦克。</p><p>G型坦克主要在装甲上进行了加强，它的正面装甲的倾斜度更大，车体两侧的装甲钢板厚度从40mm增加至50mm。炮弹的数量也从79发增加至82发。该型坦克已全部安装了球形机枪座和更先进的瞄准器。</p>","caption":"外形特点：1. 车体前部的观察孔已取消，用驾驶舱顶部的可旋转潜望镜替代。2. 车体前部的机枪座为球形机枪座。"},{"image":"imgs/de/army/de_army_tankv_14.jpg","description":"<h6>Ⅴ号（黑豹）F型坦克（Sd.Kfz.171 Pz.Kpfw.V Ausf. F Panther）</h6><p>这是黑豹系列坦克的最终型号，特点是炮塔更窄，装甲更厚，1945年1月该车正式定型，但在准备量产时，德国已战败投降。</p>","caption":""},{"image":"imgs/de/army/de_army_tankv_15.jpg","description":"<h6>Ⅴ号（黑豹）Ⅱ型坦克（ Pz.Kpfw. Panther Ⅱ）</h6><p>设计思想是要将黑豹坦克升级，在豹Ⅰ动力系统基础上，让部分配件与虎Ⅱ部件通用，并加强装甲与武器火力，但到1945年德国战败时，只完成了2辆原型车，二战结束后此车被运到美国的坦克博物馆里（见图：刚抵达时，此车还可开动，但由于专用的窄型炮塔已损坏，只能用黑豹G型坦克的炮塔替代）。</p>","caption":""},{"image":"imgs/de/army/de_army_tankv_16.jpg","description":"<h6>Ⅴ号豹式指挥坦克（Sd.Kfz.267和268 Bef.Pzwg.Panther）</h6><p>这是在D、A或G型坦克上安装上无线收发器和天线后，作为指挥车使用的坦克。267和268只是所安装的无线收发器有型号不同。</p>","caption":""},{"image":"imgs/de/army/de_army_tankv_17.jpg","description":"<h6>Ⅴ号豹式维修坦克（Sd.Kfz.179  Bergepanzer.Panther）</h6><p>这是为了解决战损的重型坦克的维修和回收问题所生产，它拆除了豹式坦克的炮塔，在车体上安装 了40t的绞盘和1.5t的起重机，并在车后加装了一个大铲；车上有支撑架安放一挺机枪。此型维修坦克从1943年6月开始生产，至1945年3月共生产了350多辆，其中在D型基础上改装12辆，A型基础上改装了232辆，G型基础上改装了107辆。这种维修车在战损坦克的维修和回收中发挥了极大作用，在每个黑豹坦克营中都会配备2辆（但也难以满足战场要求）。</p>","caption":""}],"part2title":"战场上的Ⅴ号（黑豹）坦克","part2description":"<p>1943年7月，在苏联的库尔斯克Ⅴ号（黑豹）坦克首次参加了战斗，但由于初期生产的D型坦克的机械问题，参加战斗测试的200辆黑豹坦克（隶属第10装甲旅）第一天就有100多辆因抛锚退出了战场，9天后只剩下40多辆仍能参加战斗；但后来随着坦克的不断改进，黑豹坦克在东线、意大利、西欧和北欧的战斗中，因其前装甲的坚固和火炮的强大威力，战绩突出，受到德军的赞扬，一直到二战结束，它与虎式坦克一起，成为德军对抗对方重型坦克的主力装备。</p><p>在诺曼第战役中，参战的黑豹A型坦克在反击中对盟军造成很大威胁，美军甚至认为：要有效对抗一辆黑豹坦克，美军必须要投入5辆M坦克进行攻击。在与Ⅳ号坦克协同作战时，黑豹坦克会作装甲编队的侧翼保护用；到了1945年，在意大利防线和柏林战役中，德军还利用黑豹坦克的炮塔修建防御炮台（混凝土工事），用威力强大的坦克炮抗击对方装甲部队的进攻。</p>","part2content":[{"image":"imgs/de/army/de_army_tankv_31.jpg","description":"1943年，在苏联库尔斯克战役中首次亮相的Ⅴ号（黑豹）D型坦克，一位指挥官正在指挥坦克前进。","caption":""},{"image":"imgs/de/army/de_army_tankv_32.jpg","description":"1944年，一辆在东线执行战斗任务的Ⅴ号（黑豹）D型坦克，炮塔侧面装上了履带板附加装甲防护，车体上涂上了防磁层，由于长期在野外执行任务，车身上沾满了泥土，但整车基本保持完好状态。","caption":""},{"image":"imgs/de/army/de_army_tankv_33.jpg","description":"1944年，隶属德国党卫军第五“维京”装甲师第五装甲团第11 营的一辆Ⅴ号（黑豹）A型坦克与步兵一起行进。","caption":""},{"image":"imgs/de/army/de_army_tankv_34.jpg","description":"1944年5月，隶属德国党卫军第一“阿道夫·希特勒警卫旗队”装甲师的一辆Ⅴ号（黑豹）A型坦克，正在比利时城镇街道上行进。","caption":""},{"image":"imgs/de/army/de_army_tankv_35.jpg","description":"1943年在意大利战场上被盟军缴获的一辆Ⅴ号（黑豹）A型坦克，从图上看车体并无大的损伤。","caption":""},{"image":"imgs/de/army/de_army_tankv_36.jpg","description":"德军第4装甲师Ⅴ号（黑豹）G型坦克正在集结。坦克车体很新净，应该是不久前才接收的装备。","caption":""},{"image":"imgs/de/army/de_army_tankv_37.jpg","description":"正在开赴前线的德军“骷髅”师装甲团所属的Ⅴ号（黑豹）G型坦克。旁边还有一辆Sd.Kfz233型装甲车同行。","caption":""},{"image":"imgs/de/army/de_army_tankv_38.jpg","description":"1945年春，在西线战场上一队被盟军击毁的德军Ⅴ号（黑豹）G型坦克，图中右后方还停着一辆美军的坦克，看图上的情况，应该此战场发生过激烈的坦克交战。","caption":""},{"image":"imgs/de/army/de_army_tankv_39.jpg","description":"在意大利防线的一个小山坡上，德军将Ⅴ号（黑豹）A型坦克的炮塔造成一个火炮防御工事，以期发挥其火炮威力强大的优势，抗击盟军的进攻。","caption":""}]};
+
+/***/ }),
+
+/***/ "./js/de_army_tankvi.json":
+/*!********************************!*\
+  !*** ./js/de_army_tankvi.json ***!
+  \********************************/
+/*! exports provided: category, model, description, part1title, part1description, part1content, part2title, part2description, part2content, default */
+/***/ (function(module) {
+
+module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅵ号虎式（虎Ⅰ）坦克","description":"<h6>综述：</h6><p>虎式坦克于1942年7月开始定型生产（此前已经过多年的研发），至1944年8月共生产了1300多辆，定名为Pz.Kpfw Ⅵ号”虎”式（虎Ⅰ）坦克。虎Ⅰ坦克有2种正式型号，分别为“E”型和“H”型。虎Ⅰ坦克是一种重型坦克，车身和车体上部采用一体式焊接；虎Ⅰ坦克的装甲防护十分强大，其车体正面装甲为100，炮塔正面装甲110mm，侧面和背面装甲也有80mm厚，敌方火炮几乎无法将其击穿。虎Ⅰ坦克装备了88mm Kwk36 L/56火炮和二挺MG34机枪，其88mm火炮(原是一种防空高射炮,在北非战役中转作反坦克炮用，战绩十分突出，受到希特勒的极度欣赏。其威力强大，敌方坦克基本上难以抵挡其一击。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/army/de_army_tankvi_11.jpg{{caption}}imgs/de/army/de_army_tankvi_12.jpg","description":"<h6>Ⅵ号”虎”式（虎Ⅰ）坦克（Sd.Kfz.181 Pz.Kpfw Ⅵ Ausf.H TigerⅠ）</h6><p>Ⅵ号”虎”式（虎Ⅰ）坦克在1942年7月开始生产，曾采用了各种命名，包括“Aust.H”、“Aust.E”等，但实际上并没有明确作出区分，由于在生产的过程中不断改进，很多资料都是以其改进的情况分初期型（1943年前生产）和后期型（也有资料分初、中、晚三期）。</p><p>以下为Ⅵ号 ”虎” 式（虎Ⅰ）E型坦克的数据：车长：8.45m, 车宽：3.7m, 车高：2.93m, 车重：57t; 乘员5人； 发动机650（700）匹马力，车速：38km/h, 最大行程：220km; 主要武器：一门88mm KwK36 L/56火炮，二挺7.92mm MG34机枪；装甲百度：100mm。</p><p>早期生产的虎式Ⅰ型大部分都分配给国防军的501、502和503重型装甲营；随着中、后期产量的增加，陆续又分配给了504-510等多个重装营。</p><p>外形特点：1.悬挂系统中负重轮是交迭式，外层是4个大直径的钢轮。2.炮塔装备的是88mm火炮，其炮身与Ⅴ号坦克的75mm坦克炮不相同。3. 炮塔属小型炮塔，外形较为低矮。</p>","caption":"<p>考虑到坦克过重，不少桥梁会承受不了，故早期生产的虎式Ⅰ型坦克（近500辆）在车体后部装有一支排气管（见上图H型），坦克本身也作了水密防护，由此可在水下潜行，最大深度可达4m。但后期生产的坦克都取消了（见下图E型），以后虎式Ⅰ型坦克只能涉水2m。</p><p>注意：早期型的前灯是装在前车体上面（上图），而后期型则是把前灯安装在前车体的正面（下图）。</p>"}],"part2title":"战场上的Ⅵ号虎式（虎Ⅰ）坦克","part2description":"<p>虎Ⅰ坦克从1942年8月首次出现在列宁格勒战场上，它就显示了其威力，四辆虎Ⅰ坦克受命增援被苏军24辆T-34坦克围攻的第96步兵师，在双方坦克对抗中，有12辆T-34坦克被虎Ⅰ坦克击毁，令苏军其余坦克撒走。以后无论是在东线或西线战场上，它都成为了德军装甲兵的中流砥柱。在虎Ⅰ坦克的乘员中，出现了不少王牌坦克手（其中最著名的是党卫军装甲部队的“魏特曼”）。虎Ⅰ坦克的弱点是机动性差，发动机损坏率较高，面部装甲也相对较弱，故此苏军和盟军坦克常常利用它的弱点，相遇时实行机动作战，绕到它的背后进行攻击。</p>","part2content":[{"image":"imgs/de/army/de_army_tankvi_21.jpg","description":"1942年，首次参战的虎Ⅰ坦克在俄罗斯的列宁格勒进行战斗，图中一辆苏军T—34坦克被虎Ⅰ坦克击毁。","caption":""},{"image":"imgs/de/army/de_army_tankvi_22.jpg","description":"1943年春，哈尔科夫战役后期，一辆在战场上疾行的大德意志装甲掷弹兵师虎Ⅰ坦克。","caption":""},{"image":"imgs/de/army/de_army_tankvi_23.jpg","description":"哈尔科夫战役中，正在前往战场的虎Ⅰ型坦克。注意：图中的背景是哈尔科夫教堂。","caption":""},{"image":"imgs/de/army/de_army_tankvi_24.jpg","description":"1943年6月，在苏联库尔斯克战役中一辆隶属505重装营的虎ⅠH型坦克，坦克兵正在对坦克进行检修。","caption":""},{"image":"imgs/de/army/de_army_tankvi_25.jpg","description":"1943年7月，在参加库尔斯克战斗后，一辆隶属武装党卫军帝国师第二装甲团8连的虎ⅠH型坦克编队行进。","caption":""},{"image":"imgs/de/army/de_army_tankvi_26.jpg","description":"一辆行进中属于德军第501重装营的虎Ⅰ坦克。","caption":""},{"image":"imgs/de/army/de_army_tankvi_27.jpg","description":"在苏联雪地中抛锚的一辆虎Ⅰ坦克，因为车重和动力问题，坦克机械经常出故障，一直对德军装甲部队的行进和战斗都有很大影响。","caption":""},{"image":"imgs/de/army/de_army_tankvi_28.jpg","description":"1943年5月，出现在法国地区的德军第502重装营第2连一辆虎Ⅰ坦克。图中坦克被涂成暗黄色，没有任何标志，站在士兵中前方的军官是一位上尉（左臂佩带一盾形标识）。","caption":""},{"image":"imgs/de/army/de_army_tankvi_29.jpg","description":"1944年6月在诺曼第的波卡基村，党卫军101重战车营的一辆虎Ⅰ坦克被盟军飞机炸毁后的情况。当时该车和几辆虎式坦克突入该村，但很快就受到盟军飞机的空袭，损失惨重。","caption":""},{"image":"imgs/de/army/de_army_tankvi_30.jpg","description":"1944年6月在诺曼第战场上，一辆由党卫军101重战车营1连3排指挥官Walter Hahn指挥的虎Ⅰ.E型坦克。","caption":""}]};
+
+/***/ }),
+
+/***/ "./js/de_army_tankvi_ii.json":
+/*!***********************************!*\
+  !*** ./js/de_army_tankvi_ii.json ***!
+  \***********************************/
+/*! exports provided: category, model, description, part1title, part1description, part1content, part2title, part2description, part2content, default */
+/***/ (function(module) {
+
+module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅵ号虎王（虎Ⅱ）坦克","description":"<h6>综述：</h6><p>德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/army/de_army_tankvi_ii_11.jpg","description":"<h6>Ⅵ号虎王（虎Ⅱ）坦克（Sd.Kfz.182 Pz.Kpfw Ⅵ Aust.B TigerⅡ）</h6><p>虎王Ⅵ号（虎Ⅱ式）坦克是德国生产商在德军多系列坦克的技术积累下，结合战场的需求，以及吸纳了对手坦克的优点研制出来的一款高水平的坦克，其强大的装甲与火力令对手都为之称赞。</p><p>虎王Ⅵ号（虎Ⅱ式）坦克的数据为：</p><p>车长：10.3m, 车宽：3.8m, 车高：3.1m, 车重：57t; 乘员5人； 发动机700匹马力，车速：32km/h（约）, 最大行程：170km（约）; 主要武器：一门88mm Kw K43 L/71火炮，二挺7.92mm MG34机枪；装甲厚度：180mm。</p>","caption":"外形特点：1.悬挂系统中负重轮也是交迭式，但外层是5个大直径的钢轮。2.炮塔装备的88mm火炮身管更长。3.炮塔属大型炮塔，外形较大。"},{"image":"imgs/de/army/de_army_tankvi_ii_12.jpg{{caption}}imgs/de/army/de_army_tankvi_ii_13.jpg","description":"","caption":"<p>注意两种炮塔的不同点：1.下图的火炮连接炮塔处装有护环的防护盾。2.下图炮塔外壁装有可挂放备用履带链防护的挂钩。</p>"}],"part2title":"战场上的Ⅵ号虎王（虎Ⅱ）坦克","part2description":"<p>1944年5月，德军Ⅵ号虎王（虎Ⅱ）坦克第一次在东线明斯克参加了战斗，继后参加了诺曼第阻击战和阿登反击战，尽管德军每个装甲单位配备的虎王数量不多，但面对数量众多的对手坦克，虎王（虎Ⅱ）坦克虎王坦克总是胜多负少。其装备的88mm Kw K43 L/71火炮，可以说是二战中最厉害的坦克炮，1000m外可击穿215mm厚装甲，4000m外可击穿88mm厚装甲；在2000mm距离就能击穿苏军的T-34坦克和盟军的M4坦克装甲（二战时，坦克交战的距离一般在800—1500m），可见虎式坦克火力的强大。虎式坦克的最大弱点是机动发性能较差，但火力和防护的强大仍使其成为了战场上的王者；但此时已是二战末期，德军已呈败势，即使有虎式坦克这样的优势武器，但都难以挽回德国法西斯的灭亡了。</p>","part2content":[{"image":"imgs/de/army/de_army_tankvi_ii_21.jpg","description":"在1944年盟军在法国诺曼第登陆后，德军的虎王坦克在诺曼第地区进行作战准备。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_22.jpg","description":"德军的保时捷虎王坦克作战前集结。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_23.jpg","description":"1945年春，德军509重装营的一辆虎王坦克在匈牙利一个小村庄时集结。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_24.jpg","description":"1945年3月， 在匈牙利战场上被击毁的一辆德军虎王（虎Ⅱ）坦克，该坦克隶属于第501重装营。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_25.jpg","description":"疾驰在巴黎街头的德军虎王坦克。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_26.jpg","description":"一辆隶属德军武装党卫军第101重装甲团的虎王坦克，正在树林中隐蔽，待命出击。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_27.jpg","description":"关于德军503重装营的纪录片其中的一个镜头，这段纪录片现在已成为德军虎王坦克的经典流传。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_28.jpg","description":"因弹药爆炸而被完全摧毁的一辆德军第509重装营虎王坦克。","caption":""}]};
 
 /***/ }),
 
@@ -660,7 +684,7 @@ module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (body, menu) {pug_mixins["setNavItems"] = pug_interp = function(){
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (body, imgarr, imgarr_id, imgarr_len, menu) {pug_mixins["setNavItems"] = pug_interp = function(){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate menu
 ;(function(){
@@ -736,14 +760,84 @@ pug_html = pug_html + "\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col\"\u003
   if ('number' == typeof $$obj.length) {
       for (var pug_index2 = 0, $$l = $$obj.length; pug_index2 < $$l; pug_index2++) {
         var p1item = $$obj[pug_index2];
-pug_html = pug_html + "\u003Cdiv class=\"row pb-3\"\u003E\u003Cdiv class=\"col-lg-7 order-1 order-lg-0\"\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p1item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-lg-5 order-0 order-lg-1\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"row pb-3\"\u003E\u003Cdiv class=\"col-lg-7 order-1 order-lg-0\"\u003E";
+imgarr = p1item.image.split('{{caption}}')
+imgarr_len = imgarr.length
+imgarr_id = 0
+if (imgarr_len > 1) {
+// iterate imgarr
+;(function(){
+  var $$obj = imgarr;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index3 = 0, $$l = $$obj.length; pug_index3 < $$l; pug_index3++) {
+        var p1item_img = $$obj[pug_index3];
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item_img, true, true)) + "\u003E\u003C\u002Ffigure\u003E";
+imgarr_id ++
+if (imgarr_id < imgarr_len) {
+pug_html = pug_html + "\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.caption) ? "" : pug_interp) + "\u003C\u002Fspan\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index3 in $$obj) {
+      $$l++;
+      var p1item_img = $$obj[pug_index3];
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item_img, true, true)) + "\u003E\u003C\u002Ffigure\u003E";
+imgarr_id ++
+if (imgarr_id < imgarr_len) {
+pug_html = pug_html + "\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.caption) ? "" : pug_interp) + "\u003C\u002Fspan\u003E";
+}
+    }
+  }
+}).call(this);
+
+}
+else {
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p1item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E";
+}
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-lg-5 order-0 order-lg-1\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
     for (var pug_index2 in $$obj) {
       $$l++;
       var p1item = $$obj[pug_index2];
-pug_html = pug_html + "\u003Cdiv class=\"row pb-3\"\u003E\u003Cdiv class=\"col-lg-7 order-1 order-lg-0\"\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p1item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-lg-5 order-0 order-lg-1\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"row pb-3\"\u003E\u003Cdiv class=\"col-lg-7 order-1 order-lg-0\"\u003E";
+imgarr = p1item.image.split('{{caption}}')
+imgarr_len = imgarr.length
+imgarr_id = 0
+if (imgarr_len > 1) {
+// iterate imgarr
+;(function(){
+  var $$obj = imgarr;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index4 = 0, $$l = $$obj.length; pug_index4 < $$l; pug_index4++) {
+        var p1item_img = $$obj[pug_index4];
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item_img, true, true)) + "\u003E\u003C\u002Ffigure\u003E";
+imgarr_id ++
+if (imgarr_id < imgarr_len) {
+pug_html = pug_html + "\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.caption) ? "" : pug_interp) + "\u003C\u002Fspan\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index4 in $$obj) {
+      $$l++;
+      var p1item_img = $$obj[pug_index4];
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item_img, true, true)) + "\u003E\u003C\u002Ffigure\u003E";
+imgarr_id ++
+if (imgarr_id < imgarr_len) {
+pug_html = pug_html + "\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.caption) ? "" : pug_interp) + "\u003C\u002Fspan\u003E";
+}
+    }
+  }
+}).call(this);
+
+}
+else {
+pug_html = pug_html + "\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p1item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p1item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E";
+}
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-lg-5 order-0 order-lg-1\"\u003E\u003Cspan class=\"custom-document-content\"\u003E" + (null == (pug_interp = p1item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
     }
   }
 }).call(this);
@@ -757,21 +851,21 @@ pug_html = pug_html + "\u003Cdiv class=\"row\"\u003E";
 ;(function(){
   var $$obj = body.part2content;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index3 = 0, $$l = $$obj.length; pug_index3 < $$l; pug_index3++) {
-        var p2item = $$obj[pug_index3];
+      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
+        var p2item = $$obj[pug_index5];
 pug_html = pug_html + "\u003Cdiv class=\"col-md-6 pt-3\"\u003E\u003Cdiv class=\"card\"\u003E\u003Cdiv class=\"card-body\"\u003E\u003Cdiv class=\"card-img\"\u003E\u003Ca" + (" class=\"mfp-image-link\""+pug.attr("href", p2item.image, true, true)+pug.attr("title", p2item.description, true, true)) + "\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p2item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p2item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cspan class=\"card-text custom-document-content\"\u003E" + (null == (pug_interp = p2item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index3 in $$obj) {
+    for (var pug_index5 in $$obj) {
       $$l++;
-      var p2item = $$obj[pug_index3];
+      var p2item = $$obj[pug_index5];
 pug_html = pug_html + "\u003Cdiv class=\"col-md-6 pt-3\"\u003E\u003Cdiv class=\"card\"\u003E\u003Cdiv class=\"card-body\"\u003E\u003Cdiv class=\"card-img\"\u003E\u003Ca" + (" class=\"mfp-image-link\""+pug.attr("href", p2item.image, true, true)+pug.attr("title", p2item.description, true, true)) + "\u003E\u003Cfigure class=\"figure\"\u003E\u003Cimg" + (" class=\"figure-img img-fluid rounded\""+pug.attr("src", p2item.image, true, true)) + "\u003E\u003Cfigcaption class=\"figure-caption\"\u003E" + (pug.escape(null == (pug_interp = p2item.caption) ? "" : pug_interp)) + "\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cspan class=\"card-text custom-document-content\"\u003E" + (null == (pug_interp = p2item.description) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to');\n});\n\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery.magnific-popup.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  $(\".mfp-image-link\").magnificPopup({\n    type: \"image\",\n    closeOnContentClick: true\n  });\n});\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to');\n});\n\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery.magnific-popup.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  $(\".mfp-image-link\").magnificPopup({\n    type: \"image\",\n    closeOnContentClick: true\n  });\n});\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"imgarr" in locals_for_with?locals_for_with.imgarr:typeof imgarr!=="undefined"?imgarr:undefined,"imgarr_id" in locals_for_with?locals_for_with.imgarr_id:typeof imgarr_id!=="undefined"?imgarr_id:undefined,"imgarr_len" in locals_for_with?locals_for_with.imgarr_len:typeof imgarr_len!=="undefined"?imgarr_len:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),

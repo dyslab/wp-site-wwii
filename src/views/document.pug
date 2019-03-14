@@ -32,9 +32,23 @@ block content
       each p1item in body.part1content
         div.row.pb-3
           div.col-lg-7.order-1.order-lg-0
-            figure.figure
-              img.figure-img.img-fluid.rounded(src=p1item.image)
-              figcaption.figure-caption= p1item.caption
+            -
+              imgarr = p1item.image.split('{{caption}}')
+              imgarr_len = imgarr.length
+              imgarr_id = 0
+            if imgarr_len > 1
+              each p1item_img in imgarr
+                figure.figure
+                  img.figure-img.img-fluid.rounded(src=p1item_img)
+                -
+                  imgarr_id ++
+                if imgarr_id < imgarr_len
+                  span.custom-document-content!= p1item.caption
+            else
+              figure.figure
+                img.figure-img.img-fluid.rounded(src=p1item.image)
+                figcaption.figure-caption= p1item.caption
+
           div.col-lg-5.order-0.order-lg-1
             span.custom-document-content!= p1item.description
       div.row

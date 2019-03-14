@@ -21,7 +21,15 @@ const fileIDs = [
   },
   {
     id: 'de_army_tankv',
-    title: 'Ⅴ号坦克'
+    title: 'Ⅴ号黑豹坦克'
+  },
+  {
+    id: 'de_army_tankvi',
+    title: 'Ⅵ号虎式（虎Ⅰ）坦克'
+  },
+  {
+    id: 'de_army_tankvi_ii',
+    title: 'Ⅵ号虎王（虎Ⅱ）坦克'
   },
   {
     id: 'de_airforce',
