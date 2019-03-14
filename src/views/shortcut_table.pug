@@ -12,25 +12,28 @@ block content
               else
                 a.nav-link(href=linkitem.href)= linkitem.name
       div.row
-        div.col.col-lg-10.pt-3.pb-3
-          each item in body.weapons
-            div.row.pt-2.pb-2
+        div.col-12.col-lg-10.pt-3.pb-3
+          table.table.table-responsive
+            each item in body.weapons
               if item.intro == '***'
-                div.col.pt-2.pb-2
-                  i.fas.fa-clipboard-list.fa-lg
-                  |  
-                  span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                tr
+                  th.thead-light.custom-shortcut-category-color-1(scope="col", colspan="2")
+                    i.fas.fa-th-list.fa-lg
+                    |  
+                    span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
               else if item.intro == '###'
-                div.col
-                  i.fas.fa-ellipsis-h.fa-lg
-                  |  
-                  span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                tr
+                  th.thead-light.custom-shortcut-category-color-2(scope="col", colspan="2")
+                    i.fas.fa-ellipsis-h.fa-lg
+                    |  
+                    span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
               else
-                div.col-12.col-md-3.col-lg-2
-                  a(href=item.link + '.html')
-                    span.font-weight-bold #{item.title}
-                div.col-12.col-md-9.col-lg-10
-                  span!= item.intro
+                tr
+                  td.custom-nowrap
+                    a(href=item.link + '.html')
+                      span.font-weight-bold #{item.title}
+                  td
+                    span!= item.intro
         div.d-none.d-lg-block.col-lg-2
           div.sticky-top.pt-3.pb-3
             div.list-group

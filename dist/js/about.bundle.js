@@ -801,6 +801,7 @@ var map = {
 	"./index_body.pug": "./views/index_body.pug",
 	"./jumpto.pug": "./views/jumpto.pug",
 	"./shortcut.pug": "./views/shortcut.pug",
+	"./shortcut_table.pug": "./views/shortcut_table.pug",
 	"./template.pug": "./views/template.pug"
 };
 
@@ -1404,6 +1405,156 @@ module.exports = template;
 /*!****************************!*\
   !*** ./views/shortcut.pug ***!
   \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (body, menu) {pug_mixins["setNavItems"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate menu
+;(function(){
+  var $$obj = menu;
+  if ('number' == typeof $$obj.length) {
+      for (var index = 0, $$l = $$obj.length; index < $$l; index++) {
+        var menuitem = $$obj[index];
+if (menuitem.active) {
+pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var index in $$obj) {
+      $$l++;
+      var menuitem = $$obj[index];
+if (menuitem.active) {
+pug_html = pug_html + "\u003Cli class=\"nav-item active\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003Cspan class=\"sr-only\"\u003E(current)\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\u003Cli class=\"nav-item\"\u003E\u003Ca" + (" class=\"nav-link\""+pug.attr("href", menuitem.link + '.html', true, true)) + "\u003E" + (pug.escape(null == (pug_interp = menuitem.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_html = pug_html + "\u003C!-- Sticky Nav Bar Begin --\u003E\u003Cheader class=\"p-0\"\u003E\u003Cdiv class=\"container-fluid custom-header-bgcolor p-0\"\u003E\u003Cnav class=\"navbar navbar-expand-lg navbar-light custom-transparency-95 p-2\"\u003E\u003Cdiv class=\"container-fluid d-flex justify-content-end\"\u003E\u003Cbutton class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbarNav\" aria-controls=\"bs-navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"\u003E\u003Cspan class=\"navbar-toggler-icon\"\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\u003Cdiv class=\"flex-row collapse justify-content-center navbar-collapse\" id=\"bs-navbarNav\"\u003E\u003Cul class=\"navbar-nav\"\u003E";
+pug_mixins["setNavItems"]();
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E\u003C!-- Sticky Nav Bar End --\u003E\u003Csection class=\"custom-shortcut-style pt-3 pb-3\" id=\"shortcut\"\u003E\u003Cdiv class=\"container\"\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-12 pt-3 pb-3\"\u003E\u003Cnav class=\"nav justify-content-center\"\u003E";
+// iterate body.countries
+;(function(){
+  var $$obj = body.countries;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
+        var linkitem = $$obj[pug_index1];
+if (linkitem.href == '' || linkitem.href == '###') {
+pug_html = pug_html + "\u003Ca class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+else {
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index1 in $$obj) {
+      $$l++;
+      var linkitem = $$obj[pug_index1];
+if (linkitem.href == '' || linkitem.href == '###') {
+pug_html = pug_html + "\u003Ca class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+else {
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col col-lg-10 pt-3 pb-3\"\u003E";
+// iterate body.weapons
+;(function(){
+  var $$obj = body.weapons;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index2 = 0, $$l = $$obj.length; pug_index2 < $$l; pug_index2++) {
+        var item = $$obj[pug_index2];
+pug_html = pug_html + "\u003Cdiv class=\"row pt-2 pb-2\"\u003E";
+if (item.intro == '***') {
+pug_html = pug_html + "\u003Cdiv class=\"col pt-2 pb-2\"\u003E\u003Ci class=\"fas fa-clipboard-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
+}
+else
+if (item.intro == '###') {
+pug_html = pug_html + "\u003Cdiv class=\"col\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\u003Cdiv class=\"col-12 col-md-3 col-lg-2\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-12 col-md-9 col-lg-10\"\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
+}
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index2 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index2];
+pug_html = pug_html + "\u003Cdiv class=\"row pt-2 pb-2\"\u003E";
+if (item.intro == '***') {
+pug_html = pug_html + "\u003Cdiv class=\"col pt-2 pb-2\"\u003E\u003Ci class=\"fas fa-clipboard-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
+}
+else
+if (item.intro == '###') {
+pug_html = pug_html + "\u003Cdiv class=\"col\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\u003Cdiv class=\"col-12 col-md-3 col-lg-2\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-12 col-md-9 col-lg-10\"\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
+}
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003Cdiv class=\"d-none d-lg-block col-lg-2\"\u003E\u003Cdiv class=\"sticky-top pt-3 pb-3\"\u003E\u003Cdiv class=\"list-group\"\u003E";
+// iterate body.weapons
+;(function(){
+  var $$obj = body.weapons;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index3 = 0, $$l = $$obj.length; pug_index3 < $$l; pug_index3++) {
+        var item = $$obj[pug_index3];
+if (item.intro == '***') {
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-1 pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
+else {
+if (item.intro == '###') {
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-2 pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index3 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index3];
+if (item.intro == '***') {
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-1 pl-2 pt-1 pb-1 pr-1\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
+else {
+if (item.intro == '###') {
+pug_html = pug_html + "\u003Ca" + (" class=\"list-group-item list-group-item-action custom-shortcut-menu-color-2 pl-3 pt-0 pb-0 pr-2\""+pug.attr("href", "#" + item.link, true, true)) + "\u003E" + (null == (pug_interp = item.title) ? "" : pug_interp) + "\u003C\u002Fa\u003E";
+}
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fsection\u003E" + (null == (pug_interp = __webpack_require__(/*! ./footer.pug */ "./views/footer.pug").call(this, locals)) ? "" : pug_interp) + "\u003C!-- Javascript common libs. JQuery, Bootstrap, FontAwesome Script Begin --\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fjquery-3.3.1.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fbootstrap.bundle.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fall.min.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.core.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript src=\".\u002Fcommon\u002Fjs\u002Fhs.go-to.js\"\u003E\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n  \u002F\u002F- Go To Top Script\n  $.HSCore.components.HSGoTo.init('.js-go-to');\n});\n\u003C\u002Fscript\u003E\u003Cscript\u003E$(document).ready(function() {\n});\u003C\u002Fscript\u003E";}.call(this,"body" in locals_for_with?locals_for_with.body:typeof body!=="undefined"?body:undefined,"menu" in locals_for_with?locals_for_with.menu:typeof menu!=="undefined"?menu:undefined));;return pug_html;};
+module.exports = template;
+
+/***/ }),
+
+/***/ "./views/shortcut_table.pug":
+/*!**********************************!*\
+  !*** ./views/shortcut_table.pug ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

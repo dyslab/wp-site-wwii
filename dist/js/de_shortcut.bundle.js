@@ -851,44 +851,48 @@ pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkit
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col-12 col-lg-10 pt-3 pb-3\"\u003E\u003Ctable class=\"table table-responsive\"\u003E";
+pug_html = pug_html + "\u003C\u002Fnav\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"row\"\u003E\u003Cdiv class=\"col col-lg-10 pt-3 pb-3\"\u003E";
 // iterate body.weapons
 ;(function(){
   var $$obj = body.weapons;
   if ('number' == typeof $$obj.length) {
       for (var pug_index2 = 0, $$l = $$obj.length; pug_index2 < $$l; pug_index2++) {
         var item = $$obj[pug_index2];
+pug_html = pug_html + "\u003Cdiv class=\"row pt-2 pb-2\"\u003E";
 if (item.intro == '***') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-1\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"col pt-2 pb-2\"\u003E\u003Ci class=\"fas fa-clipboard-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
 }
 else
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-2\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"col\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
 }
 else {
-pug_html = pug_html + "\u003Ctr\u003E\u003Ctd class=\"custom-nowrap\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"col-12 col-md-3 col-lg-2\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-12 col-md-9 col-lg-10\"\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
 }
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
     for (var pug_index2 in $$obj) {
       $$l++;
       var item = $$obj[pug_index2];
+pug_html = pug_html + "\u003Cdiv class=\"row pt-2 pb-2\"\u003E";
 if (item.intro == '***') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-1\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-th-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"col pt-2 pb-2\"\u003E\u003Ci class=\"fas fa-clipboard-list fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
 }
 else
 if (item.intro == '###') {
-pug_html = pug_html + "\u003Ctr\u003E\u003Cth class=\"thead-light custom-shortcut-category-color-2\" scope=\"col\" colspan=\"2\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"col\"\u003E\u003Ci class=\"fas fa-ellipsis-h fa-lg\"\u003E\u003C\u002Fi\u003E \u003Cspan" + (" class=\"h5 font-weight-bold custom-text-shadow-1px\""+pug.attr("id", item.link, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
 }
 else {
-pug_html = pug_html + "\u003Ctr\u003E\u003Ctd class=\"custom-nowrap\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"col-12 col-md-3 col-lg-2\"\u003E\u003Ca" + (pug.attr("href", item.link + '.html', true, true)) + "\u003E\u003Cspan class=\"font-weight-bold\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"col-12 col-md-9 col-lg-10\"\u003E\u003Cspan\u003E" + (null == (pug_interp = item.intro) ? "" : pug_interp) + "\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E";
 }
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
     }
   }
 }).call(this);
 
-pug_html = pug_html + "\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"d-none d-lg-block col-lg-2\"\u003E\u003Cdiv class=\"sticky-top pt-3 pb-3\"\u003E\u003Cdiv class=\"list-group\"\u003E";
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\u003Cdiv class=\"d-none d-lg-block col-lg-2\"\u003E\u003Cdiv class=\"sticky-top pt-3 pb-3\"\u003E\u003Cdiv class=\"list-group\"\u003E";
 // iterate body.weapons
 ;(function(){
   var $$obj = body.weapons;
