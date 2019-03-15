@@ -33,21 +33,74 @@ block content
         div.row.pb-3
           div.col-lg-7.order-1.order-lg-0
             -
-              imgarr = p1item.image.split('{{caption}}')
-              imgarr_len = imgarr.length
-              imgarr_id = 0
-            if imgarr_len > 1
-              each p1item_img in imgarr
-                figure.figure
-                  img.figure-img.img-fluid.rounded(src=p1item_img)
-                -
-                  imgarr_id ++
-                if imgarr_id < imgarr_len
-                  span.custom-document-content!= p1item.caption
+              toParse = p1item.image.indexOf('{{');
+            if (toParse >= 0)
+              -
+                src = p1item.image;
+                // Parsing...
+                var pos = 0;
+                var cmd_flag = false;
+                var cmd_str = "";
+                var tmp_str = "";
+                var src_char = "";
+                var result_array = [];
+                while (pos < src.length) {
+                  src_char =  src.charAt(pos);
+                  switch (src_char) {
+                    case "{":
+                      pos++;
+                      src_next_char = src.charAt(pos);
+                      if (src_next_char === "{") {
+                          cmd_flag = true;
+                          // manipulate the previous command.
+                          if (cmd_str !== "") {
+                              result_array.push(
+                                  {
+                                      command: cmd_str.toLowerCase(),
+                                      content: tmp_str
+                                  }
+                              );
+                          }
+                          cmd_str = "";
+                          tmp_str = "";
+                      } else {
+                          if (cmd_flag) cmd_str = src_char + src_next_char;
+                          else          tmp_str = src_char + src_next_char;
+                      }
+                      break;
+                    case "}":
+                      pos++;
+                      src_next_char = src.charAt(pos);
+                      if (src_next_char === "}") {
+                          cmd_flag = false;
+                      } else {
+                          if (cmd_flag) cmd_str = src_char + src_next_char;
+                          else          tmp_str = src_char + src_next_char;
+                      }
+                      break;
+                    default:
+                      if (cmd_flag) cmd_str += src_char;
+                      else          tmp_str += src_char;
+                      break;
+                  }
+                  pos++;
+                }
+                if (cmd_str !== "") {
+                  result_array.push({ command: cmd_str, content: tmp_str });
+                }
+              each r1item in result_array
+                if r1item.command == 'image'
+                  img.img-fluid.rounded(src=r1item.content)
+                else if r1item.command == 'text'
+                  div.mb-3
+                    span.custom-document-content!= r1item.content
+                else if r1item.command == 'caption'
+                  div.mb-3
+                    span.custom-document-caption.text-secondary!= r1item.content
             else
-              figure.figure
-                img.figure-img.img-fluid.rounded(src=p1item.image)
-                figcaption.figure-caption= p1item.caption
+              img.img-fluid.rounded(src=p1item.image)
+              div.mb-3
+                span.custom-document-caption.text-secondary!= p1item.caption
 
           div.col-lg-5.order-0.order-lg-1
             span.custom-document-content!= p1item.description

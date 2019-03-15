@@ -226,6 +226,10 @@ p.custom-document-paragraph-start-space {
   font-weight: bold;
 }
 
+.custom-document-caption p {
+  text-indent: 2em;
+}
+
 .custom-index-wh {
   padding: 0;
   width: 100vw;

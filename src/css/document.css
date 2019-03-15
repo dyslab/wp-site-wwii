@@ -20,3 +20,7 @@ p.custom-document-paragraph-start-space {
   line-height: 2rem;
   font-weight: bold;
 }
+
+.custom-document-caption p {
+  text-indent: 2em;
+}
