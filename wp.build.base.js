@@ -26,22 +26,6 @@ const fileIDs = [
   {
     id: 'wwii_misc',
     title: '物事篇'
-  },
-  {
-    id: 'de_army',
-    title: '陆战武器'
-  },
-  {
-    id: 'de_airforce',
-    title: '空战武器'
-  },
-  {
-    id: 'de_navy',
-    title: '海战武器'
-  },
-  {
-    id: 'de_shortcut',
-    title: '快捷目录'
   }
 ];
 

@@ -32,6 +32,14 @@ const fileIDs = [
     title: 'Ⅵ号虎王（虎Ⅱ）坦克'
   },
   {
+    id: 'de_army_tank35',
+    title: '35(t)坦克（捷克产）'
+  },
+  {
+    id: 'de_army_tank38',
+    title: '38(t)坦克（捷克产）'
+  },
+  {
     id: 'de_airforce',
     title: '空战武器'
   },
@@ -46,10 +54,6 @@ const fileIDs = [
   {
     id: 'de_shortcut',
     title: '快捷目录'
-  },
-  {
-    id: 'about',
-    title: '关于本站'
   }
 ];
 

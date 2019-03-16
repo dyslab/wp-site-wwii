@@ -395,6 +395,8 @@ var map = {
 	"./about.json": "./js/about.json",
 	"./de_airforce.json": "./js/de_airforce.json",
 	"./de_army.json": "./js/de_army.json",
+	"./de_army_tank35.json": "./js/de_army_tank35.json",
+	"./de_army_tank38.json": "./js/de_army_tank38.json",
 	"./de_army_tanki.json": "./js/de_army_tanki.json",
 	"./de_army_tankii.json": "./js/de_army_tankii.json",
 	"./de_army_tankiii.json": "./js/de_army_tankiii.json",
@@ -402,11 +404,15 @@ var map = {
 	"./de_army_tankv.json": "./js/de_army_tankv.json",
 	"./de_army_tankvi.json": "./js/de_army_tankvi.json",
 	"./de_army_tankvi_ii.json": "./js/de_army_tankvi_ii.json",
+	"./de_menu.json": "./js/de_menu.json",
 	"./de_navy.json": "./js/de_navy.json",
 	"./de_shortcut.json": "./js/de_shortcut.json",
 	"./footer.json": "./js/footer.json",
 	"./index.json": "./js/index.json",
-	"./menu.json": "./js/menu.json"
+	"./menu.json": "./js/menu.json",
+	"./ru_army.json": "./js/ru_army.json",
+	"./ru_menu.json": "./js/ru_menu.json",
+	"./ru_shortcut.json": "./js/ru_shortcut.json"
 };
 
 
@@ -453,10 +459,11 @@ module.exports = {"part1title":"内容及版权声明","part1content":"<p>本网
 
 /* eslint-disable no-unused-vars */
 exports.setMenuActiveItem = (menuJSON, currentName) => {
-  const step = 1; // Set active menu item.
+  const step = 1;
+  const zero = 0; // Set active menu item.
 
   for (let no = 0; no < menuJSON.length; no += step) {
-    if (currentName.search(menuJSON[no].link) >= 0) {
+    if (currentName.search(menuJSON[no].link) >= zero) {
       menuJSON[no].active = true;
     }
   }
@@ -501,7 +508,29 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 /*! exports provided: countries, weapons, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Ⅰ号坦克","link":"de_army_tanki","image":"imgs/de/army/de_army_tanki_01.jpg","intro":"Ⅰ号坦克是德国在1934-1937期间生产的轻型坦克，战前作训练坦克用，二战爆发后改作作战坦克，第一次实战是1937年的西班牙内战，有约100辆A型坦克提供给弗朗哥的军队用，在战争中暴露了不少问题，装甲弱，整车防护能力低，发动机动力不足，机动能力差，驾驶舒适度差，由于舱盖合上后视野很差，所以作战时车长要探出炮塔观察导致伤亡。二战爆发后，尽管问题存在，但Ⅰ号坦克（包括Ⅱ号坦克)在闪击波兰和法国战役、入侵挪威和丹麦的战争、入侵苏联战争和北非战争中，不断成功地突破对方防线并进行快速的深纵迂回，显示了坦克作战的价值，发挥了很大作用。"},{"model":"Ⅱ号坦克","link":"de_army_tankii","image":"imgs/de/army/de_army_tankii_01.jpg","intro":"Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型。"},{"model":"Ⅲ号坦克","link":"de_army_tankiii","image":"imgs/de/army/de_army_tankiii_01.jpg","intro":"Ⅲ号坦克从1936年开始定型量产，1939年已进入大产量期，由于最终量产的Ⅲ号坦克的悬挂系统改用了扭杆弹簧悬挂，使坦克的行进质量变得更好，在大大提高坦克行进机构的寿命同时，也大大提高了坦克炮射击的稳定性和准确性；在后期坦克换装50mm和75mm坦克炮后，火力更是大大增强，使该坦克成为了支援步兵作战的主力；Ⅲ号坦克乘员5人，炮塔3人，车身2人。Ⅲ号坦克一共生产了5600多辆，直到豹式坦克的投产才停止生产。由于Ⅲ号坦克的底盘的扭杆弹簧悬挂系统（世界第一次使用）的优越，其后在此底盘上产生了很多变形车（如在战场上战绩突出的Ⅲ号突击炮车）。"},{"model":"Ⅳ号坦克","link":"de_army_tankiv","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"Ⅳ号坦克是二战中、后期德军装甲部队的一种中型主战坦克，从1938年年初Ⅳ号A型坦克交付开始（Ⅳ号坦克的研制始于1934年），该型坦克的武器、装甲和动力系统不断改进，从A、B、C、D、E、F、G、H到J型，到1945年，德国一共生产了Ⅳ号系列坦克8500多辆，是二战期间德国生产数量最多的一种坦克。足足占德国二战时间坦克总产量的三分之一有多。Ⅳ号坦克一直在战斗中保持极高的战斗力，与苏军的T-34坦克对抗也不落下风。"},{"model":"Ⅴ号黑豹坦克","link":"de_army_tankv","image":"imgs/de/army/de_army_tankv_01.jpg","intro":"Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。"},{"model":"Ⅵ号虎式（虎Ⅰ）坦克","link":"de_army_tankvi","image":"imgs/de/army/de_army_tankvi_01.jpg","intro":"虎式坦克于1942年7月开始定型生产（此前已经过多年的研发），至1944年8月共生产了1300多辆，定名为Pz.Kpfw Ⅵ号”虎”式（虎Ⅰ）坦克。虎Ⅰ坦克有2种正式型号，分别为“E”型和“H”型。虎Ⅰ坦克是一种重型坦克，车身和车体上部采用一体式焊接；虎Ⅰ坦克的装甲防护十分强大，其车体正面装甲为100，炮塔正面装甲110mm，侧面和背面装甲也有80mm厚，敌方火炮几乎无法将其击穿。虎Ⅰ坦克装备了88mm Kwk36 L/56火炮和二挺MG34机枪，其88mm火炮(原是一种防空高射炮,在北非战役中转作反坦克炮用，战绩十分突出，受到希特勒的极度欣赏。其威力强大，敌方坦克基本上难以抵挡其一击。"},{"model":"Ⅵ号虎王（虎Ⅱ）坦克","link":"de_army_tankvi_ii","image":"imgs/de/army/de_army_tankvi_ii_01.jpg","intro":"德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Ⅰ号坦克","link":"de_army_tanki","image":"imgs/de/army/de_army_tanki_01.jpg","intro":"Ⅰ号坦克是德国在1934-1937期间生产的轻型坦克，战前作训练坦克用，二战爆发后改作作战坦克，第一次实战是1937年的西班牙内战，有约100辆A型坦克提供给弗朗哥的军队用，在战争中暴露了不少问题，装甲弱，整车防护能力低，发动机动力不足，机动能力差，驾驶舒适度差，由于舱盖合上后视野很差，所以作战时车长要探出炮塔观察导致伤亡。二战爆发后，尽管问题存在，但Ⅰ号坦克（包括Ⅱ号坦克)在闪击波兰和法国战役、入侵挪威和丹麦的战争、入侵苏联战争和北非战争中，不断成功地突破对方防线并进行快速的深纵迂回，显示了坦克作战的价值，发挥了很大作用。"},{"model":"Ⅱ号坦克","link":"de_army_tankii","image":"imgs/de/army/de_army_tankii_01.jpg","intro":"Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型。"},{"model":"Ⅲ号坦克","link":"de_army_tankiii","image":"imgs/de/army/de_army_tankiii_01.jpg","intro":"Ⅲ号坦克从1936年开始定型量产，1939年已进入大产量期，由于最终量产的Ⅲ号坦克的悬挂系统改用了扭杆弹簧悬挂，使坦克的行进质量变得更好，在大大提高坦克行进机构的寿命同时，也大大提高了坦克炮射击的稳定性和准确性；在后期坦克换装50mm和75mm坦克炮后，火力更是大大增强，使该坦克成为了支援步兵作战的主力；Ⅲ号坦克乘员5人，炮塔3人，车身2人。Ⅲ号坦克一共生产了5600多辆，直到豹式坦克的投产才停止生产。由于Ⅲ号坦克的底盘的扭杆弹簧悬挂系统（世界第一次使用）的优越，其后在此底盘上产生了很多变形车（如在战场上战绩突出的Ⅲ号突击炮车）。"},{"model":"Ⅳ号坦克","link":"de_army_tankiv","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"Ⅳ号坦克是二战中、后期德军装甲部队的一种中型主战坦克，从1938年年初Ⅳ号A型坦克交付开始（Ⅳ号坦克的研制始于1934年），该型坦克的武器、装甲和动力系统不断改进，从A、B、C、D、E、F、G、H到J型，到1945年，德国一共生产了Ⅳ号系列坦克8500多辆，是二战期间德国生产数量最多的一种坦克。足足占德国二战时间坦克总产量的三分之一有多。Ⅳ号坦克一直在战斗中保持极高的战斗力，与苏军的T-34坦克对抗也不落下风。"},{"model":"Ⅴ号黑豹坦克","link":"de_army_tankv","image":"imgs/de/army/de_army_tankv_01.jpg","intro":"Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。"},{"model":"Ⅵ号虎式（虎Ⅰ）坦克","link":"de_army_tankvi","image":"imgs/de/army/de_army_tankvi_01.jpg","intro":"虎式坦克于1942年7月开始定型生产（此前已经过多年的研发），至1944年8月共生产了1300多辆，定名为Pz.Kpfw Ⅵ号”虎”式（虎Ⅰ）坦克。虎Ⅰ坦克有2种正式型号，分别为“E”型和“H”型。虎Ⅰ坦克是一种重型坦克，车身和车体上部采用一体式焊接；虎Ⅰ坦克的装甲防护十分强大，其车体正面装甲为100，炮塔正面装甲110mm，侧面和背面装甲也有80mm厚，敌方火炮几乎无法将其击穿。虎Ⅰ坦克装备了88mm Kwk36 L/56火炮和二挺MG34机枪，其88mm火炮(原是一种防空高射炮,在北非战役中转作反坦克炮用，战绩十分突出，受到希特勒的极度欣赏。其威力强大，敌方坦克基本上难以抵挡其一击。"},{"model":"Ⅵ号虎王（虎Ⅱ）坦克","link":"de_army_tankvi_ii","image":"imgs/de/army/de_army_tankvi_ii_01.jpg","intro":"德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。"},{"model":"35(t)坦克（捷克产）","link":"de_army_tank35","image":"imgs/de/army/de_army_tank35_01.jpg","intro":"35(t)坦克和38(t)坦克都是捷克生产的，在当是一种性能较好的轻型坦克。1939年3月，德军占领了捷克斯洛伐克，发现这二种坦克在火力和防护上都超过了当时德军的Ⅰ号和Ⅱ号坦克，同时也因为当时德国本土生产的Ⅲ号和Ⅳ号z装备数量不足，因此就要求捷克继续生产这二种坦克，而这二种坦克也就因此成为二战初期德军装甲部队的装备，参加了进攻波兰和法国的战斗，也有过出色的表现。但后来随着战争的发展，这二种坦克的装甲与火炮已完全落后，根本无法与苏军和盟军的坦克对抗，到了1942年，这二种型号的坦克就停产了，战场上余下的坦克则改作训练与非战斗用途，也有一部分被斯洛伐克和罗马利亚军队使用到战争结束。"},{"model":"38(t)坦克（捷克产）","link":"de_army_tank38","image":"imgs/de/army/de_army_tank38_01.jpg","intro":"该型坦克为捷克斯科达公司研发的一种轻型坦克，1938年定名为LtVz38，在德军占领捷克后被改名为PzKpfw 38(t), 开始大量生产并装备给德军装甲部队。至1942年停产为止，一共生产了1400多辆。其包括有A、B、C、D、E、F、G、S等多种型号。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
+
+/***/ }),
+
+/***/ "./js/de_army_tank35.json":
+/*!********************************!*\
+  !*** ./js/de_army_tank35.json ***!
+  \********************************/
+/*! exports provided: category, model, description, part1title, part1description, part1content, part2title, part2description, part2content, default */
+/***/ (function(module) {
+
+module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"35(t)坦克（捷克产）","description":"<h6>综述：</h6><p>35(t)坦克和38(t)坦克都是捷克生产的，在当是一种性能较好的轻型坦克。1939年3月，德军占领了捷克斯洛伐克，发现这二种坦克在火力和防护上都超过了当时德军的Ⅰ号和Ⅱ号坦克，同时也因为当时德国本土生产的Ⅲ号和Ⅳ号z装备数量不足，因此就要求捷克继续生产这二种坦克，而这二种坦克也就因此成为二战初期德军装甲部队的装备，参加了进攻波兰和法国的战斗，也有过出色的表现。但后来随着战争的发展，这二种坦克的装甲与火炮已完全落后，根本无法与苏军和盟军的坦克对抗，到了1942年，这二种型号的坦克就停产了，战场上余下的坦克则改作训练与非战斗用途，也有一部分被斯洛伐克和罗马利亚军队使用到战争结束。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/army/de_army_tank35_11.jpg","description":"<h6>35(t)坦克 Pz.Kpfw.35(t)</h6><p>35(t)该坦克于1934年由捷克研发，1935年定型(LtVz35)并开始量产，1939年德军侵占捷克后改名为Pz.Kpfw.35(t)纳入de德军现役。</p></p>该坦克车长：4.9m, 车宽：2.1m, 车高：2.35m, 车重10.7t; 乘员4人;发动机为120匹马力，最大时速：35km/h, 最大行程：190km, 涉水深度为1m；装甲厚度：正面25mm、侧面16mm、背面12mm。武器：一门37mm KwK34(t)坦克炮，二挺7.92mm MG37(t)机枪。</p>","caption":"<strong>外形特点：</strong><ul><li>悬挂系统中是4对用连杆连接的8个小型负重轮。</li><li>炮塔前部除炮管外，机枪也伸出前部。</li><li>炮塔上为圆形的舱盖。</li></ul>"},{"image":"{{text}}1939年生产的35(t) Z1型坦克{{image}}imgs/de/army/de_army_tank35_12.jpg","description":"","caption":""},{"image":"{{text}}1940年生产的35(t) Z3型坦克{{image}}imgs/de/army/de_army_tank35_13.jpg","description":"","caption":""},{"image":"{{text}}1940年生产的35(t) Z6型坦克{{image}}imgs/de/army/de_army_tank35_14.jpg","description":"","caption":""},{"image":"{{text}}1941年生产的35(t) Z7型坦克{{image}}imgs/de/army/de_army_tank35_15.jpg","description":"","caption":""}],"part2title":"战场上的35(t)坦克","part2description":"<p>侵占捷克后，德军征集了200多辆35(t)坦克，其中大部分分配给德军第6装甲师(原第一轻装师)，参加了入侵波兰和法国的行动，继而又参加了入侵苏联的战斗。第6装甲师在闪击法国中，曾快速地突破了法军的防线，俘获了近1000名法军官兵。后来进入东线战场上作战，在苏联严寒的天气中，该型坦克的动力装置故障频发，严重影响了战斗发挥，而面对苏军坦克装备的加强，该型坦克薄弱的装甲，已难以在战斗中生存，只能退出了战场。</p>","part2content":[{"image":"imgs/de/army/de_army_tank35_21.jpg","description":"在法国领土上快速前进的德军第6装甲师的35(t)坦克编队。","caption":""},{"image":"imgs/de/army/de_army_tank35_22.jpg","description":"在法国闪击战中，35(t)坦克与步兵一起协同进攻，该型坦克在快速进攻中有不错的表现。","caption":""},{"image":"imgs/de/army/de_army_tank35_23.jpg","description":"在1940年6月的法国闪击战中，第6装甲师的35(t)坦克集群正在快速攻击前进。","caption":""},{"image":"imgs/de/army/de_army_tank35_24.jpg","description":"在通往列宁格勒的路上，一辆隶属德军第6装甲师的35(t)坦克准备拖动一辆陷入泥泞中的运输车辆，摩托车隶属于其第4步枪团第9连的维修部门。","caption":""},{"image":"imgs/de/army/de_army_tank35_25.jpg","description":"搭乘坦克前进的步兵在下车，前面一辆是35(t)坦克，后面是一辆Ⅳ号坦克。","caption":""},{"image":"imgs/de/army/de_army_tank35_26.jpg","description":"德军第11装甲团5连的一辆35(t)坦克，这幅图片较清楚地显示了此型坦克的特征，在37mm的坦克炮上方较粗壮的管子是炮管制退器。","caption":""}]};
+
+/***/ }),
+
+/***/ "./js/de_army_tank38.json":
+/*!********************************!*\
+  !*** ./js/de_army_tank38.json ***!
+  \********************************/
+/*! exports provided: category, model, description, part1title, part1description, part1content, part2title, part2description, part2content, default */
+/***/ (function(module) {
+
+module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"38(t)坦克（捷克产）","description":"<h6>综述：</h6><p>该型坦克为捷克斯科达公司研发的一种轻型坦克，1938年定名为LtVz38，在德军占领捷克后被改名为PzKpfw 38(t), 开始大量生产并装备给德军装甲部队。至1942年停产为止，一共生产了1400多辆。其包括有A、B、C、D、E、F、G、S等多种型号。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"imgs/de/army/de_army_tank38_11.jpg","description":"<h6>38(t)坦克 Pz.Kpfw.38(t)</h6><p>38(t)坦克车长：4.6m, 车宽：2.12m, 车高：2.4m, 车重9.4t（后期增至11t）; 乘员4人;发动机为150匹马力，最大时速：42km/h, 最大行程：250km；1940年后生产的坦克（E型）正面装甲50mm、侧面30mm，并采用了焊接结构，同时加装了外层防护装甲；武器：一门37mm KwK38(t) L/48坦克炮，二挺7.92mm MG37(t)机枪。</p>","caption":"<strong>外形特点：</strong><ul><li>悬挂系统中是4个大直径负重轮。</li><li>对比35(t)，车体与炮塔正面的观察窗已作改变。</li><li>火炮换装后没有了伸出的制退器。</li></ul>"},{"image":"imgs/de/army/de_army_tank38_12.jpg","description":"<h6>A型坦克</h6><p>1939年德军订购的第一批38坦克（共150辆），正面装甲厚度为25mm。</p>","caption":""},{"image":"imgs/de/army/de_army_tank38_13.jpg","description":"<h6>B型坦克</h6><p>德军第二批订购的38(t)坦克（共110辆），结构与性能与A型坦克相同。</p>","caption":""},{"image":"imgs/de/army/de_army_tank38_14.jpg","description":"<h6>C型坦克</h6><p>德军第三批订购的38(t)坦克（共110辆）；外观略有改变，初期生产的坦克刚好赶上参加入侵法国的战斗。</p>","caption":""},{"image":"imgs/de/army/de_army_tank38_15.jpg","description":"<h6>D型坦克</h6><p>此型坦克生产了105辆，与上一型号基本相同，但部分车辆的排气管改向上扬。</p>","caption":""},{"image":"imgs/de/army/de_army_tank38_16.jpg","description":"<h6>E/F型坦克</h6><p>此二型坦克基本相同（F型取消了后部的排烟孔），E型在1940年秋天开始生产（共275辆），F型在1941年开始生产（共250辆）；从E型开始，坦克的正面装甲加强为50mm，侧面装甲也增加至30mm（后期装甲已从铆接改为焊接），坦克重量增至11t； 1940年11月后生产的坦克还安装了附加装甲，并换装了新型的观察窗口，安装了德国生产的37mm火炮，防御力和战斗力都进一步得到了加强。</p>","caption":""},{"image":"imgs/de/army/de_army_tank38_17.jpg","description":"<h6>G型坦克</h6><p>此型坦克在1941年末开始生产（共321辆），是最后一批生产的38(t)坦克。该型坦克装甲与武器都与F型相同，只是正面与侧面装甲全部改用整块钢板焊接（E型、F型的装甲是用二块钢板组成），增强了抗打击能力。</p>","caption":""}],"part2title":"战场上的38(t)坦克","part2description":"<p>捷克产的38(t)坦克加入德军，除了在战争初期大大缓解了装甲部队坦克数量的不足外，更由于它的装甲、火力和机动性都高于德国生产的同级别坦克，使它在德军装甲部队中占有了一定地位；38(t)A-C型坦克装备了德军装甲师后，就参加了入侵波兰和法国的战斗，并在闪击法国的战役中起了很大作用。而E型以后的坦克大部分装备给德军第12、19、20装甲师（后来也有部分装备给了第7、第8装甲师），参加了入侵苏联的战斗。</p>","part2content":[{"image":"imgs/de/army/de_army_tank38_21.jpg","description":"行进于法国一城镇街道上的38(t)坦克编队，隶属德军第7装甲师，该型坦克在德军初期的战斗中立下过不少功劳。","caption":""},{"image":"imgs/de/army/de_army_tank38_22.jpg","description":"隶属德军第7装甲师第25团的一队38(t)坦克，它们正在前往苏联维也兹马（音译）的路上行进，在这次突破苏军的防线战斗中，德军以100辆坦克的代价，使苏军损失了60万军队和数以千计的重装备。","caption":""},{"image":"imgs/de/army/de_army_tank38_24.jpg","description":"一辆隶属德军第7装甲师的38(t)坦克正在苏联战场上前进。","caption":""},{"image":"imgs/de/army/de_army_tank38_25.jpg","description":"1942年5月至6月的克里米亚，隶属于德军第22装甲师的一辆38(t)E/F型坦克，图中车体后部堆满了补给品，并履盖了一面对空识别旗，图中的标志为第22装甲师的标志，位于车体后部。","caption":""},{"image":"imgs/de/army/de_army_tank38_23.jpg","description":"在1941年6月在德军进攻苏联的“巴巴罗萨”行动中，战斗结束后，德军装甲兵坐在一辆38(t)坦克上休息。","caption":""},{"image":"imgs/de/army/de_army_tank38_26.jpg","description":"一辆被彻底击毁的38(t)坦克。随着战争的发展，38(t)坦克无论是装甲与火力都已显落后，由于车身和炮塔缺乏改进余地，因此该型坦克在1942年开始被慢慢淘汰，不过其不少坦克底盘被改作各类变形车，这些变形车在战斗中也起过不少作用。","caption":""}]};
 
 /***/ }),
 
@@ -529,8 +558,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
 var _footer_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
-/* harmony import */ var _menu_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.json */ "./js/menu.json");
-var _menu_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./menu.json */ "./js/menu.json", 1);
+/* harmony import */ var _de_menu_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./de_menu.json */ "./js/de_menu.json");
+var _de_menu_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./de_menu.json */ "./js/de_menu.json", 1);
 /* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../views/document.pug */ "./views/document.pug");
 /* harmony import */ var _views_document_pug__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_views_document_pug__WEBPACK_IMPORTED_MODULE_3__);
 /* eslint-disable no-unused-vars */
@@ -544,12 +573,12 @@ var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./$
 
 
 _base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_1__);
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_menu_json__WEBPACK_IMPORTED_MODULE_2__, pageID); // Render pug file and output.
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_de_menu_json__WEBPACK_IMPORTED_MODULE_2__, pageID); // Render pug file and output.
 
 document.write(_views_document_pug__WEBPACK_IMPORTED_MODULE_3___default()({
   body: bodyJSON,
   footer: _footer_json__WEBPACK_IMPORTED_MODULE_1__,
-  menu: _menu_json__WEBPACK_IMPORTED_MODULE_2__
+  menu: _de_menu_json__WEBPACK_IMPORTED_MODULE_2__
 }));
 
 /***/ }),
@@ -616,7 +645,18 @@ module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"�
 /*! exports provided: category, model, description, part1title, part1description, part1content, part2title, part2description, part2content, default */
 /***/ (function(module) {
 
-module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅵ号虎王（虎Ⅱ）坦克","description":"<h6>综述：</h6><p>德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"{{image}}imgs/de/army/de_army_tankvi_ii_11.jpg{{caption}}外形特点：1.悬挂系统中负重轮也是交迭式，但外层是5个大直径的钢轮。2.炮塔装备的88mm火炮身管更长。3.炮塔属大型炮塔，外形较大。{{image}}imgs/de/army/de_army_tankvi_ii_12.jpg{{text}}<p>注意两种炮塔的不同点：1.下图的火炮连接炮塔处装有护环的防护盾。2.下图炮塔外壁装有可挂放备用履带链防护的挂钩。</p>{{image}}imgs/de/army/de_army_tankvi_ii_13.jpg","description":"<h6>Ⅵ号虎王（虎Ⅱ）坦克（Sd.Kfz.182 Pz.Kpfw Ⅵ Aust.B TigerⅡ）</h6><p>虎王Ⅵ号（虎Ⅱ式）坦克是德国生产商在德军多系列坦克的技术积累下，结合战场的需求，以及吸纳了对手坦克的优点研制出来的一款高水平的坦克，其强大的装甲与火力令对手都为之称赞。</p><p>虎王Ⅵ号（虎Ⅱ式）坦克的数据为：</p><p>车长：10.3m, 车宽：3.8m, 车高：3.1m, 车重：57t; 乘员5人； 发动机700匹马力，车速：32km/h（约）, 最大行程：170km（约）; 主要武器：一门88mm Kw K43 L/71火炮，二挺7.92mm MG34机枪；装甲厚度：180mm。</p>","caption":""}],"part2title":"战场上的Ⅵ号虎王（虎Ⅱ）坦克","part2description":"<p>1944年5月，德军Ⅵ号虎王（虎Ⅱ）坦克第一次在东线明斯克参加了战斗，继后参加了诺曼第阻击战和阿登反击战，尽管德军每个装甲单位配备的虎王数量不多，但面对数量众多的对手坦克，虎王（虎Ⅱ）坦克虎王坦克总是胜多负少。其装备的88mm Kw K43 L/71火炮，可以说是二战中最厉害的坦克炮，1000m外可击穿215mm厚装甲，4000m外可击穿88mm厚装甲；在2000mm距离就能击穿苏军的T-34坦克和盟军的M4坦克装甲（二战时，坦克交战的距离一般在800—1500m），可见虎式坦克火力的强大。虎式坦克的最大弱点是机动发性能较差，但火力和防护的强大仍使其成为了战场上的王者；但此时已是二战末期，德军已呈败势，即使有虎式坦克这样的优势武器，但都难以挽回德国法西斯的灭亡了。</p>","part2content":[{"image":"imgs/de/army/de_army_tankvi_ii_21.jpg","description":"在1944年盟军在法国诺曼第登陆后，德军的虎王坦克在诺曼第地区进行作战准备。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_22.jpg","description":"德军的保时捷虎王坦克作战前集结。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_23.jpg","description":"1945年春，德军509重装营的一辆虎王坦克在匈牙利一个小村庄时集结。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_24.jpg","description":"1945年3月， 在匈牙利战场上被击毁的一辆德军虎王（虎Ⅱ）坦克，该坦克隶属于第501重装营。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_25.jpg","description":"疾驰在巴黎街头的德军虎王坦克。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_26.jpg","description":"一辆隶属德军武装党卫军第101重装甲团的虎王坦克，正在树林中隐蔽，待命出击。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_27.jpg","description":"关于德军503重装营的纪录片其中的一个镜头，这段纪录片现在已成为德军虎王坦克的经典流传。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_28.jpg","description":"因弹药爆炸而被完全摧毁的一辆德军第509重装营虎王坦克。","caption":""}]};
+module.exports = {"category":[{"name":"德国","link":"de_shortcut"},{"name":"陆战武器","link":"de_army"},{"name":"坦克","link":"de_army#de_army_tank"}],"model":"Ⅵ号虎王（虎Ⅱ）坦克","description":"<h6>综述：</h6><p>德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。</p>","part1title":"系列型号","part1description":"","part1content":[{"image":"{{image}}imgs/de/army/de_army_tankvi_ii_11.jpg{{caption}}<strong>外形特点：</strong><ul><li>悬挂系统中负重轮也是交迭式，但外层是5个大直径的钢轮。</li><li>炮塔装备的88mm火炮身管更长。</li><li>炮塔属大型炮塔，外形较大。</li></ul>{{image}}imgs/de/army/de_army_tankvi_ii_12.jpg{{text}}<p>注意两种炮塔的不同点：1.下图的火炮连接炮塔处装有护环的防护盾。2.下图炮塔外壁装有可挂放备用履带链防护的挂钩。</p>{{image}}imgs/de/army/de_army_tankvi_ii_13.jpg","description":"<h6>Ⅵ号虎王（虎Ⅱ）坦克（Sd.Kfz.182 Pz.Kpfw Ⅵ Aust.B TigerⅡ）</h6><p>虎王Ⅵ号（虎Ⅱ式）坦克是德国生产商在德军多系列坦克的技术积累下，结合战场的需求，以及吸纳了对手坦克的优点研制出来的一款高水平的坦克，其强大的装甲与火力令对手都为之称赞。</p><p>虎王Ⅵ号（虎Ⅱ式）坦克的数据为：</p><p>车长：10.3m, 车宽：3.8m, 车高：3.1m, 车重：57t; 乘员5人； 发动机700匹马力，车速：32km/h（约）, 最大行程：170km（约）; 主要武器：一门88mm Kw K43 L/71火炮，二挺7.92mm MG34机枪；装甲厚度：180mm。</p>","caption":""}],"part2title":"战场上的Ⅵ号虎王（虎Ⅱ）坦克","part2description":"<p>1944年5月，德军Ⅵ号虎王（虎Ⅱ）坦克第一次在东线明斯克参加了战斗，继后参加了诺曼第阻击战和阿登反击战，尽管德军每个装甲单位配备的虎王数量不多，但面对数量众多的对手坦克，虎王（虎Ⅱ）坦克虎王坦克总是胜多负少。其装备的88mm Kw K43 L/71火炮，可以说是二战中最厉害的坦克炮，1000m外可击穿215mm厚装甲，4000m外可击穿88mm厚装甲；在2000mm距离就能击穿苏军的T-34坦克和盟军的M4坦克装甲（二战时，坦克交战的距离一般在800—1500m），可见虎式坦克火力的强大。虎式坦克的最大弱点是机动发性能较差，但火力和防护的强大仍使其成为了战场上的王者；但此时已是二战末期，德军已呈败势，即使有虎式坦克这样的优势武器，但都难以挽回德国法西斯的灭亡了。</p>","part2content":[{"image":"imgs/de/army/de_army_tankvi_ii_21.jpg","description":"在1944年盟军在法国诺曼第登陆后，德军的虎王坦克在诺曼第地区进行作战准备。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_22.jpg","description":"德军的保时捷虎王坦克作战前集结。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_23.jpg","description":"1945年春，德军509重装营的一辆虎王坦克在匈牙利一个小村庄时集结。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_24.jpg","description":"1945年3月， 在匈牙利战场上被击毁的一辆德军虎王（虎Ⅱ）坦克，该坦克隶属于第501重装营。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_25.jpg","description":"疾驰在巴黎街头的德军虎王坦克。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_26.jpg","description":"一辆隶属德军武装党卫军第101重装甲团的虎王坦克，正在树林中隐蔽，待命出击。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_27.jpg","description":"关于德军503重装营的纪录片其中的一个镜头，这段纪录片现在已成为德军虎王坦克的经典流传。","caption":""},{"image":"imgs/de/army/de_army_tankvi_ii_28.jpg","description":"因弹药爆炸而被完全摧毁的一辆德军第509重装营虎王坦克。","caption":""}]};
+
+/***/ }),
+
+/***/ "./js/de_menu.json":
+/*!*************************!*\
+  !*** ./js/de_menu.json ***!
+  \*************************/
+/*! exports provided: 0, 1, 2, 3, 4, default */
+/***/ (function(module) {
+
+module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战武器","link":"de_army","active":false},{"title":"空战武器","link":"de_airforce","active":false},{"title":"海战武器","link":"de_navy","active":false},{"title":"快捷目录","link":"de_shortcut","active":false}];
 
 /***/ }),
 
@@ -649,7 +689,7 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 /*! exports provided: footersitelogo, footersitename, copyright, links, getintouchinfo, default */
 /***/ (function(module) {
 
-module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-brand\">内容及版权申明</a>，转载分享请注明出处。Deployed by <a href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.","links":[{"title":"资源链接","href":""},{"title":"武器篇","href":"wwii_weapon.html"},{"title":"战场篇","href":"wwii_warfield.html"},{"title":"人事篇","href":"wwii_people.html"},{"title":"物事篇","href":"wwii_misc.html"}],"getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
+module.exports = {"footersitelogo":"imgs/favicon.png","footersitename":"军事测试网站","copyright":"Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-copyright-link\">内容及版权申明</a>，转载分享请注明出处。Deployed by <a class=\"custom-footer-copyright-link\" href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.","links":[{"title":"资源链接","href":""},{"title":"武器篇","href":"wwii_weapon.html"},{"title":"战场篇","href":"wwii_warfield.html"},{"title":"人事篇","href":"wwii_people.html"},{"title":"物事篇","href":"wwii_misc.html"}],"getintouchinfo":{"headline":"联系我们","data":[{"faicon":"fab fa-facebook-f","href":"#","ref":"Facebook"},{"faicon":"fab fa-qq","href":"#","ref":"QQ"},{"faicon":"fab fa-weixin","href":"about.html","ref":"微信"},{"faicon":"fas fa-envelope","href":"mailto:xxx@yyy.com","ref":"电子邮件"}]}};
 
 /***/ }),
 
@@ -672,6 +712,39 @@ module.exports = {"background":"imgs/index-bg.jpg","title":"第二次世界大�
 /***/ (function(module) {
 
 module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战武器","link":"de_army","active":false},{"title":"空战武器","link":"de_airforce","active":false},{"title":"海战武器","link":"de_navy","active":false},{"title":"快捷目录","link":"de_shortcut","active":false}];
+
+/***/ }),
+
+/***/ "./js/ru_army.json":
+/*!*************************!*\
+  !*** ./js/ru_army.json ***!
+  \*************************/
+/*! exports provided: countries, weapons, default */
+/***/ (function(module) {
+
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"ru_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"ru_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"ru_army_tank","image":"","intro":"###"},{"model":"XX号坦克","link":"ru_army_tanki","image":"imgs/ru/army/ru_army_tankxx_01.jpg","intro":"XX号坦克是......"},{"model":"装甲车辆","link":"ru_army_armedvehicle","image":"","intro":"###"}]};
+
+/***/ }),
+
+/***/ "./js/ru_menu.json":
+/*!*************************!*\
+  !*** ./js/ru_menu.json ***!
+  \*************************/
+/*! exports provided: 0, 1, 2, 3, 4, default */
+/***/ (function(module) {
+
+module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆战武器","link":"ru_army","active":false},{"title":"空战武器","link":"ru_airforce","active":false},{"title":"海战武器","link":"ru_navy","active":false},{"title":"快捷目录","link":"ru_shortcut","active":false}];
+
+/***/ }),
+
+/***/ "./js/ru_shortcut.json":
+/*!*****************************!*\
+  !*** ./js/ru_shortcut.json ***!
+  \*****************************/
+/*! exports provided: countries, files, default */
+/***/ (function(module) {
+
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"files":[{"title":"陆战武器","link":"ru_army"}]};
 
 /***/ }),
 
@@ -791,8 +864,8 @@ while (pos < src.length) {
           cmd_str = "";
           tmp_str = "";
       } else {
-          if (cmd_flag) cmd_str = src_char + src_next_char;
-          else          tmp_str = src_char + src_next_char;
+          if (cmd_flag) cmd_str += src_char + src_next_char;
+          else          tmp_str += src_char + src_next_char;
       }
       break;
     case "}":
@@ -801,8 +874,8 @@ while (pos < src.length) {
       if (src_next_char === "}") {
           cmd_flag = false;
       } else {
-          if (cmd_flag) cmd_str = src_char + src_next_char;
-          else          tmp_str = src_char + src_next_char;
+          if (cmd_flag) cmd_str += src_char + src_next_char;
+          else          tmp_str += src_char + src_next_char;
       }
       break;
     default:
@@ -895,8 +968,8 @@ while (pos < src.length) {
           cmd_str = "";
           tmp_str = "";
       } else {
-          if (cmd_flag) cmd_str = src_char + src_next_char;
-          else          tmp_str = src_char + src_next_char;
+          if (cmd_flag) cmd_str += src_char + src_next_char;
+          else          tmp_str += src_char + src_next_char;
       }
       break;
     case "}":
@@ -905,8 +978,8 @@ while (pos < src.length) {
       if (src_next_char === "}") {
           cmd_flag = false;
       } else {
-          if (cmd_flag) cmd_str = src_char + src_next_char;
-          else          tmp_str = src_char + src_next_char;
+          if (cmd_flag) cmd_str += src_char + src_next_char;
+          else          tmp_str += src_char + src_next_char;
       }
       break;
     default:

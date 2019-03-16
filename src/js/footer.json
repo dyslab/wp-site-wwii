@@ -1,7 +1,7 @@
 {
   "footersitelogo": "imgs/favicon.png",
   "footersitename": "军事测试网站",
-  "copyright": "Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-brand\">内容及版权申明</a>，转载分享请注明出处。Deployed by <a href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.",
+  "copyright": "Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-copyright-link\">内容及版权申明</a>，转载分享请注明出处。Deployed by <a class=\"custom-footer-copyright-link\" href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.",
   "links": [
     {
       "title": "资源链接",

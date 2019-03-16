@@ -2,7 +2,7 @@
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import BaseIO from './base.js';
 import footerJSON from './footer.json';
-import menuJSON from './menu.json';
+import menuJSON from './de_menu.json';
 import template from '../views/shortcut.pug';
 
 const pageID = 'de_shortcut';

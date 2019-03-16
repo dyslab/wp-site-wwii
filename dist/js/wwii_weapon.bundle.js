@@ -377,7 +377,7 @@ document.write(template());
 
 var pug = __webpack_require__(/*! ../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003Cscript\u003Ewindow.location.href = \"about.html\";\u003C\u002Fscript\u003E";;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003Cscript\u003Ewindow.location.href = \"de_army.html\";\u003C\u002Fscript\u003E";;return pug_html;};
 module.exports = template;
 
 /***/ }),

@@ -1,0 +1,44 @@
+{
+  "countries": [{
+    "name": "德国",
+    "code": "de"
+  }, {
+    "name": "美国",
+    "code": "us"
+  }, {
+    "name": "英国",
+    "code": "uk"
+  }, {
+    "name": "苏联",
+    "code": "ru"
+  }, {
+    "name": "日本",
+    "code": "jp"
+  }],
+  "weapons": [{
+    "model": "单兵装备", 
+    "link": "ru_army_personnelequipment",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "火炮", 
+    "link": "ru_army_artillery",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "坦克", 
+    "link": "ru_army_tank",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "XX号坦克", 
+    "link": "ru_army_tanki",
+    "image": "imgs/ru/army/ru_army_tankxx_01.jpg",
+    "intro": "XX号坦克是......"
+  }, {
+    "model": "装甲车辆", 
+    "link": "ru_army_armedvehicle",
+    "image": "",
+    "intro": "###"
+  }]
+}

@@ -121,7 +121,8 @@
   background-color: #2f4629;
 }
 
-.custom-footer-color, .custom-footer-brand {
+.custom-footer-color,
+.custom-footer-brand {
   color: rgb(238, 238, 238);
   text-decoration: none;
 }
@@ -130,8 +131,21 @@
   color: rgb(255, 248, 154);
 }
 
+.custom-footer-copyright-link {
+  text-decoration: none;
+  padding-bottom: 2px; 
+  color: rgb(238, 238, 238);
+  border-bottom: 1px dotted rgb(238, 238, 238);
+}
+.custom-footer-copyright-link:hover {
+  text-decoration: none;
+  color: rgb(255, 248, 154);
+  border-bottom: 1px dotted rgb(255, 248, 154);
+}
+
 .custom-footer-link-style {
   font-size: 1.25rem;
+  font-weight: bold;
   text-decoration: none;
   color: rgb(82, 179, 62);
 }

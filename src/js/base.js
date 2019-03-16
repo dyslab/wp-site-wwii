@@ -3,10 +3,11 @@
 
 exports.setMenuActiveItem = (menuJSON, currentName) => {
   const step = 1;
+  const zero = 0;
 
   // Set active menu item.
   for (let no = 0; no < menuJSON.length; no += step) {
-    if (currentName.search(menuJSON[no].link) >= 0) {
+    if (currentName.search(menuJSON[no].link) >= zero) {
       menuJSON[no].active = true;
     }
   }
