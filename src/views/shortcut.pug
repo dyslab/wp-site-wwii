@@ -8,9 +8,11 @@ block content
           nav.nav.justify-content-center
             each linkitem in body.countries
               if linkitem.href == '' || linkitem.href == '###'
-                a.nav-link.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.name
+                a.nav-link.disabled(href="#", tabindex="-1", aria-disabled="true", title=linkitem.name)
+                  img.rounded.custom-shortcut-img-actived(src=linkitem.image, alt=linkitem.name) 
               else
-                a.nav-link(href=linkitem.href)= linkitem.name
+                a.nav-link(href=linkitem.href, title=linkitem.name)
+                  img.rounded.custom-shortcut-img-link(src=linkitem.image, alt=linkitem.name) 
       div.row
         div.col.col-lg-10.pt-3.pb-3
           each item in body.weapons

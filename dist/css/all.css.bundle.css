@@ -217,6 +217,13 @@ span.list-social-links {
   color: rgb(218, 56, 16)
 }
 
+.custom-category-img-actived {
+  box-shadow:2px 2px 2px rgb(100, 100, 100);
+  height: 48px;
+}
+.custom-category-img-link {
+  height: 32px;
+}
 .custom-document-style {
   background-color: rgb(221, 236, 217);
   line-height: 2rem;
@@ -317,6 +324,14 @@ a:hover.custom-shortcut-menu-color-2 {
   color: rgb(252, 242, 239);
   background-color: rgb(135, 189, 162);
   border-width: 0;
+}
+
+.custom-shortcut-img-actived {
+  box-shadow:2px 2px 2px rgb(100, 100, 100);
+  height: 48px;
+}
+.custom-shortcut-img-link {
+  height: 32px;
 }
 
 .custom-wwii-style {

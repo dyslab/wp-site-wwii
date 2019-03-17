@@ -49,3 +49,11 @@ a:hover.custom-shortcut-menu-color-2 {
   background-color: rgb(135, 189, 162);
   border-width: 0;
 }
+
+.custom-shortcut-img-actived {
+  box-shadow:2px 2px 2px rgb(100, 100, 100);
+  height: 48px;
+}
+.custom-shortcut-img-link {
+  height: 32px;
+}

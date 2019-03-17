@@ -1,20 +1,4 @@
 {
-  "countries": [{
-    "name": "德国",
-    "code": "de"
-  }, {
-    "name": "美国",
-    "code": "us"
-  }, {
-    "name": "英国",
-    "code": "uk"
-  }, {
-    "name": "苏联",
-    "code": "ru"
-  }, {
-    "name": "日本",
-    "code": "jp"
-  }],
   "weapons": [{
     "model": "单兵装备", 
     "link": "ru_army_personnelequipment",

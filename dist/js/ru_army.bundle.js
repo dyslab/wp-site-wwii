@@ -393,6 +393,7 @@ module.exports = function(module) {
 
 var map = {
 	"./about.json": "./js/about.json",
+	"./country_menu.json": "./js/country_menu.json",
 	"./de_airforce.json": "./js/de_airforce.json",
 	"./de_army.json": "./js/de_army.json",
 	"./de_army_tank35.json": "./js/de_army_tank35.json",
@@ -490,14 +491,25 @@ module.exposts = exports;
 
 /***/ }),
 
+/***/ "./js/country_menu.json":
+/*!******************************!*\
+  !*** ./js/country_menu.json ***!
+  \******************************/
+/*! exports provided: countries, default */
+/***/ (function(module) {
+
+module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"日本","code":"jp"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"}]};
+
+/***/ }),
+
 /***/ "./js/de_airforce.json":
 /*!*****************************!*\
   !*** ./js/de_airforce.json ***!
   \*****************************/
-/*! exports provided: countries, weapons, default */
+/*! exports provided: weapons, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"战斗机","link":"de_airforce_fighter","image":"","intro":"###"},{"model":"Me262","link":"de_airforce_me262","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_airforce_me222","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"轰炸机","link":"de_airforce_bomber","image":"","intro":"###"},{"model":"其他机种","link":"de_airforce_others","image":"","intro":"###"}]};
+module.exports = {"weapons":[{"model":"战斗机","link":"de_airforce_fighter","image":"","intro":"###"},{"model":"Me262","link":"de_airforce_me262","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"Me222","link":"de_airforce_me222","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"轰炸机","link":"de_airforce_bomber","image":"","intro":"###"},{"model":"其他机种","link":"de_airforce_others","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -505,10 +517,10 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 /*!*************************!*\
   !*** ./js/de_army.json ***!
   \*************************/
-/*! exports provided: countries, weapons, default */
+/*! exports provided: weapons, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Ⅰ号坦克","link":"de_army_tanki","image":"imgs/de/army/de_army_tanki_01.jpg","intro":"Ⅰ号坦克是德国在1934-1937期间生产的轻型坦克，战前作训练坦克用，二战爆发后改作作战坦克，第一次实战是1937年的西班牙内战，有约100辆A型坦克提供给弗朗哥的军队用，在战争中暴露了不少问题，装甲弱，整车防护能力低，发动机动力不足，机动能力差，驾驶舒适度差，由于舱盖合上后视野很差，所以作战时车长要探出炮塔观察导致伤亡。二战爆发后，尽管问题存在，但Ⅰ号坦克（包括Ⅱ号坦克)在闪击波兰和法国战役、入侵挪威和丹麦的战争、入侵苏联战争和北非战争中，不断成功地突破对方防线并进行快速的深纵迂回，显示了坦克作战的价值，发挥了很大作用。"},{"model":"Ⅱ号坦克","link":"de_army_tankii","image":"imgs/de/army/de_army_tankii_01.jpg","intro":"Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型。"},{"model":"Ⅲ号坦克","link":"de_army_tankiii","image":"imgs/de/army/de_army_tankiii_01.jpg","intro":"Ⅲ号坦克从1936年开始定型量产，1939年已进入大产量期，由于最终量产的Ⅲ号坦克的悬挂系统改用了扭杆弹簧悬挂，使坦克的行进质量变得更好，在大大提高坦克行进机构的寿命同时，也大大提高了坦克炮射击的稳定性和准确性；在后期坦克换装50mm和75mm坦克炮后，火力更是大大增强，使该坦克成为了支援步兵作战的主力；Ⅲ号坦克乘员5人，炮塔3人，车身2人。Ⅲ号坦克一共生产了5600多辆，直到豹式坦克的投产才停止生产。由于Ⅲ号坦克的底盘的扭杆弹簧悬挂系统（世界第一次使用）的优越，其后在此底盘上产生了很多变形车（如在战场上战绩突出的Ⅲ号突击炮车）。"},{"model":"Ⅳ号坦克","link":"de_army_tankiv","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"Ⅳ号坦克是二战中、后期德军装甲部队的一种中型主战坦克，从1938年年初Ⅳ号A型坦克交付开始（Ⅳ号坦克的研制始于1934年），该型坦克的武器、装甲和动力系统不断改进，从A、B、C、D、E、F、G、H到J型，到1945年，德国一共生产了Ⅳ号系列坦克8500多辆，是二战期间德国生产数量最多的一种坦克。足足占德国二战时间坦克总产量的三分之一有多。Ⅳ号坦克一直在战斗中保持极高的战斗力，与苏军的T-34坦克对抗也不落下风。"},{"model":"Ⅴ号黑豹坦克","link":"de_army_tankv","image":"imgs/de/army/de_army_tankv_01.jpg","intro":"Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。"},{"model":"Ⅵ号虎式（虎Ⅰ）坦克","link":"de_army_tankvi","image":"imgs/de/army/de_army_tankvi_01.jpg","intro":"虎式坦克于1942年7月开始定型生产（此前已经过多年的研发），至1944年8月共生产了1300多辆，定名为Pz.Kpfw Ⅵ号”虎”式（虎Ⅰ）坦克。虎Ⅰ坦克有2种正式型号，分别为“E”型和“H”型。虎Ⅰ坦克是一种重型坦克，车身和车体上部采用一体式焊接；虎Ⅰ坦克的装甲防护十分强大，其车体正面装甲为100，炮塔正面装甲110mm，侧面和背面装甲也有80mm厚，敌方火炮几乎无法将其击穿。虎Ⅰ坦克装备了88mm Kwk36 L/56火炮和二挺MG34机枪，其88mm火炮(原是一种防空高射炮,在北非战役中转作反坦克炮用，战绩十分突出，受到希特勒的极度欣赏。其威力强大，敌方坦克基本上难以抵挡其一击。"},{"model":"Ⅵ号虎王（虎Ⅱ）坦克","link":"de_army_tankvi_ii","image":"imgs/de/army/de_army_tankvi_ii_01.jpg","intro":"德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。"},{"model":"35(t)坦克（捷克产）","link":"de_army_tank35","image":"imgs/de/army/de_army_tank35_01.jpg","intro":"35(t)坦克和38(t)坦克都是捷克生产的，在当是一种性能较好的轻型坦克。1939年3月，德军占领了捷克斯洛伐克，发现这二种坦克在火力和防护上都超过了当时德军的Ⅰ号和Ⅱ号坦克，同时也因为当时德国本土生产的Ⅲ号和Ⅳ号z装备数量不足，因此就要求捷克继续生产这二种坦克，而这二种坦克也就因此成为二战初期德军装甲部队的装备，参加了进攻波兰和法国的战斗，也有过出色的表现。但后来随着战争的发展，这二种坦克的装甲与火炮已完全落后，根本无法与苏军和盟军的坦克对抗，到了1942年，这二种型号的坦克就停产了，战场上余下的坦克则改作训练与非战斗用途，也有一部分被斯洛伐克和罗马利亚军队使用到战争结束。"},{"model":"38(t)坦克（捷克产）","link":"de_army_tank38","image":"imgs/de/army/de_army_tank38_01.jpg","intro":"该型坦克为捷克斯科达公司研发的一种轻型坦克，1938年定名为LtVz38，在德军占领捷克后被改名为PzKpfw 38(t), 开始大量生产并装备给德军装甲部队。至1942年停产为止，一共生产了1400多辆。其包括有A、B、C、D、E、F、G、S等多种型号。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
+module.exports = {"weapons":[{"model":"单兵装备","link":"de_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"de_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"de_army_tank","image":"","intro":"###"},{"model":"Ⅰ号坦克","link":"de_army_tanki","image":"imgs/de/army/de_army_tanki_01.jpg","intro":"Ⅰ号坦克是德国在1934-1937期间生产的轻型坦克，战前作训练坦克用，二战爆发后改作作战坦克，第一次实战是1937年的西班牙内战，有约100辆A型坦克提供给弗朗哥的军队用，在战争中暴露了不少问题，装甲弱，整车防护能力低，发动机动力不足，机动能力差，驾驶舒适度差，由于舱盖合上后视野很差，所以作战时车长要探出炮塔观察导致伤亡。二战爆发后，尽管问题存在，但Ⅰ号坦克（包括Ⅱ号坦克)在闪击波兰和法国战役、入侵挪威和丹麦的战争、入侵苏联战争和北非战争中，不断成功地突破对方防线并进行快速的深纵迂回，显示了坦克作战的价值，发挥了很大作用。"},{"model":"Ⅱ号坦克","link":"de_army_tankii","image":"imgs/de/army/de_army_tankii_01.jpg","intro":"Ⅱ号坦克于1934年开始研制，样车（Pz.Kpfw Ⅱ Ausf a1) 完成于1935年10月，后经长达二年的不断改进，经过多个型号（a1. a2. a3.b.c)的测试,对传动轴、发动机布局、及装甲厚度等作了大量改动后，定型生产了A、B、C型，极大地提高了坦克的可靠性和稳定性。Ⅱ号A、B、C型坦克的基本参数区别不大，这3个型号的坦克一共生产了近1200辆，在二战初期，这些坦克是德军装甲部队的主力。随着后续的开发改良，后又生产了D/E型（快速攻击坦克）、F型、G型（轻型侦察坦克)、J型（VK.1601）（重装甲步兵坦克）、H型（VK.03）（轻型侦察坦克）、M型（VK.01）（轻型侦察坦克）和L型。"},{"model":"Ⅲ号坦克","link":"de_army_tankiii","image":"imgs/de/army/de_army_tankiii_01.jpg","intro":"Ⅲ号坦克从1936年开始定型量产，1939年已进入大产量期，由于最终量产的Ⅲ号坦克的悬挂系统改用了扭杆弹簧悬挂，使坦克的行进质量变得更好，在大大提高坦克行进机构的寿命同时，也大大提高了坦克炮射击的稳定性和准确性；在后期坦克换装50mm和75mm坦克炮后，火力更是大大增强，使该坦克成为了支援步兵作战的主力；Ⅲ号坦克乘员5人，炮塔3人，车身2人。Ⅲ号坦克一共生产了5600多辆，直到豹式坦克的投产才停止生产。由于Ⅲ号坦克的底盘的扭杆弹簧悬挂系统（世界第一次使用）的优越，其后在此底盘上产生了很多变形车（如在战场上战绩突出的Ⅲ号突击炮车）。"},{"model":"Ⅳ号坦克","link":"de_army_tankiv","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"Ⅳ号坦克是二战中、后期德军装甲部队的一种中型主战坦克，从1938年年初Ⅳ号A型坦克交付开始（Ⅳ号坦克的研制始于1934年），该型坦克的武器、装甲和动力系统不断改进，从A、B、C、D、E、F、G、H到J型，到1945年，德国一共生产了Ⅳ号系列坦克8500多辆，是二战期间德国生产数量最多的一种坦克。足足占德国二战时间坦克总产量的三分之一有多。Ⅳ号坦克一直在战斗中保持极高的战斗力，与苏军的T-34坦克对抗也不落下风。"},{"model":"Ⅴ号黑豹坦克","link":"de_army_tankv","image":"imgs/de/army/de_army_tankv_01.jpg","intro":"Ⅴ号（黑豹）坦克属重型坦克，它从1942年11月开始生产，首批生产的型号是D型，随后继续有改进后的A、G型（1944年并已着手研制豹式和豹式Ⅱ型，但因当时战争已进入德本土，生产已呈混乱状态，因此尽管样车已研制出来，但最终也未能量产）。Ⅴ号（黑豹）坦克一共生产了近6000辆，由于其有坚固的前装甲和火力强大的坦克炮，其优越的防护和作战性能受到德军的赞扬（苏军在库尔斯克战役后用缴获的一些豹式坦克进行测试，用一门7.62mm的T-34坦克炮在100m距离外对准豹式坦克的前装甲射击，射出的30发穿甲弹仅有一发能击穿其正面装甲；而豹式坦克的火炮却可以在1200-1500mm距离从正面击毁T-34坦克）。但该车由于太重所产生的机械故障和车侧装甲太薄等问题，故也一度影响了它作战能力的发挥。"},{"model":"Ⅵ号虎式（虎Ⅰ）坦克","link":"de_army_tankvi","image":"imgs/de/army/de_army_tankvi_01.jpg","intro":"虎式坦克于1942年7月开始定型生产（此前已经过多年的研发），至1944年8月共生产了1300多辆，定名为Pz.Kpfw Ⅵ号”虎”式（虎Ⅰ）坦克。虎Ⅰ坦克有2种正式型号，分别为“E”型和“H”型。虎Ⅰ坦克是一种重型坦克，车身和车体上部采用一体式焊接；虎Ⅰ坦克的装甲防护十分强大，其车体正面装甲为100，炮塔正面装甲110mm，侧面和背面装甲也有80mm厚，敌方火炮几乎无法将其击穿。虎Ⅰ坦克装备了88mm Kwk36 L/56火炮和二挺MG34机枪，其88mm火炮(原是一种防空高射炮,在北非战役中转作反坦克炮用，战绩十分突出，受到希特勒的极度欣赏。其威力强大，敌方坦克基本上难以抵挡其一击。"},{"model":"Ⅵ号虎王（虎Ⅱ）坦克","link":"de_army_tankvi_ii","image":"imgs/de/army/de_army_tankvi_ii_01.jpg","intro":"德军Ⅵ号虎王（虎Ⅱ）坦克是一种重型坦克，从1943年12月开始定型量产，到1945年3月，一共生产了480多辆，由于其炮塔由“保时捷”（有译“波尔舍”）和“亨舍尔”两个公司分别研制，故分别有“保时捷虎王”VK4502（P）和“亨舍尔虎王”VK4503（H）二种不同称呼。虎王坦克是二次大战中正式量产的重量最大，防护力最强，火力最猛的坦克，但由于车体过重造成超载，耗油量也十分大，使其机动性能大为降低，是一种防御能力强于进攻能力的坦克。"},{"model":"35(t)坦克（捷克产）","link":"de_army_tank35","image":"imgs/de/army/de_army_tank35_01.jpg","intro":"35(t)坦克和38(t)坦克都是捷克生产的，在当是一种性能较好的轻型坦克。1939年3月，德军占领了捷克斯洛伐克，发现这二种坦克在火力和防护上都超过了当时德军的Ⅰ号和Ⅱ号坦克，同时也因为当时德国本土生产的Ⅲ号和Ⅳ号z装备数量不足，因此就要求捷克继续生产这二种坦克，而这二种坦克也就因此成为二战初期德军装甲部队的装备，参加了进攻波兰和法国的战斗，也有过出色的表现。但后来随着战争的发展，这二种坦克的装甲与火炮已完全落后，根本无法与苏军和盟军的坦克对抗，到了1942年，这二种型号的坦克就停产了，战场上余下的坦克则改作训练与非战斗用途，也有一部分被斯洛伐克和罗马利亚军队使用到战争结束。"},{"model":"38(t)坦克（捷克产）","link":"de_army_tank38","image":"imgs/de/army/de_army_tank38_01.jpg","intro":"该型坦克为捷克斯科达公司研发的一种轻型坦克，1938年定名为LtVz38，在德军占领捷克后被改名为PzKpfw 38(t), 开始大量生产并装备给德军装甲部队。至1942年停产为止，一共生产了1400多辆。其包括有A、B、C、D、E、F、G、S等多种型号。"},{"model":"装甲车辆","link":"de_army_armedvehicle","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -626,10 +638,10 @@ module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆
 /*!*************************!*\
   !*** ./js/de_navy.json ***!
   \*************************/
-/*! exports provided: countries, weapons, default */
+/*! exports provided: weapons, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"潜艇","link":"de_navy_submarine","image":"","intro":"###"},{"model":"U-48","link":"de_navy_u48","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"航空母舰","link":"de_navy_carrier","image":"","intro":"###"},{"model":"水面舰艇","link":"de_navy_warship","image":"","intro":"###"}]};
+module.exports = {"weapons":[{"model":"潜艇","link":"de_navy_submarine","image":"","intro":"###"},{"model":"U-48","link":"de_navy_u48","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP44自动步枪被称为突击步枪之父,由德国于1941年-1942年间研制,并采用一种新型短弹。"},{"model":"U-47","link":"de_navy_u47","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"MP40冲锋枪（Maschinenpistole 40），常被称为“施迈瑟冲锋枪”，是一种为方便大量生产而设计，与传统枪械制造观念不同的冲锋枪，广泛应用于第二次世界大战期间纳粹德国军队。"},{"model":"U-49","link":"de_army_u49","image":"imgs/de/army/de_army_tankiv_01.jpg","intro":"虎式重型坦克（德文：Panzerkampfwagen Tiger Ausführung E ，德国代号：Sd.Kfz. 181，又称：虎式坦克/虎Ⅰ坦克/六号坦克）是第二次世界大战中德国军队所使用的一种重型坦克。"},{"model":"航空母舰","link":"de_navy_carrier","image":"","intro":"###"},{"model":"水面舰艇","link":"de_navy_warship","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -637,10 +649,10 @@ module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","c
 /*!*****************************!*\
   !*** ./js/de_shortcut.json ***!
   \*****************************/
-/*! exports provided: countries, files, default */
+/*! exports provided: files, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"files":[{"title":"陆战武器","link":"de_army"},{"title":"空战武器","link":"de_airforce"},{"title":"海战武器","link":"de_navy"}]};
+module.exports = {"files":[{"title":"陆战武器","link":"de_army"},{"title":"空战武器","link":"de_airforce"},{"title":"海战武器","link":"de_navy"}]};
 
 /***/ }),
 
@@ -688,12 +700,14 @@ module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./js/base.js");
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_base_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
-var _footer_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
-/* harmony import */ var _ru_menu_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ru_menu.json */ "./js/ru_menu.json");
-var _ru_menu_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./ru_menu.json */ "./js/ru_menu.json", 1);
-/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
-/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _country_menu_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./country_menu.json */ "./js/country_menu.json");
+var _country_menu_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./country_menu.json */ "./js/country_menu.json", 1);
+/* harmony import */ var _footer_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.json */ "./js/footer.json");
+var _footer_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.json */ "./js/footer.json", 1);
+/* harmony import */ var _ru_menu_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ru_menu.json */ "./js/ru_menu.json");
+var _ru_menu_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./ru_menu.json */ "./js/ru_menu.json", 1);
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../views/category.pug */ "./views/category.pug");
+/* harmony import */ var _views_category_pug__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_views_category_pug__WEBPACK_IMPORTED_MODULE_4__);
 /* eslint-disable max-len */
 
 /* eslint-disable no-plusplus */
@@ -707,29 +721,33 @@ var _ru_menu_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpac
 
 
 
+
 const pageID = 'ru_army';
 
 var bodyJSON = __webpack_require__("./js sync recursive ^\\.\\/.*\\.json$")(`./${pageID}.json`); // Set countries link.
 
 
-var currect_countryid = pageID.slice(0, 2);
+var current_countryid = pageID.slice(0, 2); // Load country menu from json file.
 
-for (let no = 0; no < bodyJSON.countries.length; no++) {
-  if (bodyJSON.countries[no].code === currect_countryid) {
-    bodyJSON.countries[no].href = '###';
+for (let no = 0; no < _country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries.length; no++) {
+  _country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries[no].image = `imgs/${_country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries[no].code}_nationalflag.jpg`;
+
+  if (_country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries[no].code === current_countryid) {
+    _country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries[no].href = '###';
   } else {
-    bodyJSON.countries[no].href = `${bodyJSON.countries[no].code + pageID.replace(currect_countryid, '')}.html`;
+    _country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries[no].href = `${_country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries[no].code + pageID.replace(current_countryid, '')}.html`;
   }
-} // Set header and footer
+}
 
+bodyJSON.countries = _country_menu_json__WEBPACK_IMPORTED_MODULE_1__.countries; // Set header and footer
 
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_1__);
-_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_ru_menu_json__WEBPACK_IMPORTED_MODULE_2__, pageID); // Render pug file and output.
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setCopyright(_footer_json__WEBPACK_IMPORTED_MODULE_2__);
+_base_js__WEBPACK_IMPORTED_MODULE_0___default.a.setMenuActiveItem(_ru_menu_json__WEBPACK_IMPORTED_MODULE_3__, pageID); // Render pug file and output.
 
-document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_3___default()({
+document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_4___default()({
   body: bodyJSON,
-  footer: _footer_json__WEBPACK_IMPORTED_MODULE_1__,
-  menu: _ru_menu_json__WEBPACK_IMPORTED_MODULE_2__
+  footer: _footer_json__WEBPACK_IMPORTED_MODULE_2__,
+  menu: _ru_menu_json__WEBPACK_IMPORTED_MODULE_3__
 }));
 
 /***/ }),
@@ -738,10 +756,10 @@ document.write(_views_category_pug__WEBPACK_IMPORTED_MODULE_3___default()({
 /*!*************************!*\
   !*** ./js/ru_army.json ***!
   \*************************/
-/*! exports provided: countries, weapons, default */
+/*! exports provided: weapons, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"weapons":[{"model":"单兵装备","link":"ru_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"ru_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"ru_army_tank","image":"","intro":"###"},{"model":"XX号坦克","link":"ru_army_tanki","image":"imgs/ru/army/ru_army_tankxx_01.jpg","intro":"XX号坦克是......"},{"model":"装甲车辆","link":"ru_army_armedvehicle","image":"","intro":"###"}]};
+module.exports = {"weapons":[{"model":"单兵装备","link":"ru_army_personnelequipment","image":"","intro":"###"},{"model":"火炮","link":"ru_army_artillery","image":"","intro":"###"},{"model":"坦克","link":"ru_army_tank","image":"","intro":"###"},{"model":"XX号坦克","link":"ru_army_tanki","image":"imgs/ru/army/ru_army_tankxx_01.jpg","intro":"XX号坦克是......"},{"model":"装甲车辆","link":"ru_army_armedvehicle","image":"","intro":"###"}]};
 
 /***/ }),
 
@@ -760,10 +778,10 @@ module.exports = [{"title":"首页","link":"index","active":false},{"title":"陆
 /*!*****************************!*\
   !*** ./js/ru_shortcut.json ***!
   \*****************************/
-/*! exports provided: countries, files, default */
+/*! exports provided: files, default */
 /***/ (function(module) {
 
-module.exports = {"countries":[{"name":"德国","code":"de"},{"name":"美国","code":"us"},{"name":"英国","code":"uk"},{"name":"苏联","code":"ru"},{"name":"日本","code":"jp"}],"files":[{"title":"陆战武器","link":"ru_army"}]};
+module.exports = {"files":[{"title":"陆战武器","link":"ru_army"}]};
 
 /***/ }),
 
@@ -817,10 +835,10 @@ pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\
       for (var pug_index1 = 0, $$l = $$obj.length; pug_index1 < $$l; pug_index1++) {
         var linkitem = $$obj[pug_index1];
 if (linkitem.href == '' || linkitem.href == '###') {
-pug_html = pug_html + "\u003Ca class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link disabled\""+" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\""+pug.attr("title", linkitem.name, true, true)) + "\u003E\u003Cimg" + (" class=\"rounded custom-category-img-actived\""+pug.attr("src", linkitem.image, true, true)+pug.attr("alt", linkitem.name, true, true)) + "\u003E\u003C\u002Fa\u003E";
 }
 else {
-pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)+pug.attr("title", linkitem.name, true, true)) + "\u003E\u003Cimg" + (" class=\"rounded custom-category-img-link\""+pug.attr("src", linkitem.image, true, true)+pug.attr("alt", linkitem.name, true, true)) + "\u003E\u003C\u002Fa\u003E";
 }
       }
   } else {
@@ -829,10 +847,10 @@ pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkit
       $$l++;
       var linkitem = $$obj[pug_index1];
 if (linkitem.href == '' || linkitem.href == '###') {
-pug_html = pug_html + "\u003Ca class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\"\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link disabled\""+" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\""+pug.attr("title", linkitem.name, true, true)) + "\u003E\u003Cimg" + (" class=\"rounded custom-category-img-actived\""+pug.attr("src", linkitem.image, true, true)+pug.attr("alt", linkitem.name, true, true)) + "\u003E\u003C\u002Fa\u003E";
 }
 else {
-pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = linkitem.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+pug_html = pug_html + "\u003Ca" + (" class=\"nav-link\""+pug.attr("href", linkitem.href, true, true)+pug.attr("title", linkitem.name, true, true)) + "\u003E\u003Cimg" + (" class=\"rounded custom-category-img-link\""+pug.attr("src", linkitem.image, true, true)+pug.attr("alt", linkitem.name, true, true)) + "\u003E\u003C\u002Fa\u003E";
 }
     }
   }
