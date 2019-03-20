@@ -6,6 +6,7 @@ const devServer = require('./wp.config.js');
 // const fileIDs = require('./wp.build.base.js');
 // const fileIDs = require('./wp.build.weapon.de.js');
 const fileIDs = require('./wp.build.weapon.ru.js');
+const MinifyPlugin = require('babel-minify-webpack-plugin');
 
 /*
  * ***************************************************************************
@@ -16,7 +17,8 @@ const step = 1;
 const plugins = [
   new MiniCssExtractPlugin({
     filename: './css/[name].bundle.css'
-  })
+  }),
+  new MinifyPlugin()
 ];
 const tempObj = [];
 
@@ -36,7 +38,7 @@ for (let no = 0; no < fileIDs.length; no += step) {
       favicon: './favicon.ico',
       filename: `./${fileIDs[no].id}.html`,
       inject: 'body',
-      minify: false,
+      minify: true,
       template: './views/template.pug',
       title: `${fileIDs[no].title}`
     });
@@ -100,6 +102,8 @@ const fontloader = {
  * Optimizer definition
  */
 const optimization = {
+  minimize: false,
+  minimizer: [],
   splitChunks: {
     cacheGroups: {
       styles: {
