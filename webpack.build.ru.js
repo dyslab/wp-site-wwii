@@ -125,7 +125,7 @@ const config = {
   devServer,
   devtool: '',
   entry,
-  mode: 'development',
+  mode: 'production',
   module: { rules: [
     es2015,
     pugloader,
