@@ -4,6 +4,10 @@ const fileIDs = [
     title: 'CSS文件集合'
   },
   {
+    id: 'ru_army_tankt26',
+    title: 'T-26轻型坦克'
+  },
+  {
     id: 'ru_army',
     title: '陆战武器'
   },

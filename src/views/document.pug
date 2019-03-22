@@ -114,7 +114,7 @@ block content
           div.col
             span.custom-document-content!= body.part2description
             div.p-3
-      div.row
+      div.row.mfp-gallery
         each p2item in body.part2content
           div.col-md-6.pt-3
             div.card
@@ -132,6 +132,11 @@ block footer-scripts
     $(document).ready(function() {
       $(".mfp-image-link").magnificPopup({
         type: "image",
-        closeOnContentClick: true
+        closeOnContentClick: true,
+        gallery: {
+          enabled: true,
+          preload: [0,2],
+          navigateByImgClick: true
+        }
       });
     });
