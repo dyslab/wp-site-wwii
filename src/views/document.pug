@@ -92,16 +92,15 @@ block content
                 if r1item.command == 'image'
                   img.img-fluid.rounded(src=r1item.content)
                 else if r1item.command == 'text'
-                  div.mb-3
+                  div.mt-3.mb-3
                     span.custom-document-content!= r1item.content
                 else if r1item.command == 'caption'
-                  div.mb-3
+                  div.mt-3.mb-3
                     span.custom-document-caption.text-secondary!= r1item.content
             else
               img.img-fluid.rounded(src=p1item.image)
-              div.mb-3
+              div.mt-3.mb-3
                 span.custom-document-caption.text-secondary!= p1item.caption
-
           div.col-lg-5.order-0.order-lg-1
             span.custom-document-content!= p1item.description
       div.row
