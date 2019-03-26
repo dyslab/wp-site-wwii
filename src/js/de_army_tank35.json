@@ -16,7 +16,7 @@
   "part1content": [{
     "image": "imgs/de/army/de_army_tank35_11.jpg",
     "description": "<h6>35(t)坦克 Pz.Kpfw.35(t)</h6><p>35(t)该坦克于1934年由捷克研发，1935年定型(LtVz35)并开始量产，1939年德军侵占捷克后改名为Pz.Kpfw.35(t)纳入de德军现役。</p></p>该坦克车长：4.9m, 车宽：2.1m, 车高：2.35m, 车重10.7t; 乘员4人;发动机为120匹马力，最大时速：35km/h, 最大行程：190km, 涉水深度为1m；装甲厚度：正面25mm、侧面16mm、背面12mm。武器：一门37mm KwK34(t)坦克炮，二挺7.92mm MG37(t)机枪。</p>",
-    "caption": "<strong>外形特点：</strong><ul><li>悬挂系统中是4对用连杆连接的8个小型负重轮。</li><li>炮塔前部除炮管外，机枪也伸出前部。</li><li>炮塔上为圆形的舱盖。</li></ul>"
+    "caption": "<strong>外形特点：</strong><ol><li>悬挂系统中是4对用连杆连接的8个小型负重轮。</li><li>炮塔前部除炮管外，机枪也伸出前部。</li><li>炮塔上为圆形的舱盖。</li></ol>"
   }, {
     "image": "{{text}}1939年生产的35(t) Z1型坦克{{image}}imgs/de/army/de_army_tank35_12.jpg",
     "description": "",

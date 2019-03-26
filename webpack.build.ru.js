@@ -2,11 +2,11 @@
 /* eslint-disable capitalized-comments */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const MinifyPlugin = require('babel-minify-webpack-plugin');
 const devServer = require('./wp.config.js');
 // const fileIDs = require('./wp.build.base.js');
 // const fileIDs = require('./wp.build.weapon.de.js');
 const fileIDs = require('./wp.build.weapon.ru.js');
-const MinifyPlugin = require('babel-minify-webpack-plugin');
 
 /*
  * ***************************************************************************
@@ -16,7 +16,7 @@ let epString = '';
 const step = 1;
 const plugins = [
   new MiniCssExtractPlugin({
-    filename: './css/[name].bundle.css'
+    filename: './css/[name].css'
   }),
   new MinifyPlugin()
 ];
@@ -33,12 +33,12 @@ for (let no = 0; no < fileIDs.length; no += step) {
     tempObj[no] = new HtmlWebpackPlugin({
       chunks: [
         `${fileIDs[no].id}`,
-        'all.css'
+        'include_all_css'
       ],
       favicon: './favicon.ico',
       filename: `./${fileIDs[no].id}.html`,
       inject: 'body',
-      minify: true,
+      minify: false,
       template: './views/template.pug',
       title: `${fileIDs[no].title}`
     });
@@ -101,20 +101,7 @@ const fontloader = {
  * ***************************************************************************
  * Optimizer definition
  */
-const optimization = {
-  minimize: false,
-  minimizer: [],
-  splitChunks: {
-    cacheGroups: {
-      styles: {
-        chunks: 'all',
-        enforce: true,
-        name: 'all.css',
-        test: /\.css$/u
-      }
-    }
-  }
-};
+const optimization = {};
 
 /*
  * ***************************************************************************

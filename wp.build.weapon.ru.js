@@ -8,6 +8,14 @@ const fileIDs = [
     title: 'T-26轻型坦克'
   },
   {
+    id: 'ru_army_tankampt',
+    title: 'T系列轻型两栖侦察坦克'
+  },
+  {
+    id: 'ru_army_tankbt',
+    title: 'BT快速坦克'
+  },
+  {
     id: 'ru_army_tankt6070',
     title: 'T-60/T-70轻型坦克'
   },

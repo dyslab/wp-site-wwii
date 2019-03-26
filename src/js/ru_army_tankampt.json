@@ -1,0 +1,64 @@
+{
+  "category": [{
+    "name": "苏联",
+    "link": "ru_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "ru_army"  
+  }, {
+    "name": "坦克",
+    "link": "ru_army#ru_army_tank"  
+  }],
+  "model": "T系列轻型两栖侦察坦克", 
+  "description": "<h6>综述：</h6><p>T-37、T-38和T-40都同属侦察坦克，为了能穿越雪地、泥泞与沼泽，并能渡过河流深入前线和敌后执行侦察任务，此类坦克不但加强了机动性和耐用性，更是加装泅水动力装置（螺旋浆和尾舵）和加装了浮力装置，并造成水密性，成为一种轻型的两栖坦克。</p><p>T-37是受英国的VCL水陆两栖坦克的启发，从1931年开始研制，T-38是在T-37基础上进行改造而成，而T-40则是T-37与T-38的替代品。基于只作侦察用的想法，这类坦克的装甲与火力都薄弱，因此其作战价值大受影响，尽管后来的T-40加厚了装甲（此时已不能作两栖坦克用），但在苏联卫国战争初期，这些坦克在正面战斗中损失是极大的。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{image}}imgs/ru/army/ru_army_tankampt_11.jpg{{text}}T-37（1939）{{image}}imgs/ru/army/ru_army_tankampt_12.jpg{{text}}T-37A（1939）{{image}}imgs/ru/army/ru_army_tankampt_13.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统内有4个小口径负重轮，采用弹簧连接悬挂。</li><li>车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔安装车体右侧位置；只配备了一挺机枪。</li></ol>",
+    "description": "<h6>T-37轻型两栖侦察坦克</h6><p>相对早期的坦克，T-37坦克采用了改进的弹簧圈悬挂装置，单推进器履带和驾驶系统，车体进行了加固，履带钢板护挡包装了轻木浮桥以增加浮力，1935年车体将原铆接改作了整体焊接，终于解决了防水问题。</p><p>T-37坦克参数：</p><p>车身长3.75m，宽2.07m，高1.82m，车重3.2t；乘员2人；车速35km/h; 最大行程185km; 装甲厚度10mm; 武器为一挺7.62mm机枪。</p><p>在1933-1936年间，该型坦克共生产了约1200辆。</p>",
+    "caption": ""
+  }, {
+    "image": "{{image}}imgs/ru/army/ru_army_tankampt_21.jpg{{text}}T-38（1940）{{image}}imgs/ru/army/ru_army_tankampt_22.jpg{{text}}T-38（1942）{{image}}imgs/ru/army/ru_army_tankampt_23.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统与T-37基本相同。车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔位置改在车体左侧，仍然只配备一挺机枪。</li></ol>",
+    "description": "<h6>T-38轻型两栖侦察坦克</h6><p>T-38坦克对车体进行了改进，使车身更矮，履带也加宽了，驾驶装置更容易操作，泅水的性能更提升了不少。</p><p>T-38坦克参数：</p><p>车身长3.76m，宽1.95m，高1.62m，车重约3.3t；乘员2人；车速40km/h; 最大行程170km; 装甲厚度10mm; 武器为一挺7.62mm机枪。</p><p>从1937-1939年，该型坦克共生产了约1300辆。</p>",
+    "caption": ""
+  }, {
+    "image": "{{image}}imgs/ru/army/ru_army_tankampt_31.jpg{{text}}T-40（1942年）{{image}}imgs/ru/army/ru_army_tankampt_32.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统改用了4个大口径的负重轮。</li><li>车体两侧各装有一个箱式浮筒。</li><li>后期的炮塔改装了一门小口径火炮。</li></ol>",
+    "description": "<h6>T-40轻型两栖侦察坦克</h6><p>T-40坦克安装了内嵌式的车体浮箱，使坦克能渡过更宽、水流更急的河流。但后期的T-40坦克加装了防护装甲和一门20mm火炮后，由于重量的增加（接近T-38的2倍重量），致使其失去了两栖的功能。</p><p>T-40坦克参数（各资料参数略有不同)：</p><p>车身长4.43m，宽2.50m，高2.12m，车重约6t；乘员2人；车速45km/h; 最大行程350km; 装甲厚度13mm; 武器为1挺12.7mm机枪和1挺7.62mm机枪；后期是1门20mm火炮和1挺7.62mm机枪。</p><p>该型坦克在1939年12月开始生产，但生产数量不详，后来由于全力生产T-60，则两栖坦克的生产就被放弃了。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的T系列轻型两栖侦察坦克",
+  "part2description": "<p>最初T-37和T-38在苏军的作战行动中，主要是担负坦克部队、机械化及炮兵部队的侦察任务，在1936年基辅军区的一次演习中，T-38坦克还被重型轰炸机空降到战线后方，获得了苏联第一批空降坦克之名；T-38和T-40都参加了1940年对芬兰的冬季战争和初期的卫国战争，然而由于装甲薄弱，连步兵的反坦克枪都能将它击穿，所以作战价值不大，但当时由于坦克的缺乏，而苏军指挥官双喜欢将其作常规坦克使用（特别是T-40加厚装甲和更换20mm炮后），结果在战斗中大量被击毁或被缴获，德军后来还将这些缴获的坦克作前线机场巡逻警卫用。</p>",
+  "part2content": [{
+    "image": "imgs/ru/army/ru_army_tankampt_41.jpg",
+    "description": "1936年秋，一辆隶属白俄罗斯军区的T-37水陆两栖坦克正在过浮桥。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_42.jpg",
+    "description": "1940年9月，列宁格勒前线，一队隶属于独立轻型坦克营的T-38水陆两栖坦克正准备向德军涅瓦河集团军发起进攻，注意其车身炮塔上的二位战术编号。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_43.jpg",
+    "description": "1941年，行动中的第10机械化军的T-38坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_44.jpg",
+    "description": "1941年，一辆T-40水陆两栖坦克正在河中行进。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_45.jpg",
+    "description": "1942年冬季，苏联加里宁前线，一辆隶属于不知名部队的T-40水陆两栖坦克正停靠在路旁。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_46.jpg",
+    "description": "1942年1月，在东线战场上的两辆苏军T-40水陆两栖坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_47.jpg",
+    "description": "1942年被德军缴获的3辆T-37水陆两栖坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_tankampt_48.jpg",
+    "description": "一辆德军缴获的T-37两栖坦克，维修后被德军用来保护乌克兰境内的德军空军机场。",
+    "caption": ""
+  }]
+}

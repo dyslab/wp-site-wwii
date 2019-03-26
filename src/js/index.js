@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-var template = require('../views/index.pug');
-var indexJSON = require('./index.json');
+import indexJSON from './index.json';
+import template from '../views/index.pug';
 
 document.write(template(indexJSON));
