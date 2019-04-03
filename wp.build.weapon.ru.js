@@ -12,6 +12,10 @@ const fileIDs = [
     title: 'T-34中型坦克'
   },
   {
+    id: 'ru_army_tankkv',
+    title: 'KV重型坦克'
+  },
+  {
     id: 'ru_army_tankampt',
     title: 'T系列轻型两栖侦察坦克'
   },
