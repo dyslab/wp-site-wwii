@@ -14,15 +14,15 @@
   "part1title": "系列型号",
   "part1description": "",
   "part1content": [{
-    "image": "{{image}}imgs/ru/army/ru_army_tankampt_11.jpg{{text}}T-37（1939）{{image}}imgs/ru/army/ru_army_tankampt_12.jpg{{text}}T-37A（1939）{{image}}imgs/ru/army/ru_army_tankampt_13.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统内有4个小口径负重轮，采用弹簧连接悬挂。</li><li>车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔安装车体右侧位置；只配备了一挺机枪。</li></ol>",
+    "image": "{{text}}T-37轻型两栖侦察坦克{{image}}imgs/ru/army/ru_army_tankampt_11.jpg{{text}}T-37（1939）{{image}}imgs/ru/army/ru_army_tankampt_12.jpg{{text}}T-37A（1939）{{image}}imgs/ru/army/ru_army_tankampt_13.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统内有4个小口径负重轮，采用弹簧连接悬挂。</li><li>车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔安装车体右侧位置；只配备了一挺机枪。</li></ol>",
     "description": "<h6>T-37轻型两栖侦察坦克</h6><p>相对早期的坦克，T-37坦克采用了改进的弹簧圈悬挂装置，单推进器履带和驾驶系统，车体进行了加固，履带钢板护挡包装了轻木浮桥以增加浮力，1935年车体将原铆接改作了整体焊接，终于解决了防水问题。</p><p>T-37坦克参数：</p><p>车身长3.75m，宽2.07m，高1.82m，车重3.2t；乘员2人；车速35km/h; 最大行程185km; 装甲厚度10mm; 武器为一挺7.62mm机枪。</p><p>在1933-1936年间，该型坦克共生产了约1200辆。</p>",
     "caption": ""
   }, {
-    "image": "{{image}}imgs/ru/army/ru_army_tankampt_21.jpg{{text}}T-38（1940）{{image}}imgs/ru/army/ru_army_tankampt_22.jpg{{text}}T-38（1942）{{image}}imgs/ru/army/ru_army_tankampt_23.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统与T-37基本相同。车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔位置改在车体左侧，仍然只配备一挺机枪。</li></ol>",
+    "image": "{{text}}T-38轻型两栖侦察坦克{{image}}imgs/ru/army/ru_army_tankampt_21.jpg{{text}}T-38（1940）{{image}}imgs/ru/army/ru_army_tankampt_22.jpg{{text}}T-38（1942）{{image}}imgs/ru/army/ru_army_tankampt_23.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统与T-37基本相同。车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔位置改在车体左侧，仍然只配备一挺机枪。</li></ol>",
     "description": "<h6>T-38轻型两栖侦察坦克</h6><p>T-38坦克对车体进行了改进，使车身更矮，履带也加宽了，驾驶装置更容易操作，泅水的性能更提升了不少。</p><p>T-38坦克参数：</p><p>车身长3.76m，宽1.95m，高1.62m，车重约3.3t；乘员2人；车速40km/h; 最大行程170km; 装甲厚度10mm; 武器为一挺7.62mm机枪。</p><p>从1937-1939年，该型坦克共生产了约1300辆。</p>",
     "caption": ""
   }, {
-    "image": "{{image}}imgs/ru/army/ru_army_tankampt_31.jpg{{text}}T-40（1942年）{{image}}imgs/ru/army/ru_army_tankampt_32.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统改用了4个大口径的负重轮。</li><li>车体两侧各装有一个箱式浮筒。</li><li>后期的炮塔改装了一门小口径火炮。</li></ol>",
+    "image": "{{text}}T-40轻型两栖侦察坦克{{image}}imgs/ru/army/ru_army_tankampt_31.jpg{{text}}T-40（1942年）{{image}}imgs/ru/army/ru_army_tankampt_32.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统改用了4个大口径的负重轮。</li><li>车体两侧各装有一个箱式浮筒。</li><li>后期的炮塔改装了一门小口径火炮。</li></ol>",
     "description": "<h6>T-40轻型两栖侦察坦克</h6><p>T-40坦克安装了内嵌式的车体浮箱，使坦克能渡过更宽、水流更急的河流。但后期的T-40坦克加装了防护装甲和一门20mm火炮后，由于重量的增加（接近T-38的2倍重量），致使其失去了两栖的功能。</p><p>T-40坦克参数（各资料参数略有不同)：</p><p>车身长4.43m，宽2.50m，高2.12m，车重约6t；乘员2人；车速45km/h; 最大行程350km; 装甲厚度13mm; 武器为1挺12.7mm机枪和1挺7.62mm机枪；后期是1门20mm火炮和1挺7.62mm机枪。</p><p>该型坦克在1939年12月开始生产，但生产数量不详，后来由于全力生产T-60，则两栖坦克的生产就被放弃了。</p>",
     "caption": ""
   }], 

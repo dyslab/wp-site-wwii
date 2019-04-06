@@ -14,15 +14,15 @@
   "part1title": "系列型号",
   "part1description": "",
   "part1content": [{
-    "image": "{{image}}imgs/ru/army/ru_army_tankis_11.jpg{{image}}imgs/ru/army/ru_army_tankis_12.jpg",
+    "image": "{{text}}IS-1重型坦克{{image}}imgs/ru/army/ru_army_tankis_11.jpg{{image}}imgs/ru/army/ru_army_tankis_12.jpg",
     "description": "<h6>IS-1（IS-85）重型坦克</h6><p>该型坦克的研发是苏联坦克的一个突破，它是KV-85的改进版，虽然它一直没有量产（只生产了约100辆），但通过对它的检测和在战场上的体验，使苏联坦克的发展有了一个明确的方向。</p><p>IS-1的主炮是85mm，除此以外，其它参数与IS-2基本相同。</p>",
     "caption": ""
   }, {
-    "image": "{{image}}imgs/ru/army/ru_army_tankis_21.jpg{{text}}IS-2重型坦克（1944年款）{{image}}imgs/ru/army/ru_army_tankis_22.jpg{{text}}IS-2重型坦克（1945年款）{{image}}imgs/ru/army/ru_army_tankis_23.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统负重轮两侧各有6个。</li><li>后期炮塔上安装了一挺高射机枪。</li><li>炮塔后部安装了一挺机枪。</li></ol>",
+    "image": "{{text}}IS-2重型坦克{{image}}imgs/ru/army/ru_army_tankis_21.jpg{{text}}IS-2重型坦克（1944年款）{{image}}imgs/ru/army/ru_army_tankis_22.jpg{{text}}IS-2重型坦克（1945年款）{{image}}imgs/ru/army/ru_army_tankis_23.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统负重轮两侧各有6个。</li><li>后期炮塔上安装了一挺高射机枪。</li><li>炮塔后部安装了一挺机枪。</li></ol>",
     "description": "<h6>IS-2重型坦克</h6><p>IS-2在IS-1基础上进行了火力和装甲的升级改造，首先它改装了长筒的122火炮，该炮在试验场的检测证明，用它来攻击一辆缴获的德军豹式坦克，在600米距离内可以击穿其前装甲；另外，IS-2坦克对前装甲也作了改进，由台阶式斜板改为低平式斜板，提高了坦克前部的防弹能力。但由于当时的122mm火炮存在射速低（每分钟仅能发射2-3发）和弹药量少（貯弹量只有28发）的问题，也影响了它的战斗力发挥。</p><p>IS-2重型坦克参数（仅供参考）：</p><p>车身长约10.0m，宽约3.1m，高约2.7m，车重约46.0t；乘员4人； 发动机为550匹马力， 最大车速37km/h; 最大行程约240km; 装甲厚度30-160mm；武器：一门122mm火炮、1挺12.7mm高射机枪和3挺7.62mm机枪。</p><p>IS-2重型坦克一共生产了2200多辆。</p>",
     "caption": ""
   }, {
-    "image": "{{image}}imgs/ru/army/ru_army_tankis_31.jpg{{image}}imgs/ru/army/ru_army_tankis_32.jpg{{text}}IS-3M重型坦克{{image}}imgs/ru/army/ru_army_tankis_33.jpg{{caption}}<strong>外形特点：</strong><ol><li>前装甲成矛头状的尖形。</li><li>车体两侧各带两个长筒状容器。</li><li>悬挂系统与IS-2相同，也在炮塔外同样装备一挺高射机枪。</li></ol>",
+    "image": "{{text}}IS-3重型坦克{{image}}imgs/ru/army/ru_army_tankis_31.jpg{{image}}imgs/ru/army/ru_army_tankis_32.jpg{{text}}IS-3M重型坦克{{image}}imgs/ru/army/ru_army_tankis_33.jpg{{caption}}<strong>外形特点：</strong><ol><li>前装甲成矛头状的尖形。</li><li>车体两侧各带两个长筒状容器。</li><li>悬挂系统与IS-2相同，也在炮塔外同样装备一挺高射机枪。</li></ol>",
     "description": "<h6>IS-3重型坦克</h6><p>IS-3是苏联在二战期间生产的最后一种重型坦克，其最大改进是前装甲改成尖斜形，从而使车体重量减轻，并增加了抗打击能力；此外IS-3的炮塔改为了圆碗形，这样的圆形能使来袭的炮弹能量偏转，提高了对炮塔的防护能力。</p><p>IS-3重型坦克参数（仅供参考）：</p><p>车身长约11.0m，宽约3.4m，高约2.9m，车重约46.5t；乘员4人； 发动机为550匹马力， 最大车速37km/h; 最大行程约200km; 正面装甲厚度230mm；武器：一门122mm火炮、1挺12.7mm高射机枪和1-2挺7.62mm机枪。</p><p>IS-3重型坦克的生产一直持续到1946年，一共生产了约2300多辆。</p>",
     "caption": ""
   }], 

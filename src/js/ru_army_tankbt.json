@@ -14,11 +14,11 @@
   "part1title": "系列型号",
   "part1description": "",
   "part1content": [{
-    "image": "{{image}}imgs/ru/army/ru_army_tankbt_11.jpg{{image}}imgs/ru/army/ru_army_tankbt_12.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂装置内是4个大口径的负重轮。</li><li>炮塔为圆形。</li></ol>",
+    "image": "{{text}}BT-5快速坦克{{image}}imgs/ru/army/ru_army_tankbt_11.jpg{{image}}imgs/ru/army/ru_army_tankbt_12.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂装置内是4个大口径的负重轮。</li><li>炮塔为圆形。</li></ol>",
     "description": "<h6>BT-5快速坦克</h6><p>BT-5是BT系列第一种重点生产的型号，它经常出现 在战前的阅兵式上。</p><p>该型坦克参数为（不同资料会有些出入）：</p><p>车身长约5.5m，宽约2.3m，高约2.2m，车重约11.5t；乘员3人；发动机为350匹马力汽油机，最大车速65km/h（若用车轮行驶可达112km/h）; 最大行程约200km; 装甲厚度6-13mm； 武器：一门45mm火炮和一挺7.62mm机枪。</p><p>有资料说该型坦克曾生产了数千辆。</p>",
     "caption": ""
   }, {
-    "image": "{{image}}imgs/ru/army/ru_army_tankbt_21.jpg{{text}}BT-7（1939款）{{image}}imgs/ru/army/ru_army_tankbt_22.jpg{{text}}BT-7（1941款）{{image}}imgs/ru/army/ru_army_tankbt_23.jpg{{text}}BT-7A（1940款）{{image}}imgs/ru/army/ru_army_tankbt_24.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统与T-37基本相同。车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔位置改在车体左侧，仍然只配备一挺机枪。</li></ol>",
+    "image": "{{text}}BT-7快速坦克{{image}}imgs/ru/army/ru_army_tankbt_21.jpg{{text}}BT-7（1939款）{{image}}imgs/ru/army/ru_army_tankbt_22.jpg{{text}}BT-7（1941款）{{image}}imgs/ru/army/ru_army_tankbt_23.jpg{{text}}BT-7A（1940款）{{image}}imgs/ru/army/ru_army_tankbt_24.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统与T-37基本相同。车体后尾部装有泅水用的螺旋浆和控制方向的尾舵。</li><li>炮塔位置改在车体左侧，仍然只配备一挺机枪。</li></ol>",
     "description": "<h6>BT-7快速坦克</h6><p>BT-7是BT系列坦克另一种重点生产型号，1935年开始量产，它采用了新型的发动机和炮塔，并加大了装甲钢板的倾钭度，整体性能比BT-5有明显加强。</p><p>该型坦克参数为（不同资料会有些出入）：</p><p>车身长约5.6m，宽约2.3m，高约2.4m，车重约14.0t；乘员3人；发动机为450匹马力汽油机，最大车速72km/h; 最大行程约430km; 装甲厚度6-22mm； 武器：一门45mm火炮和二挺7.62mm机枪（一挺装在炮塔后）。</p><p>BT-7A是其变形车，炮塔更大，装备一门短筒、口径为72.6mm的榴弹炮，配50发炮弹，主要用于支援机动的坦克编队，又称之为火炮支援坦克。</p>",
     "caption": ""
   }], 
