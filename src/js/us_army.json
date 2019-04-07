@@ -1,0 +1,23 @@
+{
+  "weapons": [{
+    "model": "单兵装备", 
+    "link": "us_army_personnelequipment",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "火炮", 
+    "link": "us_army_artillery",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "坦克", 
+    "link": "us_army_tank",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "装甲车辆", 
+    "link": "us_army_armedvehicle",
+    "image": "",
+    "intro": "###"
+  }]
+}

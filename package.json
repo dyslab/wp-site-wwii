@@ -10,6 +10,7 @@
     "build:base": "webpack --config webpack.build.base.js",
     "build:de": "webpack --config webpack.build.de.js",
     "build:ru": "webpack --config webpack.build.ru.js",
+    "build:us": "webpack --config webpack.build.us.js",
     "copyfiles": "webpack --config webpack.copy.js"
   },
   "repository": {

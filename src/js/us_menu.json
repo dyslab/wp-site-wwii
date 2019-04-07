@@ -1,0 +1,21 @@
+[{
+  "title": "首页", 
+  "link": "index",
+  "active": false
+}, {
+  "title": "陆战武器", 
+  "link": "us_army",
+  "active": false
+}, {
+  "title": "空战武器", 
+  "link": "us_airforce",
+  "active": false
+}, {
+  "title": "海战武器", 
+  "link": "us_navy",
+  "active": false
+}, {
+  "title": "快捷目录", 
+  "link": "us_shortcut",
+  "active": false
+}]
