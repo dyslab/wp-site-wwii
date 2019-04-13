@@ -4,6 +4,10 @@ const fileIDs = [
       title: 'CSS文件集合'
     },
     {
+      id: 'us_army_tankm2',
+      title: 'M2轻型/中型坦克'
+    },
+    {
       id: 'us_army',
       title: '陆战武器'
     },
@@ -12,6 +16,5 @@ const fileIDs = [
       title: '快捷目录'
     }
   ];
-  
+
   module.exports = fileIDs;
-  
