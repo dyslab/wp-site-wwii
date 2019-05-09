@@ -20,6 +20,14 @@ const fileIDs = [
       title: 'M24轻型坦克'
     },
     {
+      id: 'us_army_tankm3m',
+      title: 'M3中型坦克'
+    },
+    {
+      id: 'us_army_tankm4',
+      title: 'M4中型坦克'
+    },
+    {
       id: 'us_army',
       title: '陆战武器'
     },
