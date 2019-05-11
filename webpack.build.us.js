@@ -31,6 +31,7 @@ for (let no = 0; no < fileIDs.length; no += step) {
     tempObj[no] = new HtmlWebpackPlugin({
       chunks: [
         `${fileIDs[no].id}`,
+        'common_bundle_us',
         'include_all_css'
       ],
       favicon: './favicon.ico',
@@ -99,7 +100,21 @@ const fontloader = {
  * ***************************************************************************
  * Optimizer definition
  */
-const optimization = {};
+const optimization = {
+  splitChunks: {
+    cacheGroups: {
+      vendors: {
+        priority: -10,
+        test: /[\\/]node_modules[\\/]/u
+      }
+          },
+    // chunks: 'async',
+    chunks: 'all',
+    minChunks: 1,
+    minSize: 30000,
+    name: 'common_bundle_us'
+  }
+};
 
 /*
  * ***************************************************************************

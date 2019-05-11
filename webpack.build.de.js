@@ -4,9 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const MinifyPlugin = require('babel-minify-webpack-plugin');
 const devServer = require('./wp.config.js');
-// const fileIDs = require('./wp.build.base.js');
 const fileIDs = require('./wp.build.weapon.de.js');
-// const fileIDs = require('./wp.build.weapon.ru.js');
 
 /*
  * ***************************************************************************
@@ -33,6 +31,7 @@ for (let no = 0; no < fileIDs.length; no += step) {
     tempObj[no] = new HtmlWebpackPlugin({
       chunks: [
         `${fileIDs[no].id}`,
+        'common_bundle_de',
         'include_all_css'
       ],
       favicon: './favicon.ico',
@@ -101,7 +100,21 @@ const fontloader = {
  * ***************************************************************************
  * Optimizer definition
  */
-const optimization = {};
+const optimization = {
+  splitChunks: {
+    cacheGroups: {
+      vendors: {
+        priority: -10,
+        test: /[\\/]node_modules[\\/]/u
+      }
+          },
+    // chunks: 'async',
+    chunks: 'all',
+    minChunks: 1,
+    minSize: 30000,
+    name: 'common_bundle_de'
+  }
+};
 
 /*
  * ***************************************************************************

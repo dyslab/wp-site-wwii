@@ -1,3 +1,23 @@
+/*
+ *
+ * VERY IMPORTANT NOTES:
+ * This file has been DEPRECATED since 12/5/2019.
+ * All 'common' resources or 'imgs' material files were recommended to
+ * directly copy/paste to the corresponding folder in folder '/dist'.
+ *
+ * File desctiption:
+ * This sctipt used to copy all resources of the folder 'common' &'imgs'
+ * from '/src' to '/dist'.
+ *
+ * Usage:
+ * directly use it via the command line below.
+ *  webpack --config webpack.copy.js
+ * or you could...
+ *  1. add the script below in the 'scripts' section in file 'package.json'.
+ *    "copyfiles": "webpack --config webpack.copy.js"
+ *  2. then run script by npm command: "npm run copyfiles".
+ *
+ */
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const devServer = require('./wp.config.js');
 
