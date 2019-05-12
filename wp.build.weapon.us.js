@@ -28,6 +28,10 @@ const fileIDs = [
       title: 'M4中型坦克'
     },
     {
+      id: 'us_army_tankm26',
+      title: 'M26重型坦克'
+    },
+    {
       id: 'us_army',
       title: '陆战武器'
     },

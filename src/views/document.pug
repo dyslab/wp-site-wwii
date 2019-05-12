@@ -12,26 +12,22 @@ block content
               else
                 a(href=catitem.link + '.html')= catitem.name
           li.breadcrumb-item.active(aria-current="page")=body.model
-      div.row
+      div.row.p-3
         div.col.text-center
           span.h3.font-weight-bold.custom-text-shadow-2px= body.model
-      div.row
+      div.row.pb-3
         div.col
-          div.p-3
           span.custom-document-content!= body.description
-          div.p-3
-      div.row
+      div.row.pb-3
         div.col
           span.h3.custom-text-shadow-1px!= body.part1title
-          div.p-3
       if body.part1description != ''
-        div.row
+        div.row.pb-3
           div.col
             span.custom-document-content!= body.part1description
-            div.p-3
       each p1item in body.part1content
-        div.row.pb-3
-          div.col-lg-7.order-1.order-lg-0
+        div.row.pb-lg-3
+          div.col-lg-7.order-1.order-lg-0.pb-4
             -
               toParse = p1item.image.indexOf('{{');
             if (toParse >= 0)
@@ -90,32 +86,31 @@ block content
                 }
               each r1item in result_array
                 if r1item.command == 'image'
-                  img.img-fluid.rounded(src=r1item.content)
+                  div.pb-3
+                    img.img-fluid.rounded(src=r1item.content)
                 else if r1item.command == 'text'
-                  div.mt-3.mb-3
+                  div
                     span.custom-document-content!= r1item.content
                 else if r1item.command == 'caption'
-                  div.mt-3.mb-3
+                  div
                     span.custom-document-caption.text-secondary!= r1item.content
             else
               img.img-fluid.rounded(src=p1item.image)
-              div.mt-3.mb-3
-                span.custom-document-caption.text-secondary!= p1item.caption
-          div.col-lg-5.order-0.order-lg-1
+              if (p1item.caption != '') && (p1item.caption != undefined)
+                div
+                  span.custom-document-caption.text-secondary!= p1item.caption
+          div.col-lg-5.order-0.order-lg-1.pb-0.pb-lg-4
             span.custom-document-content!= p1item.description
-      div.row
+      div.row.p-3
         div.col
-          div.p-3
           span.h3.custom-text-shadow-1px!= body.part2title
-          div.p-3
       if body.part2description != ''
-        div.row
+        div.row.pb-3
           div.col
             span.custom-document-content!= body.part2description
-            div.p-3
       div.row.mfp-gallery
         each p2item in body.part2content
-          div.col-md-6.pt-3
+          div.col-md-6.pb-3
             div.card
               div.card-body
                 div.card-img

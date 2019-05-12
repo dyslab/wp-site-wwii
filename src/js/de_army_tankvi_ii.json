@@ -14,8 +14,8 @@
   "part1title": "系列型号",
   "part1description": "",
   "part1content": [{
-    "image": "{{image}}imgs/de/army/de_army_tankvi_ii_11.jpg{{caption}}<strong>外形特点：</strong><ol><li>悬挂系统中负重轮也是交迭式，但外层是5个大直径的钢轮。</li><li>炮塔装备的88mm火炮身管更长。</li><li>炮塔属大型炮塔，外形较大。</li></ol>{{image}}imgs/de/army/de_army_tankvi_ii_12.jpg{{text}}<p>注意两种炮塔的不同点：1.下图的火炮连接炮塔处装有护环的防护盾。2.下图炮塔外壁装有可挂放备用履带链防护的挂钩。</p>{{image}}imgs/de/army/de_army_tankvi_ii_13.jpg",
-    "description": "<h6>Ⅵ号虎王（虎Ⅱ）坦克（Sd.Kfz.182 Pz.Kpfw Ⅵ Aust.B TigerⅡ）</h6><p>虎王Ⅵ号（虎Ⅱ式）坦克是德国生产商在德军多系列坦克的技术积累下，结合战场的需求，以及吸纳了对手坦克的优点研制出来的一款高水平的坦克，其强大的装甲与火力令对手都为之称赞。</p><p>虎王Ⅵ号（虎Ⅱ式）坦克的数据为：</p><p>车长：10.3m, 车宽：3.8m, 车高：3.1m, 车重：57t; 乘员5人； 发动机700匹马力，车速：32km/h（约）, 最大行程：170km（约）; 主要武器：一门88mm Kw K43 L/71火炮，二挺7.92mm MG34机枪；装甲厚度：180mm。</p>",
+    "image": "{{image}}imgs/de/army/de_army_tankvi_ii_11.jpg{{image}}imgs/de/army/de_army_tankvi_ii_12.jpg{{text}}<p>注意两种炮塔的不同点：1.下图的火炮连接炮塔处装有护环的防护盾。2.下图炮塔外壁装有可挂放备用履带链防护的挂钩。</p>{{image}}imgs/de/army/de_army_tankvi_ii_13.jpg",
+    "description": "<h6>Ⅵ号虎王（虎Ⅱ）坦克（Sd.Kfz.182 Pz.Kpfw Ⅵ Aust.B TigerⅡ）</h6><p>虎王Ⅵ号（虎Ⅱ式）坦克是德国生产商在德军多系列坦克的技术积累下，结合战场的需求，以及吸纳了对手坦克的优点研制出来的一款高水平的坦克，其强大的装甲与火力令对手都为之称赞。</p><p>虎王Ⅵ号（虎Ⅱ式）坦克的数据为：</p><p>车长：10.3m, 车宽：3.8m, 车高：3.1m, 车重：57t; 乘员5人； 发动机700匹马力，车速：32km/h（约）, 最大行程：170km（约）; 主要武器：一门88mm Kw K43 L/71火炮，二挺7.92mm MG34机枪；装甲厚度：180mm。</p><span class='custom-document-caption text-secondary'><strong>外形特点：</strong><ol><li>悬挂系统中负重轮也是交迭式，但外层是5个大直径的钢轮。</li><li>炮塔装备的88mm火炮身管更长。</li><li>炮塔属大型炮塔，外形较大。</li></ol></span>",
     "caption": ""
   }], 
   "part2title": "战场上的Ⅵ号虎王（虎Ⅱ）坦克",
