@@ -1,0 +1,28 @@
+{
+  "weapons": [{
+    "model": "单兵装备", 
+    "link": "uk_army_personnelequipment",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "火炮", 
+    "link": "uk_army_artillery",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "坦克", 
+    "link": "uk_army_tank",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "MK轻型坦克", 
+    "link": "uk_army_tankmk",
+    "image": "imgs/uk/army/uk_army_tankmk_01.jpg",
+    "intro": "英国是第一个发明坦克并将坦克首先运用到战争（第一次世界大战）中的国家。1938年，英国制造了大量的轻型坦克来替代骑兵作战，自1930年维克斯公司研发制造的MKⅠ轻型坦克服役开始，继后陆续开发了MKⅡ、MKⅡA、MKⅡB、MKⅢ、MKⅣ、MKⅤ、MKⅥ、MKⅥA、MKⅥB和MKⅥC；其中MKⅥB是英军在二战早期主要装备，战场使用率最高。当时，轻型坦克主要用途是支援步兵战斗，但轻型坦克火力和装甲防护都很弱，因此在战场上的战损率相当大，不过轻型坦克有较好的机动性，运输也方便，随着战争的发展，该类坦克已不适应战场的要求，除后期生产的MKVII（坦特拉克）曾作为空降坦克继续参加欧洲战场的战斗外，其余大多数则只能作训练和后方警卫用。"
+  }, {
+    "model": "装甲车辆", 
+    "link": "uk_army_armedvehicle",
+    "image": "",
+    "intro": "###"
+  }]
+}
