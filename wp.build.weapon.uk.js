@@ -5,7 +5,11 @@ const fileIDs = [
     },
     {
       id: 'uk_army_tankmk',
-      title: 'M2轻型/中型坦克'
+      title: 'MK轻型坦克'
+    },
+    {
+      id: 'uk_army_tankmt',
+      title: '“马蒂尔达”步兵坦克'
     },
     {
       id: 'uk_army',
