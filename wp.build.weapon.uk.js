@@ -12,6 +12,10 @@ const fileIDs = [
       title: '“马蒂尔达”步兵坦克'
     },
     {
+      id: 'uk_army_tankvt',
+      title: '“瓦伦丁”步兵坦克'
+    },
+    {
       id: 'uk_army',
       title: '陆战武器'
     },
