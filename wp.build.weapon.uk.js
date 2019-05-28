@@ -24,6 +24,10 @@ const fileIDs = [
       title: 'A9/A10/A13巡航坦克'
     },
     {
+      id: 'uk_army_tankcr',
+      title: 'A15“十字军”巡航坦克'
+    },
+    {
       id: 'uk_army',
       title: '陆战武器'
     },
