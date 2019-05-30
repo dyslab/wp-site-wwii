@@ -28,6 +28,10 @@ const fileIDs = [
       title: 'A15“十字军”巡航坦克'
     },
     {
+      id: 'uk_army_tankcw',
+      title: 'A27M“克伦威尔”巡航坦克'
+    },
+    {
       id: 'uk_army',
       title: '陆战武器'
     },
