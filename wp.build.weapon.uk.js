@@ -32,6 +32,10 @@ const fileIDs = [
       title: 'A27M“克伦威尔”巡航坦克'
     },
     {
+      id: 'uk_army_tankcx',
+      title: 'A27L/A30/A34巡航坦克'
+    },
+    {
       id: 'uk_army',
       title: '陆战武器'
     },
