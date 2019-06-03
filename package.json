@@ -1,6 +1,6 @@
 {
   "name": "wp-site-demo",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Webpack + Express + Pug website boilerplate",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "build:de": "webpack --config webpack.build.de.js",
     "build:ru": "webpack --config webpack.build.ru.js",
     "build:us": "webpack --config webpack.build.us.js",
-    "build:uk": "webpack --config webpack.build.uk.js"
+    "build:uk": "webpack --config webpack.build.uk.js",
+    "build:jp": "webpack --config webpack.build.jp.js"
   },
   "repository": {
     "type": "git",

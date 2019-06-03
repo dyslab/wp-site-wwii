@@ -1,0 +1,28 @@
+{
+  "weapons": [{
+    "model": "单兵装备", 
+    "link": "jp_army_personnelequipment",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "火炮", 
+    "link": "jp_army_artillery",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "坦克", 
+    "link": "jp_army_tank",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "MK轻型坦克", 
+    "link": "jp_army_tank97",
+    "image": "imgs/jp/army/jp_army_tank97_01.jpg",
+    "intro": ""
+  }, {
+    "model": "装甲车辆", 
+    "link": "jp_army_armedvehicle",
+    "image": "",
+    "intro": "###"
+  }]
+}

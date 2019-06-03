@@ -36,6 +36,10 @@ const fileIDs = [
       title: 'A27L/A30/A34巡航坦克'
     },
     {
+      id: 'uk_army_tankff',
+      title: '“谢尔曼·莹火虫”坦克'
+    },
+    {
       id: 'uk_army',
       title: '陆战武器'
     },
