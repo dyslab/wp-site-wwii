@@ -12,6 +12,14 @@ const fileIDs = [
       title: '95式轻型坦克'
     },
     {
+      id: 'jp_army_tank89',
+      title: '89式中型坦克'
+    },
+    {
+      id: 'jp_army_tank97',
+      title: '97式中型坦克'
+    },
+    {
       id: 'jp_army',
       title: '陆战武器'
     },
