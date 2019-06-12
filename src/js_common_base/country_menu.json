@@ -1,0 +1,21 @@
+[
+  {
+    "name": "德国",
+    "code": "de"
+  }, {
+    "name": "日本",
+    "code": "jp"
+  }, {
+    "name": "美国",
+    "code": "us"
+  }, {
+    "name": "英国",
+    "code": "uk"
+  }, {
+    "name": "法国",
+    "code": "fr"
+  }, {
+    "name": "苏联",
+    "code": "ru"
+  }
+]

@@ -1,0 +1,13 @@
+[{
+  "title": "首页", 
+  "link": "index",
+  "active": false
+}, {
+  "title": "陆战武器", 
+  "link": "fr_army",
+  "active": false
+}, {
+  "title": "快捷目录", 
+  "link": "fr_shortcut",
+  "active": false
+}]
