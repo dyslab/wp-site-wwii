@@ -1,3 +1,3 @@
 const CommonSetting = require('./wp.common.setting.js');
 
-module.exports = CommonSetting.config('base');
+module.exports = CommonSetting.config('index');
