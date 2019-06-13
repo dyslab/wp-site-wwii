@@ -1,10 +1,5 @@
 const fileIDs = [
   {
-    folder: 'js_common_base',
-    id: 'include_all_css',
-    title: 'CSS文件集合'
-  },
-  {
     folder: 'js_de',
     id: 'de_army_tanki',
     title: 'Ⅰ号坦克'

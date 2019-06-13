@@ -35,8 +35,7 @@ exports.config = (countryid) => {
       tempObj[no] = new HtmlWebpackPlugin({
         chunks: [
           `${fileIDs[no].id}`,
-          `common_bundle_${countryid}`,
-          'include_all_css'
+          `common_bundle_${countryid}`
         ],
         favicon: './favicon.ico',
         filename: `./${fileIDs[no].id}.html`,
@@ -113,17 +112,19 @@ exports.config = (countryid) => {
   */
   const optimization = {
     splitChunks: {
-      chunks: 'all',
+      chunks: 'initial',
       minChunks: 3,
       minSize: 30000,
       name: `common_bundle_${countryid}`,
       cacheGroups: {
+        /*
         vendors: {
-          test: /[\/]node_modules[\/]/,
+          test: /.js/,
           priority: -10
         },
+        */
         default: {
-          minChunks: 2,
+          minChunks: 5,
           priority: -20,
           reuseExistingChunk: true
         }
