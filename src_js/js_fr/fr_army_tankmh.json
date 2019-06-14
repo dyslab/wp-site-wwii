@@ -1,0 +1,64 @@
+{
+  "category": [{
+    "name": "法国",
+    "link": "fr_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "fr_army"  
+  }, {
+    "name": "坦克",
+    "link": "fr_army#fr_army_tank"  
+  }],
+  "model": "法国中型与重型坦克", 
+  "description": "<h6>综述：</h6><p>法国把车重为15-25t的坦克称为中型坦克，把车重超过25t的坦克称为重型坦克（注：当时25t以上坦克法军还只称为战斗坦克，只有超过60t才称重型坦克）。法国的中、重型坦克在二战前就已经开始生产，但各类并不多，最早的中型坦克是CharD1和D2型，但它们产量很少，且多在外服役，在法国本土难见到它们的身影；而法国本土军队装备的是索玛（SOMUA）S-35中型坦克（也称骑兵坦克），它是在CharD1或D2型的基础上进行研发生产的。</p><p>重型坦克有雷诺Char B1型（也有资料称为夏尔（Char） B1型），后又产生了雷诺Char B1bis和雷诺Char B1ter两种型号，最后还出现一款超重型坦克Char 2C型(车重70吨），不过这种坦克只生产了10辆，到了1940年还有7辆，但这7辆坦克在运输途中被德军战机全部摧毁了。</p><p>1940年，索玛（SOMUA）S-35中型坦克和雷诺Char B1（B1bis)重型坦克都在法国本土参加了与入侵德军的战斗，尽管这些坦克已可以与入侵德军的早期坦克对抗，但由于法军的战术落后，在德军坦克与反坦克火炮的围攻下，仍只有被德军击毁和缴获的后果。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}940年6月法国战场，隶属法军第1装甲师的一辆索玛（SOMUA）S-35中型坦克。{{image}}imgs/fr/army/fr_army_tankmh_11.jpg{{text}}1940年5月法国战场，隶属法军第1装甲师第4铁甲骑兵团的一辆索玛（SOMUA）S-35中型坦克。{{image}}imgs/fr/army/fr_army_tankmh_12.jpg{{text}}1940年5月法国战场，隶属法军第3装甲师第2铁甲骑兵团的一辆索玛（SOMUA）S-35中型坦克。{{image}}imgs/fr/army/fr_army_tankmh_13.jpg",
+    "description": "<h6>SOMUA S-35中型坦克（骑兵坦克）</h6><p>S-35在1935年面世，当时被认为是世界上最好的中型坦克，它是法国第一种车体与炮塔采用铸钢浇铸的坦克，它安装了190匹马力的发动机，提升了坦克车速，它还使用了电气操纵系统，并装有自动灭火系统，整体性能相当不错。但由于坦克的车体上部铸钢车体是用螺丝连接下半部，因此一旦被敌方穿甲弹击中连接处，两部分车体就会分离；此外它的单人炮塔也会影响坦克的战斗力。</p><p>至1940年，SOMUA S-35中型坦克一共生产了430辆。</p><p>坦克参数：</p><p>车长：5.38m，车宽：2.12m，车高：2.62m，车重：19.5t。</p><p>最高车速：40km/h，最大行程：230km。</p><p>武器装备：1门47mm长身管火炮；1挺7.5mm机枪。</p><p>装甲厚度：车体厚度20-40mm，炮塔55mm。</p><p>乘员3人。</p>",
+    "caption": ""
+  }, {
+    "image": "{{text}}1940年5月法国战场，隶属法军第37战斗坦克营第3连的一辆雷诺Char B1bis重型坦克。{{image}}imgs/fr/army/fr_army_tankmh_21.jpg{{text}}1940年5月法国战场，隶属法军第8战斗坦克营第2连的一辆雷诺Char B1bis重型坦克。{{image}}imgs/fr/army/fr_army_tankmh_22.jpg{{text}}1941年6月东线战场，德军将缴获的雷诺Char B1bis重型坦克改为Pzkpfw B2(f)型，配属德军第102装甲师第1连使用。{{image}}imgs/fr/army/fr_army_tankmh_23.jpg",
+    "description": "<h6>雷诺Char B1重型坦克</h6><p>雷诺Char B1坦克是法军在二战初期装备的一种重型坦克，它在1935年开始在法军服役，是法国第一种同时采用手动和电力回旋装置的坦克，它的车体是焊接和铆接的轧制均质装甲，炮塔是整体铸造，整车有较好的防护性能；后期生产的雷诺Char B1bis安装了功率为300匹马力的发动机，但由于车体较重，故坦克的机动性不理想，且单人炮塔使车长同时要兼负观察、装填和射击等任务，使战斗效率大大降低。</p><p>至1940年，雷诺Char B1系列坦克一共生产了405辆。</p><p>坦克参数：</p><p>车长：6.37m，车宽：2.46m，车高：2.79m，车重：32t。</p><p>最高车速：28km/h，最大行程：200km。</p><p>武器装备：1门47mm长身管火炮和1门75mm火炮；2挺7.5mm机枪。</p><p>装甲厚度：车体厚度14-60mm。</p><p>乘员4人。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的SOMUA S-35中型坦克与雷诺Char B1重型坦克",
+  "part2description": "<p>1940年5-6月，有约400辆索玛（SOMUA）S-35中型坦克投入了与入侵德军的战斗，由于它是法国第一种浇铸式炮塔和车体的中型坦克，有较好的防护力，故成了德军首先围攻的对象，但由于法军在德军的闪击战中大败，结果这些坦克还未真正发挥作用，有不少被德军缴获，变成德军的装备，其中一部分在1944年还参加了德军抵抗盟军在诺曼底登陆的战斗，后来盟军又在德军手中缴回了几辆，就给了戴高乐将军领导的自由法国部队使用到二战结束。</p><p>而雷诺Char B1（包括B1bis）重型坦克由于数量少，且行动缓慢，机动性差，又分散装备在各支部队中，因此无法发挥其重装甲与强火力的优势，同样未能在1940年与德军的战斗中发挥作用。</p>",
+  "part2content": [{
+    "image": "imgs/fr/army/fr_army_tankmh_51.jpg",
+    "description": "1940年法国战场，法军第1机械化师第18骑兵团的一辆索玛（SOMUA）S-35中型坦克，该坦克已涂上三色伪装图案。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_52.jpg",
+    "description": "1940年法国战场，被法军丢弃的隶属第1机械化师第4装甲团一辆索玛（SOMUA）S-35中型坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_53.jpg",
+    "description": "1940年在法国战场上的法军第3装甲师的索玛（SOMUA）S-35中型坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_54.jpg",
+    "description": "1940年5月，一辆被遗弃的隶属法军第1预备装甲师的雷诺Char B1bis重型坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_55.jpg",
+    "description": "1940年5月法国战场，停靠在公路边的法军第1预备装甲师第37战斗装甲营一辆雷诺Char B1bis重型坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_56.jpg",
+    "description": "一辆因机械故障在比利时遗弃的雷诺Char B1bis坦克，其车组人员因无法开动而自行撒退。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_57.jpg",
+    "description": "1940年5月法国战场，隶属第1机械化师第4装甲团一辆雷诺Char B1bis重型坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_58.jpg",
+    "description": "1939年11月，法国，法军第2预备装甲师第3战斗装甲营2连的一辆编号268“闪电”的雷诺Char B1bis坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/fr/army/fr_army_tankmh_59.jpg",
+    "description": "1940年5月16日，在法国博蒙特地区被德军完全击毁的一辆法军第1预备装甲师第37战斗装甲营雷诺Char B1bis重型坦克。",
+    "caption": ""
+  }]
+}
