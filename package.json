@@ -1,6 +1,6 @@
 {
   "name": "wp-site-demo",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "A Webpack + Express + Pug website boilerplate",
   "private": true,
   "scripts": {
@@ -9,11 +9,12 @@
     "start:pm2": "pm2 start ecosystem.config.js",
     "build:index": "webpack --config webpack.build.index.js",
     "build:de": "webpack --config webpack.build.de.js",
-    "build:ru": "webpack --config webpack.build.ru.js",
-    "build:us": "webpack --config webpack.build.us.js",
-    "build:uk": "webpack --config webpack.build.uk.js",
+    "build:fr": "webpack --config webpack.build.fr.js",
+    "build:it": "webpack --config webpack.build.it.js",
     "build:jp": "webpack --config webpack.build.jp.js",
-    "build:fr": "webpack --config webpack.build.fr.js"
+    "build:ru": "webpack --config webpack.build.ru.js",
+    "build:uk": "webpack --config webpack.build.uk.js",
+    "build:us": "webpack --config webpack.build.us.js"
   },
   "repository": {
     "type": "git",

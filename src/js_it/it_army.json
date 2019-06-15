@@ -1,0 +1,28 @@
+{
+  "weapons": [{
+    "model": "单兵装备", 
+    "link": "it_army_personnelequipment",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "火炮", 
+    "link": "it_army_artillery",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "坦克", 
+    "link": "it_army_tank",
+    "image": "",
+    "intro": "###"
+  }, {
+    "model": "意大利轻型坦克", 
+    "link": "it_army_tanklt",
+    "image": "imgs/it/army/it_army_tanklt_01.jpg",
+    "intro": "在20世纪30年代，法军将坦克分成骑兵坦克和步兵坦克，同时步兵坦克也按坦克的车重分成轻型坦克、中型坦克和重型坦克，其中轻型坦克要求是车重在15t以下。法国的轻型坦克有FT-17、R35、R40、FCM36、H35、H39等等众多型号，这些轻型坦克大多是在1935-1940年间生产，这些坦克一部分在法国殖民地服役，此外有2720辆轻型坦克在1940年在法国境内参加了对德军的作战，但大多不是被击毁就是被德军缴获；在法国被德军侵占后，这些坦克就基本停产了。"
+  }, {
+    "model": "装甲车辆", 
+    "link": "it_army_armedvehicle",
+    "image": "",
+    "intro": "###"
+  }]
+}
