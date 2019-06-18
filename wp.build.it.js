@@ -7,7 +7,12 @@ const fileIDs = [
   {
     folder: 'js_it',
     id: 'it_army_tanklt',
-    title: '意大利轻型坦克'
+    title: '意大利小（轻）型坦克'
+  },
+  {
+    folder: 'js_it',
+    id: 'it_army_tankmt',
+    title: '意大利中型坦克'
   },
   {
     folder: 'js_it',
