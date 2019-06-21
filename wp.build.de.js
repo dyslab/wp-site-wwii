@@ -37,12 +37,17 @@ const fileIDs = [
   {
     folder: 'js_de',
     id: 'de_army_tank35',
-    title: '35(t)坦克（捷克产）'
+    title: '35（t）坦克（捷克产）'
   },
   {
     folder: 'js_de',
     id: 'de_army_tank38',
-    title: '38(t)坦克（捷克产）'
+    title: '38（t）坦克（捷克产）'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_tankdestroyeri',
+    title: 'Ⅰ号47mm自行反坦克炮车（坦克歼击车）'
   },
   {
     folder: 'js_de',

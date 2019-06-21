@@ -16,7 +16,7 @@ block content
           div.row.pt-3.pb-3
             each item in body.weapons
               if item.intro == '###'
-                div.col-12.p-3.pl-md-5(id='#' + item.link)
+                div.col-12.p-3.pl-md-5(id=item.link)
                   h5.font-weight-bold.custom-text-shadow-1px #{item.model}
               else
                 div.col-12.col-lg-6.p-3.pl-md-5
