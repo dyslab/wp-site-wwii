@@ -7,14 +7,6 @@
   "link": "ru_army",
   "active": false
 }, {
-  "title": "空战武器", 
-  "link": "ru_airforce",
-  "active": false
-}, {
-  "title": "海战武器", 
-  "link": "ru_navy",
-  "active": false
-}, {
   "title": "快捷目录", 
   "link": "ru_shortcut",
   "active": false

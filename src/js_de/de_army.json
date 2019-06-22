@@ -1,15 +1,5 @@
 {
   "weapons": [{
-    "model": "单兵装备", 
-    "link": "de_army_personnelequipment",
-    "image": "",
-    "intro": "###"
-  }, {
-    "model": "火炮", 
-    "link": "de_army_artillery",
-    "image": "",
-    "intro": "###"
-  }, {
     "model": "坦克", 
     "link": "de_army_tank",
     "image": "",

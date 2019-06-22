@@ -1,15 +1,5 @@
 {
   "weapons": [{
-    "model": "单兵装备", 
-    "link": "it_army_personnelequipment",
-    "image": "",
-    "intro": "###"
-  }, {
-    "model": "火炮", 
-    "link": "it_army_artillery",
-    "image": "",
-    "intro": "###"
-  }, {
     "model": "坦克", 
     "link": "it_army_tank",
     "image": "",
@@ -24,10 +14,5 @@
     "link": "it_army_tankmt",
     "image": "imgs/it/army/it_army_tankmt_01.jpg",
     "intro": "意大利最早的中型坦克M11/39是在小型坦克的基础上设计的，但它的武器和装甲都很薄弱，到了二战爆发时，整车性能已经严重滞后；跟着意大利又研制了第二款中型坦克M13/40，尽管该型坦克仍有不少缺点，但性能已大大优于M11/39，后又根据实战情况继续改进，生产出M14/41和M15/42；这些M系列的中型坦克大多都随意大利军的装甲部队派往非洲战场参加战斗，但由于这几种中型坦克设计上都有些落后，特别是前期生产的型号，整车性能也只相当于德、苏、美等参战国的轻型坦克水平，因此在战场上基本上是处于挨打的地位。"
-  }, {
-    "model": "装甲车辆", 
-    "link": "it_army_armedvehicle",
-    "image": "",
-    "intro": "###"
   }]
 }

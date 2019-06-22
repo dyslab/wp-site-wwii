@@ -7,14 +7,6 @@
   "link": "uk_army",
   "active": false
 }, {
-  "title": "空战武器", 
-  "link": "uk_airforce",
-  "active": false
-}, {
-  "title": "海战武器", 
-  "link": "uk_navy",
-  "active": false
-}, {
   "title": "快捷目录", 
   "link": "uk_shortcut",
   "active": false

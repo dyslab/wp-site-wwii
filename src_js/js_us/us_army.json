@@ -1,15 +1,5 @@
 {
   "weapons": [{
-    "model": "单兵装备", 
-    "link": "us_army_personnelequipment",
-    "image": "",
-    "intro": "###"
-  }, {
-    "model": "火炮", 
-    "link": "us_army_artillery",
-    "image": "",
-    "intro": "###"
-  }, {
     "model": "坦克", 
     "link": "us_army_tank",
     "image": "",
@@ -49,10 +39,5 @@
     "link": "us_army_tankm26",
     "image": "imgs/us/army/us_army_tankm26_01.jpg",
     "intro": "美国在1942年开始研制重型坦克，最早型号为T1E2，经过多个T型号试验坦克的改进，1945年1月将20辆试验坦克T26E3运往欧洲战场，在2月的实战中表现令美军感到满意，于是3月开始量产并重新定型为M26，取名“潘兴”（美国一战中的一位将军名）；至1945年底，M26“潘兴”重型坦克一共生产了2000多辆（其中900多辆为二战结束后生产），但最后只有300多辆分配到战场上的美军装甲部队，其中仅有20辆参加过实战（M26“潘兴”重型坦克真正发挥作用是在朝鲜战场上）。"
-  }, {
-    "model": "装甲车辆", 
-    "link": "us_army_armedvehicle",
-    "image": "",
-    "intro": "###"
   }]
 }
