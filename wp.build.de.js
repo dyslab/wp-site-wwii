@@ -51,6 +51,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_tankdestroyermarder',
+    title: '“黄鼠狼”反坦克炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

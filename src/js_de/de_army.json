@@ -59,5 +59,10 @@
     "link": "de_army_tankdestroyeri",
     "image": "imgs/de/army/de_army_tankdestroyeri_01.jpg",
     "intro": "Ⅰ号自行反坦克炮车（德军型号：47mm Pak（t） auf Pzkpfw.Ⅰ）是德军生产的第一种自行反坦克炮车，也是世界第一辆自行反坦克炮车，它采用了德军Ⅰ号坦克的底盘，拆除了炮塔和车体，改装了半装甲的后部开放战斗室，安装了47mm捷克产的43倍口径的轻型反坦克炮。该型车1939年开始改装，在1941年3月至1942年2月间一共生产了202辆。"
+  }, {
+    "model": "“黄鼠狼”反坦克炮车", 
+    "link": "de_army_tankdestroyermarder",
+    "image": "imgs/de/army/de_army_tankdestroyermarder_01.jpg",
+    "intro": "1942年，德军开始急需大量的反坦克装备，于是将75mm火炮和在战场上缴获苏军的76.2mm火炮安装在了Ⅱ号坦克的底盘上，改装为“黄鼠狼”Ⅱ型（又名“貂鼠”，德文“Marder”）反坦克炮车；同时，德军也在捷克产的38吨坦克底盘上安装上76.2mm火炮，称为“黄鼠狼”Ⅲ型反坦克炮车，以此来对付苏军的T-34和KB重型坦克。"
   }]
 }
