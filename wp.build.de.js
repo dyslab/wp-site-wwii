@@ -56,6 +56,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_tankdestroyernashorn',
+    title: '88mm“犀角”自行反坦克炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
