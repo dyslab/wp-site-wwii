@@ -1,10 +1,16 @@
-# wp-site-wwii *(Webpack构建的二战军事资料库网站)
+# wp-site-wwii (Webpack构建的二战军事资料库网站)
+
+purpose to build a static documentary military website with webpack + express + pug based on node.js framework.
 
 *Note: "wp" stands for "Webpack" rather than "WordPress"...* :smile:
 
-Intend to build a static demo website by using webpack + express + pug based on node.js framework.
 
-20 Jan 2019. MIT Licenses.
+## History Events:
+
+- Renamed to 'wp-site-wwii' on 11 Jul 2019
+
+- Created on 20 Jan 2019.
+
 
 ## The **Guideline/Memo** of Project Building
 
@@ -23,6 +29,7 @@ Project info:
 
 Note, regarding the file links in js files usually will be updated automatically by IDE(eg. VSCode etc.) , it will be recommended that operating this action outside of IDE, And using the Folder Explorer of your system itself is always a good choice.
 
+
 ### Step 2, Run npm corresponding script and build the destination web pages. (eg, '**npm run build:fr**', check out the command of scripts in package.json for more details.)
 
 Warning,
@@ -31,4 +38,4 @@ Warning,
 
 - Using Cut/Paste is always being recommended. Then you won't lose files easily and keeping synchronized updates much easier.
 
-13 Jun 2019
+Noted On 13 Jun 2019.
