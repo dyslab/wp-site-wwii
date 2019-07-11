@@ -7,7 +7,7 @@ purpose to build a static documentary military website with webpack + express + 
 
 ## History Events:
 
-- Renamed to 'wp-site-wwii' on 11 Jul 2019
+- Renamed to 'wp-site-wwii' on 11 Jul 2019.
 
 - Created on 20 Jan 2019.
 
