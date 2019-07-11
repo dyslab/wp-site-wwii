@@ -1,4 +1,4 @@
-# wp-site-demo
+# wp-site-wwii *(Webpack构建的二战军事资料库网站)
 
 *Note: "wp" stands for "Webpack" rather than "WordPress"...* :smile:
 
