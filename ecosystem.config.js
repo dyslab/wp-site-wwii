@@ -1,7 +1,7 @@
 /* eslint-disable */
 module.exports = {
   apps : [{
-    name: 'wp-site-demo',
+    name: 'wp-site-wwii',
     script: 'app.js',
 
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/

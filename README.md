@@ -1,8 +1,8 @@
 # wp-site-wwii (Webpack构建的二战军事资料库网站)
 
-purpose to build a static documentary military website with webpack + express + pug based on node.js framework.
+Purpose to build a static military documentary website developed by webpack + express + pug based on node.js framework.
 
-*Note: "wp" stands for "Webpack" rather than "WordPress"...* :smile:
+*Note: "wp" stands for "Webpack©" rather than "WordPress©"...* :smile:
 
 
 ## History Events:
