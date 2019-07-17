@@ -61,6 +61,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_tankdestroyeriv',
+    title: 'Ⅳ号坦克歼击车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

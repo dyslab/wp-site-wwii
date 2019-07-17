@@ -1,6 +1,6 @@
 {
   "name": "wp-site-wwii",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "⚔ Webpack构建的二战军事资料库网站 ⚔",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dyslab/wp-site-demo.git"
+    "url": "git+https://github.com/dyslab/wp-site-wwii.git"
   },
   "keywords": [
     "webpack",
@@ -28,9 +28,9 @@
   "author": "dyslab",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dyslab/wp-site-demo/issues"
+    "url": "https://github.com/dyslab/wp-site-wwii/issues"
   },
-  "homepage": "https://github.com/dyslab/wp-site-demo#readme",
+  "homepage": "https://github.com/dyslab/wp-site-wwii#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "cookie-parser": "^1.4.4",
