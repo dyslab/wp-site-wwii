@@ -71,6 +71,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_tankdestroyertiger',
+    title: '“猎虎”重型坦克歼击车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
