@@ -46,6 +46,11 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_tankdestroyersu85',
+    title: 'SU-85反坦克炮车'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army',
     title: '陆战武器'
   },
