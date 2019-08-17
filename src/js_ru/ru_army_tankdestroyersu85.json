@@ -15,7 +15,7 @@
   "part1description": "",
   "part1content": [{
     "image": "{{text}}四视图{{image}}imgs/ru/army/ru_army_tankdestroyersu85_11.jpg",
-    "description": "<h6>SU-85反坦克炮车</h6><p>车长：8.15m，车宽：3.0m，车高：2.6m，车重：32.0t；乘员：4人。</p><p>最高车速：47km/h，最大行程：400km；</p><p>装甲厚度：20-45mm；</p><p>武器配备：</p><p>1门85mm 防空炮，炮弹48发；</p><p>车组乘员携带冲锋枪，子弹1500发，</p><p>24枚F-1型手榴弹，5枚反坦克手雷。</p>",
+    "description": "<h6>SU-85反坦克炮车</h6><p>参数：</p><p>车长：8.15m，车宽：3.0m，车高：2.6m，车重：32.0t；乘员：4人。</p><p>最高车速：47km/h，最大行程：400km；</p><p>装甲厚度：20-45mm；</p><p>武器配备：</p><p>1门85mm 防空炮，炮弹48发；</p><p>车组乘员携带冲锋枪，子弹1500发，</p><p>24枚F-1型手榴弹，5枚反坦克手雷。</p>",
     "caption": ""
   }], 
   "part2title": "战场上的SU-85反坦克炮车",
@@ -79,10 +79,6 @@
   }, {
     "image": "imgs/ru/army/ru_army_tankdestroyersu85_35.jpg",
     "description": "1945年5月，参加对柏林进攻的乌克兰第1方面军的一辆苏军SU-85反坦克炮车。",
-    "caption": ""
-  }, {
-    "image": "imgs/ru/army/ru_army_tankdestroyersu85_36.jpg",
-    "description": "1945年5月，一队苏军的SU-85反坦克炮车正在德国一城市道路上驶过。此时德国已战败，但车上仍有一苏军士兵持枪警惕地注视着街道旁的高楼。",
     "caption": ""
   }]
 }
