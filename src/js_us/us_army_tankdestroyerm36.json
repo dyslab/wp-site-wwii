@@ -1,0 +1,76 @@
+{
+  "category": [{
+    "name": "美国",
+    "link": "us_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "us_army"  
+  }, {
+    "name": "坦克歼击车",
+    "link": "us_army#us_army_tankdestroyer"  
+  }],
+  "model": "M36坦克歼击车", 
+  "description": "<h6>综述：</h6><p>M36坦克歼击车是美军最具威力的一种反坦克自行炮车，安装有一门口径为高速90mm火炮，它在发射普通穿甲弹时，可在600m距离上击穿德军“豹”式坦克的主装甲，在2000m距离上可击穿“豹”式坦克的侧面和后部装甲，在900左右距离发射高速穿甲弹，可击穿30角倾角的190mm厚装甲，因此对付德军的“虎”式重型坦克也完全没问题；从而也结束德军88mm反坦克火炮的霸权地位。</p><p>M36坦克歼击车大部分是在M4A3坦克底盘的基础上改装的，初期有500辆使用了装备“福特”V-8发动机的M10A1底盘改装，后来为了满足战场的急需，有187辆直接用M4A3中型坦克底盘改装，称M36B1。</p><p>M36坦克歼击车在1944年11月开始装备美军装甲部队，主要用在欧洲战场对付德军重型坦克，该炮车火炮威力大，炮车车体的装甲厚度与M4中型坦克相同，其机动性也不差，虽然在防护上仍的不足，但在德军大势已去的二战后期，M36的战损率是很低的。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}M36坦克歼击车三视图{{image}}imgs/us/army/us_army_tankdestroyerm36_11.jpg{{text}}M36坦克歼击车{{image}}imgs/us/army/us_army_tankdestroyerm36_12.jpg{{text}}M36B1坦克歼击车{{image}}imgs/us/army/us_army_tankdestroyerm36_13.jpg",
+    "description": "<h6>M36坦克歼击车<br>英文名称：M36 Tank Destroyer</h6><p>参数：</p><p>车长：5.97m，车宽：3.05m，车高：3.28m，车重：28.6t；乘员：5人。</p><p>最高车速：42km/h，最大行程：240km；</p><p>装甲厚度：炮塔正面与防盾为76mm，侧面与后部为38mm；</p><p>武器配备：1门90mm 高速火炮；1挺12.7mm的M2机枪。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的M36坦克歼击车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/us/army/us_army_tankdestroyerm36_21.jpg",
+    "description": "1945年3月，德国战场，美国第3军第2骑兵师一辆M36坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_22.jpg",
+    "description": "1945年2月，德国战场，美国第3装甲师第703坦克歼击营一辆M36坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_23.jpg",
+    "description": "1944年11月20日，在梅斯(Metz)地区占据阵地的美军第607坦克歼击营C连一辆M36 90mm火炮坦克歼击车。在9月时，巴顿的第三集团军在攻打该地的战斗中失利，一直到11月19日两个步兵团以及“培根(Bacon)”坦克部队打开了一条进城道路后方才取得最终胜利。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_24.jpg",
+    "description": "1944年12月20日，在比利时Werbomont附近地区支援第82空降师战斗的一队M36坦克歼击车。在二战期间，M36战车相对少见，总共只有236辆战车部署到了前线，然而，在阿登战斗中M36的价值得以证明，因为它们是当时美军唯一能够和德军豹式和虎式坦克抗衡的装甲车辆。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_25.jpg",
+    "description": "1944年12月30日，一辆M36坦克歼击车在比利时Hotten地区守卫着L'Ourthe河上的一条桥梁。这辆M36采用伪装网对自身进行了良好伪装。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_26.jpg",
+    "description": "1944-1945年初冬停雪时期，许多装甲车辆就像图中这辆巴顿第三集团军的M36坦克歼击车一样进行了快速的白色涂装。这张照片拍摄于1945年1月3日突出部战役最后阶段的卢森堡境内。这些白色涂装工作经常是在匆忙间用拖把或是像图中那样用桶完成。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_27.jpg",
+    "description": "一辆美军M36坦克歼击车正在掩护士兵攻入某城镇。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_28.jpg",
+    "description": "1945年2月26日，一辆M36 90mm火炮坦克歼击车在德国杜伦的废墟中护卫着一队第3装甲师23装甲工程团的半履带卡车。其车身上挂载的圆木条应是用于工程建筑的目的，而非作为其附加装甲。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_29.jpg",
+    "description": "1945年3月15日，德国Schillingen地区，第三集团军94师301步兵团的一群士兵依靠一辆M36坦克歼击车的掩护，躲避德军的炮弹碎片，这辆炮车正在这个城镇里等待前往德国Kell镇的命令。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_30.jpg",
+    "description": "1945年3月18日，在德国境内作战的第三集团军第2骑兵师一辆名为“猪排”的M36坦克歼击车在作战间隙中休息。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_31.jpg",
+    "description": "1945年3月16日，巴顿第三集团军一辆M36坦克歼击车的车组乘员在德国Sertig附近地区补充弹药。这些弹药会被放入炮塔后部的弹架上，平常则存放在车身左方舱室内。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_32.jpg",
+    "description": "一辆正在行进中的美军M36坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm36_33.jpg",
+    "description": "一幅描述装载着众多美军士兵行进的M36坦克歼击车的油画。",
+    "caption": ""
+  }]
+}

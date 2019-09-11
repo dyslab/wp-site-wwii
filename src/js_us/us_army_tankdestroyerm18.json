@@ -14,7 +14,7 @@
   "part1title": "系列型号",
   "part1description": "",
   "part1content": [{
-    "image": "{{text}}M18坦克歼击车三视图{{image}}imgs/us/army/us_army_tankdestroyerm18_11.jpg{{image}}imgs/us/army/us_army_tankdestroyerm18_12.jpg",
+    "image": "{{text}}M18坦克歼击车三视图{{image}}imgs/us/army/us_army_tankdestroyerm18_11.jpg{{text}}M18坦克歼击车{{image}}imgs/us/army/us_army_tankdestroyerm18_12.jpg",
     "description": "<h6>M18坦克歼击车<br>英文名称：M18 Tank Destroyer</h6><p>参数：</p><p>车长：5.28m，车宽：2.87m，车高：2.57m，车重：17.7t；乘员：5人。</p><p>最高车速：80km/h，最大行程：160km；</p><p>装甲厚度5-25mm；</p><p>武器配备：1门76mm 火炮，炮弹45发；1挺12.7mm的M2机枪。</p>",
     "caption": ""
   }], 
