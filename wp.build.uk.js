@@ -46,6 +46,16 @@ const fileIDs = [
     },
     {
       folder: 'js_uk',
+      id: 'uk_army_tankdestroyerac',
+      title: '“阿基里斯”坦克歼击车'
+    },
+    {
+      folder: 'js_uk',
+      id: 'uk_army_tankdestroyerar',
+      title: '“射手”坦克歼击车'
+    },
+    {
+      folder: 'js_uk',
       id: 'uk_army',
       title: '陆战武器'
     },

@@ -1,0 +1,52 @@
+{
+  "category": [{
+    "name": "英国",
+    "link": "uk_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "uk_army"  
+  }, {
+    "name": "坦克歼击车",
+    "link": "uk_army#uk_army_tankdestroyer"  
+  }],
+  "model": "“射手”坦克歼击车", 
+  "description": "<h6>综述：</h6><p>“射手”坦克歼击车是在英军“瓦伦丁步兵坦克底盘上安装一门QF 17磅火炮而成的自行反坦克炮车，由于瓦伦丁步兵坦克底盘较细小，大型的17磅火炮只能安装在底盘后部，且固定而无法旋转；“射手”炮车的炮塔比较低矮，易于隐蔽，因此经常被英军用于对德军的伏击。</p><p>“射手”坦克歼击车在1943年中期开始生产，至二战结束一共生产了665辆，1944年10月正式装备英军皇家炮兵团和皇家坦克团，该炮车主要在西线战场作战，并参加了意大利攻防战。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}“射手”坦克歼击车{{image}}imgs/uk/army/uk_army_tankdestroyerar_11.jpg",
+    "description": "<h6>“射手”坦克歼击车<br>Archer Tank Destroyer</h6><p>参数：</p><p>车长：6.68m，车宽：2.63m，车高：2.24m，车重：18.8t；乘员：4人。</p><p>最高车速：24km/h，最大行程：145km；</p><p>装甲厚度8-60mm；</p><p>武器配备：1门QF 17磅火炮，炮弹39发；1挺布伦轻机枪。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的“射手”坦克歼击车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_21.jpg",
+    "description": "战场上的英军“射手”坦克歼击车（1）",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_22.jpg",
+    "description": "战场上的英军“射手”坦克歼击车（2）",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_23.jpg",
+    "description": "战场上的英军“射手”坦克歼击车模型（1）",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_24.jpg",
+    "description": "战场上的英军“射手”坦克歼击车模型（2）",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_25.jpg",
+    "description": "战场上的英军“射手”坦克歼击车模型（3）",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_26.jpg",
+    "description": "战场上的英军“射手”坦克歼击车模型（4）",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_tankdestroyerar_27.jpg",
+    "description": "战场上的英军“射手”坦克歼击车模型（5）",
+    "caption": ""
+  }]
+}

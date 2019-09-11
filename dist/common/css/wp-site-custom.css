@@ -242,7 +242,13 @@ span.list-social-links {
 p.custom-document-paragraph-start-space {
   text-indent: 2em;
 }
-.custom-document-content h6 {
+.custom-document-content-p1 p,
+.custom-document-content-p2 p {
+  line-height: 1.5rem;
+}
+.custom-document-content h6,
+.custom-document-content-p1 h6,
+.custom-document-content-p2 h6 {
   line-height: 2rem;
   font-weight: bold;
 }

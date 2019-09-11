@@ -4,7 +4,7 @@ block content
   section#doc.custom-document-style.pt-5.pb-5
     div.container
       nav(aria-label="breadcrumb")
-        ol.breadcrumb.custom-document-style
+        ol.pl-0.ml-0.breadcrumb.custom-document-style
           each catitem in body.category
             li.breadcrumb-item
               if catitem.link.search(/#/iu) >= 0
@@ -21,11 +21,13 @@ block content
       if body.part1title != ''
         div.row.pb-3
           div.col
+            i.fas.fa-clipboard-list.fa-2x
+            |  
             span.h3.custom-text-shadow-1px!= body.part1title
       if body.part1description != ''
         div.row.pb-3
           div.col
-            span.custom-document-content!= body.part1description
+            span.custom-document-content-p1!= body.part1description
       each p1item in body.part1content
         div.row.pb-lg-3
           div.col-lg-7.order-1.order-lg-0.pb-4
@@ -91,25 +93,27 @@ block content
                     img.img-fluid.rounded(src=r1item.content)
                 else if r1item.command == 'text'
                   div
-                    span.custom-document-content!= r1item.content
+                    span.custom-document-content-p1!= r1item.content
                 else if r1item.command == 'caption'
                   div
-                    span.custom-document-caption.text-secondary!= r1item.content
+                    span.custom-document-caption-p1.text-secondary!= r1item.content
             else
               img.img-fluid.rounded(src=p1item.image)
               if (p1item.caption != '') && (p1item.caption != undefined)
                 div
                   span.custom-document-caption.text-secondary!= p1item.caption
           div.col-lg-5.order-0.order-lg-1.pb-0.pb-lg-4
-            span.custom-document-content!= p1item.description
+            span.custom-document-content-p1!= p1item.description
       if body.part2title != ''
-        div.row.p-3
+        div.row.pt-3.pb-3
           div.col
+            i.fas.fa-clipboard-list.fa-2x
+            |  
             span.h3.custom-text-shadow-1px!= body.part2title
       if body.part2description != ''
         div.row.pb-3
           div.col
-            span.custom-document-content!= body.part2description
+            span.custom-document-content-p2!= body.part2description
       div.row.mfp-gallery
         each p2item in body.part2content
           div.col-md-6.pb-3
@@ -120,7 +124,7 @@ block content
                     figure.figure
                       img.figure-img.img-fluid.rounded(src=p2item.image)
                       figcaption.figure-caption= p2item.caption
-                span.card-text.custom-document-content!= p2item.description
+                span.card-text.custom-document-content-p2!= p2item.description
 
 block footer-scripts
   script(src="./common/js/jquery.magnific-popup.min.js")
