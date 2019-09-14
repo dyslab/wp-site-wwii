@@ -36,6 +36,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_tankdestroyerm10',
+      title: 'M10坦克歼击车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_tankdestroyerm18',
       title: 'M18坦克歼击车'
     },

@@ -45,6 +45,11 @@
     "image": "",
     "intro": "###"
   }, {
+    "model": "M10坦克歼击车", 
+    "link": "us_army_tankdestroyerm10",
+    "image": "imgs/us/army/us_army_tankdestroyerm10_01.jpg",
+    "intro": "M10是以M4中型坦克的底盘为基础设计的坦克歼击车，它在顶部敞开的炮塔上安装了一门76.2mm的M7火炮，并为火炮配备了高速穿甲弹，具备了向德军Ⅳ号坦克攻击的能力。该炮车在炮塔后部安装了一挺12.7mm的M2机枪，可作防空和对敌方步兵攻击用，但由于炮车上没装同轴机枪与航向机枪，反步兵能力稍有欠缺，因此该车的乘员还配备了M1卡宾枪、手榴弹和烟雾弹。M10坦克歼击车在1942年进行了标准化，成为美军装甲部队的常规配置，从1942年开始生产，至1943年一共生产了6000多辆，后期生产的约2000多辆改用了M4A3坦克的底盘，称为M10A1。"
+  }, {
     "model": "M18坦克歼击车", 
     "link": "us_army_tankdestroyerm18",
     "image": "imgs/us/army/us_army_tankdestroyerm18_01.jpg",

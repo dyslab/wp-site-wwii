@@ -1,0 +1,124 @@
+{
+  "category": [{
+    "name": "美国",
+    "link": "us_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "us_army"  
+  }, {
+    "name": "坦克歼击车",
+    "link": "us_army#us_army_tankdestroyer"  
+  }],
+  "model": "M10坦克歼击车", 
+  "description": "<h6>综述：</h6><p>M10是以M4中型坦克的底盘为基础设计的坦克歼击车，它在顶部敞开的炮塔上安装了一门76.2mm的M7火炮，并为火炮配备了高速穿甲弹，具备了向德军Ⅳ号坦克攻击的能力。该炮车在炮塔后部安装了一挺12.7mm的M2机枪，可作防空和对敌方步兵攻击用，但由于炮车上没装同轴机枪与航向机枪，反步兵能力稍有欠缺，因此该车的乘员还配备了M1卡宾枪、手榴弹和烟雾弹。</p><p>M10坦克歼击车在1942年进行了标准化，成为美军装甲部队的常规配置，从1942年开始生产，至1943年一共生产了6000多辆，后期生产的约2000多辆改用了M4A3坦克的底盘，称为M10A1。</p><p>M10反坦克炮车除装备美军外，还有一部分装备了英、法等盟军装甲部队，英军将M10称为“狼獾”，并将原来的76.2mm火炮换成17磅反坦克炮，在北非战场上创下不少战绩。根据租借协定，还有少部分的M10反坦克炮车运往了苏联。M10反坦克炮车随后跟随盟军在诺曼底登陆，但面对德军的“豹”式与“虎”式重型坦克，M10明显是力不从心了，虽然M10也一直坚持战斗到二战结束，但在1944年就逐步被更强大的M36坦克歼击车所替代。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}M10坦克歼击车四视图（线图）{{image}}imgs/us/army/us_army_tankdestroyerm10_11.jpg{{text}}M10坦克歼击车四视图（彩图）{{image}}imgs/us/army/us_army_tankdestroyerm10_12.jpg",
+    "description": "<h6>M10坦克歼击车<br>英文名称：M10 Tank Destroyer</h6><p>参数：</p><p>车长：5.97m，车宽：3.05m，车高：2.89m，车重：29.6t；乘员：5人。</p><p>最高车速：51km/h，最大行程：300km；</p><p>装甲厚度：12-37mm；</p><p>武器配备：1门76.2mm 高速火炮，炮弹54发；1挺12.7mm的M2机枪，备弹300发。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的M10坦克歼击车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/us/army/us_army_tankdestroyerm10_21.jpg",
+    "description": "1944年5月，西线战场意大利中部安齐奥（位于罗马东南偏南的第勒尼安海岸，1944年1月22日盟军在此登陆），美军第601坦克歼击营的一辆M10坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_22.jpg",
+    "description": "1944年10月，西线战场意大利萨维奥河（Savio River），英5军皇家炮兵第93反坦克团的一辆M10坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_23.jpg",
+    "description": "1944年冬天，西线战场，英国第11装甲师皇家炮兵第75反坦克团的一辆M10（狼獾）坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_24.jpg",
+    "description": "1945年1月，菲律宾中东部莱特岛（在吕宋岛和棉兰老岛之间），美军第632坦克歼击营的一辆M10坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_25.jpg",
+    "description": "挤满美军第82空降师士兵的一辆M10坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_26.jpg",
+    "description": "向战场疾进的美军一辆早期生产型M10坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_27.jpg",
+    "description": "1944年11月，位于史特拉斯堡附近的一辆隶属于法军第11“非洲猎人”团的M10坦克歼击车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_28.jpg",
+    "description": "1944年，西线战场上隶属美军第804坦克歼击营一辆晚期生产型M10坦克歼击车，在该炮车周围堆积了大量炮弹壳和空药管，可知此炮车被美军作为炮兵火力支援角色使用。此类任务在1944年晚期开始日益增多，一部分原因是战场上的德军坦克日益减少，而此时火力较弱的M10坦克歼击车也对付不了德军的重型坦克，因此不少战地指挥官只就用它作为火力支援武器使用。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_29.jpg",
+    "description": "意大利战役中，英军也使用了M10坦克歼击车进行战斗。图中是1944年8月28日，在西线Petriane地区附近的一次突击战斗中，一辆英军第93反坦克团的M10坦克歼击车在支援“谢尔伍德森林人”团第5营的步兵作战。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_30.jpg",
+    "description": "在意大利战场使用M10坦克歼击车作战的另外一只英联邦部队是南非军队。图中是1944年11月17日，意大利波雷塔附近，南非1/11反坦克团三辆分别名为“巫毒（Voodoo）”、“冒险者（Venture）”、“流浪者（Vagabond）”M10坦克歼击车正在为第6南非师的进攻提供火力支援的。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_31.jpg",
+    "description": "这是在意大利Terminale中部地区波雷塔附近一座山头的一张俯视照：1944年3月3日，美军第10山地师在波河河谷期间，一辆 M103坦克歼击车正在通过河谷低处，图中能能够看到部分完工的贝利桥，以及中部建筑物附近一辆损毁的M4中型坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_32.jpg",
+    "description": "1945年2月20日，意大利战场，一辆美军M10坦克歼击车在夜间开火的震撼画面，当时这辆炮车正在支援美军第5集团军部队作战。通过对图片的放大观察，可以看出这辆歼击车已经披挂上了冬季迷彩，即在单调的橄榄色上覆盖了白色波纹图案。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_33.jpg",
+    "description": "一辆隶属于法国海军陆战装甲团（RBFM）2中队（相当于营）3排、名为“摇摆（Le Malin）”的M10坦克歼击车车组成员正在做出发前的配载检查。虽然在这幅图片中无法证明，但这支部队的车组成员主要是从法国海军志愿者中选拔组成，因此他们时常会佩戴独特的法国海军帽而不是法国陆军服饰。在盟军部队中，法军第2装甲师也装备了M10 坦克歼击车，该炮车在1944年8月解放巴黎战斗中担当了主要角色。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_34.jpg",
+    "description": "1944年8月15日，在登陆法国作战中，一辆在海滩上作掩护的美军第601坦克歼击营C连M10坦克歼击车。这支部队参加了之前的北非战役和意大利西西里岛作战行动，该部队最初装备的是M3 75mm火炮战车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_35.jpg",
+    "description": "1944年8月23日，伴随一队高度警惕向前疾进的步兵，美军一辆M10坦克歼击车正在通过Fountainebleau（枫丹白露，法国巴黎东南部地区的一个镇）地区。左边是一位携带巴祖卡火箭筒的士兵。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_36.jpg",
+    "description": "1944年8月，法国中部地区，两辆穿越溪流的M10坦克歼击车。注意，领头这辆M10的传动变速器上仍装配着Culin树篱切割器，这种把多根具有一定长度的角铁焊接成弓形的简易器械专门用于切割诺曼底地区浓密的海岸灌木树丛以开辟前进通道。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_37.jpg",
+    "description": "1944年10月14日，第603坦克歼击营A连的M10坦克歼击车正在进行打通德国城市亚琛外围道路的作战。亚琛是盟军部队进入的第一个德国城市，盟军在那里进行了尤为密集激烈的战斗，图中这几辆M10是晚期生产型，采用平衡重量的鸭式布局炮塔。注意这些战车已经开始在前装甲板上携带沙袋，目的在于增强战车正面装甲对抗德国步兵反坦克火箭筒攻击的防护能力。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_38.jpg",
+    "description": "1944年11月18日，为了支援美军步兵在赫特根森林里的第二阶段作战行动（该行动始于1944年11月16日），两辆M10坦克歼击车正沿着陡峭的林间道路向上开进。在这场作战行动中，经受了严重伤亡后的美军直到12月初才从弹坑散布的森林里打出了一条通路。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_39.jpg",
+    "description": "1944年11月17日，一辆隶属于美军第712坦克歼击营、名为“帕杜卡呕吐（Puke of Paduka）”的M10坦克歼击车正通过法国梅特泽尔维斯地区，前往法国马其诺防线附近的设防点支援第90师。该部队在11月14日作为美军一支大型装甲部队的一部分，试图清除摩泽尔河东岸要塞城市梅斯的防御工事，在穿越摩泽尔河两天之前，其击退了德军第25装甲掷弹兵师的一支装甲部队攻击。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_40.jpg",
+    "description": "1944年11月4日，德国赫特根森林地区，一辆美军第893坦克歼击营的M10坦克歼击车正在沿着一条通向施密特的林间道路前进。这些坦克歼击车当天试图增援一支被德军第116装甲师豹式坦克攻击的美军步兵部队，3辆M4坦克最先抵达并迟缓了德军进攻，这一场在赫特根森林里主要由美军步兵部队进行的战斗，也是1944-1945年间美军在欧洲几场最为血腥的战斗之一。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_41.jpg",
+    "description": "1945年1月21日，比利时Benonchamps地区附近，美军第773坦克歼击营一辆作了雪地伪装的M10坦克歼击车。这个营是美军在欧洲获得最好战绩的坦克歼击部队之一，1945年1月间该营取得了毁伤德军103辆装甲车辆的战绩，在凸出部战斗中，图中这辆战车在卢森堡Oberwampach附近的一次德军反击中，取得了毁伤5辆德军坦克的战绩。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_42.jpg",
+    "description": "1945年1月20日，比利时Courtil附近地区，美军第629坦克歼击营一辆M10坦克歼击车，当时这辆战车的车组成员正和第331步兵团的士兵们一起围在火堆旁取暖。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_43.jpg",
+    "description": "这是一辆隶属于美军第12装甲师的M10坦克歼击车，1945年2月5月参与了在法国阿格诺地区掩护第313步兵团横渡莫德河的支援作战。这辆M10坦克歼击车安装了临时顶部装甲。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_44.jpg",
+    "description": "1945年2月24日，一辆防护措施做得不错、正在支援美军第8步兵师作战行动的M10坦克歼击车经过法国Durne地区。这辆战车也安装了Culin树篱切割器，而为了对抗德军反坦克火箭筒的攻击，它车体四周还携带了不少沙袋和原木作附加防护。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_tankdestroyerm10_45.jpg",
+    "description": "1945年4月18日，一辆隶属于美国第9集团军第823坦克歼击营的 M10坦克歼击车途径德国马格德堡市的废墟，这辆战车不但安装了顶部装甲，同时在车体四周配备了沙袋和混凝土作附加防护。",
+    "caption": ""
+  }]
+}
