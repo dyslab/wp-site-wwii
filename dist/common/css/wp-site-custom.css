@@ -238,18 +238,22 @@ span.list-social-links {
   color: rgb(29, 16, 218)
 }
 
+article,
+.custom-document-content,
+.custom-document-content-p1,
+.custom-document-content-p2 {
+  line-height: 2rem;
+}
+
+article p,
 .custom-document-content p,
 p.custom-document-paragraph-start-space {
-  text-indent: 2em;
+  text-indent: 2rem;
 }
-.custom-document-content-p1 p,
-.custom-document-content-p2 p {
-  line-height: 1.5rem;
-}
+
 .custom-document-content h6,
 .custom-document-content-p1 h6,
 .custom-document-content-p2 h6 {
-  line-height: 2rem;
   font-weight: bold;
 }
 
