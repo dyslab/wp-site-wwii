@@ -27,7 +27,7 @@ const fileIDs = [
   {
     folder: 'js_ru',
     id: 'ru_army_tankampt',
-    title: 'T系列轻型两栖侦察坦克'
+    title: 'T-37/T-38/T-40轻型两栖侦察坦克'
   },
   {
     folder: 'js_ru',
