@@ -6,7 +6,7 @@
     "name": "陆战武器",
     "link": "de_army"  
   }, {
-    "name": "突击炮车",
+    "name": "自行火炮",
     "link": "de_army#de_army_spgun"  
   }],
   "model": "Ⅲ号突击炮车", 

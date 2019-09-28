@@ -95,7 +95,7 @@
     "image": "imgs/de/army/de_army_tankdestroyerhetzer_01.jpg",
     "intro": "“追猎者”坦克歼击车是在捷克产的38吨坦克底盘上加装75mm火炮改装而成的自行反坦克炮车。1944年4月完成首批20辆的制作，定型为Jagdpanzer 38（t） “HetZer”（追猎者），制式编号为Sdkfz 138/2；该车到1945年战争结束时一共生产了2584辆。"
   }, {
-    "model": "突击炮车", 
+    "model": "自行火炮", 
     "link": "de_army_spgun",
     "image": "",
     "intro": "###"
