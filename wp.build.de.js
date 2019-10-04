@@ -96,6 +96,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_spgunHummel',
+    title: '“野蜂”自行榴弹炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
