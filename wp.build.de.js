@@ -101,6 +101,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_spgunBrummbar',
+    title: '“灰熊”自行突击炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
