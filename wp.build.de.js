@@ -87,7 +87,12 @@ const fileIDs = [
   {
     folder: 'js_de',
     id: 'de_army_spgunIII',
-    title: 'Ⅲ号突击炮车'
+    title: 'Ⅲ号自行突击炮车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_spgunⅣ',
+    title: 'Ⅳ号自行突击炮车'
   },
   {
     folder: 'js_de',
