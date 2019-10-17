@@ -116,6 +116,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_spgunKarl',
+    title: '“卡尔”重型迫击炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
