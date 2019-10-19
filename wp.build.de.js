@@ -121,6 +121,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_spgunMobel',
+    title: '“家具车”自行高射炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
