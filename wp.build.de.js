@@ -126,6 +126,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_spgunWirbelwind',
+    title: '“旋风”自行高射炮车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_spgunOstwind',
+    title: '“东风”自行高射炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
