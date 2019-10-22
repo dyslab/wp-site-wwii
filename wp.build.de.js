@@ -136,6 +136,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_spgunFlak38',
+    title: '38（t）自行高射炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
