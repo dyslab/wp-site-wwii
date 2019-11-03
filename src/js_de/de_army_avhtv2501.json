@@ -14,17 +14,17 @@
   "part1title": "",
   "part1description": "",
   "part1content": [{
-    "image": "{{text}}装甲车四视图（彩图）{{image}}imgs/de/army/de_army_avhtv2501_11.jpg",
+    "image": "{{text}}旧型车四视图（彩图）{{image}}imgs/de/army/de_army_avhtv2501_11.jpg",
     "description": "<h6>Sdkfz 250/1型半履带装甲运兵车</h6>",
     "caption": ""
   },
   {
-    "image": "{{text}}装甲车四视图（线图）{{image}}imgs/de/army/de_army_avhtv2501_12.jpg",
+    "image": "{{text}}旧型车四视图（线图）{{image}}imgs/de/army/de_army_avhtv2501_12.jpg",
     "description": "<h6>Sdkfz 250/1（Alt）型半履带装甲运兵车（旧型车体）</h6><p>性能参数：</p><p>车长：4.56m，车宽：1.66m，车高：1.98m，车重：5.8t，乘员：2人（另可载士兵4人）。</p><p>最高车速：60km/h，最大行程：320km。</p><p>装甲厚度：8～14.5mm（标准型)。</p><p>武器配备：2挺7.92mm机枪（弹药基数2010发）。</p>",
     "caption": ""
   },
   {
-    "image": "{{text}}装甲车四视图（线图）{{image}}imgs/de/army/de_army_avhtv2501_13.jpg",
+    "image": "{{text}}新型车四视图（线图）{{image}}imgs/de/army/de_army_avhtv2501_13.jpg",
     "description": "<h6>Sdkfz 250/1（Neu）型半履带装甲运兵车（新型车体）</h6><p>性能参数：</p><p>车长：4.61m，车宽：1.66m，车高：1.95m，车重：5.38t，乘员：2人（另可载士兵4人）。</p><p>最高车速：60km/h，最大行程：300km。</p><p>装甲厚度：8～15mm。</p><p>武器配备：2挺7.92mm机枪（弹药基数2010发）。</p><p>注意：从装甲车侧面装甲不同的结构特征可看出旧型（250 Alt）和新型（250 Neu）的区别。</p>",
     "caption": ""
   },
@@ -33,7 +33,7 @@
     "description": "",
     "caption": ""
   }], 
-  "part2title": "战场上的250/1半履带装甲运兵车",
+  "part2title": "战场上的250/1型半履带装甲运兵车",
   "part2description": "",
   "part2content": [{
     "image": "imgs/de/army/de_army_avhtv2501_21.jpg",

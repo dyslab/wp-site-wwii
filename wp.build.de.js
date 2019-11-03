@@ -151,6 +151,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv2511',
+    title: 'Sdkfz 251/1型半履带装甲运兵车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
