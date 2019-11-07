@@ -11,10 +11,10 @@ block content
                 a(href=catitem.link.replace(/#/iu, '.html#'))= catitem.name
               else
                 a(href=catitem.link + '.html')= catitem.name
-          li.breadcrumb-item.active(aria-current="page")=body.model
+          li.breadcrumb-item.active(aria-current="page")=body.model.replace(/<.*>/ig, '')
       div.row.p-3
         div.col.text-center
-          span.h3.font-weight-bold.custom-text-shadow-2px= body.model
+          span.h3.font-weight-bold.custom-text-shadow-2px!= body.model
       div.row.pb-3
         div.col
           span.custom-document-content!= body.description

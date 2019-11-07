@@ -147,12 +147,27 @@ const fileIDs = [
   {
     folder: 'js_de',
     id: 'de_army_avhtv2501',
-    title: 'Sdkfz 250/1型半履带装甲运兵车'
+    title: '250/1型半履带装甲运兵车'
   },
   {
     folder: 'js_de',
     id: 'de_army_avhtv2511',
-    title: 'Sdkfz 251/1型半履带装甲运兵车'
+    title: '251/1型半履带装甲运兵车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_avhtv25010',
+    title: '250/10型半履带装甲炮车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_avhtv25011',
+    title: '250/11型半履带装甲炮车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_avhtv25110',
+    title: '251/10型半履带装甲炮车'
   },
   {
     folder: 'js_de',
