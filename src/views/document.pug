@@ -102,8 +102,12 @@ block content
               if (p1item.caption != '') && (p1item.caption != undefined)
                 div
                   span.custom-document-caption.text-secondary!= p1item.caption
-          div.col-lg-5.order-0.order-lg-1.pb-0.pb-lg-4
-            span.custom-document-content-p1!= p1item.description
+          if p1item.description.indexOf('{{desc-below}}') == 0
+            div.col-lg-5.order-2.pb-0.pb-lg-4
+              span.custom-document-content-p1!= p1item.description.replace('{{desc-below}}','')
+          else
+            div.col-lg-5.order-0.order-lg-1.pb-0.pb-lg-4
+              span.custom-document-content-p1!= p1item.description
       if body.part2title != ''
         div.row.pt-3.pb-3
           div.col
