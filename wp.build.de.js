@@ -176,6 +176,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv2519',
+    title: '251/9型半履带装甲炮车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_avhtv2508',
+    title: '250/8型半履带装甲炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

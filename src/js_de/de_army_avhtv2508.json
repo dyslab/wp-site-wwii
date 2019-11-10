@@ -1,0 +1,37 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "半履带装甲车辆",
+    "link": "de_army#de_army_avhtv"  
+  }],
+  "model": "250/8型半履带装甲炮车<br>（75mm突击炮车）", 
+  "description": "<p>1944年10月，德军将K51型24倍径75mm火炮安装在250Neu半履带装甲车的车体上，改装成250/8型半履带装甲突击炮车。此型炮车的推出比同为突击炮车的251/9足足迟了将近二年时间，装备德军时已是二战后期，其生产量不大，战场身影很少，也未见有特别的战绩。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}炮车四视图{{image}}imgs/de/army/de_army_avhtv2508_11.jpg",
+    "description": "<h6>250/8型半履带装甲炮车<br>（Sd Kfz 250/8 Neu）</h6><p>该型炮车战斗全重6.3吨，核载成员3人，除1名驾驶员外，另外2人分别是炮手和弹药装填员；该型炮车安装的是一门K51型24倍径75mm火炮，炮车载弹20发，火炮右侧有一挺MG42型机枪，备有机枪子弹1100发。由于250车体狭小，而75mm的火炮又过大，因此尽管右侧座位已被拆除，但车内空间仍显得很小，也就无法增加1名机枪射手了。</p>",
+    "caption": ""
+  }, {
+    "image": "{{text}}250/8型半履带装甲炮车{{image}}imgs/de/army/de_army_avhtv2508_12.jpg",
+    "description": "<p>实战证明，250车体并不适于安装75mm火炮，其过大的炮重和发射时的后座力，使该型炮车经常出现故障，但1944年德军在战场上的大势已去，将此临急上马的250/8半履带装甲突击炮车装备德军，根本对挽救德军在战场上的劣势起不了任何作用。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的250/8型半履带装甲炮车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_avhtv2508_21.jpg",
+    "description": "1945年4月，德国战场，一辆德军不明单位的Sd Kfz 250/8 Neu半履带装甲突击炮车。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_avhtv2508_22.jpg",
+    "description": "1944年秋天，西线战场，德军的一辆Sd Kfz 250/8 Neu半履带装甲突击炮车正在公路上行进。",
+    "caption": ""
+  }]
+}
