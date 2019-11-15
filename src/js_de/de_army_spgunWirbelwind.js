@@ -1,3 +1,7 @@
 import OutputHtml from '../js_common_base/common_weapon.js';
 
-OutputHtml('de', 'army', 'spgunWirbelwind');
+OutputHtml(
+    'de', 'army',
+    require('./de_army_spgunWirbelwind.json'),
+    require('./de_menu.json')
+);

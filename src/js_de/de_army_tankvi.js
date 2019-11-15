@@ -1,3 +1,7 @@
 import OutputHtml from '../js_common_base/common_weapon.js';
 
-OutputHtml('de', 'army', 'tankvi');
+OutputHtml(
+    'de', 'army',
+    require('./de_army_tankvi.json'),
+    require('./de_menu.json')
+);

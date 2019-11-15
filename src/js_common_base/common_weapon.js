@@ -4,13 +4,10 @@ import BaseIO from './base.js';
 import footerJSON from './footer.json';
 import template from '../views/document.pug';
 
-export default (countryid, categoryid, weaponid) => {
-  const bodyJSON = require(`../js_${countryid}/${countryid}_${categoryid}_${weaponid}.json`);
-  const menuJSON = require(`../js_${countryid}/${countryid}_menu.json`);
-
+export default (countryid, categoryid, bodyJSON, menuJSON) => {
   // Set header and footer
   BaseIO.setCopyright(footerJSON);
-  BaseIO.setMenuActiveItem(menuJSON, `${countryid}_${categoryid}_${weaponid}`);
+  BaseIO.setMenuActiveItem(menuJSON, `${countryid}_${categoryid}`);
 
   // Render pug file and output.
   document.write(template({

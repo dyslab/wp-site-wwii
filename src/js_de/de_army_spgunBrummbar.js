@@ -1,3 +1,7 @@
 import OutputHtml from '../js_common_base/common_weapon.js';
 
-OutputHtml('de', 'army', 'spgunBrummbar');
+OutputHtml(
+    'de', 'army',
+    require('./de_army_spgunBrummbar.json'),
+    require('./de_menu.json')
+);
