@@ -35,7 +35,7 @@ exports.setCopyright = (footerJSON) => {
   let yearString = '';
 
   if (thisYear > startYear) {
-    yearString = `2018-${thisYear}`;
+    yearString = `${startYear} - ${thisYear}`;
   } else {
     yearString = thisYear;
   }

@@ -191,6 +191,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv2511&Kfz4',
+    title: '251/1、Sd Kfz4/1型半履带装甲火箭炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

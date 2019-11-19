@@ -1,8 +1,13 @@
 [
     {
-        "date": "2019-11-19",
+        "date": "2019-11-20",
         "image": "imgs/de/army/de_army_avhtv2507&2512_01.jpg",
         "id": "de_army_avhtv2507&2512",
-        "message": "新增250/7、251/2型半履带装甲迫击炮车"
+        "message": "新增内容：250/7、251/2型半履带装甲迫击炮车。"
+    }, {
+        "date": "2019-11-19",
+        "image": "imgs/de/army/de_army_avhtv2511&Kfz4_01.jpg",
+        "id": "de_army_avhtv2507&2512",
+        "message": "新增内容：251/1、Sd Kfz4/1型半履带装甲火箭炮车。"
     }
 ]
