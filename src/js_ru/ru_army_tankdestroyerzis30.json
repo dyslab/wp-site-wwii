@@ -14,7 +14,7 @@
   "part1title": "系列型号",
   "part1description": "",
   "part1content": [{
-    "image": "{{text}}四视图{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_11.jpg{{text}}放下助锄的ZiS-30反坦克炮车。{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_12.jpg{{text}}安装在ZiS-30反坦克炮车上的57mm ZiS-2反坦克炮。{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_13.jpg{{text}}ZiS-30反坦克炮车上的57mm ZiS-2反坦克炮正面图。{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_14.jpg",
+    "image": "{{text}}炮车二视图{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_11.jpg{{text}}放下助锄的ZiS-30反坦克炮车{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_12.jpg{{text}}安装在ZiS-30反坦克炮车上的57mm ZiS-2反坦克炮{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_13.jpg{{text}}ZiS-30反坦克炮车上的57mm ZiS-2反坦克炮车标准照{{image}}imgs/ru/army/ru_army_tankdestroyerzis30_14.jpg",
     "description": "<h6>ZiS-30反坦克炮车</h6><p>参数：</p><p>车长：3.45m，车宽：1.86m，车高：2.44m，车重：4.5t；乘员：3人。</p><p>最高车速：40km/h，最大行程：250km；</p><p>装甲厚度：20-75mm；</p><p>武器配备：1门57mm ZiS-2反坦克炮。</p>",
     "caption": ""
   }], 

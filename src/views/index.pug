@@ -2,17 +2,21 @@ extends index_body
 
 block content
   div.container-fluid.p-0
-    img.custom-index-wh(src=background, alt="index background")
+    img.custom-index-wh(src= index.background, alt="index background")
   div.container-fluid.custom-index-wh.custom-index-div-overlay.d-flex.justify-content-center.align-items-center
     div.text-center
-      h1.text-light.custom-text-shadow-2px!= title
-      h2.text-light.custom-text-shadow-1px!= subtitle
-      div.text-center.p-5
-        nav.nav
-          each linkitem in links
-            if linkitem.href == '' || linkitem.href == '###'
-              a.nav-link.disable(href="#", tabindex="-1", aria-disabled="true")= linkitem.title
-            else
-              a.nav-link.custom-index-link.custom-text-shadow-1px(href=linkitem.href + ".html")= linkitem.title
+      h1.display-4.text-light.custom-text-shadow-2px!= index.title
+      h1.text-light.custom-text-shadow-1px.mt-3!= index.subtitle
+      div.mt-5
+        each linkitem in index.links
+          if (linkitem.href == '') || (linkitem.href == '###')
+            span.custom-index-link.text-secondary.ml-3.mr-3= linkitem.title
+          else
+            a.custom-index-link.custom-text-shadow-1px.ml-3.mr-3(href= `./${linkitem.href}.html`)= linkitem.title
+      div.text-left.mt-5.p-3
+        each logitem, id in logs
+          if (id < 5)
+            a.text-white(href= `./${logitem.id}.html`)
+              p!= `${logitem.date} ${logitem.message}`
 
 block footer-scripts

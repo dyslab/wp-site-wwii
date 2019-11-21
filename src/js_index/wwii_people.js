@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-const pageID = 'wwii_people';
+// const pageID = 'wwii_people';
 var template = require('../views/jumpto.pug');
 
 // Render pug file and output.

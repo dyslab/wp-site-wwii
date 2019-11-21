@@ -3,6 +3,7 @@ extends body
 block content
   section#doc.custom-document-style.pt-5.pb-5
     div.container
+      //- 导航条
       nav(aria-label="breadcrumb")
         ol.pl-0.ml-0.breadcrumb.custom-document-style
           each catitem in body.category
@@ -12,115 +13,113 @@ block content
               else
                 a(href=catitem.link + '.html')= catitem.name
           li.breadcrumb-item.active(aria-current="page")=body.model.replace(/<.*>/ig, '')
-      div.row.p-3
-        div.col.text-center
-          span.h3.font-weight-bold.custom-text-shadow-2px!= body.model
-      div.row.pb-3
-        div.col
-          span.custom-document-content!= body.description
-      if body.part1title != ''
-        div.row.pb-3
-          div.col
+      //- 标题及综述
+      div.text-center.mb-5
+        h3.font-weight-bold.custom-text-shadow-2px!= body.model
+      div.mb-5
+        span.custom-document-content!= body.description
+      //- Part1
+      div.mb-5
+        if body.part1title != ''
+          div.mb-5
             i.fas.fa-clipboard-list.fa-2x
             |  
             span.h3.custom-text-shadow-1px!= body.part1title
-      if body.part1description != ''
-        div.row.pb-3
-          div.col
+        if body.part1description != ''
+          div.mb-3
             span.custom-document-content-p1!= body.part1description
-      each p1item in body.part1content
-        div.row.pb-lg-3
-          div.col-lg-7.order-1.order-lg-0.pb-4
-            -
-              toParse = p1item.image.indexOf('{{');
-            if (toParse >= 0)
+        each p1item in body.part1content
+          div.row.mb-3
+            div.col-lg-7.order-1.order-lg-0
               -
-                src = p1item.image;
-                // Parsing...
-                var pos = 0;
-                var cmd_flag = false;
-                var cmd_str = "";
-                var tmp_str = "";
-                var src_char = "";
-                var result_array = [];
-                while (pos < src.length) {
-                  src_char =  src.charAt(pos);
-                  switch (src_char) {
-                    case "{":
-                      pos++;
-                      src_next_char = src.charAt(pos);
-                      if (src_next_char === "{") {
-                          cmd_flag = true;
-                          // manipulate the previous command.
-                          if (cmd_str !== "") {
-                              result_array.push(
-                                  {
-                                      command: cmd_str.toLowerCase(),
-                                      content: tmp_str
-                                  }
-                              );
-                          }
-                          cmd_str = "";
-                          tmp_str = "";
-                      } else {
-                          if (cmd_flag) cmd_str += src_char + src_next_char;
-                          else          tmp_str += src_char + src_next_char;
-                      }
-                      break;
-                    case "}":
-                      pos++;
-                      src_next_char = src.charAt(pos);
-                      if (src_next_char === "}") {
-                          cmd_flag = false;
-                      } else {
-                          if (cmd_flag) cmd_str += src_char + src_next_char;
-                          else          tmp_str += src_char + src_next_char;
-                      }
-                      break;
-                    default:
-                      if (cmd_flag) cmd_str += src_char;
-                      else          tmp_str += src_char;
-                      break;
+                toParse = p1item.image.indexOf('{{');
+              if (toParse >= 0)
+                //- Parse syntax "{{...}}". BEGIN
+                -
+                  src = p1item.image;
+                  // Parsing...
+                  var pos = 0;
+                  var cmd_flag = false;
+                  var cmd_str = "";
+                  var tmp_str = "";
+                  var src_char = "";
+                  var result_array = [];
+                  while (pos < src.length) {
+                    src_char =  src.charAt(pos);
+                    switch (src_char) {
+                      case "{":
+                        pos++;
+                        src_next_char = src.charAt(pos);
+                        if (src_next_char === "{") {
+                            cmd_flag = true;
+                            // manipulate the previous command.
+                            if (cmd_str !== "") {
+                                result_array.push(
+                                    {
+                                        command: cmd_str.toLowerCase(),
+                                        content: tmp_str
+                                    }
+                                );
+                            }
+                            cmd_str = "";
+                            tmp_str = "";
+                        } else {
+                            if (cmd_flag) cmd_str += src_char + src_next_char;
+                            else          tmp_str += src_char + src_next_char;
+                        }
+                        break;
+                      case "}":
+                        pos++;
+                        src_next_char = src.charAt(pos);
+                        if (src_next_char === "}") {
+                            cmd_flag = false;
+                        } else {
+                            if (cmd_flag) cmd_str += src_char + src_next_char;
+                            else          tmp_str += src_char + src_next_char;
+                        }
+                        break;
+                      default:
+                        if (cmd_flag) cmd_str += src_char;
+                        else          tmp_str += src_char;
+                        break;
+                    }
+                    pos++;
                   }
-                  pos++;
-                }
-                if (cmd_str !== "") {
-                  result_array.push({ command: cmd_str, content: tmp_str });
-                }
-              each r1item in result_array
-                if r1item.command == 'image'
-                  div.pb-3
+                  if (cmd_str !== "") {
+                    result_array.push({ command: cmd_str, content: tmp_str });
+                  }
+                //- Parse syntax "{{...}}". END
+                each r1item in result_array
+                  if r1item.command == 'image'
                     img.img-fluid.rounded(src=r1item.content)
-                else if r1item.command == 'text'
+                  else if r1item.command == 'text'
+                    div
+                      span.custom-document-content-p1!= r1item.content
+                  else if r1item.command == 'caption'
+                    div
+                      span.custom-document-caption-p1.text-secondary!= r1item.content
+              else
+                img.img-fluid.rounded(src=p1item.image)
+                if (p1item.caption != '') && (p1item.caption != undefined)
                   div
-                    span.custom-document-content-p1!= r1item.content
-                else if r1item.command == 'caption'
-                  div
-                    span.custom-document-caption-p1.text-secondary!= r1item.content
+                    span.custom-document-caption.text-secondary!= p1item.caption
+            if p1item.description.indexOf('{{desc-below}}') == 0
+              div.col-lg-5.order-2
+                span.custom-document-content-p1!= p1item.description.replace('{{desc-below}}','')
             else
-              img.img-fluid.rounded(src=p1item.image)
-              if (p1item.caption != '') && (p1item.caption != undefined)
-                div
-                  span.custom-document-caption.text-secondary!= p1item.caption
-          if p1item.description.indexOf('{{desc-below}}') == 0
-            div.col-lg-5.order-2.pb-0.pb-lg-4
-              span.custom-document-content-p1!= p1item.description.replace('{{desc-below}}','')
-          else
-            div.col-lg-5.order-0.order-lg-1.pb-0.pb-lg-4
-              span.custom-document-content-p1!= p1item.description
-      if body.part2title != ''
-        div.row.pt-3.pb-3
-          div.col
+              div.col-lg-5.order-0.order-lg-1
+                span.custom-document-content-p1!= p1item.description
+      div
+        if body.part2title != ''
+          div.mb-5
             i.fas.fa-clipboard-list.fa-2x
             |  
             span.h3.custom-text-shadow-1px!= body.part2title
-      if body.part2description != ''
-        div.row.pb-3
-          div.col
+        if body.part2description != ''
+          div.mb-3
             span.custom-document-content-p2!= body.part2description
-      div.row.mfp-gallery
-        each p2item in body.part2content
-          div.col-md-6.pb-3
+        div.card-columns.mfp-gallery
+          each p2item in body.part2content
             div.card
               div.card-body
                 div.card-img
@@ -131,7 +130,7 @@ block content
                 span.card-text.custom-document-content-p2!= p2item.description
 
 block footer-scripts
-  script(src="./common/js/jquery.magnific-popup.min.js")
+  script(src="https://cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js")
   script.
     $(document).ready(function() {
       $(".mfp-image-link").magnificPopup({

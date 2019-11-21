@@ -1,34 +1,32 @@
 <!-- Page Footer Begin -->
-footer.p-0
-  div.container-fluid.custom-footer-bgcolor.p-0.p-md-3
-    div.container.pt-5.pb-5
+footer.custom-footer-bgcolor.pt-5.pb-5
+  div.container-fluid
+    div.container
       div.d-lg-flex.justify-content-lg-between.row
-        div.col-md-8.col-12.custom-footer-color.mb-3.mb-lg-0
-          nav.nav
-            each linkitem in footer.links
-              if linkitem.href == '' || linkitem.href == '###'
-                a.nav-link.custom-footer-link-style.disabled(href="#", tabindex="-1", aria-disabled="true")= linkitem.title
-              else
-                a.nav-link.custom-footer-link-style(href=linkitem.href)= linkitem.title
-        div.col-lg-4.col-12
-          div.d-flex.justify-content-lg-end.pr-3
+        div.col-md-8.col-12.custom-footer-color.text-center.text-lg-left
+          each linkitem in footer.links
+            if linkitem.href == '' || linkitem.href == '###'
+              span.custom-footer-link-style.text-secondary.ml-1.mr-1= linkitem.title
+            else
+              a.custom-footer-link-style.ml-1.mr-1(href= linkitem.href)= linkitem.title
+        div.col-12.col-lg-4.mt-3.mt-lg-0
+          div.d-flex.justify-content-center.justify-content-lg-end
             span.list-social-links.custom-footer-color.custom-text-shadow-1px= footer.getintouchinfo.headline
           div
-            ul.list-social-links.justify-content-lg-end.pr-3
+            ul.list-social-links.justify-content-center.justify-content-lg-end
               each gitem in footer.getintouchinfo.data
                 li.text-white
-                  a(href=gitem.href, target="_blank", rel=gitem.ref)
-                    i(class=gitem.faicon)
-      div.d-flex.justify-content-center.pt-3
-        div.col-12.text-center.custom-footer-color
-          hr.bg-secondary
-          span
-            a.custom-footer-brand(href="/", alt=footer.footersitename)
-              img.d-inline-block.align-top(src=footer.footersitelogo, height="20", alt=footer.footersitename)
-              |  
-              span.custom-text-shadow-1px #{footer.footersitename}
+                  a(href= gitem.href, target="_blank", rel= gitem.ref)
+                    i(class= gitem.faicon)
+      hr.bg-secondary
+      div.text-center.custom-footer-color
+        span
+          a.custom-footer-brand(href="/", alt= footer.footersitename)
+            img.d-inline-block.align-top(src= footer.footersitelogo, height=20, alt= footer.footersitename)
             |  
-          span!= footer.copyright
+            span.custom-text-shadow-1px #{footer.footersitename}
+          |  
+        span!= footer.copyright
 <!-- Page Footer End -->
 
 <!-- Go to Top -->

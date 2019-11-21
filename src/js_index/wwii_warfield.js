@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-const pageID = 'wwii_warfield';
+// const pageID = 'wwii_warfield';
 var template = require('../views/jumpto.pug');
 
 // Render pug file and output.

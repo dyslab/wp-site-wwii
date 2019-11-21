@@ -1,7 +1,7 @@
 {
   "background": "imgs/index-bg.jpg",
-  "title": "第二次世界大战 WWII",
-  "subtitle": "图史与纪实",
+  "title": "第二次世界大战",
+  "subtitle": "WWII 图史与纪实",
   "links":  [
     {
       "title": "武器篇",
@@ -9,15 +9,15 @@
     },
     {
       "title": "战场篇",
-      "href": "wwii_warfield"
+      "href": ""
     },
     {
       "title": "人事篇",
-      "href": "wwii_people"
+      "href": ""
     },
     {
       "title": "物事篇",
-      "href": "wwii_misc"
+      "href": ""
     }
   ]
 }
