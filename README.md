@@ -2,10 +2,14 @@
 
 Purpose to build a static military documentary website developed by webpack + express + pug based on node.js framework.
 
-*Note: "wp" stands for "Webpack©" rather than "WordPress©"...* :smile:
+Related Project : [gp-site-wwii](https://github.com/dyslab/gp-site-wwii) (Powered By Gulp Framework)
+
+*Note: "wp" here stands for "Webpack ©" rather than "WordPress ©"...* 
 
 
 ## History Events:
+
+- 23 Nov 2019, This project will be moved to another gulp framework project soon. Check out [gp-site-wwii](https://github.com/dyslab/gp-site-wwii) here.
 
 - 15 Nov 2019, Resolved 'require' issue, App upgraded to v1.6 :smile:.
 
