@@ -9,7 +9,7 @@ Related Project (Powered By Gulp Framework) : **[gp-site-wwii](https://dev.tence
 
 ## History Events:
 
-- 24 Nov 2019, The domain has been moved to custom domain name **[http://wp.wwii.site](http://wp.wwii.site)**.
+- 24 Nov 2019, The project has been migrated to my custom domain **[wp.wwii.site](http://wp.wwii.site)**.
 
 - 15 Nov 2019, Resolved 'require' issue, App upgraded to v1.6 :smile:.
 
