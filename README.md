@@ -2,14 +2,14 @@
 
 Purpose to build a static military documentary website developed by webpack + express + pug based on node.js framework.
 
-Related Project : [gp-site-wwii](https://dev.tencent.com/u/vincentzhcn/p/gp-site-wwii) (Powered By Gulp Framework)
+Related Project (Powered By Gulp Framework) : **[gp-site-wwii](https://dev.tencent.com/u/vincentzhcn/p/gp-site-wwii)** on Tencent Git. 
 
 *Note: "wp" here stands for "Webpack ©" rather than "WordPress ©"...* 
 
 
 ## History Events:
 
-- 23 Nov 2019, This project will be moved to gulp framework soon. Check out [gp-site-wwii](https://dev.tencent.com/u/vincentzhcn/p/gp-site-wwii) on Tencent Git.
+- 24 Nov 2019, The domain has been moved to custom domain name **[http://wp.wwii.site](http://wp.wwii.site)**.
 
 - 15 Nov 2019, Resolved 'require' issue, App upgraded to v1.6 :smile:.
 
