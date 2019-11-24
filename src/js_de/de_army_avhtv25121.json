@@ -1,0 +1,56 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "半履带装甲车辆",
+    "link": "de_army#de_army_avhtv"  
+  }],
+  "model": "251/21型半履带装甲防空炮车", 
+  "description": "<p>251/21半履带装甲自行防空炮车是二战后期德军一种较有威力的专用防空炮车，它在Sd Kfz 251 C型或D型车体上直接装上了一门三管并列的MG151型航炮，这种三联装航炮原是德军飞机使用的武器，该炮造价低且射速高，是一种有效对付低空攻击飞机的防空火炮，因此也对苏军和盟军的低空攻击机造成了一定威胁，从而也成为它们的主要攻击对象。</p><p>251/21半履带装甲自行防空炮车一种是前线部队在野战中用C型车体改装，另一种是用D型车体进行量产，为了加强防护，这些炮车四周都加装了防护装甲；但后来一些由前线部队用251系列的C型或D型车体自行加装MG151型航炮改装而成的炮车则连装甲和防盾都没加。</p><p>二战后期，251/21半履带装甲自行防空炮车成为德军最有战力的防空装备，因而受到苏军和盟军飞机的特别关注，有不少251/21半履带自行防空炮车都是被飞机所摧毁，也有一些被缴获，战损率很高。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}Sd Kfz 251/21 Flak C型半履带装甲自行防空炮车侧视图（线图）{{image}}imgs/de/army/de_army_avhtv25121_11.jpg{{text}}Sd Kfz 251/21 Flak D型半履带装甲自行防空炮车侧视图（线图）{{image}}imgs/de/army/de_army_avhtv25121_12.jpg",
+    "description": "<h6>Sd Kfz 251/21型半履带装甲自行防空炮车</h6><p>炮车用Sd Kfz 251 Flak C或Flak D型车体改装，在车厢中部安装一座立式机关炮座，炮座可作360°旋转，炮座上固定三挺15mm或20mm口径的航空用机关炮，随炮配备的三个弹药箱，内装高爆弹、穿甲弹和发光弹共900发，车厢内还有备用弹药箱；全车备弹3000发。</p><p>三联装航炮用三面装甲包裹，为了掩护炮组成员，车厢两侧与炮手座椅后都加装了装甲钢板。</p><p>该炮车标准载员4人：驾驶员、车长、炮手和弹药手各1名。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的251/21型半履带装甲防空炮车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_avhtv25121_21.jpg",
+    "description": "1945年，东线战场，隶属德军第5装甲师第228防空部队的一辆Sd Kfz 251/21 Flak D型半履带装甲自行防空炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_22.jpg",
+    "description": "1945年，东线战场匈牙利地区，隶属德军“统帅堂”装甲掷弹兵师防空部队的一辆Sd Kfz 251/21 Flak D型半履带装甲自行防空炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_23.jpg",
+    "description": "1944年，隶属德国武装党卫军第7“欧根亲王”志愿山地师的一辆Sd Kfz 251/21 Flak D型半履带装甲自行防空炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_24.jpg",
+    "description": "战场上的一辆德军Sd Kfz 251/21 型半履带装甲自行防空炮车，车长正在作对空观察。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_25.jpg",
+    "description": "安装在德军Sd Kfz 251/21 型半履带装甲自行防空炮车车厢内的MG151型三联15mm航炮。其射速为740rpm，炮口初速：高爆弹为960米/秒，穿甲弹为850米/秒，射程为400米。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_26.jpg",
+    "description": "1944年阿登反击战中，被盟军攻击机击毁的一辆德军量产型Sd Kfz 251/21 Flak D半履带装甲自行防空炮车，炮车已完全炸毁，车厢内还有一名被炸死的德军车组成员。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_27.jpg",
+    "description": "1945年西线战场，一辆被德军遗弃的量产型Sd Kfz 251/21 Flak D半履带装甲自行防空炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_avhtv25121_28.jpg",
+    "description": "东线战场，苏军将一辆缴获的战场改装型的德军Sd Kfz 251/21 半履带装甲自行防空炮车改作运兵车用，车旁站着一名满脸笑容的指挥交通的女兵。",
+    "caption": ""
+  }]
+}
