@@ -5,7 +5,7 @@ block content
     img.custom-index-wh(src= index.background, alt="index background")
   div.container-fluid.custom-index-wh.custom-index-div-overlay.d-flex.justify-content-center.align-items-center
     div.text-center
-      h1.display-4.text-light.custom-text-shadow-2px!= index.title
+      h1.text-light.custom-text-shadow-2px!= index.title
       h1.text-light.custom-text-shadow-1px.mt-3!= index.subtitle
       div.mt-5
         each linkitem in index.links
@@ -17,6 +17,6 @@ block content
         each logitem, id in logs
           if (id < 5)
             a.text-white(href= `./${logitem.id}.html`)
-              p!= `${logitem.date} ${logitem.message}`
+              div.mt-1.mb-1.mt-lg-3.mb-lg-3!= `${logitem.date} ${logitem.message}`
 
 block footer-scripts

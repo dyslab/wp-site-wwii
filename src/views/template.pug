@@ -1,6 +1,8 @@
 doctype html
 html
   head
+    meta(charset="utf-8")
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title= htmlWebpackPlugin.options.title
     //- favicon was set in 'webpack.dev.config.js'
     //- link(rel='shortcut icon', href='./favicon.ico', type='image/x-icon')
@@ -12,9 +14,7 @@ html
     link(rel='stylesheet', href='https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css')
     link(rel='stylesheet', href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.min.css")
     link(rel='stylesheet', href="./common/css/wp-site-custom.css")
-
     block header-scripts
 
-    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
   body.p-0
     //- following content was mainly defined in 'body.pug'

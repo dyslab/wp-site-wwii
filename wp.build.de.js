@@ -192,7 +192,7 @@ const fileIDs = [
   {
     folder: 'js_de',
     id: 'de_army_avhtv2511&Kfz4',
-    title: '251/1、Sd Kfz4/1型半履带装甲火箭炮车'
+    title: '251/1、Sd Kfz 4/1型半履带装甲火箭炮车'
   },
   {
     folder: 'js_de',
@@ -203,6 +203,11 @@ const fileIDs = [
     folder: 'js_de',
     id: 'de_army_avhtv25121',
     title: '251/21型半履带装甲防空炮车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_avhtv71&72',
+    title: 'Sd Kfz 7/1、7/2型半履带自行防空炮车'
   },
   {
     folder: 'js_de',
