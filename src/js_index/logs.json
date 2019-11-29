@@ -1,9 +1,14 @@
 [
     {
+        "date": "2019-11-30",
+        "image": "imgs/de/army/de_army_avhtv104&105_01.jpg",
+        "id": "de_army_avhtv104&105",
+        "message": "新增内容：Sd Kfz 10/4、10/5型半履带防空炮车。"
+    }, {
         "date": "2019-11-26",
         "image": "imgs/de/army/de_army_avhtv71&72_01.jpg",
         "id": "de_army_avhtv71&72",
-        "message": "新增内容：Sd Kfz 7/1、7/2型半履带自行防空炮车。"
+        "message": "新增内容：Sd Kfz 7/1、7/2型半履带防空炮车。"
     }, {
         "date": "2019-11-24",
         "image": "imgs/de/army/de_army_avhtv25121_01.jpg",
