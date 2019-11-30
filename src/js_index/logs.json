@@ -1,6 +1,11 @@
 [
     {
         "date": "2019-11-30",
+        "image": "imgs/de/army/de_army_avhtv2509_01.jpg",
+        "id": "de_army_avhtv2509",
+        "message": "新增内容：250/9型半履带装甲侦察车。"
+    }, {
+        "date": "2019-11-30",
         "image": "imgs/de/army/de_army_avhtv104&105_01.jpg",
         "id": "de_army_avhtv104&105",
         "message": "新增内容：Sd Kfz 10/4、10/5型半履带防空炮车。"
