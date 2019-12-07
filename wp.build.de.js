@@ -226,6 +226,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv2513',
+    title: '251/3型半履带装甲通讯指挥车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
