@@ -236,6 +236,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv253',
+    title: '253型半履带装甲炮兵观测车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
