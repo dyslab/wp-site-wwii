@@ -241,6 +241,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv25xa',
+    title: '250、251系列半履带装甲炮兵观测车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
