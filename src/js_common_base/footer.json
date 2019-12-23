@@ -35,12 +35,12 @@
       },
       {
         "faicon": "fab fa-weixin",
-        "href": "about.html",
+        "href": "#",
         "ref": "微信"
       },
       {
         "faicon": "fas fa-envelope",
-        "href": "mailto:xxx@yyy.com",
+        "href": "mailto:vincent_to@qq.com",
         "ref": "电子邮件"
       }
     ]
