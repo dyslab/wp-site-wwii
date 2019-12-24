@@ -256,6 +256,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv2514',
+    title: '251/4型半履带装甲火炮牵引（弹药运载）车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
