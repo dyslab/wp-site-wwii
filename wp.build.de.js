@@ -266,6 +266,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv25157',
+    title: '251/5、251/7型半履带装甲工兵车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
