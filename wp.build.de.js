@@ -271,6 +271,21 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_avhtv25xl',
+    title: '250/2、251/11、251/19型半履带装甲布线与线路交换车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_avhtv25120',
+    title: '251/20型半履带装甲红外辅助投光车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_sdkfz67',
+    title: 'Sdkfz6、Sdkfz7型半履带牵引车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

@@ -1,5 +1,20 @@
 [
     {
+        "date": "2020-01-04",
+        "image": "imgs/de/army/de_army_sdkfz67_01.jpg",
+        "id": "de_army_sdkfz67",
+        "message": "新增内容：Sdkfz6、Sdkfz7型半履带牵引车。"
+    }, {
+        "date": "2020-01-04",
+        "image": "imgs/de/army/de_army_avhtv25120_01.jpg",
+        "id": "de_army_avhtv25120",
+        "message": "新增内容：251/20型半履带装甲红外辅助投光车。"
+    }, {
+        "date": "2020-01-04",
+        "image": "imgs/de/army/de_army_avhtv25xl_01.jpg",
+        "id": "de_army_avhtv25xl",
+        "message": "新增内容：250/2、251/11、251/19型半履带装甲布线与线路交换车。"
+    }, {
         "date": "2020-01-03",
         "image": "imgs/de/army/de_army_avhtv25157_01.jpg",
         "id": "de_army_avhtv25157",
