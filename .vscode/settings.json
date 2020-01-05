@@ -1,4 +1,5 @@
 {
     "editor.wordWrap": "wordWrapColumn",
-    "json.maxItemsComputed": 15000
+    "json.maxItemsComputed": 15000,
+    "editor.wordWrapColumn": 110
 }

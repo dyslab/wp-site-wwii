@@ -1,6 +1,6 @@
 # wp-site-wwii (Webpack构建的二战军事资料库网站)
 
-![Project version](https://img.shields.io/badge/version-v1.6.x-green)
+![Project version](https://img.shields.io/badge/version-v1.7.x-green)
 
 Purpose to build a static military documentary website developed by webpack + express + pug based on node.js framework.
 

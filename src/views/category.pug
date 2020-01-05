@@ -16,15 +16,77 @@ block content
       div.row.mt-3
         each item in body.weapons
           if item.intro == '###'
-            div.col-12.mt-3.mb-3(id=item.link)
-              h5.font-weight-bold.custom-text-shadow-1px #{item.model}
+            div.weapon-category.col-12.mt-3.mb-3(id=item.link)
+              h5.font-weight-bold.custom-text-shadow-1px= item.model
+              div.load-content.d-flex.justify-content-center
+                button.btn.btn-success.btn-load-content(category= item.link, type="button") 载入内容...
+        //- Dynamic content insertion by jQuery function below
           else
             div.col-12.col-lg-6.mb-3
               a(href=item.link + '.html')
                 div.card
                   img.card-img-top(src=item.image, alt=item.model)
                   div.card-body
-                    h5.card-title.font-weight-bold.custom-text-shadow-1px #{item.model}
+                    h5.card-title.font-weight-bold.custom-text-shadow-1px= item.model
                     p.card-text!= item.intro
 
+      input#hiddenContent(type="hidden", value=`${JSON.stringify(body.weapons)}`)
+
 block footer-scripts
+  script.
+    // Generate html code for 'item'
+    function genHtmlContent(item) {
+      if (item === undefined) return '';
+      var html = '<div class="col-12 col-lg-6 mb-3">';
+      html += `<a href="${item.link}.html">`;
+      html += '<div class="card">';
+      html += `<img class="card-img-top" src="${item.image}" alt="${item.model}">`;
+      html += '<div class="card-body">';
+      html += `<h5 class="card-title font-weight-bold custom-text-shadow-1px">${item.model}</h5>`;
+      html += `<p class="card-text">${item.intro}</p>`;
+      html += '</div></div></a></div>';
+      return html;
+    }
+
+    // Render html content for specific category which obtained by '$el'
+    function renderWeaponDiv($el, content) {
+      if ($el && content) {
+        var catLink = $el.attr("id");
+        var renderFlag = false;
+        var insertHtml = '';
+        for (id in content) {
+          if (content[id].intro == "###") {
+            if(renderFlag) break;
+            if(content[id].link == catLink) renderFlag = true;
+          } else {
+            if(renderFlag) {
+              /*
+              // Reverse content order
+              insertHtml = genHtmlContent(content[id]);
+              $el.after(genHtmlContent(content[id]));
+              */
+              insertHtml += genHtmlContent(content[id]);
+            }
+          }
+        }
+        if (insertHtml != '') $el.after(insertHtml);
+        $el.children("div.load-content").remove();
+      }
+    }
+
+    $(document).ready(function() {
+      var content = JSON.parse($("#hiddenContent").val());
+
+      $(".btn-load-content").click(function() {
+        renderWeaponDiv($(this).parent().parent(), content);
+      });
+
+      // Insert content by url's condition
+      var tags = decodeURI(window.location.href).match(/#.*$/);
+      var $tagElement = $("div.weapon-category").first();
+      if (tags !== null && tags !== undefined) {
+        var tagLink = tags[0].substr(1,tags[0].length-1);
+        $tagElement = $(`div.weapon-category#${tagLink}`);
+      }
+      renderWeaponDiv($tagElement, content);
+    });
