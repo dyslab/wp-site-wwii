@@ -21,16 +21,16 @@ block content
                 div.col.pt-2.pb-2
                   i.fas.fa-clipboard-list.fa-lg
                   |  
-                  span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                  span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link)= item.title
               else if item.intro == '###'
                 div.col
                   i.fas.fa-ellipsis-h.fa-lg
                   |  
-                  span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                  span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link)= item.title
               else
                 div.col-12.col-md-3.col-lg-2
                   a(href=item.link + '.html')
-                    span.font-weight-bold #{item.title}
+                    span.font-weight-bold= item.title
                 div.col-12.col-md-9.col-lg-10
                   span!= item.intro
         div.d-none.d-lg-block.col-lg-2

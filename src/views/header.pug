@@ -3,11 +3,11 @@ mixin setNavItems
   each menuitem, index in menu
     if menuitem.active
       li.nav-item.active
-        a.nav-link(href=menuitem.link + '.html') #{menuitem.title}
+        a.nav-link(href=menuitem.link + '.html')= menuitem.title
           span.sr-only (current)
     else
       li.nav-item
-        a.nav-link(href=menuitem.link + '.html') #{menuitem.title}
+        a.nav-link(href=menuitem.link + '.html')= menuitem.title
 //- setNavItems Declaration End
 
 <!-- Sticky Nav Bar Begin -->

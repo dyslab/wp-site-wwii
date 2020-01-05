@@ -20,18 +20,18 @@ block content
                   th.thead-light.custom-shortcut-category-color-1(scope="col", colspan="2")
                     i.fas.fa-th-list.fa-lg
                     |  
-                    span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                    span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link)= item.title
               else if item.intro == '###'
                 tr
                   th.thead-light.custom-shortcut-category-color-2(scope="col", colspan="2")
                     i.fas.fa-ellipsis-h.fa-lg
                     |  
-                    span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link) #{item.title}
+                    span.h5.font-weight-bold.custom-text-shadow-1px(id=item.link)= item.title
               else
                 tr
                   td.custom-nowrap
                     a(href=item.link + '.html')
-                      span.font-weight-bold #{item.title}
+                      span.font-weight-bold= item.title
                   td
                     span!= item.intro
         div.d-none.d-lg-block.col-lg-2

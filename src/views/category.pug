@@ -54,7 +54,7 @@ block footer-scripts
         var catLink = $el.attr("id");
         var renderFlag = false;
         var insertHtml = '';
-        for (id in content) {
+        for (var id in content) {
           if (content[id].intro == "###") {
             if(renderFlag) break;
             if(content[id].link == catLink) renderFlag = true;
