@@ -286,6 +286,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_sdkfz11',
+    title: 'Sdkfz 11型半履带车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
