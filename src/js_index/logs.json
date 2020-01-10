@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-01-10",
+        "image": "imgs/de/army/de_army_sdkfz2_01.jpg",
+        "id": "de_army_sdkfz2",
+        "message": "新增内容：Sdkfz 2型小型半履带车。"
+    }, {
         "date": "2020-01-07",
         "image": "imgs/de/army/de_army_sdkfz11_01.jpg",
         "id": "de_army_sdkfz11",
