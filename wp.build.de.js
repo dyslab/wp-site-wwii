@@ -301,6 +301,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_wav232',
+    title: 'Sdkfz 232型轮式（8轮）装甲通讯车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-01-15",
+        "image": "imgs/de/army/de_army_wav232_01.jpg",
+        "id": "de_army_wav232",
+        "message": "新增内容：Sdkfz 232型轮式（8轮）装甲通讯车。"
+    }, {
         "date": "2020-01-13",
         "image": "imgs/de/army/de_army_wav231_01.jpg",
         "id": "de_army_wav231",
