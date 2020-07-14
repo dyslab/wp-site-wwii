@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-07-15",
+        "image": "imgs/de/army/de_army_wav233_01.jpg",
+        "id": "de_army_wav233",
+        "message": "新增内容：Sdkfz 233型轮式（8轮）装甲炮车。"
+    }, {
         "date": "2020-01-15",
         "image": "imgs/de/army/de_army_wav232_01.jpg",
         "id": "de_army_wav232",

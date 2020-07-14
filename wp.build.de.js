@@ -306,6 +306,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_wav233',
+    title: 'Sdkfz 233型轮式（8轮）装甲炮车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
