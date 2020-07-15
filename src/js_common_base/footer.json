@@ -1,7 +1,7 @@
 {
   "footersitelogo": "imgs/favicon.png",
   "footersitename": "二战军事网",
-  "copyright": "Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-copyright-link\">内容及版权申明</a>，转载分享请注明出处。Deployed by <a class=\"custom-footer-copyright-link\" href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.",
+  "copyright": "Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-copyright-link\">内容及版权免责声明</a>，转载分享请注明出处。Deployed by <a class=\"custom-footer-copyright-link\" href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.",
   "links": [
     {
       "title": "武器篇",
