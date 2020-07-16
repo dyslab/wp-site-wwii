@@ -316,6 +316,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_wav263',
+    title: 'Sdkfz 263型8轮装甲通讯车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_wavADGZ',
+    title: 'ADGZ型8轮重型装甲车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

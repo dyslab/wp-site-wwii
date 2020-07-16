@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-07-16",
+        "image": "imgs/de/army/de_army_wavADGZ_01.jpg",
+        "id": "de_army_wavADGZ",
+        "message": "新增内容：ADGZ型8轮重型装甲车。"
+    }, {
+        "date": "2020-07-16",
+        "image": "imgs/de/army/de_army_wav263_01.jpg",
+        "id": "de_army_wav263",
+        "message": "新增内容：Sdkfz 263型8轮装甲通讯车。"
+    }, {
         "date": "2020-07-15",
         "image": "imgs/de/army/de_army_wav234_01.jpg",
         "id": "de_army_wav234",

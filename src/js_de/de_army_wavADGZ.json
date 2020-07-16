@@ -1,0 +1,68 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "轮式装甲车辆",
+    "link": "de_army#de_army_wav"  
+  }],
+  "model": "ADGZ型8轮重型装甲车", 
+  "description": "<p>ADGZ型8轮重型装甲车是二战前由奥地利工厂研制生产，1938年德奥合并后，该工厂将所生产的27辆 ADGZ型8轮重型装甲车交付给奥地利军队，后有部分装备了但泽（波兰格坦斯克）党卫队警察部队，有称之为警用装甲车。1941年奥工厂将生产线移交给德国斯太尔公司，到1942年该公司生产的25辆 ADGZ型8轮重型装甲车交付给德国武装党卫军。</p><p>ADGZ型8轮重型装甲车参加了二战初期入侵波兰的战斗，后又出现在东线苏联战场上，虽然其数量不多，战斗力也不强，但到1944年还有德军个别部队存有这种装甲车。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/de/army/de_army_wavADGZ_11.jpg",
+    "description": "<h6>ADGZ型8轮重型装甲车</h6><p></p><p>技术数据：</p><p>车长：6.26米，车宽：2.16米，车高：2.564米；自重：7.5吨，战斗全重：12吨。发动机功率：150马力，最高车速：70千米/小时，最大行程：450千米。</p><p>装甲厚度：11毫米。</p><p>武器配备：1门KWK 35 L/45型20机关炮，2挺MG334型7.92毫米机枪。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的ADGZ型8轮重型装甲车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_wavADGZ_21.jpg",
+    "description": "1939年9月，但泽（格坦斯克）地区，但泽党卫队警察部队的一辆ADGZ型8轮重型装甲车。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_22.jpg",
+    "description": "1941年，东线苏联战场，党卫队警察部队的一辆ADGZ型8轮重型装甲车。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_23.jpg",
+    "description": "1943年，奥地利地区，隶属德国警察部队的一辆ADGZ型8轮重型装甲车。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_24.jpg",
+    "description": "1944年，南斯拉夫地区，隶属德国武装党卫军第7“欧根亲王”志愿山地师的一辆ADGZ型8轮重型装甲车。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_25.jpg",
+    "description": "1937年，在奥地利，正在进行训练的一辆ADGZ型8轮重型装甲车。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_26.jpg",
+    "description": "这是交付给德国武装党卫军师的一辆ADGZ型8轮重型装甲车。注意该车装载有4名乘员，其发动机散热翼片是置放在车体前上方的。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_27.jpg",
+    "description": "1939年9月，德军入侵波兰，在但格斯克城中作战的德国党卫军警察部队的一辆ADGZ型8轮重型装甲车正掩护士兵沿着街道向邮政大厦前进。注意车后印有党卫军与骷髅的标志。注：德国武装党卫军第3“骷髅“装甲师在波兰战役后成立，此党卫军警察部队后来也成为该师的一部分。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_28.jpg",
+    "description": "1939年9月，德军入侵波兰，正在但格斯克城中与德军士兵协同作战的德国党卫军警察部队的一辆ADGZ型8轮重型装甲车，远处是正在燃烧的一座大楼是但格斯克的邮政大厦。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_wavADGZ_29.jpg",
+    "description": "1943年冬天，德国武装党卫军第7“欧根亲王”志愿山地师的一辆ADGZ型8轮重型装甲车正在行进在克罗地亚地区，注意该车炮塔上铺有一面德国旗用作防空识别。",
+    "caption": ""
+  }]
+}
