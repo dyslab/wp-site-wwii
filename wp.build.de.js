@@ -301,6 +301,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_wav223s',
+    title: 'Sdkfz系列4轮装甲通讯车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_army_wav231',
     title: 'Sdkfz 231型轮式（8轮）装甲侦察车'
   },
