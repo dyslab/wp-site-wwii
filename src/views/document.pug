@@ -26,10 +26,10 @@ block content
             |  
             span.h3.custom-text-shadow-1px!= body.part1title
         if body.part1description != ''
-          div.mb-3
+          div.mb-4
             span.custom-document-content-p1!= body.part1description
         each p1item in body.part1content
-          div.row.mb-3
+          div.row.mb-4
             div.col-lg-7.order-1.order-lg-0
               -
                 toParse = p1item.image.indexOf('{{');
