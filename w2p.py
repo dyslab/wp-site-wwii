@@ -6,17 +6,21 @@
         贝到关联项目（gp-site-wwii）相应目录中。相关项目涉及的目录（含子目录）
         和匹配文件清单如下：
             /src/*.json
-            /dist/*.jpg
+            /dist/*.jpg/jpeg/png
 
     使用方法: 
         python3 w2p.py <id>
 
     参数说明：
         id: 必填项，指定拷贝的内容项目编号（如：de_army_avhtv25121、de_navy、de...等皆可）
+
+    注意事项：
+        由于 Bash 中字符 & 为串行命令的特殊连接字符，如果参数中包含字符 & ，请加上Bash转码符号 \，即 "\&"
     
     范例：
         python3 w2p.py de_army_avhtv25121
         python3 w2p.py de_army
+        python3 w2p.py de_army_wav231\&232  # 注释：本行中的参数实际为 "de_army_wav231&232"
         ...
 
     运行命令行 'python3 w2p.py -h' 获取帮助.
@@ -32,7 +36,7 @@
 '''
 from pathlib import Path, PurePath
 from shutil import copy
-import argparse, re
+import argparse, re, glob
 
 # 同步拷贝函数
 def synCopyFiles(pattern):
@@ -57,8 +61,8 @@ def synCopyFiles(pattern):
                 print(targetFilePath.parent)
                 # Path.mkdir(targetFilePath.parent, parents=True, exist_ok=True)
             copy(str(sourceFilePath), str(targetFilePath))
-            print('\t#{}: Copy file {} -> {} OK!'.format(
-                counter,
+            print('{:>5}: COPY [{}] -> [{}] OK!'.format(
+                '#' + str(counter),
                 _getRelativePath(sourceFilePath), 
                 _getRelativePath(targetFilePath)
             ))
@@ -71,29 +75,35 @@ def synCopyFiles(pattern):
     sPath = Path(srcPath)
     dPath = Path(destPath)
         
-    print('自动同步拷贝目录下文件\nFrom: {} \nTo: {}'.format(sPath, dPath))
+    print('\nW2P.PY 自动同步拷贝目录下文件\n\nFROM [{}] TO [{}]\n'.format(sPath, dPath))
     counter = 0 # 文件操作计数器
     # 处理src子目录下的相关json文件
-    for x in sPath.rglob('src/**/{}*.json'.format(pattern)):
+    matchFiles = sorted(sPath.glob('src/**/{}*.json'.format(pattern)))
+    for x in matchFiles:
         counter = _synCopyFile(x, sPath, dPath, counter)
     # 按照pattern内容，特别处理src子目录的类别json文件（如：de_army.json）
     pat = pattern.split('_')
     s = ''
     for it in pat[0:-1]:
         s = it if s == '' else '{}_{}'.format(s, it)
-        for x in sPath.rglob('src/**/{}.json'.format(s)):
+        matchFiles = sorted(sPath.glob('src/**/{}.json'.format(s)))
+        for x in matchFiles:
             counter = _synCopyFile(x, sPath, dPath, counter)
     # 特别处理src/js_index目录的json文件（含logs.json日志更新文件）
-    for x in sPath.rglob('src/js_index/*.json'):
+    matchFiles = sorted(sPath.glob('src/js_index/*.json'))
+    for x in matchFiles:
         counter = _synCopyFile(x, sPath, dPath, counter)
-    # 处理dist子目录下的相关jpg和jpeg文件
-    for x in sPath.rglob('dist/**/{}*.jpg'.format(pattern)):
-        counter = _synCopyFile(x, sPath, dPath, counter)
-    for x in sPath.rglob('dist/**/{}*.jpeg'.format(pattern)):
+    # 处理dist子目录下的相关png、jpg和jpeg文件
+    matchFiles = sorted(sPath.glob('dist/**/{}*.png'.format(pattern))) \
+        + sorted(sPath.glob('dist/**/{}*.jpg'.format(pattern))) \
+        + sorted(sPath.glob('dist/**/{}*.jpeg'.format(pattern)))
+    for x in matchFiles:
         counter = _synCopyFile(x, sPath, dPath, counter)
 
     if counter == 0:
-        print('没有操作相关文件。')
+        print('\n提示：无法找到相关文件！\n')
+    else:
+        print('\n提示：操作完成，已复制{}个文件！\n'.format(counter))
 
 # --------------------------------------------------------------------------
 # 主进程分割符
@@ -103,17 +113,10 @@ parser.add_argument('id', type=str, nargs=1, help='必填项，指定拷贝的�
 args = parser.parse_args()
 
 if len(args.id) == 1:
-    # 判断参数是否包括文件通配符 "*"
-    if args.id[0].find('*') != -1:
-        q = input('提示：你输入的参数中含有文件通配符"*”，此操作可能会匹配大量文件，请确认是否继续？（Yes/No）').upper()
-        if not ((q == 'Y') or (q == 'YES')):
-            exit(0)
-        else:
-            if args.id[0][-1] == '*':
-                args.id[0] = re.sub('\*+$', '', args.id[0])
+    # 采用 glob.escape 对特殊字符('?', '*' 和 '[')转码
+    args.id[0] = glob.escape(args.id[0])
 
     try:
         synCopyFiles(args.id[0])
     except OSError as e:
         print(e)
-
