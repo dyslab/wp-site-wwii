@@ -6,7 +6,7 @@
     "name": "陆战武器",
     "link": "de_army"  
   }, {
-    "name": "轮式装甲车辆",
+    "name": "轮式装甲车",
     "link": "de_army#de_army_wav"  
   }],
   "model": "Sdkfz 231型轮式（8轮）装甲侦察车", 

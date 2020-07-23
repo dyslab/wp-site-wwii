@@ -341,6 +341,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtOpel',
+    title: '欧宝（闪电）军用卡车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
