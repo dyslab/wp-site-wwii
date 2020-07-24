@@ -346,6 +346,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtBenz',
+    title: '奔驰军用卡车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

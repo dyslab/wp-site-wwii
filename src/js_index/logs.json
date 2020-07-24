@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-07-25",
+        "image": "imgs/de/army/de_army_mtBenz_11.jpg",
+        "id": "de_army_mtBenz",
+        "message": "新增内容：奔驰军用卡车。"
+    }, {
         "date": "2020-07-24",
         "image": "imgs/de/army/de_army_mtOpel_11.jpg",
         "id": "de_army_mtOpel",
