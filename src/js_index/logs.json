@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-07-27",
+        "image": "imgs/de/army/de_army_mtFord_11.jpg",
+        "id": "de_army_mtFord",
+        "message": "新增内容：福特军用卡车。"
+    }, {
         "date": "2020-07-25",
         "image": "imgs/de/army/de_army_mtBenz_11.jpg",
         "id": "de_army_mtBenz",

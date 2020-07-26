@@ -351,6 +351,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtFord',
+    title: '福特军用卡车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
