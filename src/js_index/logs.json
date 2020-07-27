@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-07-28",
+        "image": "imgs/de/army/de_army_mtOther_11.jpg",
+        "id": "de_army_mtOther",
+        "message": "新增内容：其它品牌军用卡车。"
+    }, {
         "date": "2020-07-27",
         "image": "imgs/de/army/de_army_mtFord_11.jpg",
         "id": "de_army_mtFord",
