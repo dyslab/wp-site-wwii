@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-07-30",
+        "image": "imgs/de/army/de_army_mtsBenz_11.jpg",
+        "id": "de_army_mtsBenz",
+        "message": "新增内容：奔驰军用小车。"
+    }, {
+        "date": "2020-07-30",
+        "image": "imgs/de/army/de_army_mtsHorch_11.jpg",
+        "id": "de_army_mtsHorch",
+        "message": "新增内容：霍希军用小车。"
+    }, {
         "date": "2020-07-29",
         "image": "imgs/de/army/de_army_mtsVW_11.jpg",
         "id": "de_army_mtsVW",

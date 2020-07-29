@@ -366,6 +366,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtsHorch',
+    title: '霍希军用小车'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_mtsBenz',
+    title: '奔驰军用小车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
