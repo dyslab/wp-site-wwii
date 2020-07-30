@@ -376,6 +376,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtsSteyr',
+    title: '斯太尔军用小车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

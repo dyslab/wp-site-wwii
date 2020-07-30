@@ -1,0 +1,52 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "军用小车",
+    "link": "de_army#de_army_mts"  
+  }],
+  "model": "斯太尔军用小车", 
+  "description": "<p>斯太尔（Steyr）军用小车是二战开始后才正式装备德军，型号主要为斯太尔1500A（Steyr typ 1500A/2000A），其中斯太尔1500A/01型小车设备配置较高，车身坚固耐用，安装了空气冷却的8缸发动机动力，动力系统强劲，有良好的越野性能，且可乘坐8人之多，因而大多被德军用作高级军官战场专用的指挥车，也有部分用作德国高官的座驾，到了战争后期，还有一些被改作了运兵车用。</p><p>该型车从1941年到1942年在奥地利斯太尔工厂一共生产了12450辆。</p>",
+  "part1title": "主要型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/de/army/de_army_mtsSteyr_11.jpg",
+    "description": "<h6>斯太尔1500A军用指挥车<br>Steyr 1500A</h6><p></p><p>技术参数：</p><p>车长：5.08米，车宽：2.03米，车高：2.32米，车重：2.50吨；</p><p>有效载荷：1.675吨；</p><p>发动机：Steyr 3.5Ⅰ/V8，最大功率：85马力；油箱油量：100升；</p><p>最高时速：公路90公里/小时；</p><p>公路最大行程（满载油缸）：400公里，越野最大行程：280公里。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的奔驰军用小车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_mtsSteyr_12.jpg",
+    "description": "1944年春天，东线战场罗马尼亚地区，隶属德军“大德意志”装甲师的一辆斯太尔1500A军用指挥车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_mtsSteyr_13.jpg",
+    "description": "1945年1月，东线战场波兰地区，隶属德军第4 装甲师的一辆斯太尔1500A军用指挥车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_mtsSteyr_14.jpg",
+    "description": "1944年6月，西线战场法国地区，隶属德军101重装营第1连的一辆斯太尔1500A军用指挥车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_mtsSteyr_15.jpg",
+    "description": "一辆德军高级军官用的斯太尔1500A军用指挥车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_mtsSteyr_16.jpg",
+    "description": "1942年，东线苏联战场，德军第22高炮营车队在南部地区的泥泞路上行进，前面一辆是斯太尔1500A军用指挥车，后面跟着的是一辆牵引着20mm火炮的1吨轻型半履带运输车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_mtsSteyr_17.jpg",
+    "description": "1944年春天，从东线苏联战场后撒的一支德军医疗车队，车队中有斯太尔1500A军用小车，以及大众（VW)和布辛4.5吨卡车。",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_mtsSteyr_18.jpg",
+    "description": "一辆用斯太尔1500A改装的运兵车，车上载有一个班的德军士兵，车上还有2支用于反坦克的“铁拳”火箭筒。",
+    "caption": ""
+  }]
+}

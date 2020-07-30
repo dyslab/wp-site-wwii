@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-07-31",
+        "image": "imgs/de/army/de_army_mtsSteyr_11.jpg",
+        "id": "de_army_mtsSteyr",
+        "message": "新增内容：斯太尔军用小车。"
+    }, {
         "date": "2020-07-30",
         "image": "imgs/de/army/de_army_mtsBenz_11.jpg",
         "id": "de_army_mtsBenz",
