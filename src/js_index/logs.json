@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-08-01",
+        "image": "imgs/de/army/de_army_mtsOther_11.jpg",
+        "id": "de_army_mtsOther",
+        "message": "新增内容：德国 - 其它品牌军用小车。"
+    }, {
         "date": "2020-07-31",
         "image": "imgs/de/army/de_army_mtsSteyr_11.jpg",
         "id": "de_army_mtsSteyr",
