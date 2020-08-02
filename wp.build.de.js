@@ -386,6 +386,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtmBMW',
+    title: '宝马军用摩托车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
