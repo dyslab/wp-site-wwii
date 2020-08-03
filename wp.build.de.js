@@ -386,6 +386,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_mtmZDP',
+    title: '春达普（Zϋndapp）军用摩托车'
+  },
+  {
+    folder: 'js_de',
     id: 'de_army_mtmBMW',
     title: '宝马军用摩托车'
   },
