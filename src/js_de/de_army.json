@@ -495,5 +495,11 @@
     "link": "de_army_mtmZDP",
     "image": "imgs/de/army/de_army_mtmZDP_11.jpg",
     "intro": "春达普（Zϋndapp）军用摩托车是以二战前的民用摩托车为基础改装的，与宝马军用摩托车一样，它也是德军装备数量最多的军用摩托车之一，型号有K500、K600、K800和KS500、KS600、KS750等。 春达普（Zϋndapp）军用摩托车的结构简洁粗壮，特别结实，关键的支撑件用钢管制作，因此能适应各种恶劣环境，可靠性十分好，坚固耐用，也很受德军的欢迎。"
+  },
+  {
+    "model": "DKW和NSU军用摩托车",
+    "link": "de_army_mtmDKW&NSU",
+    "image": "imgs/de/army/de_army_mtmDKW&NSU_11.jpg",
+    "intro": "二战中，德军部队还拥有DKW公司和NSU公司生产的军用摩托车，其中DKW主要型号有DKW RT100、DKW RT125、DKW NZ350和DKW NZ500；而NSU则有NSU 251OS、NSU 501和NSU 601OSL；虽然这些军用摩托车数量较少，整体性能亦不如宝马（BMW）和春达普（Zϋndapp），但也是组成德军摩托化部队的一支重要力量。"
   }]
 }
