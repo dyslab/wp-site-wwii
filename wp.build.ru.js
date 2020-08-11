@@ -1,6 +1,16 @@
 const fileIDs = [
   {
     folder: 'js_ru',
+    id: 'ru_shortcut',
+    title: '快捷目录'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army',
+    title: '陆战武器'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_tankt26',
     title: 'T-26轻型坦克'
   },
@@ -61,13 +71,8 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
-    id: 'ru_army',
-    title: '陆战武器'
-  },
-  {
-    folder: 'js_ru',
-    id: 'ru_shortcut',
-    title: '快捷目录'
+    id: 'ru_army_spvISU122',
+    title: 'ISU-122型自行炮车'
   }
 ];
 
