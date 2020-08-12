@@ -1,7 +1,12 @@
 [
     {
+        "date": "2020-08-13",
+        "image": "imgs/ru/army/ru_army_rltBM13_01.jpg",
+        "id": "ru_army_rltBM13",
+        "message": "新增内容：苏联 - BM-13型自行火箭炮车。"
+    }, {
         "date": "2020-08-12",
-        "image": "imgs/de/army/ru_army_spvISU122_01.jpg",
+        "image": "imgs/ru/army/ru_army_spvISU122_01.jpg",
         "id": "ru_army_spvISU122",
         "message": "新增内容：苏联 - ISU-122型自行炮车。"
     }, {
