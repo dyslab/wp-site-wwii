@@ -1,23 +1,42 @@
 {
   "background": "imgs/index-bg.jpg",
   "title": "第二次世界大战",
-  "subtitle": "WWII 图史与纪实",
+  "subtitle": "WWII 武器资料库",
   "links":  [
     {
-      "title": "武器篇",
-      "href": "wwii_weapon"
+      "title": "德国",
+      "code": "de",
+      "href": "de_shortcut"
     },
     {
-      "title": "战场篇",
-      "href": ""
+      "title": "意大利",
+      "code": "it",
+      "href": "it_shortcut"
     },
     {
-      "title": "人事篇",
-      "href": ""
+      "title": "日本",
+      "code": "jp",
+      "href": "jp_shortcut"
     },
     {
-      "title": "物事篇",
-      "href": ""
+      "title": "美国",
+      "code": "us",
+      "href": "us_shortcut"
+    },
+    {
+      "title": "英国",
+      "code": "uk",
+      "href": "uk_shortcut"
+    },
+    {
+      "title": "法国",
+      "code": "fr",
+      "href": "fr_shortcut"
+    },
+    {
+      "title": "苏联",
+      "code": "ru",
+      "href": "ru_shortcut"
     }
   ]
 }

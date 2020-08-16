@@ -10,10 +10,12 @@ block content
       div.mt-5
         each linkitem in index.links
           if (linkitem.href == '') || (linkitem.href == '###')
-            span.custom-index-link.text-secondary.ml-3.mr-3= linkitem.title
+            span.custom-index-link.text-secondary.mx-3.my-3= linkitem.title
           else
-            a.custom-index-link.custom-text-shadow-1px.ml-3.mr-3(href= `./${linkitem.href}.html`)= linkitem.title
-      div.text-left.mt-5.p-3
+            //- a.custom-index-link.custom-text-shadow-1px.ml-3.mr-3(href= `./${linkitem.href}.html`)= linkitem.title
+            a.custom-index-link.custom-text-shadow-1px.mx-3(href= `./${linkitem.href}.html`)
+              img.rounded.custom-category-img-link.my-3(src=`imgs/${linkitem.code}_nationalflag.jpg`, alt=linkitem.title, title=linkitem.title)
+      div.text-left.mt-3.p-3
         each logitem, id in logs
           if (id < 5)
             a.text-white(href= `./${logitem.id}.html`)
