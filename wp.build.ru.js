@@ -71,18 +71,28 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_spvSU76',
+    title: 'SU-76型自行突击炮车'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_spvSU152',
+    title: 'SU-152型自行榴弹炮车'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_spvISU122',
     title: 'ISU-122型自行炮车'
   },
   {
     folder: 'js_ru',
-    id: 'ru_army_rltBM13',
-    title: 'BM-13型自行火箭炮车'
+    id: 'ru_army_spvISU152',
+    title: 'ISU-152型自行突击炮车'
   },
   {
     folder: 'js_ru',
-    id: 'ru_army_spvSU76',
-    title: 'SU-76型自行突击炮车'
+    id: 'ru_army_rltBM13',
+    title: 'BM-13型自行火箭炮车'
   }
 ];
 

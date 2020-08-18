@@ -1,0 +1,60 @@
+{
+  "category": [{
+    "name": "苏联",
+    "link": "ru_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "ru_army"  
+  }, {
+    "name": "自行炮车",
+    "link": "ru_army#ru_army_spv"  
+  }],
+  "model": "ISU-152型自行突击炮车", 
+  "description": "<h6>综述：</h6><p>ISU-152自行突击炮车是二战中期苏军在IS重型坦克基础上研制改进的一种重型突击炮车，它使用了新型的IS重型坦克底盘，安装了与SU-152自行炮车相同的152mm ML-20S型榴弹炮，于1943年夏天正式生产并装备给苏军自行重炮团。相比SU-152自行榴弹炮车，ISU-152自行突击炮车有更厚的装甲防护，并加装了一个重型双层防盾，火炮与SU-152一样，虽然射速较低，但仍可在任意距离上摧毁德军的“虎”式坦克。</p><p>ISU-152自行突击炮车除用作对抗德军的重型坦克外，还担任了对德军重火力点的攻击和对步兵的火力支援任务，1943年底，ISU-152自行突击炮车就逐步替代了SU-152自行炮车，成为苏军的重火力主力装备，在1944年夏天德军战损的12辆“虎”式坦克，其中一半就是由ISU-152自行突击炮车（含部分ISU-122自行炮车）所击毁，因此又有“虎”式杀手的称号。</p><p>ISU-152及其系列型号的自行突击炮车，从1943年至战后的1959年，一共生产了4630多辆。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/ru/army/ru_army_spvISU152_11.jpg",
+    "description": "<h6>ISU-152型自行突击炮车</h6><p>基本技术数据：</p><p>车长：9.18米，车宽3.07米，车高：2.48米，车重：47.3吨；</p><p>最高车速：37千米/小时，最大行程：220千米；</p><p>武器配备：一门ML-20S型152mm榴弹炮；一挺12.5mm重机枪。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的ISU-152型自行突击炮车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/ru/army/ru_army_spvISU152_21.jpg",
+    "description": "1944年7月，东线苏联战场利沃夫地区，隶属苏军第4装甲军第347近卫重炮团的一辆ISU-152型自行突击炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_22.jpg",
+    "description": "1945年1月，东线战场东普鲁士地区，隶属苏联白俄罗斯第2方面军第5近卫坦克军的一辆ISU-152型自行突击炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_23.jpg",
+    "description": "1945年1月，东线战场波兰地区，隶属苏军第384独立重炮团的一辆ISU-152型自行突击炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_24.jpg",
+    "description": "1945年4月，东线战场Breslau地区，隶属苏联第349独立近卫重炮团的一辆ISU-152型自行突击炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_25.jpg",
+    "description": "1944年7月，东线战场，隶属苏联波罗的海第一方面军第6近卫军第333近卫重炮团的一辆ISU-152型自行突击炮车进入刚解放的城市波洛茨克（Polotsk）。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_26.jpg",
+    "description": "1945年4月，东线战场，进攻柯尼斯堡的苏联白俄罗斯第3方面军第50集团军第395近卫重炮团的ISU-152型自行突击炮车正在战斗间隙中休息。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_27.jpg",
+    "description": "1945年3月，东线战场，攻入弗罗茨瓦夫（Wroclav）城的苏联乌克兰第1方面军第6集团军第349近卫重炮团的ISU-152型自行突击炮车正在穿越大街，继续向前线进发。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_28.jpg",
+    "description": "1945年4月30日，驶过德国柏林市中心的一辆苏军ISU-152型自行突击炮车，为了使盟军飞机识别，炮车车身上涂有粗粗一条带状白色标志。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_spvISU152_29.jpg",
+    "description": "1945年5月，德国柏林大街上的一辆苏军ISU-152型自行突击炮车，炮车旁是一队德军的战俘。",
+    "caption": ""
+  }]
+}
