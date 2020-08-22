@@ -1,0 +1,60 @@
+{
+  "category": [{
+    "name": "苏联",
+    "link": "ru_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "ru_army"  
+  }, {
+    "name": "轮式与半履带军车",
+    "link": "ru_army#ru_army_av"  
+  }],
+  "model": "苏军半履带军车", 
+  "description": "<h6>综述：</h6><p>二战前，苏联就有了用吉斯（ZIS）和嘎斯（GAZ）汽车改装的半履带车，二战期间，为了适应在雪地与沼泽地的机动和运输，苏军继续生产和装备这种半履带车，这些车有的用于物资运输与火炮牵引，也有的装载火炮成为有作战能力的炮车。但由于是临时改装，此类车虽然具备一定的越野能力，但整体性能并不够理想，产量也不多，在战场上所起的作用也不大。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/ru/army/ru_army_avhtv_20.jpg",
+    "description": "<h6>吉斯（ZIS）-42型半履带军车</h6><p>用吉斯汽车改装的半履带车的型号有ZIS-22M、ZIS-33和ZIS-42M，其中ZIS-22M在二战前就已经生产，至1940年生产了约200辆，而ZIS-42M则是二战中（1942年）为了解决苏军火炮在恶劣路况上的机动而临时改装而成。</p><p>ZIS-42M半履带车基本技术数据：</p><p>车长：6.097米，车宽：2.36米，车高：2.175米；</p><p>车重：5.25吨，载重：2.25吨；</p><p>发动机：73马力，6缸汽油机；</p><p>最高车速：45千米/小时；</p><p>油箱满载油量：300升。</p>",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_30.jpg",
+    "description": "<h6>嘎斯（GAZ）-60半履带军车</h6><p>嘎斯（GAZ）-60半履带车是二战前苏联用嘎斯AA卡车与法国雪铁龙半履带车结合而成的产物，以应付当时苏联极差路况的运输。1939年，数百辆嘎斯（GAZ）-60半履带车半履带车参加了苏芬战争，在芬兰的雪地峡谷中，这些半履带车故障频出，实战表现并不理想。但毕竟半履带车有着雪地、沼泽的越野能力，为了对抗德军的入侵，1940年苏联仍继续生产了近200辆这种半履带车装备苏军。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的苏军半履带军车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/ru/army/ru_army_avhtv_21.jpg",
+    "description": "1944年夏天，东线苏联战场白俄罗斯地区，隶属苏军火炮部队（不明单位）的一辆ZIS-42M半履带运输车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_22.jpg",
+    "description": "1942年12月，一辆装载一门37mm高射炮的ZIS-42半履带车正在苏联某地的武器试验场进行测试。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_23.jpg",
+    "description": "1941年-1942年冬天，东线苏联战场，一辆改装为前线宣传鼓动车的ZIS-42半履带车，车上除了满载扩音设备外，车外还拖引着一个大喇叭。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_24.jpg",
+    "description": "1944年7月，向前线进发的苏联波罗的海第1方面军一辆牵引着一门37mm高射炮的ZIS-42半履带车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_25.jpg",
+    "description": "在苏联明斯克的一次庆祝二战胜利阅兵中，ZIS-42半履带车牵引着85mm火炮正在通过大街。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_31.jpg",
+    "description": "东线苏联战场，一辆陷入弹坑的苏军嘎斯（GAZ）-60半履带车。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_32.jpg",
+    "description": "东线苏联战场，在泥泞路上行进的苏军嘎斯（GAZ）-60半履带车，车上装载着运往前线的油料。",
+    "caption": ""
+  }, {
+    "image": "imgs/ru/army/ru_army_avhtv_33.jpg",
+    "description": "东线苏联战场，一辆被击毁的苏军嘎斯（GAZ）-60半履带车，车上安装有一门四联机枪。",
+    "caption": ""
+  }]
+}

@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-08-23",
+        "image": "imgs/ru/army/ru_army_avhtv_01.jpg",
+        "id": "ru_army_avhtv",
+        "message": "新增：苏联半履带军车"
+    }, {
         "date": "2020-08-18",
         "image": "imgs/ru/army/ru_army_spvISU152_01.jpg",
         "id": "ru_army_spvISU152",

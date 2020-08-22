@@ -93,6 +93,11 @@ const fileIDs = [
     folder: 'js_ru',
     id: 'ru_army_rltBM13',
     title: 'BM-13型自行火箭炮车'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_avhtv',
+    title: '苏军半履带军车'
   }
 ];
 
