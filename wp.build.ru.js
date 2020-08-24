@@ -101,6 +101,11 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_wav6',
+    title: '苏军重型（6轮）装甲车'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_avhtv',
     title: '苏军半履带军车'
   }

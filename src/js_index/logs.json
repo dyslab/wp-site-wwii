@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-08-25",
+        "image": "imgs/ru/army/ru_army_wav6_01.jpg",
+        "id": "ru_army_wav6",
+        "message": "新增：苏军重型（6轮）装甲车"
+    }, {
         "date": "2020-08-24",
         "image": "imgs/ru/army/ru_army_wav4_01.jpg",
         "id": "ru_army_wav4",
