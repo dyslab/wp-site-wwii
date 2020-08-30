@@ -108,6 +108,16 @@ const fileIDs = [
     folder: 'js_ru',
     id: 'ru_army_avhtv',
     title: '苏军半履带军车'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_mtZIS',
+    title: '吉斯（ZIS）军用卡车'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_mtGAZ',
+    title: '嘎斯（GAZ）军用卡车'
   }
 ];
 
