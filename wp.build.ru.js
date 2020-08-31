@@ -118,6 +118,11 @@ const fileIDs = [
     folder: 'js_ru',
     id: 'ru_army_mtGAZ',
     title: '嘎斯（GAZ）军用卡车'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_mtsGAZ',
+    title: '嘎斯（GAZ）军用小车'
   }
 ];
 

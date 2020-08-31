@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-09-01",
+        "image": "imgs/ru/army/ru_army_mtsGAZ_01.jpg",
+        "id": "ru_army_mtsGAZ",
+        "message": "新增：嘎斯（GAZ）军用小车"
+    }, {
         "date": "2020-08-31",
         "image": "imgs/ru/army/ru_army_mtGAZ_20.jpg",
         "id": "ru_army_mtGAZ",
