@@ -51,6 +51,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_spgunM7',
+      title: 'M7自行火炮'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },
