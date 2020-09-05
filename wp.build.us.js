@@ -56,6 +56,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_spgunM12',
+      title: 'M12自行火炮'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_spgunT34',
+      title: 'T34“希神”自行火箭炮车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

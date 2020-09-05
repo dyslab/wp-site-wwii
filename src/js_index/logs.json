@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-09-06",
+        "image": "imgs/us/army/us_army_spgunT34_01.jpg",
+        "id": "us_army_spgunT34",
+        "message": "新增：美国T34“希神”自行火箭炮车"
+    }, {
+        "date": "2020-09-06",
+        "image": "imgs/us/army/us_army_spgunM12_01.jpg",
+        "id": "us_army_spgunM12",
+        "message": "新增：美国M12自行火炮"
+    }, {
         "date": "2020-09-05",
         "image": "imgs/us/army/us_army_spgunM7_01.jpg",
         "id": "us_army_spgunM7",
