@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-09-09",
+        "image": "imgs/us/army/us_army_avhtvM2_01.jpg",
+        "id": "us_army_avhtvM2",
+        "message": "新增：美国M2半履带装甲车"
+    }, {
         "date": "2020-09-06",
         "image": "imgs/us/army/us_army_spgunT34_01.jpg",
         "id": "us_army_spgunT34",
