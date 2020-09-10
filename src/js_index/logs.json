@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-09-11",
+        "image": "imgs/us/army/us_army_avhtvT19&T30_01.jpg",
+        "id": "us_army_avhtvT19&T30",
+        "message": "新增：美国T19/T30半履带装甲车"
+    }, {
+        "date": "2020-09-11",
+        "image": "imgs/us/army/us_army_avhtvM15&M16_01.jpg",
+        "id": "us_army_avhtvM15&M16",
+        "message": "新增：美国M15/M16半履带装甲车"
+    }, {
         "date": "2020-09-10",
         "image": "imgs/us/army/us_army_avhtvM3_01.jpg",
         "id": "us_army_avhtvM3",

@@ -76,6 +76,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_avhtvM15&M16',
+      title: 'M15/M16半履带装甲车'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_avhtvT19&T30',
+      title: 'T19/T30半履带装甲车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },
