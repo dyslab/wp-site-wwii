@@ -86,6 +86,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_wavM3',
+      title: 'M3四轮装甲车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

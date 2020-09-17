@@ -1,0 +1,83 @@
+[
+    {
+        "date": "2019-12-27",
+        "image": "imgs/de/army/de_army_avhtv25116_01.jpg",
+        "id": "de_army_avhtv25116",
+        "message": "新增：251/16型半履带装甲喷火车"
+    }, {
+        "date": "2019-12-25",
+        "image": "imgs/de/army/de_army_avhtv2514_01.jpg",
+        "id": "de_army_avhtv2514",
+        "message": "新增：251/4型半履带装甲火炮牵引（弹药运载）车"
+    }, {
+        "date": "2019-12-23",
+        "image": "imgs/de/army/de_army_avhtv2518_01.jpg",
+        "id": "de_army_avhtv2518",
+        "message": "新增：251/8型半履带装甲救护车"
+    }, {
+        "date": "2019-12-20",
+        "image": "imgs/de/army/de_army_avhtv252_01.jpg",
+        "id": "de_army_avhtv252",
+        "message": "新增：252型半履带装甲弹药运载车"
+    }, {
+        "date": "2019-12-18",
+        "image": "imgs/de/army/de_army_avhtv25xa_01.jpg",
+        "id": "de_army_avhtv25xa",
+        "message": "新增：250、251系列半履带装甲炮兵观测车"
+    }, {
+        "date": "2019-12-14",
+        "image": "imgs/de/army/de_army_avhtv253_01.jpg",
+        "id": "de_army_avhtv253",
+        "message": "新增：253型半履带装甲炮兵观测车"
+    }, {
+        "date": "2019-12-12",
+        "image": "imgs/de/army/de_army_avhtv2516_01.jpg",
+        "id": "de_army_avhtv2516",
+        "message": "新增：251/6型半履带装甲指挥车"
+    }, {
+        "date": "2019-12-08",
+        "image": "imgs/de/army/de_army_avhtv2513_01.jpg",
+        "id": "de_army_avhtv2513",
+        "message": "新增：251/3型半履带装甲通讯指挥车"
+    }, {
+        "date": "2019-12-04",
+        "image": "imgs/de/army/de_army_avhtv2503_01.jpg",
+        "id": "de_army_avhtv2503",
+        "message": "新增：250/3型半履带装甲通讯指挥车"
+    }, {
+        "date": "2019-11-30",
+        "image": "imgs/de/army/de_army_avhtv2509_01.jpg",
+        "id": "de_army_avhtv2509",
+        "message": "新增：250/9型半履带装甲侦察车"
+    }, {
+        "date": "2019-11-30",
+        "image": "imgs/de/army/de_army_avhtv104&105_01.jpg",
+        "id": "de_army_avhtv104&105",
+        "message": "新增：Sd Kfz 10/4、10/5型半履带防空炮车"
+    }, {
+        "date": "2019-11-26",
+        "image": "imgs/de/army/de_army_avhtv71&72_01.jpg",
+        "id": "de_army_avhtv71&72",
+        "message": "新增：Sd Kfz 7/1、7/2型半履带防空炮车"
+    }, {
+        "date": "2019-11-24",
+        "image": "imgs/de/army/de_army_avhtv25121_01.jpg",
+        "id": "de_army_avhtv25121",
+        "message": "新增：251/21型半履带装甲防空炮车"
+    }, {
+        "date": "2019-11-23",
+        "image": "imgs/de/army/de_army_avhtv25117_01.jpg",
+        "id": "de_army_avhtv25117",
+        "message": "新增：251/17型半履带装甲防空炮车"
+    }, {
+        "date": "2019-11-20",
+        "image": "imgs/de/army/de_army_avhtv2507&2512_01.jpg",
+        "id": "de_army_avhtv2507&2512",
+        "message": "新增：250/7、251/2型半履带装甲迫击炮车"
+    }, {
+        "date": "2019-11-19",
+        "image": "imgs/de/army/de_army_avhtv2511&Kfz4_01.jpg",
+        "id": "de_army_avhtv2511&Kfz4",
+        "message": "新增：251/1、Sd Kfz 4/1型半履带装甲火箭炮车"
+    }
+]
