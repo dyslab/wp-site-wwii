@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-09-19",
+        "image": "imgs/us/army/us_army_wavM20_01.jpg",
+        "id": "us_army_wavM20",
+        "message": "新增：美国M20通用轮式装甲车"
+    }, {
+        "date": "2020-09-19",
+        "image": "imgs/us/army/us_army_wavM8_01.jpg",
+        "id": "us_army_wavM8",
+        "message": "新增：美国M8六轮装甲车"
+    }, {
         "date": "2020-09-18",
         "image": "imgs/us/army/us_army_wavM3_01.jpg",
         "id": "us_army_wavM3",

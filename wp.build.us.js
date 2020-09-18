@@ -91,6 +91,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_wavM8',
+      title: 'M8六轮装甲车'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_wavM20',
+      title: 'M20通用轮式装甲车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },
