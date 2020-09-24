@@ -1,0 +1,56 @@
+{
+  "category": [{
+    "name": "美国",
+    "link": "us_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "us_army"  
+  }, {
+    "name": "军用卡车与军用小车",
+    "link": "us_army#us_army_mt"
+  }],
+  "model": "斯多德贝克US6型军用卡车", 
+  "description": "<h6>综述：</h6><p>斯多德贝克（Studebacker）US6型2.5吨卡车是二战中较有名的一种军用卡车，但这种卡车只有少数装备给美军，大多数根据租借法案援助给了苏联。US6型卡车由美国印第安纳州的斯多德贝克公司研制，生产数量有21万辆，有约1.9万辆援助了苏联，并有部分由苏联自己生产；这些卡车主要用作运输人员与物资，牵引火炮等用途，也有不少改装为加油车，炮车等专用车。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/us/army/us_army_mtStudebacker_11.jpg",
+    "description": "<h6>斯多德贝克US6型2.5吨军用卡车</h6><p>基本技术数据：</p><p>车长：6.365米，车宽：2.23米，车高：2.7米；</p><p>自重：4.875吨，有效载荷：2.5吨，全重：7.375吨；</p><p>汽油发动机： 6缸，功率：95马力、转速：2500转/秒；</p><p>油箱容量：150升，单位油耗：38.5升/100千米；</p><p>最高车速：公路：69千米/小时；</p><p>最大行程：390千米。</p>",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_12.jpg",
+    "description": "<h6>斯多德贝克US6 U-4型加油车</h6><p>基本技术数据：</p><p>储油量为5460公升。</p>",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_13.jpg",
+    "description": "<h6>斯多德贝克US6 U-5型加油车</h6><p>基本技术数据：</p><p>储油量为5460公升。</p>",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_14.jpg",
+    "description": "<h6>斯多德贝克US6 U-7型军用卡车</h6><p>生产日期为1941年至1945年，主要供苏军使用，并允许苏联自行生产。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的斯多德贝克US6型军用卡车",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/us/army/us_army_mtStudebacker_21.jpg",
+    "description": "1945年5月，捷克斯洛伐克，隶属苏联乌克兰第二方面军的一辆斯多德贝克US6军用卡车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_22.jpg",
+    "description": "1943年8月，东线苏联战场，隶属苏联草原方面军的一辆斯多德贝克US6军用卡车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_23.jpg",
+    "description": "1943年8月，东线苏联战场，隶属苏联第6近卫步兵师的一辆用斯多德贝克US6军用卡车改装的BM-13-16型火箭炮车。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_24.jpg",
+    "description": "1944年9月，东线战场，隶属苏军第4步兵师第4运输大队的斯多德贝克US6军用卡车正整装待发。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_mtStudebacker_25.jpg",
+    "description": "1944年7月，东线战场，一辆斯多德贝克US6军用卡车牵引着一门122mm榴弹炮正驶过波兰卢布林街道。",
+    "caption": ""
+  }]
+}

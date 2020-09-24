@@ -101,6 +101,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_mtStudebacker',
+      title: '斯多德贝克US6型军用卡车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

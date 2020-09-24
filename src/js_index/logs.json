@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-09-25",
+        "image": "imgs/us/army/us_army_mtStudebacker_01.jpg",
+        "id": "us_army_mtStudebacker",
+        "message": "新增：美国斯多德贝克US6型军用卡车"
+    }, {
         "date": "2020-09-19",
         "image": "imgs/us/army/us_army_wavM20_01.jpg",
         "id": "us_army_wavM20",
