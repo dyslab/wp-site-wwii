@@ -106,6 +106,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_mtGMC353',
+      title: '通用DUKW353型轮式水陆两栖运输车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

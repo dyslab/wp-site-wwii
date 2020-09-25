@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-09-26",
+        "image": "imgs/us/army/us_army_mtGMC353_01.jpg",
+        "id": "us_army_mtGMC353",
+        "message": "新增：美国通用DUKW353型轮式水陆两栖运输车"
+    }, {
         "date": "2020-09-25",
         "image": "imgs/us/army/us_army_mtStudebacker_01.jpg",
         "id": "us_army_mtStudebacker",
