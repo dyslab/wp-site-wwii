@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-09-27",
+        "image": "imgs/us/army/us_army_mtRedBall_01.jpg",
+        "id": "us_army_mtRedBall",
+        "message": "新增：美国“红球特快”行动中的其它军用汽车"
+    }, {
         "date": "2020-09-26",
         "image": "imgs/us/army/us_army_mtGMC353_01.jpg",
         "id": "us_army_mtGMC353",

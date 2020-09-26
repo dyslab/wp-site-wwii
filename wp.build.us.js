@@ -111,6 +111,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_mtRedBall',
+      title: '“红球特快”行动中的其它军用汽车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },
