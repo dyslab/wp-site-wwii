@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-09-28",
+        "image": "imgs/us/army/us_army_mtMB_01.jpg",
+        "id": "us_army_mtMB",
+        "message": "新增：美国威利MB吉普车"
+    }, {
+        "date": "2020-09-28",
+        "image": "imgs/us/army/us_army_mtCCKW_01.jpg",
+        "id": "us_army_mtCCKW",
+        "message": "新增：美国通用CCKW型军用卡车"
+    }, {
         "date": "2020-09-27",
         "image": "imgs/us/army/us_army_mtRedBall_01.jpg",
         "id": "us_army_mtRedBall",
