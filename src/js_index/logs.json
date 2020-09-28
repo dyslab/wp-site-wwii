@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-09-29",
+        "image": "imgs/us/army/us_army_lvt2_01.jpg",
+        "id": "us_army_lvt2",
+        "message": "新增：美国LVT2两栖装甲车"
+    }, {
+        "date": "2020-09-29",
+        "image": "imgs/us/army/us_army_lvt1_01.jpg",
+        "id": "us_army_lvt1",
+        "message": "新增：美国LVT1两栖装甲车"
+    }, {
         "date": "2020-09-28",
         "image": "imgs/us/army/us_army_mtMB_01.jpg",
         "id": "us_army_mtMB",
