@@ -136,6 +136,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_lvt3',
+      title: 'LVT3两栖装甲车'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_lvt4',
+      title: 'LVT4两栖装甲车'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },
