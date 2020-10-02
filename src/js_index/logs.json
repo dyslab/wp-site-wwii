@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-10-03",
+        "image": "imgs/de/army/de_army_tank35_01.jpg",
+        "id": "de_army_tank35",
+        "message": "更新：德国35（t）坦克"
+    }, {
         "date": "2020-09-30",
         "image": "imgs/us/army/us_army_lvt4_01.jpg",
         "id": "us_army_lvt4",
