@@ -501,5 +501,17 @@
     "link": "de_army_mtmDKW&NSU",
     "image": "imgs/de/army/de_army_mtmDKW&NSU_11.jpg",
     "intro": "二战中，德军部队还拥有DKW公司和NSU公司生产的军用摩托车，其中DKW主要型号有DKW RT100、DKW RT125、DKW NZ350和DKW NZ500；而NSU则有NSU 251OS、NSU 501和NSU 601OSL；虽然这些军用摩托车数量较少，整体性能亦不如宝马（BMW）和春达普（Zϋndapp），但也是组成德军摩托化部队的一支重要力量。"
+  },
+  {
+    "model": "火炮",
+    "link": "de_army_cannon",
+    "image": "",
+    "intro": "###"
+  },
+  {
+    "model": "37mm Pak 35/36型反坦克炮",
+    "link": "de_army_cannonPak3536",
+    "image": "imgs/de/army/de_army_cannonPak3536_01.jpg",
+    "intro": "37mm Pak 35/36型火炮是德军二战早期的一种小口径反坦克炮，在二战前已装备德军，后经过改进于1936年定名；该炮有着倾斜的防护钢板，安装了钢内框橡胶轮胎，其防护力与机动力在当时都是不错的，火炮口径虽小，但对付轻型坦克与装甲车是卓卓有余的，在西班牙内战与波兰战役中都有不错的表现，但随着战争的发展，37mm火炮面对英法及苏联的中、重型坦克，就显得软弱无力了，到了1942年底，尽管还有一些37mm Pak 35/36型反坦克炮仍在德军的反坦克连队中使用，但大部分都已被更大口径的反坦克炮替代了。"
   }]
 }
