@@ -1,9 +1,14 @@
 [
     {
+        "date": "2020-10-13",
+        "image": "imgs/de/army/de_army_cannonPak38_01.jpg",
+        "id": "de_army_cannonPak38",
+        "message": "新增：德国50mm Pak38型反坦克炮"
+    }, {
         "date": "2020-10-08",
         "image": "imgs/de/army/de_army_cannonPak3536_01.jpg",
         "id": "de_army_cannonPak3536",
-        "message": "新增：德国37mm Pak 35/36型反坦克炮"
+        "message": "新增：德国37mm Pak35/36型反坦克炮"
     }, {
         "date": "2020-10-03",
         "image": "imgs/de/army/de_army_tank35_01.jpg",

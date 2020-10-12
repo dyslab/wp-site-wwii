@@ -402,7 +402,12 @@ const fileIDs = [
   {
     folder: 'js_de',
     id: 'de_army_cannonPak3536',
-    title: '37mm Pak 35/36型反坦克炮'
+    title: '37mm Pak35/36型反坦克炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonPak38',
+    title: '50mm Pak38型反坦克炮'
   },
   {
     folder: 'js_de',
