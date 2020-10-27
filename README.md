@@ -1,8 +1,8 @@
-# wp-site-wwii (Webpack构建的二战军事资料库网站)
+# wp-site-wwii (Webpack4构建的二战军事资料库网站)
 
-![Project version](https://img.shields.io/badge/version-v1.8-green)
+![Webpack version](https://img.shields.io/badge/-Webpack%204-blue) ![Project version](https://img.shields.io/badge/version-v1.8-green)
 
-Purpose to build a static military documentary website developed by webpack + express + pug based on node.js framework.
+Purpose to build a static military documentary website developed by webpack4 + express + pug based on node.js framework.
 
 Related Project (Powered By Gulp Framework) : **[gp-site-wwii](https://dev.tencent.com/u/vincentzhcn/p/gp-site-wwii)** on Tencent Git. 
 
