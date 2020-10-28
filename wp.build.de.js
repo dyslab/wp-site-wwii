@@ -416,6 +416,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannon88at',
+    title: '88mm反坦克炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

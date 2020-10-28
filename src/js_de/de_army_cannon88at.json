@@ -1,0 +1,87 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "火炮",
+    "link": "de_army#de_army_cannon"  
+  }],
+  "model": "88mm反坦克炮", 
+  "description": "<p>二战期间，德军使用88mm高射炮平射来对付苏军与美英的中、重型坦克，取得了极好的战绩，由此，德军在1943年，在88mm Flak41型高射炮的基础上开发了专门用作与敌方坦克作战的88mm反坦克火炮，该炮有2种型号，分别是88mm Pak43型和88mm Pak43/41型，其性能区别不大，都具有射程远、炮弹穿透力高的优点，缺点是重量大、机动性能不够理想。</p><p>88mm反坦克火炮是德军一种威力强大的反坦克武器，在1000米距离内，二战战场上各种型号的中、重型坦克与各类自行炮车，都能被88mm反坦克炮的穿甲弹正面击穿，因此可以说该炮也是二战中性能最好的反坦克炮。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "{{text}}88mm Pak43型反坦克炮多视角图{{image}}imgs/de/army/de_army_cannon88at_11.jpg{{text}}说明：<br><ol><li>1944年改用轮式支撑炮架；</li><li>战斗状态时使用十字交叉式支撑炮架。</li></ol>{{image}}imgs/de/army/de_army_cannon88at_12.jpg",
+    "description": "<h6>88mm Pak43型反坦克炮</h6><p></p><p>技术数据：（括号内为88mm Pak43/41型的数据）</p><p>火炮口径：88mm；</p><p>炮长：9.2米（9.144米）；</p><p>炮宽：约2.5米（2.527米）；</p><p>炮高：1.7米（1.981米）；</p><p>炮管长：6.35米（6.36米）；</p><p>火炮重：战斗3.65吨（4.35吨）；</p><p>火炮射界：水平360度（56度），垂直：-8～40度（-5～38度）；</p><p>射速：6～10发/分钟。</p>",
+    "caption": ""
+  }, {
+    "image": "{{image}}imgs/de/army/de_army_cannon88at_13.jpg{{text}}各型炮弹对呈30度倾角装甲的穿透力：{{image}}imgs/de/army/de_army_cannon88at_14.jpg",
+    "description": "<h6>88mm Pak43型反坦克炮炮弹</h6><p></p><p>图例：</p><p>1.高爆弹（HET）SpGr Flak 41； 2.高爆榴弹（HE）SpGr；<br>3.破甲弹（HEAT）39 HL； 4.破甲弹（HEAT）39/43 HL；<br>5.穿甲弹（APCBT）PzGr 39-1； 6.穿甲弹（APCBT）PzGr 39/43</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的88mm反坦克炮",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_cannon88at_21.jpg",
+    "description": "1944年正在展出的一门88mm Pak43型反坦克炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_22.jpg",
+    "description": "1944～1945年间，正在战场上作战的德军一门88mm Pak43型反坦克炮。该炮虽然大而重，但却是中、重型坦克的远程杀手。图中的德军士兵巧妙地将火炮隐蔽在小树旁，其前方视野一览无遗，十分有利于火炮的瞄准与射击，可见德军炮班的作战素质是相当高的。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_23.jpg",
+    "description": "1944～1945年冬季，德国西部地区，一辆德军SdKfz 10型半履带装甲车正牵引着一门88mm Pak43型反坦克炮向前线开进。正常情况下，88mm炮的牵引车辆是8吨牵引拖拉机。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_24.jpg",
+    "description": "1945年1月，东线战场匈牙利地区，可能是遇到飞机突袭，一辆牵引着一门88mm Pak43型反坦克炮行进的德军半履带装甲车临时停驶在路上，半履带车上满载着火炮的弹药。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_25.jpg",
+    "description": "由于离炮位还有一段距离，德军还得想办法将88mm Pak43型反坦克炮推动。二战后期，由于德国材料的缺乏，该炮的车轮用的是重型野战榴弹炮的车轮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_26.jpg",
+    "description": "88mm Pak43型反坦克炮很重，虽有拖车推动，但德军炮班士兵仍需用尽全力去助力帮忙。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_27.jpg",
+    "description": "重达3吨多的88mm Pak43型反坦克炮如果只用人推，需要很多人手并且十分辛苦。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_28.jpg",
+    "description": "1944年秋季，东线苏联战场波罗的海地区，被败退德军遗弃的一门88mm Pak43型反坦克炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_29.jpg",
+    "description": "1943年7月，东线苏联战场，德军将一门88mm Pak43/41型反坦克炮的射击位置安放在奥勒尔市街道上。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_30.jpg",
+    "description": "1944年秋季，东线战场匈牙利地区，德军一门88mm Pak43/41型反坦克炮隐蔽在树林中，正在进行战斗准备。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_31.jpg",
+    "description": "绘画：东线战场，在城区作战的一门德军88mm Pak43型反坦克炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88at_32.jpg",
+    "description": "绘画：火炮阵地中的一门88mm Pak43型反坦克炮，一名德军士兵正在用望远镜向远方观察。不过，在88mm炮位上只画有一名士兵，似是该图的不足之处。",
+    "caption": ""
+  }]
+}

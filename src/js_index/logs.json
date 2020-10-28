@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-10-29",
+        "image": "imgs/de/army/de_army_cannon88at_01.jpg",
+        "id": "de_army_cannon88at",
+        "message": "新增：德国88mm反坦克炮"
+    }, {
         "date": "2020-10-28",
         "image": "imgs/de/army/de_army_cannon75at_01.jpg",
         "id": "de_army_cannon75at",
