@@ -421,6 +421,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannonFlak30',
+    title: '20mm Flak30型高射炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonFlak38',
+    title: '20mm Flak38型高射炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

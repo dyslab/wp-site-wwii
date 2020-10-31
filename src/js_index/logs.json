@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-11-01",
+        "image": "imgs/de/army/de_army_cannonFlak38_01.jpg",
+        "id": "de_army_cannonFlak38",
+        "message": "新增：德国20mm Flak38型高射炮"
+    }, {
+        "date": "2020-11-01",
+        "image": "imgs/de/army/de_army_cannonFlak30_01.jpg",
+        "id": "de_army_cannonFlak30",
+        "message": "新增：德国20mm Flak30型高射炮"
+    }, {
         "date": "2020-10-29",
         "image": "imgs/de/army/de_army_cannon88at_01.jpg",
         "id": "de_army_cannon88at",
