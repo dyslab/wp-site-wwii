@@ -1,5 +1,10 @@
 [
     {
+        "date": "2020-11-03",
+        "image": "imgs/de/army/de_army_cannon37aa_01.jpg",
+        "id": "de_army_cannon37aa",
+        "message": "新增：德国37mm高射炮"
+    }, {
         "date": "2020-11-01",
         "image": "imgs/de/army/de_army_cannonFlak38_01.jpg",
         "id": "de_army_cannonFlak38",
