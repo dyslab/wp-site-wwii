@@ -436,6 +436,21 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannonFlak18',
+    title: '88mm Flak18型高射炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonFlak36',
+    title: '88mm Flak36/37/41型高射炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannon88aa',
+    title: '88mm高射炮防空作战篇'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

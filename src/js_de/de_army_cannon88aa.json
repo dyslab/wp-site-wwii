@@ -1,0 +1,93 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "火炮",
+    "link": "de_army#de_army_cannon"  
+  }],
+  "model": "88mm高射炮防空作战篇", 
+  "description": "<p>二战期间，88mm高射炮几乎都掌握在德国空军司令戈林手中的重型高炮部队中，苏德战争开始时，德国空军的1206个重型高炮连，只有18％配属给东线的装甲部队，占总数约60％的88高射炮都在德国负责本土的防空任务，但随着东线战事的发展，迫切需要88mm高射炮的战场支援，由此有不少空军重型高炮部队转随陆军参战，截至1942年夏季，光是东线南方集团军就得到足足8个空军摩托化高炮师的支援，在东线战场上，这些高炮部队除了参与陆地的野战外，也同时负责战场军需补给站与交通枢纽的防空任务。到了二战后期，由于德国本土城市与军事目标频频成为盟军高空轰炸机的攻击目标，德国本土防空任务日益繁重，同时也由于东线战场不断接近德国本土，于是不少空军高炮师重新部署回德国本土，在1944年6月，仅柏林所在的第3航空管区就有318个重型高炮连，88mm高射炮又成了对付高空来袭飞机与本土防御的主要武器。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/de/army/de_army_cannon88aa_11.jpg",
+    "description": "<p>德国空军高炮部队由多个高炮军（高炮师）组成，各军、师内均设有装备88mm高炮的单位，称为重型高炮营（连），跟随野战部队的都配属机动牵引车，为重型摩托化高炮营（连）。</p><p>一般情况下，每个空军高炮师下属18～45个重型高射炮连，全师拥有72门～180门88mm高射炮。而在东线作战的空军重型摩托化高炮营则下属5个高炮连，全营拥有24门88mm高射炮。</p>",
+    "caption": "负责德国本土防空任务的88mm Flak41型高射炮"
+  }], 
+  "part2title": "战场上防空作战的88mm高射炮",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_cannon88aa_21.jpg",
+    "description": "二战东线苏联战场，跟随装甲部队作战的德国空军高炮营一门隐蔽在玉米地中的88mm Flak36/37高射炮。在东线战场上，88mm高炮既作防空用，也同时作反坦克作战用。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_22.jpg",
+    "description": "在“大西洋壁垒”沿岸进行防空作战的德国空军高炮部队一门88mm高射炮。炮班成员正处于警戒状态，准备迎击来袭的盟军飞机。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_23.jpg",
+    "description": "1940年初，驻扎在德国本土的德国空军高炮部队，一门88mm高射炮在已构筑好的阵地中作防空戒备。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_24.jpg",
+    "description": "德国空军高炮部队的一门88mm Flak18高射炮正在向来袭飞机射击，该炮与阵地都用树枝作了伪装，炮班人员在战斗中分工合作、各司其职。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_25.jpg",
+    "description": "1943年，在德国本土防空阵地上，为附近军工要地作保护的德国空军高炮部队一门88mm Flak36高射炮，炮筒上20个圆环标志表示该炮击落了20架飞机，战绩十分突出。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_26.jpg",
+    "description": "二战期间，驻扎在德国本土的德国空军88mm高射炮阵地，一名士兵正在阵地中巡逻。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_27.jpg",
+    "description": "二战东线战场，德国空军高炮连的一门88mm Flak37的炮组人员正与空中目标交战。炮管上的标志表明这门炮曾击落过多架敌机。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_28.jpg",
+    "description": "二战中期，德国空军高炮部队在本土的一个防空阵地，阵地中有多门88mm高射炮，它们都在已构筑好的掩体中，显然它们保护的是一个重要的军事要地。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_29.jpg",
+    "description": "夜间，在一处德国空军高炮部队阵地中，四门88mm高射炮正在向空中目标齐射，高炮发射时的火焰十分壮观。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_30.jpg",
+    "description": "二战德国本土，夜间，德军空军高炮连的一门88mm高射炮正在探照灯的指引下向空中目标射击。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_31.jpg",
+    "description": "二战中保护德国本土重要工业设施是德国空军重型高炮部队的任务，图中为一门担负该任务的88毫米高射炮，炮组成员正在作战斗戒备，随时准备迎击来袭敌机。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_32.jpg",
+    "description": "二战期间，在保护德军运输线的装甲列车上，所装备的88毫米高射炮大部分都会带有防盾。图中是听到紧急集合命令的炮班人员快步跑向列车，准备出发战斗。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_33.jpg",
+    "description": "这是二战期间安装在德军装甲列车上的一门没带防盾的88毫米高射炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannon88aa_34.jpg",
+    "description": "两名德军士兵正用长焦望远镜观察空中目标，指引一门88mm高射炮向其射击。",
+    "caption": ""
+  }]
+}

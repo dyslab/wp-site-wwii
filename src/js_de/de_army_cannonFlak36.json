@@ -1,0 +1,117 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "火炮",
+    "link": "de_army#de_army_cannon"  
+  }],
+  "model": "88mm Flak36/37/41型高射炮", 
+  "description": "<p>在二战中，88mm高射炮被德军成功地作反坦克炮和野战重炮用，入侵波兰的战斗中，德军一个战斗群用88mm高射炮作地面火力支援，取得了一定战果，在二战初期的西线战役中，德军用88mm高炮来轰击坚固工事和法军的重型坦克，此后在巴巴罗萨行动中，德国空军更是有239个重型高炮连（每连装备4门88mm高射炮）协同东线陆军作战，至1942年7月，在东线苏联战场上，德军每个装甲师都已配备了1～2个装备有8～12门88mm高射炮的摩托化炮兵营，很多时，在小口径反坦克炮对苏军的KV与T-34坦克攻击无效的情况下，都是全靠调出88mm高炮来攻击才奏效的；而隆美尔率领的非洲军团在多次进攻与防御中，用88mm高炮将大量盟军坦克击毁更是为之扬名。</p><p>根据西班牙内战中88炮的表现，德军仔细分析了其战术特点，对Flak18型进行了改进，推出了Flak36和Flak37型，但这三型的基本技术性能总体是相同的；而Flak41型则是作了较大改进，在射击性能上有了较大提高，但其服役时间已接近二战后期，数量较少，其中1944年8月生产了157门，1945年1月生产了318门，其首次参战是1943年，在非洲战场与盟军坦克作战。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/de/army/de_army_cannonFlak36_11.jpg",
+    "description": "<h6>88mm Flak36/37型高射炮</h6><p></p><p>技术数据：</p><p>火炮口径：88mm；</p><p>火炮移动台架：Sd.Ah.202；</p><p>炮管长：4.93米；（炮管内膛线长：4.093米）</p><p>火炮重：战斗5.0吨，运输8.2吨；</p><p>火炮射界（水平方向）：360度，火炮射角（垂直方向）：-3度～+85度；</p><p>射速（每分钟）：15～20发；</p><p>水平直射最远射程：14860米；</p><p>最高有效射距（85°）：10600米；</p><p>炮弹初速：820米/秒；</p><p>破甲厚度：</p><p><ul><li>采用Pzgr39型穿甲弹 100米：128mm；1500米：97mm。</li><li>采用Pzgr40型穿甲弹 100米：185mm；1500米：123mm。</li></ul></p>",
+    "caption": ""
+  }, {
+    "image": "imgs/de/army/de_army_cannonFlak36_12.jpg",
+    "description": "<h6>88mm Flak41型高射炮</h6><p></p><p>技术数据：</p><p>火炮口径：88mm；</p><p>炮管长：6.54米；（炮管内膛线长：5.411米）</p><p>火炮重：战斗7.84吨，运输11.24吨；</p><p>火炮射界（水平方向）：360度，火炮射角（垂直方向）：-3～+90度；</p><p>射速（每分钟）：20～25发；</p><p>水平直射最远射程：19800米；</p><p>最高有效射距（85°）：14700米；</p><p>炮弹初速：高爆弹1000米/秒，反坦克穿甲弹980米/秒；</p><p>穿甲弹破甲厚度 100米：194mm；1000米：159mm，2000米：127mm。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的88mm Flak36/37/41型高射炮（对地作战篇）",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_cannonFlak36_21.jpg",
+    "description": "1941年11月，东线苏联战场乌克兰地区，隶属德军第18高射炮团第1营的一门88mm Flak36高射炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_22.jpg",
+    "description": "1942年11月，东线苏联战场斯大林格勒，德军（不明单位）一门88mm Flak36高射炮。炮盾上标示有该炮击毁的敌方飞机、坦克和舰艇的战绩。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_23.jpg",
+    "description": "1943年6月，西线意大利战场西西里岛，隶属德军”赫尔曼·戈林“伞兵空降装甲师高射炮团的一门88mm Flak36高射炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_24.jpg",
+    "description": "1942-1943年冬天，东线苏联战场克拉斯诺达尔（Krasnodar）地区，德军（不明单位）一门88mm Flak37高射炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_25.jpg",
+    "description": "1945年春天，德国战场，德军（不明单位）一门88mm Flak37高射炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_26.jpg",
+    "description": "1943年3月，非洲战场突尼斯地区，德军第10装甲师第90炮兵团第4营的一门88mm Flak18/36高射炮。（注: Flak18/36高射炮是由Flak36炮管与Flak18炮架组合而成）",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_27.jpg",
+    "description": "1940年6月10日，西线法国战场亚眠地区附近，德军一门正在向敌方地面目标射击的88mm Flak36高射炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_28.jpg",
+    "description": "1941年夏天，非洲战场利比亚地区，在驻扎地休息的德国空军第33高炮团第1营的一门88mm Flak36高射炮及其炮班成员。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_29.jpg",
+    "description": "1941年7月，正与苏军坦克作战的一门德军88mm Flak36高射炮，远处还可以见到被击中起火的苏军坦克。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_30.jpg",
+    "description": "1941年10月，东线苏联战场，隶属党卫军第1“阿道夫·希特勒警卫旗队”装甲师炮兵营的一门88mm Flak36高射炮在罗曼诺夫卡（Romanowka）附近草原上摧毁了数辆苏联坦克。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_31.jpg",
+    "description": "1941年秋天，东线苏联战场乌克兰地区，正在与苏军作战的一门88mm Flak36高射炮，由于射击时会有较大的震响，一些德军士兵用双手掩住了耳朵。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_32.jpg",
+    "description": "守卫在公路旁的一门德军88mm Flak36/37高射炮，一辆福特V3000S（SdKfz 3）军车在88毫米炮的守望者前方的道路驶过。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_33.jpg",
+    "description": "1943年冬季，东线苏联战场，一门已作好战斗准备的德军88mm Flak36/37高射炮，炮前的几名军官正观察前方远处的苏军坦克动向；该炮旁边还停着一辆半履带装甲车，可知该门炮是刚从牵引车解下，炮身还在移动车架上。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_34.jpg",
+    "description": "东线战场，一门德军88mm Flak37高射炮在进行反坦克作战。该炮放置在十字形平台上，88高炮正在射击中，左边一炮兵弯腰从柳条箱里拿炮弹。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_35.jpg",
+    "description": "东线苏联战场，一门德军的88mm Flak36/37高射炮正在向苏军坦克射击，炮班指挥员在炮前用望远镜观察战果。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_36.jpg",
+    "description": "一门88mm Flak36由一辆牵引力8吨的Sdkfz.7重型装甲车牵引着小心地驶过一座小浮桥，该门炮安装在Flak36专用的Sd.Ah.202移动台架上。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_37.jpg",
+    "description": "冬季，东线苏联战场，一辆牵引力8吨的Sdkfz 7重型装甲车牵引着一门德军88mm Flak36/37高射炮在雪地中行进。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonFlak36_38.jpg",
+    "description": "1943年3月，英国第8军缴获了一门德军非洲军团遗弃的88mm Flak41高射炮。它已与牵引的半履带装甲车一起被丢弃，注意图中Flak41的特征：炮盾具有折叠侧。",
+    "caption": ""
+  }]
+}

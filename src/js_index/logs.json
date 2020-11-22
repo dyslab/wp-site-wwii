@@ -1,5 +1,20 @@
 [
     {
+        "date": "2020-11-23",
+        "image": "imgs/de/army/de_army_cannon88aa_01.jpg",
+        "id": "de_army_cannon88aa",
+        "message": "新增：德国88mm高射炮防空作战篇"
+    }, {
+        "date": "2020-11-23",
+        "image": "imgs/de/army/de_army_cannonFlak36_01.jpg",
+        "id": "de_army_cannonFlak36",
+        "message": "新增：德国88mm Flak36/37/41型高射炮"
+    }, {
+        "date": "2020-11-22",
+        "image": "imgs/de/army/de_army_cannonFlak18_01.jpg",
+        "id": "de_army_cannonFlak18",
+        "message": "新增：德国88mm Flak18型高射炮"
+    }, {
         "date": "2020-11-03",
         "image": "imgs/de/army/de_army_cannon37aa_01.jpg",
         "id": "de_army_cannon37aa",
