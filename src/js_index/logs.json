@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-12-01",
+        "image": "imgs/de/army/de_army_cannonIG33_01.jpg",
+        "id": "de_army_cannonIG33",
+        "message": "新增：德国150mm s.IG33型步兵炮"
+    }, {
+        "date": "2020-12-01",
+        "image": "imgs/de/army/de_army_cannonIG18_01.jpg",
+        "id": "de_army_cannonIG18",
+        "message": "新增：德国75mm le.IG18型步兵炮"
+    }, {
         "date": "2020-11-23",
         "image": "imgs/de/army/de_army_cannon88aa_01.jpg",
         "id": "de_army_cannon88aa",

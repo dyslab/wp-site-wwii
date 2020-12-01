@@ -451,6 +451,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannonIG18',
+    title: '75mm le.IG18型步兵炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonIG33',
+    title: '150mm s.IG33型步兵炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
