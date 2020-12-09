@@ -461,6 +461,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannonFH18',
+    title: '105mm Ie FH18型榴弹炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonsFH18',
+    title: '150mm s.FH18型榴弹炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

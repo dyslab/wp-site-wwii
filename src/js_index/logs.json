@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-12-10",
+        "image": "imgs/de/army/de_army_cannonsFH18_01.jpg",
+        "id": "de_army_cannonsFH18",
+        "message": "新增：德国150mm s.FH18型榴弹炮"
+    }, {
+        "date": "2020-12-10",
+        "image": "imgs/de/army/de_army_cannonFH18_01.jpg",
+        "id": "de_army_cannonFH18",
+        "message": "新增：德国105mm Ie FH18型榴弹炮"
+    }, {
         "date": "2020-12-01",
         "image": "imgs/de/army/de_army_cannonIG33_01.jpg",
         "id": "de_army_cannonIG33",
