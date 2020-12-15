@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-12-15",
+        "image": "imgs/de/army/de_army_cannon170K18_01.jpg",
+        "id": "de_army_cannon170K18",
+        "message": "新增：德国170mm K18型加农炮"
+    }, {
+        "date": "2020-12-15",
+        "image": "imgs/de/army/de_army_cannon105K18_01.jpg",
+        "id": "de_army_cannon105K18",
+        "message": "新增：德国105mm K18型加农炮"
+    }, {
         "date": "2020-12-10",
         "image": "imgs/de/army/de_army_cannonsFH18_01.jpg",
         "id": "de_army_cannonsFH18",

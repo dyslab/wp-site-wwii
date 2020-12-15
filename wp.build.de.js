@@ -471,6 +471,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannon105K18',
+    title: '105mm K18型加农炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannon170K18',
+    title: '170mm K18型加农炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
