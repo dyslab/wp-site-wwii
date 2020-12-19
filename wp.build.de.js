@@ -112,12 +112,12 @@ const fileIDs = [
   {
     folder: 'js_de',
     id: 'de_army_spgunSturmtiger',
-    title: '“突击虎”自行迫击炮车'
+    title: '“突击虎”臼炮自行炮车'
   },
   {
     folder: 'js_de',
     id: 'de_army_spgunKarl',
-    title: '“卡尔”重型迫击炮车'
+    title: '“卡尔”重型臼炮自行炮车'
   },
   {
     folder: 'js_de',
@@ -478,6 +478,11 @@ const fileIDs = [
     folder: 'js_de',
     id: 'de_army_cannon170K18',
     title: '170mm K18型加农炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonMorser18',
+    title: '210mm Mörser 18重型臼炮'
   },
   {
     folder: 'js_de',

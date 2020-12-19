@@ -1,0 +1,103 @@
+{
+  "category": [{
+    "name": "德国",
+    "link": "de_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "de_army"  
+  }, {
+    "name": "火炮",
+    "link": "de_army#de_army_cannon"  
+  }],
+  "model": "210mm Mörser 18重型臼炮", 
+  "description": "<p>臼炮是一种炮身短（口径与炮管长度之比通常在1：12到1：13以下）、射角大、初速低、高弧线弹道的滑膛火炮；其射程近，弹丸威力大，主要用于破坏坚固工事。因其炮身短粗，外形类似中国的石臼，因此在汉语中被称为“臼炮”。臼炮实际上仍旧是身管火炮中的一种，有完整的后座装置，只不过管子很短，倍径很小而已，但是和榴弹炮和加农炮的结构没有任何本质区别。20世纪的臼炮都是线膛炮，发射的炮弹有高爆弹、破甲弹和混凝土贯穿弹。</p><p>二战期间，德军一共装备了9种型号的臼炮，口径有210mm、280mm、380mm、420mm到600mm等，其中600mm Mörser “KARL”（卡尔）重型臼炮，是第二次世界大战中最出名的德军重型臼炮，但其归属于自行火炮类。而在牵引的重型臼炮中，则以210mm  Mörser 18型最为杰出，它的炮管比通常的臼炮长（所以有资料说其是臼炮与榴弹炮的合成品），因此相比传统臼炮，会有较远的射程；该炮虽然重，但可拆分为炮管与炮架两部分运输，因而比其它重型臼炮更方便机动。210mm Mörser 18重型臼炮在1936年中期开始研制，1939年开始量产并装备德军，由于该炮生产难度大，耗材多，早期每月产量约在6门上下，后期每月产量最多也不超过12门（1941至1942年间曾停产了一段时间），二战总共生产了711门。</p><p>210mm Mörser 18重型臼炮主要装备给由德军师、军级或集团军级指挥的独立炮兵营或独立炮兵连（有少量装备给海岸炮兵部队），二战期间，这些炮参加了波兰战场、法国战场及东线各个战场的攻城与破击坚固工事的战斗，表现还是很出色的。</p>",
+  "part1title": "",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/de/army/de_army_cannonMorser18_11.jpg",
+    "description": "<h6>210mm Mörser 18重型臼炮</h6><p></p><p>技术数据：</p><p>火炮口径：210.9mm；</p><p>炮身全长：8.53米；</p><p>炮管长：6.51米（倍径L/31）；</p><p>火炮重：战斗16.7吨，运输22.7吨；</p><p>火炮射界（水平方向）：可作360度的环射；</p><p>火炮射角（垂直方向）：0～70度；</p><p>射速：30～50发/小时；</p><p>最大射程：18700米（39高爆弹）。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的210mm Mörser 18重型臼炮",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/de/army/de_army_cannonMorser18_21.jpg",
+    "description": "二战期间，德军一个210mm Mörser 18重型臼炮的炮组成员正在进行操炮训练。注：正常情况下，一门210mm Mörser 18重型臼炮标配成员为12人，但在必要时，6～8人也可完成射击任务。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_22.jpg",
+    "description": "二战东线苏联战场，德军一门210mm Mörser 18重型臼炮在树木隐蔽的阵地中。请注意，该炮的炮管显然要比传统臼炮要长，正常射击时炮管都会置于较高位置；由于是冬季，炮身各部分已涂上白色的冬季迷彩漆。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_23.jpg",
+    "description": "二战东线苏联战场，德军一个军级重炮连的火力阵地，阵地中有两门210mm Mörser 18重型臼炮，其中一门正在射击中。注：正常情况下，一个军属独立炮兵连会配备三门210mm Mörser 18重型臼炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_24.jpg",
+    "description": "1944年初，东线苏联战场，德国武装党卫军的一门210mm Mörser 18重型臼炮在战斗中。请注意，每次装填炮弹时，都要将炮管放低，而要将100多公斤的炮弹推入炮膛所需的夯锤相当长。发射出的炮弹射程可达20公里，会给敌方工事造成毁灭性打击。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_25.jpg",
+    "description": "二战东线苏联战场，德军的一门射击中的210mm Mörser 18重型臼炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_26.jpg",
+    "description": "1943年9月，东线苏联战场，德军一门210mm Mörser 18重型臼炮正在以较低角度进行射击。在阵地上放着的炮弹分别是高爆弹与混凝土贯穿弹，其中高爆弹的初速有565米/秒，重量超过100公斤。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_27.jpg",
+    "description": "二战东线苏联战场，德军一处炮兵阵地上的一门210mm Mörser 18重型臼炮。210mm Mörser 18重型臼炮使用最多的是在苏联战场，这种臼炮不仅威力巨大，也会对敌方产生一种心理威胁。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_28.jpg",
+    "description": "二战东线苏联战场，雪地中德军一门210mm Mörser 18重型臼炮的炮兵在大雪纷飞中坚持射击。尽管在“巴巴罗萨”战役初期苏军损失很大，但1941-42年冬季，在莫斯科战线上的德军面对着苏军的猛烈反击。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_29.jpg",
+    "description": "二战东线苏联战场，德军一门210mm Mörser 18重型臼炮正在对苏军工事进行猛烈炮击，炮兵有的在消除先前发射炮弹所产生的烟雾，有的在传送炮弹，有的则在将弹丸推入后膛。注：210mm Mörser 18重型臼炮都基于同一克虏伯公司设计的车架，称为Mörserlafette（德语：Mörser坐骑）。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_30.jpg",
+    "description": "二战北非战场，德国非洲军团司令部直属炮兵营（连）也配备了多门210mm Mörser 18重型臼炮。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_31.jpg",
+    "description": "二战东线苏联战场，正在待命射击的德军一门210mm Mörser 18重型臼炮。在苏联的布列斯特、塞瓦斯托波尔、列宁格勒、斯大林格勒等城市的攻坚战中，210mm Mörser 18重型臼炮都发挥了重要作用。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_32.jpg",
+    "description": "这是210mm Mörser 18重型臼炮弹丸装填的状态，先将炮管放下至水平位置，再由4名炮兵用装填托架将重达100多公斤的弹丸推入炮膛。注：一门臼炮可发射6种不同的炮弹，其中高爆弹的破片可达70米以上半径范围，一个连的臼炮火力可覆盖直径为420～450米区域。而另两种混凝土穿透弹可贯穿4米厚的混凝土工事。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_33.jpg",
+    "description": "在210mm Mörser 18重型臼炮弹丸装填后，一炮兵将弹药筒推进至有坚固厚重金属膛板的燃烧室（该炮有半自动装填装置）。注：臼炮的一个弹药筒装满炸药时重量在15公斤以下（不同炸药重量有不同），弹丸射出后，弹药筒的炸药也随之消耗完。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_34.jpg",
+    "description": "1940年春季，德军一炮兵部队进行210mm Mörser 18重型臼炮的运输训练。该炮运输时会拆分为炮管（上图）与炮架（下图）两部分，分别由两辆重型半履带装甲车牵引。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_35.jpg",
+    "description": "德国国防军第4装甲师104火炮营3连一门正在等待运输的210mm Mörser 18重型臼炮，该炮已拆分为两部分，炮架挂在一辆Sd.Kfz 8重型装甲车（牵引力12吨）的车后，而炮管还在等待另一辆牵引车来拖挂。",
+    "caption": ""
+  },
+  {
+    "image": "imgs/de/army/de_army_cannonMorser18_36.jpg",
+    "description": "一辆Sd.Kfz 7重型装甲车（牵引力8吨）拖着一门210mm Mörser 18重型臼炮的炮管在雪地中奔驰，尽管牵引力不足，但行驶速度也不低；但如若是运输炮架，就非得用牵引力为12吨的Sd.Kfz 8重型装甲车了。",
+    "caption": ""
+  }]
+}

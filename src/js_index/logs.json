@@ -1,5 +1,20 @@
 [
     {
+        "date": "2020-12-20",
+        "image": "imgs/de/army/de_army_cannonMorser18_01.jpg",
+        "id": "de_army_cannonMorser18",
+        "message": "更新：德国210mm Mörser 18重型臼炮"
+    }, {
+        "date": "2020-12-19",
+        "image": "imgs/de/army/de_army_spgunSturmtiger_01.jpg",
+        "id": "de_army_spgunSturmtiger",
+        "message": "更新：德国“突击虎”臼炮自行炮车"
+    }, {
+        "date": "2020-12-19",
+        "image": "imgs/de/army/de_army_spgunKarl_01.jpg",
+        "id": "de_army_spgunKarl",
+        "message": "更新：德国“卡尔”重型臼炮自行炮车"
+    }, {
         "date": "2020-12-15",
         "image": "imgs/de/army/de_army_cannon170K18_01.jpg",
         "id": "de_army_cannon170K18",
