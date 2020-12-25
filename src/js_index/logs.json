@@ -1,5 +1,20 @@
 [
     {
+        "date": "2020-12-26",
+        "image": "imgs/de/army/de_army_cannon42210_01.jpg",
+        "id": "de_army_cannon42210",
+        "message": "新增：德国42型210mm多管火箭炮"
+    }, {
+        "date": "2020-12-26",
+        "image": "imgs/de/army/de_army_cannon41150_01.jpg",
+        "id": "de_army_cannon41150",
+        "message": "新增：德国41型150mm多管火箭炮"
+    }, {
+        "date": "2020-12-26",
+        "image": "imgs/de/army/de_army_spgunBrummbar_01.jpg",
+        "id": "de_army_spgunBrummbar",
+        "message": "更新：德国“灰熊”自行突击炮车"
+    }, {
         "date": "2020-12-20",
         "image": "imgs/de/army/de_army_cannonMorser18_01.jpg",
         "id": "de_army_cannonMorser18",

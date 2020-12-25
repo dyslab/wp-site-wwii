@@ -486,6 +486,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannon41150',
+    title: '41型150mm多管火箭炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannon42210',
+    title: '42型210mm多管火箭炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
