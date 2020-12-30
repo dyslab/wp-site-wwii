@@ -1,5 +1,15 @@
 [
     {
+        "date": "2020-12-31",
+        "image": "imgs/de/army/de_army_cannonsWG_01.jpg",
+        "id": "de_army_cannonsWG",
+        "message": "新增：德国sWG40与sWG41型简易火箭弹发射架"
+    }, {
+        "date": "2020-12-31",
+        "image": "imgs/de/army/de_army_cannon42150_01.jpg",
+        "id": "de_army_cannon42150",
+        "message": "新增：德国42型150mm车载火箭炮"
+    }, {
         "date": "2020-12-26",
         "image": "imgs/de/army/de_army_cannon42210_01.jpg",
         "id": "de_army_cannon42210",

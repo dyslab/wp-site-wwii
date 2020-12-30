@@ -496,6 +496,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannon42150',
+    title: '42型150mm车载火箭炮'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_cannonsWG',
+    title: 'sWG40与sWG41型简易火箭弹发射架'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
