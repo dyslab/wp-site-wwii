@@ -506,6 +506,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannonMortar',
+    title: '德军迫击炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

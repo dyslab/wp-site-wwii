@@ -1,5 +1,10 @@
 [
     {
+        "date": "2021-01-05",
+        "image": "imgs/de/army/de_army_cannonMortar_01.jpg",
+        "id": "de_army_cannonMortar",
+        "message": "新增：德军迫击炮"
+    }, {
         "date": "2020-12-31",
         "image": "imgs/de/army/de_army_cannonsWG_01.jpg",
         "id": "de_army_cannonsWG",
