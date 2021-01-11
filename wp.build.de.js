@@ -511,6 +511,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_cannonTrain',
+    title: '德军铁路列车重炮'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },

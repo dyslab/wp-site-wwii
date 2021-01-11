@@ -1,5 +1,10 @@
 [
     {
+        "date": "2021-01-12",
+        "image": "imgs/de/army/de_army_cannonTrain_01.jpg",
+        "id": "de_army_cannonTrain",
+        "message": "新增：德军铁路列车重炮"
+    }, {
         "date": "2021-01-05",
         "image": "imgs/de/army/de_army_cannonMortar_01.jpg",
         "id": "de_army_cannonMortar",
