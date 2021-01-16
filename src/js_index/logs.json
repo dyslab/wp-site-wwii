@@ -1,5 +1,10 @@
 [
     {
+        "date": "2021-01-17",
+        "image": "imgs/de/army/de_army_iwFlamethrower_01.jpg",
+        "id": "de_army_iwFlamethrower",
+        "message": "新增：德军火焰喷射器"
+    }, {
         "date": "2021-01-12",
         "image": "imgs/de/army/de_army_cannonTrain_01.jpg",
         "id": "de_army_cannonTrain",

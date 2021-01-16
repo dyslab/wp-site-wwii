@@ -516,6 +516,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwFlamethrower',
+    title: '德军火焰喷射器'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
