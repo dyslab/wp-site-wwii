@@ -521,6 +521,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwPanzerfaust',
+    title: '铁拳反坦克榴弹发射器'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
