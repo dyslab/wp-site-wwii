@@ -1,5 +1,10 @@
 [
     {
+        "date": "2021-01-23",
+        "image": "imgs/de/army/de_army_iwRPzB_01.jpg",
+        "id": "de_army_iwRPzB",
+        "message": "新增：德国“坦克杀手”反坦克火箭筒"
+    }, {
         "date": "2021-01-20",
         "image": "imgs/de/army/de_army_iwPanzerfaust_01.jpg",
         "id": "de_army_iwPanzerfaust",

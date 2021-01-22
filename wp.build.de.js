@@ -526,6 +526,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwRPzB',
+    title: '“坦克杀手”反坦克火箭筒'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
