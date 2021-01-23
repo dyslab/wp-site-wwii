@@ -9,6 +9,8 @@ Relevant Project (Powered By **Gulp**) : **[gp-site-wwii](https://vincentzhcn.co
 
 ## Milestones
 
+- 15 Oct 2020, The content of website **[wp.wwii.site](http://wp.wwii.site)** update suspended.
+
 - 24 Nov 2019, The project has been migrated to my custom domain **[wp.wwii.site](http://wp.wwii.site)**.
 
 - 15 Nov 2019, Resolved 'require' issue, App upgraded to v1.6 :smile:.

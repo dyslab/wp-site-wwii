@@ -1,5 +1,10 @@
 [
     {
+        "date": "2021-01-24",
+        "image": "imgs/de/army/de_army_iwPzB_01.jpg",
+        "id": "de_army_iwPzB",
+        "message": "新增：德军反坦克枪"
+    }, {
         "date": "2021-01-23",
         "image": "imgs/de/army/de_army_iwRPzB_01.jpg",
         "id": "de_army_iwRPzB",

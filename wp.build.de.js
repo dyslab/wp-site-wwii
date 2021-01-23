@@ -531,6 +531,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwPzB',
+    title: '德军反坦克枪'
+  },
+  {
+    folder: 'js_de',
     id: 'de_airforce',
     title: '空战武器'
   },
