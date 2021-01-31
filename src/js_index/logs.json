@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-02-01",
+        "image": "imgs/de/army/de_army_iwMG42_01.jpg",
+        "id": "de_army_iwMG42",
+        "message": "新增：德国MG42机枪"
+    }, {
+        "date": "2021-01-31",
+        "image": "imgs/de/army/de_army_iwMG34_01.jpg",
+        "id": "de_army_iwMG34",
+        "message": "新增：德国MG34机枪"
+    }, {
         "date": "2021-01-24",
         "image": "imgs/de/army/de_army_iwPzB_01.jpg",
         "id": "de_army_iwPzB",

@@ -516,6 +516,16 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwMG34',
+    title: 'MG34机枪'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_iwMG42',
+    title: 'MG42机枪'
+  },
+  {
+    folder: 'js_de',
     id: 'de_army_iwFlamethrower',
     title: '德军火焰喷射器'
   },
