@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-02-09",
+        "image": "imgs/de/army/de_army_iw98K_01.jpg",
+        "id": "de_army_iw98K",
+        "message": "新增：德国Kar 98K步枪"
+    }, {
+        "date": "2021-02-09",
+        "image": "imgs/de/army/de_army_iwMP3840_01.jpg",
+        "id": "de_army_iwMP3840",
+        "message": "新增：德国MP38/40冲锋枪"
+    }, {
         "date": "2021-02-01",
         "image": "imgs/de/army/de_army_iwMG42_01.jpg",
         "id": "de_army_iwMG42",
