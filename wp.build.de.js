@@ -526,6 +526,21 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwG4143',
+    title: 'G41、G43半自动步枪'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_iwFG42',
+    title: 'FG42伞兵步枪'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_iwStG44',
+    title: 'StG44突击步枪'
+  },
+  {
+    folder: 'js_de',
     id: 'de_army_iwMG34',
     title: 'MG34机枪'
   },
