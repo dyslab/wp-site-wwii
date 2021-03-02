@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-03-02",
+        "image": "imgs/de/army/de_army_iwGrenade_01.jpg",
+        "id": "de_army_iwGrenade",
+        "message": "新增：德军手榴弹"
+    }, {
+        "date": "2021-03-02",
+        "image": "imgs/de/army/de_army_iwPistol_01.jpg",
+        "id": "de_army_iwPistol",
+        "message": "新增：德军各型手枪"
+    }, {
         "date": "2021-02-23",
         "image": "imgs/de/army/de_army_iwFG42_01.jpg",
         "id": "de_army_iwFG42",

@@ -516,6 +516,11 @@ const fileIDs = [
   },
   {
     folder: 'js_de',
+    id: 'de_army_iwPistol',
+    title: '德军各型手枪'
+  },
+  {
+    folder: 'js_de',
     id: 'de_army_iw98K',
     title: 'Kar 98K步枪'
   },
@@ -568,6 +573,11 @@ const fileIDs = [
     folder: 'js_de',
     id: 'de_army_iwPzB',
     title: '德军反坦克枪'
+  },
+  {
+    folder: 'js_de',
+    id: 'de_army_iwGrenade',
+    title: '德军手榴弹'
   },
   {
     folder: 'js_de',
