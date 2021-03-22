@@ -111,6 +111,16 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_cannonZIS3',
+    title: 'ZIS-3型76mm加农炮'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_cannonAT',
+    title: '苏军反坦克炮'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_mtZIS',
     title: '吉斯（ZIS）军用卡车'
   },
