@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-03-26",
+        "image": "imgs/ru/army/ru_army_cannon122mmH_01.jpg",
+        "id": "ru_army_cannon122mmH",
+        "message": "新增：苏军122mm榴弹炮"
+    }, {
+        "date": "2021-03-25",
+        "image": "imgs/ru/army/ru_army_cannon76mm_01.jpg",
+        "id": "ru_army_cannon76mm",
+        "message": "新增：苏军76mm步兵炮"
+    }, {
         "date": "2021-03-23",
         "image": "imgs/ru/army/ru_army_cannonAT_01.jpg",
         "id": "ru_army_cannonAT",
