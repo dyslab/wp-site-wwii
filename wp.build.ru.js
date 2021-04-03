@@ -126,6 +126,16 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_cannon152mmH',
+    title: '苏军152mm榴弹炮'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_cannonHeavy',
+    title: '苏军重炮'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_cannonAT',
     title: '苏军反坦克炮'
   },

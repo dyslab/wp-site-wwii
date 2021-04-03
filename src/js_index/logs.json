@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-04-03",
+        "image": "imgs/ru/army/ru_army_cannonHeavy_01.jpg",
+        "id": "ru_army_cannonHeavy",
+        "message": "新增：苏军重炮"
+    }, {
+        "date": "2021-04-01",
+        "image": "imgs/ru/army/ru_army_cannon152mmH_01.jpg",
+        "id": "ru_army_cannon152mmH",
+        "message": "新增：苏军152mm榴弹炮"
+    }, {
         "date": "2021-03-26",
         "image": "imgs/ru/army/ru_army_cannon122mmH_01.jpg",
         "id": "ru_army_cannon122mmH",
