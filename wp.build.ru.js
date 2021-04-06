@@ -141,6 +141,16 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_cannonAA',
+    title: '苏军高射炮'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_cannonMortar',
+    title: '苏军迫击炮'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_mtZIS',
     title: '吉斯（ZIS）军用卡车'
   },
