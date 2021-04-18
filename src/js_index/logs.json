@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-04-19",
+        "image": "imgs/ru/army/ru_army_iwHMG_01.jpg",
+        "id": "ru_army_iwHMG",
+        "message": "新增：苏军重机枪"
+    }, {
+        "date": "2021-04-18",
+        "image": "imgs/ru/army/ru_army_iwATRifle_01.jpg",
+        "id": "ru_army_iwATRifle",
+        "message": "新增：苏军反坦克步枪"
+    }, {
         "date": "2021-04-07",
         "image": "imgs/ru/army/ru_army_cannonMortar_01.jpg",
         "id": "ru_army_cannonMortar",

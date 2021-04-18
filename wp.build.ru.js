@@ -151,6 +151,16 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_iwHMG',
+    title: '苏军重机枪'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_iwATRifle',
+    title: '苏军反坦克步枪'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_mtZIS',
     title: '吉斯（ZIS）军用卡车'
   },
