@@ -151,6 +151,16 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_iwPPSh41',
+    title: 'PPSh-41型冲锋枪'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_iwDP',
+    title: 'DP型轻机枪'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_iwHMG',
     title: '苏军重机枪'
   },
