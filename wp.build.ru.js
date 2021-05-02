@@ -151,6 +151,16 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_iwMosinNagant',
+    title: '莫辛·纳甘式步枪'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_iwSVT',
+    title: 'SVT半自动步枪'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_iwPPSh41',
     title: 'PPSh-41型冲锋枪'
   },
