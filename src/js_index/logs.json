@@ -1,5 +1,20 @@
 [
     {
+        "date": "2021-05-09",
+        "image": "imgs/ru/army/ru_army_iwFlamethrower_01.jpg",
+        "id": "ru_army_iwFlamethrower",
+        "message": "新增：苏军火焰喷射器"
+    }, {
+        "date": "2021-05-08",
+        "image": "imgs/ru/army/ru_army_iwGrenade_01.jpg",
+        "id": "ru_army_iwGrenade",
+        "message": "新增：苏军手榴弹"
+    }, {
+        "date": "2021-05-07",
+        "image": "imgs/ru/army/ru_army_iwPistol_01.jpg",
+        "id": "ru_army_iwPistol",
+        "message": "新增：苏军手枪"
+    }, {
         "date": "2021-05-03",
         "image": "imgs/ru/army/ru_army_iwMosinNagant_01.jpg",
         "id": "ru_army_iwMosinNagant",

@@ -151,6 +151,11 @@ const fileIDs = [
   },
   {
     folder: 'js_ru',
+    id: 'ru_army_iwPistol',
+    title: '苏军手枪'
+  },
+  {
+    folder: 'js_ru',
     id: 'ru_army_iwMosinNagant',
     title: '莫辛·纳甘式步枪'
   },
@@ -178,6 +183,16 @@ const fileIDs = [
     folder: 'js_ru',
     id: 'ru_army_iwATRifle',
     title: '苏军反坦克步枪'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_iwFlamethrower',
+    title: '苏军火焰喷射器'
+  },
+  {
+    folder: 'js_ru',
+    id: 'ru_army_iwGrenade',
+    title: '苏军手榴弹'
   },
   {
     folder: 'js_ru',
