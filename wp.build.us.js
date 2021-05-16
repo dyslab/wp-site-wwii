@@ -146,6 +146,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_cannonM59',
+      title: 'M59加农炮'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_cannonHowitzer155mm',
+      title: '美军155毫米榴弹炮'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

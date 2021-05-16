@@ -1,0 +1,68 @@
+{
+  "category": [{
+    "name": "美国",
+    "link": "us_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "us_army"  
+  }, {
+    "name": "火炮",
+    "link": "us_army#us_army_cannon"
+  }],
+  "model": "美军155毫米榴弹炮", 
+  "description": "<h6>综述：</h6><p>二战期间，美军装备的155毫米口径牵引式榴弹炮主要有M1918式和M1（M114）式两款。M1918式155毫米榴弹炮是一战时期所生产，其前身为法国施耐德公司生产的M1917式155毫米榴弹炮，美国在取得了特许生产权后，随即在国内定型生产了M1918式155毫米榴弹炮并装备给美军使用。1929年，美国在M1917的基础上改进了炮架和炮盾、并装上橡胶轮胎，到了1941年，美国继续改进该炮，最后定型为M1式155毫米榴弹炮（战后整编型号为M114），并在1942年开始装备美军。该炮从1943年开始量产，二战期间，美国共生产M1式155毫米榴弹炮4035门。</p><p>155毫米榴弹炮在美军中主要装备给师属炮兵营，在师属配备M1榴弹炮的每个炮兵营中，有155mm榴弹炮12门。该炮可发射高爆榴弹、杀伤子母弹、发烟弹、照明弹，化学弹等，可执行纵深的火力支援任务和攻击敌方炮兵阵地的任务，是美军在二战中的一种远程作战武器，投入过欧洲西线战场的战斗和太平洲岛屿争夺战。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_10.jpg",
+    "description": "<h6>M1918式155毫米榴弹炮</h6><p></p><p>基本技术数据：</p><p>火炮口径：155毫米；</p><p>战斗全重：5.03吨；</p><p>高低射界：-1.3度～+43.6度；水平射界：左右6度；</p><p>炮口初速：562米/秒；</p><p>最大射程：13600米；</p><p>最大射速：2发/分。</p>",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_11.jpg",
+    "description": "<h6>M1（M114）式155毫米榴弹炮</h6><p></p><p>基本技术数据：</p><p>火炮口径：155mm；</p><p>火炮长度：7.32米，炮管长度：3.875米，火炮宽度：2.44米，火炮高度：1.8米；</p><p>战斗全重：5.7吨；</p><p>高低射界：-2度～+63度；水平射界：左24度～右25度；</p><p>炮口初速：618米/秒；</p><p>最大射程：14960米；</p><p>最大射速：4发/分（持续射速为40发/小时）。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的美军155毫米榴弹炮",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_20.jpg",
+    "description": "1941年6月，在美国一个军事展场上展示的M1918式155毫米榴弹炮。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_21.jpg",
+    "description": "1943年4月，在美国本土参加战斗演习的美军炮兵正在用M1918式155毫米榴弹炮进行射击。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_22.jpg",
+    "description": "1943年7月，亚洲太平洋战场，在所罗门群岛伦多瓦，美国海军陆战队的一门M1918式155毫米榴弹炮正在转移阵地。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_23.jpg",
+    "description": "1942年，亚洲太平洋战场，在所罗门群岛瓜特尔卡纳岛的丛林中，美国海军陆战队的一门M1918式155毫米榴弹炮正在向日军阵地开炮射击。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_24.jpg",
+    "description": "1943年3月，北非战场，在突尼斯地区作战的许多美军部队仍在使用M1918式这种旧式155毫米榴弹炮。图中是一门在EI Guettar镇附近作战的美军M1918A3式155毫米榴弹炮。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_25.jpg",
+    "description": "二战战场上，美军一门M1式（M114式）155毫米榴弹炮的炮班士兵们正在阵地上待命。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_26.jpg",
+    "description": "二战战场上，美军一个M1式（M114式）155毫米榴弹炮的炮组成员正在作撒离阵地的准备。二战中，美军炮兵已完全实现了摩托化，因此尽管M1榴弹炮属重型火炮，但仍有着良好的机动性，能快速到达阵地实施火力支援。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_27.jpg",
+    "description": "1944年2月，在意大利拉齐奥地区聂图诺镇（Nettuno）附近作战的一门美军M1式（M114式）155毫米榴弹炮。其正在阵地上开炮射击，对滩头上正在进行的战斗实施火力支援。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_28.jpg",
+    "description": "1945年3月，西线德国战场，来自美国第30步兵师第113野战炮兵营的一门M1式（M114式）155毫米榴弹炮正途经一座架设在鲁尔地区一条河流上的临时浮桥。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonHowitzer155mm_29.jpg",
+    "description": "1944年6月，西线法国诺曼底战场，美军一辆履带式运输车正牵引着一门M1式（M114式）155毫米榴弹炮向前线进发。",
+    "caption": ""
+  }]
+}
