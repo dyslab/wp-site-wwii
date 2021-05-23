@@ -1,9 +1,19 @@
 [
     {
+        "date": "2021-05-24",
+        "image": "imgs/us/army/us_army_cannonM2105mm_01.jpg",
+        "id": "us_army_cannonM2105mm",
+        "message": "新增：美国M2式105mm榴弹炮"
+    }, {
+        "date": "2021-05-23",
+        "image": "imgs/us/army/us_army_cannonM175mm_01.jpg",
+        "id": "us_army_cannonM175mm",
+        "message": "新增：美国M1式75mm榴弹炮"
+    }, {
         "date": "2021-05-17",
         "image": "imgs/us/army/us_army_cannonHowitzer155mm_01.jpg",
         "id": "us_army_cannonHowitzer155mm",
-        "message": "新增：美军155毫米榴弹炮"
+        "message": "新增：美军155mm榴弹炮"
     }, {
         "date": "2021-05-17",
         "image": "imgs/us/army/us_army_cannonM59_01.jpg",
