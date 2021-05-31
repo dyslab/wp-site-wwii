@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-06-01",
+        "image": "imgs/us/army/us_army_cannonMortar_01.jpg",
+        "id": "us_army_cannonMortar",
+        "message": "新增：美军迫击炮"
+    }, {
+        "date": "2021-06-01",
+        "image": "imgs/us/army/us_army_cannonM1240mm_01.jpg",
+        "id": "us_army_cannonM1240mm",
+        "message": "新增：美国M1式240mm榴弹炮"
+    }, {
         "date": "2021-05-24",
         "image": "imgs/us/army/us_army_cannonM2105mm_01.jpg",
         "id": "us_army_cannonM2105mm",

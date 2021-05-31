@@ -1,0 +1,64 @@
+{
+  "category": [{
+    "name": "美国",
+    "link": "us_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "us_army"  
+  }, {
+    "name": "火炮",
+    "link": "us_army#us_army_cannon"
+  }],
+  "model": "M1式240mm榴弹炮", 
+  "description": "<h6>综述：</h6><p>M1式240mm榴弹炮是美军在二战中使用的一款重型火炮，这款重炮是用第一次世界大战期间开发的M1918式240mm榴弹炮所改装，直到二战爆发后的1943年5月才开始定型生产，并于同年9月参加了首战。该炮先后装备了在欧洲战场与太平洋战场作战的多个美军野战炮兵营，是美军一种远程火力压制武器。</p><p>M1式240mm榴弹炮是二战时美国陆军最强野战炮之一，它可发射160公斤的高爆弹，其射程虽比同期的M1式155毫米榴弹炮略小，威力却是后者的三倍多。</p><p>可是由于这型火炮体大量重，每次运输时都要进行拆卸，并需要用起重机进行安装，且在阵地上需要安放在构筑好的工事中，加上该炮射速慢、持续射击能力较差，且射击精度不高，因此其机动性能与作战性能都不理想，在战后（1950年左右）库存炮弹用完后就退出了美军现役。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/us/army/us_army_cannonM1240mm_10.jpg",
+    "description": "<h6>M1式240mm榴弹炮</h6><p></p><p>基本技术数据：</p><p>火炮口径：240毫米；</p><p>炮管长度：8.38米，火炮宽度：2.79米；</p><p>火炮重量：29300公斤；</p><p>炮口初速：701米/秒；</p><p>左右射角：22.5°，俯仰角度：+15°～+65°；</p><p>最大射速：30发/小时；</p><p>最大射程：23.1公里；</p><p>炮班成员：14人。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的M1式240mm榴弹炮",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/us/army/us_army_cannonM1240mm_20.jpg",
+    "description": "二战战场上，隐藏在伪装网下的一门美军M1式240mm榴弹炮与炮兵们。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_21.jpg",
+    "description": "二战战场上，美军一处已做好伪装防护的M1式240mm榴弹炮阵地。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_22.jpg",
+    "description": "二战战场上，美军一处未设置伪装网的M1式240mm榴弹炮阵地。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_23.jpg",
+    "description": "二战战场上，一门正在作战中的美军M1式240mm榴弹炮，炮手正在将炮弹推入炮膛。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_24.jpg",
+    "description": "二战战场上，美军一门M1式240mm榴弹炮正在开炮射击，这一款重炮是美军向敌方作远程火力压制的陆战武器。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_25.jpg",
+    "description": "二战战场上，美军一门正在开炮射击的M1式240mm榴弹炮，由于开炮时会产生极大音量，所以炮兵们都用双手捂住耳朵。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_26.jpg",
+    "description": "一名准备搬运炮弹的M1式240mm榴弹炮弹药手。一发240mm榴弹炮的炮弹重量是155mm榴弹炮的炮弹三倍多，因此240mm炮弹杀伤半径比155mm炮弹大两倍以上。一枚240mm榴弹炮的炮弹可以将炸点100米内的步兵杀灭，弹片杀伤覆盖面积更是超过两个足球场的大小。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_27.jpg",
+    "description": "二战战场上，美军一辆M35履带车正在牵引一门M1式240mm榴弹炮在山路上行进，由于该炮体大量重，所以需将火炮拆开成两部分运输，炮管由履带车牵引，而炮座则会放在履带车上运输。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_28.jpg",
+    "description": "一门正在进行转移的M1式240mm榴弹炮，运输时要将该炮拆分为两部分，因此要用起重机先将炮管吊起。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_cannonM1240mm_29.jpg",
+    "description": "接上图，吊装炮管后，美军继续将这门M1式240mm榴弹炮的炮座吊起准备装运。",
+    "caption": ""
+  }]
+}

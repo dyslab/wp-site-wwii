@@ -161,8 +161,18 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_cannonM1240mm',
+      title: 'M1式240mm榴弹炮'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_cannonM59',
       title: 'M59加农炮'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_cannonMortar',
+      title: '美军迫击炮'
     },
     {
       folder: 'js_us',
