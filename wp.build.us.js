@@ -176,6 +176,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_cannonSAT',
+      title: '美军小口径反坦克炮'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

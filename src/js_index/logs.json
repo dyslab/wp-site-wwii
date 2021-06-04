@@ -1,5 +1,10 @@
 [
     {
+        "date": "2021-06-05",
+        "image": "imgs/us/army/us_army_cannonSAT_01.jpg",
+        "id": "us_army_cannonSAT",
+        "message": "新增：美军小口径反坦克炮"
+    }, {
         "date": "2021-06-01",
         "image": "imgs/us/army/us_army_cannonMortar_01.jpg",
         "id": "us_army_cannonMortar",
