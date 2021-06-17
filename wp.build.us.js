@@ -181,6 +181,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_iwBazooka',
+      title: '“巴祖卡”火箭发射筒'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwFlamethrower',
+      title: '美军火焰喷射器'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army',
       title: '陆战武器'
     },

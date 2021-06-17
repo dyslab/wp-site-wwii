@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-06-18",
+        "image": "imgs/us/army/us_army_iwFlamethrower_01.jpg",
+        "id": "us_army_iwFlamethrower",
+        "message": "新增：美军火焰喷射器"
+    }, {
+        "date": "2021-06-17",
+        "image": "imgs/us/army/us_army_iwBazooka_01.jpg",
+        "id": "us_army_iwBazooka",
+        "message": "新增：“巴祖卡”火箭发射筒"
+    }, {
         "date": "2021-06-05",
         "image": "imgs/us/army/us_army_cannonSAT_01.jpg",
         "id": "us_army_cannonSAT",
