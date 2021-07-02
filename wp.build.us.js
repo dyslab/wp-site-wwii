@@ -181,6 +181,21 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_iwM1917HMG',
+      title: 'M1917型重机枪'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwM1919HMG',
+      title: 'M1919型重机枪'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwM2HMG',
+      title: 'M2型重机枪'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_iwBazooka',
       title: '“巴祖卡”火箭发射筒'
     },

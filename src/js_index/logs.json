@@ -1,5 +1,20 @@
 [
     {
+        "date": "2021-07-03",
+        "image": "imgs/us/army/us_army_iwM2HMG_01.jpg",
+        "id": "us_army_iwM2HMG",
+        "message": "新增：美国M2型重机枪"
+    }, {
+        "date": "2021-07-02",
+        "image": "imgs/us/army/us_army_iwM1919HMG_01.jpg",
+        "id": "us_army_iwM1919HMG",
+        "message": "新增：美国M1919型重机枪"
+    }, {
+        "date": "2021-07-01",
+        "image": "imgs/us/army/us_army_iwM1917HMG_01.jpg",
+        "id": "us_army_iwM1917HMG",
+        "message": "新增：美国M1917型重机枪"
+    }, {
         "date": "2021-06-18",
         "image": "imgs/us/army/us_army_iwFlamethrower_01.jpg",
         "id": "us_army_iwFlamethrower",
