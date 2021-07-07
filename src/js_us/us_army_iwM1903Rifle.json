@@ -1,0 +1,44 @@
+{
+  "category": [{
+    "name": "美国",
+    "link": "us_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "us_army"  
+  }, {
+    "name": "轻武器",
+    "link": "us_army#us_army_iw"
+  }],
+  "model": "M1903“斯普林菲尔德”步枪", 
+  "description": "<h6>综述：</h6><p>M1903“斯普林菲尔德”步枪是美军在一战时期的制式步枪（又名“春田”步枪），由于二战前已大量装备美军，因此到了二战爆发后，仍被美军保留使用，后美军为其加装了光学瞄准镜，改装为狙击步枪，定型为M1903A4型狙击步枪，至1944年初，该型狙击步枪一共生产了2万8千多支，成为美军狙击手的得力武器。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/us/army/us_army_iwM1903Rifle_10.jpg",
+    "description": "<h6>M1903“斯普林菲尔德”步枪</h6><p></p><p>基本技术数据：</p><p>步枪口径：7.62毫米；</p><p>步枪全长：1097毫米，其中枪管长度：610毫米；</p><p>步枪全重：3.94公斤；</p><p>枪口初速：853米/秒；</p><p>最大射速：15发/分钟；</p><p>有效射程：914米；</p><p>弹匣容量：5发。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的M1903“斯普林菲尔德”步枪",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/us/army/us_army_iwM1903Rifle_20.jpg",
+    "description": "（图左）1945年，美军第103步兵团一名手持M1903A4“斯普林菲尔德”步枪的狙击手。（图中）二战美军第3游骑兵营一名手持M1903“斯普林菲尔德”步枪的士兵。（图右）1944年，美军第2师一名手持M1903“斯普林菲尔德”步枪的士兵。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_iwM1903Rifle_21.jpg",
+    "description": "（图左）一名出色的美军狙击手弗兰克·克威克特，在二战西线战场上使用M1903A4狙击步枪击杀了56名德军（大部分是德军狙击手）。（图右）一名上了美国生活杂志封面的美军士兵，其手持的是M1903A4“斯普林菲尔德”狙击步枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_iwM1903Rifle_22.jpg",
+    "description": "1944年5月，西线战场意大利，美军第36步兵师143步兵团G连的一名狙击手正在检查手中的M1903“斯普林菲尔德”步枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_iwM1903Rifle_23.jpg",
+    "description": "1945年，太平洋战场冲绳岛，美国海军陆战队的狙击手使用M1903A4狙击步枪猎杀日军。",
+    "caption": ""
+  }, {
+    "image": "imgs/us/army/us_army_iwM1903Rifle_24.jpg",
+    "description": "1945年，太平洋战场菲律宾，一名在城市废墟中的美军手持M1903“斯普林菲尔德”步枪与日军进行巷战。",
+    "caption": ""
+  }]
+}

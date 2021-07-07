@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-07-08",
+        "image": "imgs/us/army/us_army_iwM1Rifle_01.jpg",
+        "id": "us_army_iwM1Rifle",
+        "message": "新增：美国M1“加兰德”半自动步枪"
+    }, {
+        "date": "2021-07-08",
+        "image": "imgs/us/army/us_army_iwM1903Rifle_01.jpg",
+        "id": "us_army_iwM1903Rifle",
+        "message": "新增：美国M1903“斯普林菲尔德”步枪"
+    }, {
         "date": "2021-07-03",
         "image": "imgs/us/army/us_army_iwM2HMG_01.jpg",
         "id": "us_army_iwM2HMG",

@@ -181,6 +181,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_iwM1903Rifle',
+      title: 'M1903“斯普林菲尔德”步枪'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwM1Rifle',
+      title: 'M1“加兰德”半自动步枪'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_iwM1917HMG',
       title: 'M1917型重机枪'
     },
