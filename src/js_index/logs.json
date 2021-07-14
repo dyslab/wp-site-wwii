@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-07-15",
+        "image": "imgs/us/army/us_army_iwM1918Rifle_01.jpg",
+        "id": "us_army_iwM1918Rifle",
+        "message": "新增：美国M1918“勃朗宁”自动步枪"
+    }, {
+        "date": "2021-07-14",
+        "image": "imgs/us/army/us_army_iwM1Carbine_01.jpg",
+        "id": "us_army_iwM1Carbine",
+        "message": "新增：美国M1卡宾枪"
+    }, {
         "date": "2021-07-08",
         "image": "imgs/us/army/us_army_iwM1Rifle_01.jpg",
         "id": "us_army_iwM1Rifle",

@@ -186,8 +186,18 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_iwM1918Rifle',
+      title: 'M1918“勃朗宁”自动步枪'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_iwM1Rifle',
       title: 'M1“加兰德”半自动步枪'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwM1Carbine',
+      title: 'M1卡宾枪'
     },
     {
       folder: 'js_us',
