@@ -201,6 +201,16 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_iwThompson',
+      title: '汤普森冲锋枪'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwOtherSMG',
+      title: 'M3冲锋枪和赖辛冲锋枪'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_iwM1917HMG',
       title: 'M1917型重机枪'
     },

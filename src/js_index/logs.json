@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-07-18",
+        "image": "imgs/us/army/us_army_iwOtherSMG_01.jpg",
+        "id": "us_army_iwOtherSMG",
+        "message": "新增：美国M3冲锋枪和赖辛冲锋枪"
+    }, {
+        "date": "2021-07-17",
+        "image": "imgs/us/army/us_army_iwThompson_01.jpg",
+        "id": "us_army_iwThompson",
+        "message": "新增：美国汤普森冲锋枪"
+    }, {
         "date": "2021-07-15",
         "image": "imgs/us/army/us_army_iwM1918Rifle_01.jpg",
         "id": "us_army_iwM1918Rifle",
