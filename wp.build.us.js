@@ -226,6 +226,11 @@ const fileIDs = [
     },
     {
       folder: 'js_us',
+      id: 'us_army_iwPistol',
+      title: '美军军用手枪'
+    },
+    {
+      folder: 'js_us',
       id: 'us_army_iwBazooka',
       title: '“巴祖卡”火箭发射筒'
     },
@@ -233,6 +238,11 @@ const fileIDs = [
       folder: 'js_us',
       id: 'us_army_iwFlamethrower',
       title: '美军火焰喷射器'
+    },
+    {
+      folder: 'js_us',
+      id: 'us_army_iwGrenadeMK2',
+      title: 'MK2手榴弹'
     },
     {
       folder: 'js_us',

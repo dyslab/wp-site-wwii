@@ -1,5 +1,15 @@
 [
     {
+        "date": "2021-07-22",
+        "image": "imgs/us/army/us_army_iwGrenadeMK2_01.jpg",
+        "id": "us_army_iwGrenadeMK2",
+        "message": "新增：美国MK2手榴弹"
+    }, {
+        "date": "2021-07-22",
+        "image": "imgs/us/army/us_army_iwPistol_01.jpg",
+        "id": "us_army_iwPistol",
+        "message": "新增：美军军用手枪"
+    }, {
         "date": "2021-07-18",
         "image": "imgs/us/army/us_army_iwOtherSMG_01.jpg",
         "id": "us_army_iwOtherSMG",
