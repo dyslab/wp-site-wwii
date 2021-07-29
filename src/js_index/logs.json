@@ -1,5 +1,20 @@
 [
     {
+        "date": "2021-07-30",
+        "image": "imgs/jp/army/jp_army_avtrack_01.jpg",
+        "id": "jp_army_avtrack",
+        "message": "新增：日军履带式装甲车"
+    }, {
+        "date": "2021-07-29",
+        "image": "imgs/jp/army/jp_army_av87_01.jpg",
+        "id": "jp_army_av87",
+        "message": "新增：日本87式四轮装甲车"
+    }, {
+        "date": "2021-07-29",
+        "image": "imgs/jp/army/jp_army_av6wheels_01.jpg",
+        "id": "jp_army_av6wheels",
+        "message": "新增：日军六轮装甲车"
+    }, {
         "date": "2021-07-22",
         "image": "imgs/us/army/us_army_iwGrenadeMK2_01.jpg",
         "id": "us_army_iwGrenadeMK2",

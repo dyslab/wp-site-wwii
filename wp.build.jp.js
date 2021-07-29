@@ -21,6 +21,21 @@ const fileIDs = [
     },
     {
       folder: 'js_jp',
+      id: 'jp_army_av87',
+      title: '87式四轮装甲车'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_av6wheels',
+      title: '日军六轮装甲车'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_avtrack',
+      title: '日军履带式装甲车'
+    },
+    {
+      folder: 'js_jp',
       id: 'jp_army',
       title: '陆战武器'
     },
