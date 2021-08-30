@@ -36,6 +36,31 @@ const fileIDs = [
     },
     {
       folder: 'js_jp',
+      id: 'jp_army_cannonMortar',
+      title: '轻/中型迫击炮'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_cannon9270mm',
+      title: '92式70毫米步兵炮'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_cannon75mm',
+      title: '75毫米口径火炮'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_cannon105mm',
+      title: '105毫米口径火炮'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_cannon150mm',
+      title: '150毫米口径火炮'
+    },
+    {
+      folder: 'js_jp',
       id: 'jp_army',
       title: '陆战武器'
     },
