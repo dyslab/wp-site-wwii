@@ -47,17 +47,17 @@ const fileIDs = [
     {
       folder: 'js_jp',
       id: 'jp_army_cannon75mm',
-      title: '75毫米口径火炮'
+      title: '75毫米火炮'
     },
     {
       folder: 'js_jp',
       id: 'jp_army_cannon105mm',
-      title: '105毫米口径火炮'
+      title: '105毫米火炮'
     },
     {
       folder: 'js_jp',
       id: 'jp_army_cannon150mm',
-      title: '150毫米口径火炮'
+      title: '150毫米火炮'
     },
     {
       folder: 'js_jp',

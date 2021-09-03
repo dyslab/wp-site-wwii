@@ -3,12 +3,12 @@
         "date": "2021-08-31",
         "image": "imgs/jp/army/jp_army_cannon150mm_01.jpg",
         "id": "jp_army_cannon150mm",
-        "message": "新增：日军150毫米口径火炮"
+        "message": "新增：日军150毫米火炮"
     }, {
         "date": "2021-08-30",
         "image": "imgs/jp/army/jp_army_cannon105mm_01.jpg",
         "id": "jp_army_cannon105mm",
-        "message": "新增：日军105毫米口径火炮"
+        "message": "新增：日军105毫米火炮"
     }, {
         "date": "2021-08-30",
         "image": "imgs/jp/army/jp_army_cannonMortar_01.jpg",
@@ -18,7 +18,7 @@
         "date": "2021-08-29",
         "image": "imgs/jp/army/jp_army_cannon75mm_01.jpg",
         "id": "jp_army_cannon75mm",
-        "message": "新增：日军75毫米口径火炮"
+        "message": "新增：日军75毫米火炮"
     }, {
         "date": "2021-08-29",
         "image": "imgs/jp/army/jp_army_cannon9270mm_01.jpg",
