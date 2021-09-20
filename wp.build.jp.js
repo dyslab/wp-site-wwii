@@ -61,6 +61,31 @@ const fileIDs = [
     },
     {
       folder: 'js_jp',
+      id: 'jp_army_iwPistol',
+      title: '日军手枪'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_iw38',
+      title: '三八式步枪'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_iwLMG',
+      title: '日军轻机枪'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_iw92HMG',
+      title: '九二式重机枪'
+    },
+    {
+      folder: 'js_jp',
+      id: 'jp_army_iw89GL',
+      title: '89式掷弹筒'
+    },
+    {
+      folder: 'js_jp',
       id: 'jp_army',
       title: '陆战武器'
     },

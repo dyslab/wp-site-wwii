@@ -1,5 +1,30 @@
 [
     {
+        "date": "2021-09-21",
+        "image": "imgs/jp/army/jp_army_iw89GL_01.jpg",
+        "id": "jp_army_iw89GL",
+        "message": "新增：日本89式掷弹筒"
+    }, {
+        "date": "2021-09-20",
+        "image": "imgs/jp/army/jp_army_iwPistol_01.jpg",
+        "id": "jp_army_iwPistol",
+        "message": "新增：日军手枪"
+    }, {
+        "date": "2021-09-20",
+        "image": "imgs/jp/army/jp_army_iw92HMG_01.jpg",
+        "id": "jp_army_iw92HMG",
+        "message": "新增：日本九二式重机枪"
+    }, {
+        "date": "2021-09-19",
+        "image": "imgs/jp/army/jp_army_iwLMG_01.jpg",
+        "id": "jp_army_iwLMG",
+        "message": "新增：日军轻机枪"
+    }, {
+        "date": "2021-09-18",
+        "image": "imgs/jp/army/jp_army_iw38_01.jpg",
+        "id": "jp_army_iw38",
+        "message": "新增：日本三八式步枪"
+    }, {
         "date": "2021-08-31",
         "image": "imgs/jp/army/jp_army_cannon150mm_01.jpg",
         "id": "jp_army_cannon150mm",
