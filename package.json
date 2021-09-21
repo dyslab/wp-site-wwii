@@ -1,6 +1,6 @@
 {
   "name": "wp-site-wwii",
-  "version": "1.8.89",
+  "version": "1.8.90",
   "description": "⚔ Webpack构建的二战军事资料库网站 ⚔",
   "private": true,
   "scripts": {
