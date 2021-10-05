@@ -56,6 +56,21 @@ const fileIDs = [
     },
     {
       folder: 'js_uk',
+      id: 'uk_army_cannonAT',
+      title: '英军6磅/17磅反坦克炮'
+    },
+    {
+      folder: 'js_uk',
+      id: 'uk_army_cannon25pound',
+      title: '英军25磅野炮'
+    },
+    {
+      folder: 'js_uk',
+      id: 'uk_army_cannonMortar',
+      title: '英军迫击炮'
+    },
+    {
+      folder: 'js_uk',
       id: 'uk_army',
       title: '陆战武器'
     },

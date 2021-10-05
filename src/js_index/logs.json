@@ -1,5 +1,20 @@
 [
     {
+        "date": "2021-10-06",
+        "image": "imgs/uk/army/uk_army_cannonMortar_01.jpg",
+        "id": "uk_army_cannonMortar",
+        "message": "新增：英军迫击炮"
+    }, {
+        "date": "2021-10-06",
+        "image": "imgs/uk/army/uk_army_cannonAT_01.jpg",
+        "id": "uk_army_cannonAT",
+        "message": "新增：英军6磅/17磅反坦克炮"
+    }, {
+        "date": "2021-10-06",
+        "image": "imgs/uk/army/uk_army_cannon25pound_01.jpg",
+        "id": "uk_army_cannon25pound",
+        "message": "新增：英军25磅野炮"
+    }, {
         "date": "2021-09-21",
         "image": "imgs/jp/army/jp_army_iw89GL_01.jpg",
         "id": "jp_army_iw89GL",

@@ -1,0 +1,64 @@
+{
+  "category": [{
+    "name": "英国",
+    "link": "uk_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "uk_army"  
+  }, {
+    "name": "火炮",
+    "link": "uk_army#uk_army_cannon"  
+  }],
+  "model": "英军6磅/17磅反坦克炮", 
+  "description": "<h6>综述：</h6><p>6磅火炮与17磅火炮是英军在二战期间主要装备的反坦克炮（注：磅是一种英制重量，英军的火炮是以炮弹重量来定义的，直到二战结束后英军才放弃这种对火炮不科学的定义方式）。</p><p>在二战开始时，英军主要使用2磅的反坦克炮（火炮口径40毫米），但在西线战场上完全无法对抗德军坦克，因此研制了口径为57毫米的6磅反坦克炮，并在1941年底开始装备英军炮兵部队，同时将这种火炮安装在多种坦克上，在1942年北非战场上首次参加战斗。至二战结束，该炮一共生产了近5万门。而稍后研制的的口径为76.2毫米的17磅反坦克炮更是一种优秀的全能型火炮，1942年起逐渐取代6磅反坦克炮，开始大批量装备英军及其它英联邦军队，成为战场上对抗德军重型坦克的主要反坦克武器，该炮在二战中的产量约有7万多门。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/uk/army/uk_army_cannonAT_11.jpg",
+    "description": "<h6>6磅反坦克炮</h6><p></p><p>基本技术数据：</p><p>口径：57毫米；</p><p>炮管长度：2.54米；</p><p>火炮全重：1140公斤；</p><p>射击仰角：-5度～+15度；水平射角：90度；</p><p>炮口初速：1219米/秒（脱壳穿甲弹）；</p><p>穿甲厚度：142毫米；</p><p>最大射程：4600米；有效射程：1510米；</p><p>炮班人员：6名。</p>",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_12.jpg",
+    "description": "<h6>17磅反坦克炮</h6><p></p><p>基本技术数据：</p><p>口径：76.2毫米；</p><p>炮管长度：4.19米；</p><p>火炮全重：3050公斤；</p><p>炮口初速：1200米/秒；</p><p>最大射程：9000米；有效射程：1800米。</p>",
+    "caption": ""
+  }], 
+  "part2title": "战场上的英军反坦克炮",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/uk/army/uk_army_cannonAT_21.jpg",
+    "description": "1945年春，西线战场，守卫在德国“Hamminkln”外围地区街道交叉路口处的盟军一门6磅反坦克炮，这门炮是刚由英军第6空降旅通过一架运输滑翔机空运过来的。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_22.jpg",
+    "description": "1942年，北非战场，英军一门正在沙漠中作战的6磅反坦克炮，图中一名弹药手正在随时准备装填炮弹。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_23.jpg",
+    "description": "1944年7月，西线法国战场，盟军部队攻入卡昂市，图为市中心街道上的一门盟军6磅反坦克炮和一辆谢尔曼坦克。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_24.jpg",
+    "description": "1944年9月，西线战场，盟军一门6磅反坦克炮正准备装入一架运输滑翔机中运往荷兰，支持在荷兰地区实施“花园行动”的盟军。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_25.jpg",
+    "description": "1944年9月，西线战场，在荷兰安恒地区与德军作战的盟军一门6磅反坦克炮及炮兵。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_26.jpg",
+    "description": "二战西线战场，盟军部队使用卡车牵引一门17磅反坦克炮向前线开进。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_27.jpg",
+    "description": "二战西线战场，一门正在战斗中的英军17磅反坦克炮。在激烈的炮战中，炮长、射手和弹药手都跪在炮盾后以作掩护。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_28.jpg",
+    "description": "二战西线意大利战场，英国第8集团军的炮兵正努力将一门陷入泥泞中的17磅反坦克炮拖出。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_cannonAT_29.jpg",
+    "description": "盟军一门扼守在公路上的17磅反坦克炮，抗击沿公路开进的敌军坦克。",
+    "caption": ""
+  }]
+}
