@@ -1,0 +1,96 @@
+{
+  "category": [{
+    "name": "英国",
+    "link": "uk_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "uk_army"  
+  }, {
+    "name": "轻武器",
+    "link": "uk_army#uk_army_iw"  
+  }],
+  "model": "李-恩菲尔德步枪", 
+  "description": "<h6>综述：</h6><p>李-恩菲尔德步枪是一种性能优良的栓动步枪，1895年由英国恩菲尔德兵工厂将一种旧式步枪改进后所命名。该枪容弹量大，射速高，装上光学瞄准镜后，也是一支优秀的狙击步枪，从一战到二战，李-恩菲尔德步枪都是英军及英联邦军队的步兵标配武器。</p><p>由于该枪不断改进，因此产生了从MkⅠ型至MKⅤ型等多种衍生型号。后来，因该枪有两种不同口径，因此又将所有口径为7.7毫米该型枪标为NO.1，而口径为5.59毫米该型枪标为NO.2，而标为NO.3的该型枪则是指使用了前端闭锁枪机的型号，NO.4则为用NO.1 MKⅢ改进的枪型。</p><p>二战初期，英军及英联邦军队装备最多的是NO.1 MKⅢ型，1942年后开始列装NO.4 MKⅠ型，从1895年至二战后停产，该枪产量约有1700多万支，数量极为庞大。</p><p>李-恩菲尔德步枪的主要缺点是由于子弹火药的腐蚀性强且会残留较多渣子，从而会影响枪管寿命和增加保养难度，但它迅猛的火力使其在二战战场上丝亳不输其它参战国使用的步枪，被公认为是二战中一种优秀的手动步枪。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/uk/army/uk_army_iwRifleLE_11.jpg",
+    "description": "<h6>李-恩菲尔德步枪</h6><p></p><p></p><p><b>NO.1 MKⅢ型（图1）</b>基本技术数据：</p><p>口径：7.7毫米；</p><p>步枪全长：1118毫米，枪管长度：767毫米；</p><p>枪重：4.19公斤；</p><p>最大射速：30发/分钟，平均射速：25发/分钟（连续射击时正常要求为15发/分钟）；</p><p>有效射程：503米；</p><p>盒式弹匣容弹量：10发。</p><p></p><p><b>NO.4 MKⅠ型（图2）</b>基本技术数据：</p><p>口径：7.7毫米；</p><p>步枪全长：1129毫米，枪管长度：640毫米；</p><p>枪重：4.14公斤；</p><p>子弹初速：751米/秒；</p><p>最大射速：30发/分钟，平均射速：25发/分钟（连续射击时正常要求为15发/分钟）；</p><p>有效射程：503米；</p><p>盒式弹匣容弹量：10发。</p>",
+    "caption": "（图1）NO.1 MKⅢ型；（图2）NO.4 MKⅠ型；（图3）NO.5 MKⅠ型；"
+  }], 
+  "part2title": "战场上的李-恩菲尔德步枪",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/uk/army/uk_army_iwRifleLE_21.jpg",
+    "description": "（图左）1944年，英国装甲师冷溪禁卫团第5营一名手持NO.4 MKⅠ型李-恩菲尔德步枪的列兵。（图中）1945年，英国皇家装甲军第107团一名肩扛NO.4 MKⅠ型李-恩菲尔德步枪的下士。（图右）1944年，苏格兰高地轻步兵团一名手持NO.4 MKⅠ型李-恩菲尔德步枪的下士。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_22.jpg",
+    "description": "（图左）1943年，爱尔兰禁卫团第1营一名手持NO.4 MKⅠ型李-恩菲尔德步枪的中士。（图中）1944年，印度第8旁遮普团一名手持NO.1 MKⅢ型李-恩菲尔德步枪的列兵。（图右）1943年，英国约克郡与兰开斯特郡团一名手持NO.4 MKⅠ型李-恩菲尔德步枪的列兵。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_23.jpg",
+    "description": "（图左）1944年，法国海军燧发枪团第1营一名肩背NO.4 MKⅠ型李-恩菲尔德步枪的列兵。（图中）1941年，英军第6师澳大利亚第2步兵团第5营一名手持NO.1 MKⅢ型李-恩菲尔德步枪（带刺刀）的列兵。（图右）1943年，加拿大皇家第22团一名手持NO.4 MKⅠ型李-恩菲尔德步枪的中士。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_24.jpg",
+    "description": "（图左）1944年，加拿大新斯科舍高地团一名推着自行车、手持NO.4 MKⅠ型李-恩菲尔德步枪的列兵。（图右）1944年，荷兰艾琳公主独立旅级战斗群一名手持NO.4 MKⅠ型李-恩菲尔德步枪（带刺刀）的列兵。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_25.jpg",
+    "description": "1940年，西线战场，在战壕中与德军对峙的英军士兵，他们的武器配备基本都是NO.1 MKⅢ型李-恩菲尔德步枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_26.jpg",
+    "description": "1941年，持NO.1 MKⅢ型李-恩菲尔德步枪坚守在战壕中的一个英军步兵班，其中配有一挺班用机枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_27.jpg",
+    "description": "1942年7月，北非战场，埃及阿拉曼地区，装备NO.1 MKⅢ型李-恩菲尔德步枪与布伦轻机枪的英军士兵正在阵地中严阵以待。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_28.jpg",
+    "description": "1943年，北非战场，手持李-恩菲尔德步枪的英军士兵击毙了一名德军传令兵，缴获了一支德制MP40冲锋枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_29.jpg",
+    "description": "二战北非战场，英国第8集团军一名背着NO.1 MKⅢ型李-恩菲尔德步枪的士兵正在收押意军俘虏。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_30.jpg",
+    "description": "1943年，西线意大利战场，西西里岛，一队英军士兵冒着德军的猛烈火力在废墟中突进，除最前面一人手持冲锋枪外，其余士兵均手持着李-恩菲尔德步枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_31.jpg",
+    "description": "1943年，西线意大利战场，西西里岛，在战斗间隙中围着班长，听他讲述战斗故事的加拿大士兵，外围的三个士兵都是手持NO.4 MKⅠ型李-恩菲尔德步枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_32.jpg",
+    "description": "1944年夏天，在西线法国战场里昂地区与德军血战的加拿大军士兵，这个班的士兵配备的武器大多为NO.4 MKⅠ型李-恩菲尔德步枪，此外，还配有一支美制汤姆森冲锋枪和一挺布伦轻机枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_33.jpg",
+    "description": "1944年，西线法国战场，一名手持李-恩菲尔德狙击步枪的英军士兵正隐蔽在废墟中，与德军狙击手对抗。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_34.jpg",
+    "description": "二战战场上，一名用简单工事作掩护的英军狙击手，他的武器是一把李-恩菲尔德狙击步枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_35.jpg",
+    "description": "二战西线战场，一名手持NO.1 MKⅢ型李-恩菲尔德步枪的加拿大军士兵正在石墙洞内阻击德军进攻。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_36.jpg",
+    "description": "1943-1944年间，西线战场，在卡西诺战役中，新西兰士兵端着带刺刀的NO.1 MKⅢ型李-恩菲尔德步枪冲向一处楼房。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_37.jpg",
+    "description": "1944年，西线法国战场，蹲守在诺曼底卡昂城区废墟中的一名英军士兵，手持着一支已上刺刀的NO.4 MKⅠ型李-恩菲尔德步枪警戒地注视前方。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwRifleLE_38.jpg",
+    "description": "1944年，东南亚缅甸战场，英军廓尔喀外籍兵团一群士兵手持着已上刺刀的NO.4 MKⅠ型李-恩菲尔德步枪，在丛林中听取着军官介绍敌情，准备向日军发动偷袭。",
+    "caption": ""
+  }]
+}

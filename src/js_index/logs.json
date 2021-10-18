@@ -1,5 +1,25 @@
 [
     {
+        "date": "2021-10-18",
+        "image": "imgs/uk/army/uk_army_iwHMGVickers_01.jpg",
+        "id": "uk_army_iwHMGVickers",
+        "message": "新增：英国维克斯重机枪"
+    }, {
+        "date": "2021-10-18",
+        "image": "imgs/uk/army/uk_army_iwLMGBren_01.jpg",
+        "id": "uk_army_iwLMGBren",
+        "message": "新增：英国布伦式轻机枪"
+    }, {
+        "date": "2021-10-18",
+        "image": "imgs/uk/army/uk_army_iwGunSTEN_01.jpg",
+        "id": "uk_army_iwGunSTEN",
+        "message": "新增：英国司登冲锋枪"
+    }, {
+        "date": "2021-10-18",
+        "image": "imgs/uk/army/uk_army_iwRifleLE_01.jpg",
+        "id": "uk_army_iwRifleLE",
+        "message": "新增：英国李-恩菲尔德步枪"
+    }, {
         "date": "2021-10-06",
         "image": "imgs/uk/army/uk_army_cannonMortar_01.jpg",
         "id": "uk_army_cannonMortar",

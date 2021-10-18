@@ -71,6 +71,26 @@ const fileIDs = [
     },
     {
       folder: 'js_uk',
+      id: 'uk_army_iwRifleLE',
+      title: '李-恩菲尔德步枪'
+    },
+    {
+      folder: 'js_uk',
+      id: 'uk_army_iwGunSTEN',
+      title: '司登冲锋枪'
+    },
+    {
+      folder: 'js_uk',
+      id: 'uk_army_iwLMGBren',
+      title: '布伦式轻机枪'
+    },
+    {
+      folder: 'js_uk',
+      id: 'uk_army_iwHMGVickers',
+      title: '维克斯重机枪'
+    },
+    {
+      folder: 'js_uk',
       id: 'uk_army',
       title: '陆战武器'
     },

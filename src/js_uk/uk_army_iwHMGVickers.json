@@ -1,0 +1,64 @@
+{
+  "category": [{
+    "name": "英国",
+    "link": "uk_shortcut"  
+  }, {
+    "name": "陆战武器",
+    "link": "uk_army"  
+  }, {
+    "name": "轻武器",
+    "link": "uk_army#uk_army_iw"  
+  }],
+  "model": "维克斯重机枪", 
+  "description": "<h6>综述：</h6><p>维克斯机枪的前身是1882年面世的马克沁机枪，于1912年定型生产，也有人将其称为维克斯-马克沁机枪。它是一种水冷式机枪，性能优异，有着很高的可靠性，曾有记录在一次战斗中，10挺维克斯机枪在12小时内发射了100万发子弹，平均每小时10000发，尽管这期间更换了100根枪管，使用了不尽其数的冷却水，但却没有出现过一次卡壳故障。</p><p>维克斯机枪是二战英军标配的火力支援武器，每个英军步兵营都会装备有由4到6挺维克斯机枪组成的机枪排，此外英军部队中还设有专门的维克斯机枪营，整个营装备有维克斯机枪54挺。至二战结束，英国一共生产了50多万挺维克斯机枪，除了装备英军外，还装备了英联邦各国军队。</p>",
+  "part1title": "系列型号",
+  "part1description": "",
+  "part1content": [{
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_11.jpg",
+    "description": "<h6>维克斯重机枪</h6><p></p><p>基本技术数据：</p><p>口径：7.7毫米；</p><p>机枪全长：1120毫米，枪管长度：720毫米；</p><p>机枪重量：不含冷却水15公斤，含冷却水18.2公斤，三脚架22.7公斤；</p><p>最大射速：500发/分钟，战斗射速：200发/分钟；</p><p>子弹初速：744米/秒；</p><p>最大射程：4100米，有效射程：2000米；</p><p>供弹方式：250发弹链。</p>",
+    "caption": "（图1）使用木质弹匣的维克斯重机枪；（图2）使用白色装甲车用弹匣的维克斯机枪；（图3）使用黑色弹匣的维克斯机枪。"
+  }], 
+  "part2title": "战场上的维克斯重机枪",
+  "part2description": "",
+  "part2content": [{
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_21.jpg",
+    "description": "1940年，英军柴郡团的士兵正在进行维克斯重机枪的射击训练。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_22.jpg",
+    "description": "二战期间，英军使用维克斯重机枪作为高射机枪，进行对空作战。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_23.jpg",
+    "description": "二战初期的西线战场上，为了阻击德军进攻，在路边设伏的一处英军维克斯重机枪阵地。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_24.jpg",
+    "description": "二战战场上，一个正在战斗中的澳大利亚维克斯重机枪组。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_25.jpg",
+    "description": "二战非洲战场，设在大西洋沿岸城市卡萨布兰卡的一处英军维克斯重机枪阵地。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_26.jpg",
+    "description": "1942年，非洲战场，利比亚地区，在沙漠中的一处英军维克斯重机枪阵地。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_27.jpg",
+    "description": "二战非洲战场，英军架设在机动车辆上的一挺维克斯重机枪。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_28.jpg",
+    "description": "1944年7月，西线法国战场，在诺曼底地区作战的英军用一挺维克斯重机枪为前线步兵提供火力支援。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_29.jpg",
+    "description": "1945年，英军突击队的维克斯重机枪排在德国韦泽尔郊区与德军作战。",
+    "caption": ""
+  }, {
+    "image": "imgs/uk/army/uk_army_iwHMGVickers_30.jpg",
+    "description": "二战期间，安装在英国军舰上的四联装维克斯重机枪。",
+    "caption": ""
+  }]
+}
