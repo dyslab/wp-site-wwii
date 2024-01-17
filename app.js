@@ -34,4 +34,7 @@ app.use(function (err, req, res, next) {
   res.render('error', { title: 'ERROR' });
 })
 
+console.log(`\n\x1b[31;47;3;1m wp-site-wwii \x1b[0m Web Server Started. Click Link: [\x1b[32mhttp://localhost:${config.port}/dist/\x1b[0m]\n`);
+console.log(`\x1b[33mCtrl + C\x1b[0m to Exit...\n`);
+
 app.listen(config.port);
