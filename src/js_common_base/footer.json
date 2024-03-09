@@ -4,7 +4,7 @@
   "copyright": "Copyright © #year# 版权所有。<a href=\"about.html\" class=\"custom-footer-copyright-link\">内容及版权免责声明</a>，转载分享请注明出处。Deployed by <a class=\"custom-footer-copyright-link\" href=\"https://surge.sh/\" target=\"_blank\">Surge</a>.",
   "links": [],
   "getintouchinfo": {
-    "headline": "联系我们",
+    "headline": "联系我们 / CONTACT US",
     "data": [
       {
         "faicon": "fab fa-facebook-f",
@@ -23,7 +23,7 @@
       },
       {
         "faicon": "fas fa-envelope",
-        "href": "mailto:vincent_to@qq.com",
+        "href": "mailto:#",
         "ref": "电子邮件"
       }
     ]

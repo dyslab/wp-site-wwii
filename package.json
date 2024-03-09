@@ -1,6 +1,6 @@
 {
   "name": "wp-site-wwii",
-  "version": "1.8.92",
+  "version": "1.8.93",
   "description": "⚔ Webpack构建的二战军事资料库网站 ⚔",
   "private": true,
   "scripts": {
@@ -14,11 +14,13 @@
     "build:jp": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.build.jp.js && export NODE_OPTIONS=",
     "build:ru": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.build.ru.js && export NODE_OPTIONS=",
     "build:uk": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.build.uk.js && export NODE_OPTIONS=",
-    "build:us": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.build.us.js && export NODE_OPTIONS="
+    "build:us": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.build.us.js && export NODE_OPTIONS=",
+    "version:minor": "npm version minor --no-commit-hooks --no-git-tag-version",
+    "version:patch": "npm version patch --no-commit-hooks --no-git-tag-version"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dyslab/wp-site-wwii.git"
+    "url": "git@github.com:dyslab/wp-site-wwii.git"
   },
   "keywords": [
     "webpack",
