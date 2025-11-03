@@ -4,15 +4,24 @@
 
 Purpose to build a static military documentary website developed by webpack4 + express + pug based on node.js framework.
 
-Relevant Project (Powered By **Gulp**) : **[gp-site-wwii](https://vincentzhcn.coding.net/p/gp-site-wwii/)** hosted on Tencent Git. 
+Relevant Project (Powered By **Gulp**) : **[gp-site-wwii](https://cnb.cool/vincenthere/gp-site-wwii)** hosted on website [CNB](https://cnb.cool/). 
+
+## Install Dependencies
+
+```bash
+npm install
+```
 
 ## Basical usage:
 
 1. Add weapon content
+
 - Add new weapon datasource files((include *.js, *.json)) to folder `src/js_[TWO_LETTERS_NATION_CODE]/`, as well as modify relevant datasource files which under folders `src/js_index/`.
+
 - Copy and paste all relevant weapon picture files to `dist/imgs/[TWO_LETTERS_NATION_CODE]/` according to the corresponded datasource files.
 
-2. Build/Generate static website content by CLI
+2. Build/Generate static website content by CLI 
+
 ```bash
 # Build/Generate CLI list
 npm run build:all   # Build ALL website content
@@ -25,11 +34,18 @@ npm run build:ru    # Build Russian (CCCP) weapon pages
 npm run build:uk    # Build British weapon pages
 npm run build:us    # Build American weapon pages
 ```
+> **Note**: 
+>
+> - Above CLIs runs on Linux or MacOS. Please checkout 'package.json' for more details to manually revise command lines to build the static website contents if running on Windows. (all output files save in folder 'dist/')
+> - All generated static website files will be put into folder `dist/`.
+> - The website content is based on the datasource files under folder `src/js_[TWO_LETTERS_NATION_CODE]/`, as well as the common datasource files under folder `src/js_index/`.
+> - The website is based on the pug template engine, which is a simple yet powerful template language. Please checkout the pug template files under folder `src/views/` for more details.
+>
 
-3. Duplicate the new datasource and pictue files to its twin-project __[gp-site-wwii](https://vincentzhcn.coding.net/p/gp-site-wwii)__ by [w2p.py](./w2p.py)
+3. Duplicate the new datasource and pictue files to its twin-project __[gp-site-wwii](https://cnb.cool/vincenthere/gp-site-wwii)__ by [w2p.py](./w2p.py)
     Check out usage and more details in [w2p.py](./w2p.py).
 
-4. Shift to project __[gp-site-wwii](https://vincentzhcn.coding.net/p/gp-site-wwii)__ and build, deploy to Internet.
+4. Shift to project __[gp-site-wwii](https://cnb.cool/vincenthere/gp-site-wwii)__ and build, deploy to Internet.
 
 ## Milestones
 
