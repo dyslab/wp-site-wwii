@@ -36,7 +36,7 @@ npm run build:us    # Build American weapon pages
 ```
 > **Note**: 
 >
-> - Above CLIs runs on Linux or MacOS. Please checkout 'package.json' for more details to manually revise command lines to build the static website contents if running on Windows. (all output files save in folder 'dist/')
+> - Above CLIs runs on Linux or MacOS. Please checkout `package.json` for more details to manually revise command lines to build the static website contents if running on Windows.
 > - All generated static website files will be put into folder `dist/`.
 > - The website content is based on the datasource files under folder `src/js_[TWO_LETTERS_NATION_CODE]/`, as well as the common datasource files under folder `src/js_index/`.
 > - The website is based on the pug template engine, which is a simple yet powerful template language. Please checkout the pug template files under folder `src/views/` for more details.
